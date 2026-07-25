@@ -1,0 +1,212 @@
+import { FeedItem, TrendingTheme } from "@/lib/types";
+
+export const mockFeed: FeedItem[] = [
+  {
+    id: "featured-1",
+    type: "article",
+    title: "The RevOps Mandate: Alignment, AI, and Accountability",
+    source: "Topline",
+    sourceUrl: "https://toplinemedia.substack.com",
+    author: "Sam Jacobs",
+    publishedAt: new Date(Date.now() - 2 * 3600000).toISOString(),
+    readTime: 12,
+    summary:
+      "How AI-native companies are reorganising go-to-market teams with more investment in RevOps and post-sales, fewer traditional marketers, and agent-led outbound replacing SDRs. New data from Iconiq shows the structural shift.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    tags: ["AI", "GTM Strategy", "Org Design", "RevOps"],
+    relevanceScore: 95,
+    whyItMatters: [
+      "AI-driven alignment improves forecast accuracy and GTM execution.",
+      "Unified data and clean processes reduce cost and cycle time.",
+      "Accountability frameworks close the loop on execution.",
+    ],
+    saved: false,
+  },
+  {
+    id: "pod-1",
+    type: "podcast",
+    title: "How AI Is Transforming Productivity and Marketing",
+    source: "RevOps FM",
+    sourceUrl: "https://revops.fm",
+    author: "Justin Norris",
+    publishedAt: new Date(Date.now() - 5 * 3600000).toISOString(),
+    duration: 42,
+    summary:
+      "Justin Norris challenges conventional wisdom on building predictable revenue at scale. This week: AI agents in the revenue stack and what actually works.",
+    tags: ["AI", "Productivity", "Martech"],
+    relevanceScore: 88,
+    whyItMatters: [
+      "Practical AI use cases you can implement this quarter.",
+      "Avoid common pitfalls in agent deployment.",
+    ],
+    saved: false,
+  },
+  {
+    id: "art-2",
+    type: "article",
+    title: "Salesforce Pays $3.6B for Fin — The Agentic Land-Grab Comes for Service",
+    source: "Seafoam Media",
+    sourceUrl: "https://seafoammedia.com",
+    author: "Seafoam Media",
+    publishedAt: new Date(Date.now() - 12 * 3600000).toISOString(),
+    readTime: 8,
+    summary:
+      "Salesforce acquires Intercom's Fin for $3.6B, folding AI customer service into Agentforce. Plus pay-per-resolution pricing and what it means for your 2026 stack.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+    tags: ["AI", "Salesforce", "M&A", "Agentic"],
+    relevanceScore: 93,
+    whyItMatters: [
+      "Agentforce becomes the default service layer if you're on Salesforce.",
+      "Pay-per-resolution pricing changes how you budget AI in Q3.",
+    ],
+    saved: false,
+  },
+  {
+    id: "pod-2",
+    type: "podcast",
+    title: "CRO Longevity and Navigating Organisational Transformation",
+    source: "20VC",
+    sourceUrl: "https://20vc.substack.com",
+    author: "Harry Stebbings",
+    publishedAt: new Date(Date.now() - 24 * 3600000).toISOString(),
+    duration: 56,
+    summary:
+      "Susan Rothwell on CRO longevity, navigating transformations, and what separates top-performing revenue leaders in 2026.",
+    tags: ["Leadership", "CRO", "Organisational Design"],
+    relevanceScore: 82,
+    whyItMatters: [
+      "Insights on how top CROs structure their teams for scale.",
+      "Relevant if you're designing RevOps reporting structure.",
+    ],
+    saved: false,
+  },
+  {
+    id: "art-3",
+    type: "article",
+    title: "HubSpot Goes Quote-to-Cash: Revenue Hub and the New Contracts Object",
+    source: "20VC Newsletter",
+    sourceUrl: "https://20vc.substack.com",
+    author: "Harry Stebbings",
+    publishedAt: new Date(Date.now() - 36 * 3600000).toISOString(),
+    readTime: 6,
+    summary:
+      "HubSpot renames Commerce Hub to Revenue Hub, adding CPQ, contracts, billing, and invoicing. The new Contracts object becomes the single source of truth from signed quote through renewal.",
+    tags: ["HubSpot", "CPQ", "Quote-to-Cash", "Platform"],
+    relevanceScore: 85,
+    whyItMatters: [
+      "If you're on HubSpot, this consolidates a layer of your stack.",
+      "Contracts as a single source of truth changes your post-sale process design.",
+    ],
+    saved: false,
+  },
+  {
+    id: "pod-3",
+    type: "podcast",
+    title: "AI Copilots for Revenue Teams: What Actually Moves the Needle",
+    source: "RevOps FM",
+    sourceUrl: "https://revops.fm",
+    author: "Justin Norris",
+    publishedAt: new Date(Date.now() - 48 * 3600000).toISOString(),
+    duration: 38,
+    summary:
+      "A practical breakdown of AI copilot deployments in revenue teams — what's working, what's hype, and how to measure impact beyond seat count.",
+    tags: ["AI", "Copilots", "GTM", "Measurement"],
+    relevanceScore: 87,
+    whyItMatters: [
+      "Get a framework for evaluating AI copilot ROI before your next vendor demo.",
+      "Practical metrics that separate signal from noise.",
+    ],
+    saved: false,
+  },
+  {
+    id: "art-4",
+    type: "article",
+    title: "ZoomInfo's Reckoning: When AI Eats the Data-Subscription Model",
+    source: "Seafoam Media",
+    sourceUrl: "https://seafoammedia.com",
+    author: "Seafoam Media",
+    publishedAt: new Date(Date.now() - 60 * 3600000).toISOString(),
+    readTime: 10,
+    summary:
+      "ZoomInfo cuts FY2026 guidance by ~$200M, lays off 600 people, and pivots from SaaS UI to LLM-accessible data. A cautionary tale for every RevOps leader building on a single data vendor.",
+    tags: ["Data", "ZoomInfo", "AI", "Vendor Risk"],
+    relevanceScore: 79,
+    whyItMatters: [
+      "Your data vendor strategy needs diversification — this is the warning shot.",
+      "LLM-accessible data changes how you think about enrichment architecture.",
+    ],
+    saved: false,
+  },
+  {
+    id: "art-5",
+    type: "article",
+    title: "7 Data Hygiene Pillars for Modern B2B Attribution",
+    source: "Revenue Operations Alliance",
+    sourceUrl: "https://www.revenueoperationsalliance.com",
+    author: "ROA",
+    publishedAt: new Date(Date.now() - 72 * 3600000).toISOString(),
+    readTime: 7,
+    summary:
+      "Why poor data quality causes most attribution failures in growing Martech stacks. Seven essential pillars to build reliable foundations for revenue-linked attribution.",
+    tags: ["Data Quality", "Attribution", "Analytics"],
+    relevanceScore: 81,
+    whyItMatters: [
+      "Attribution is only as good as your underlying data — this is the playbook.",
+    ],
+    saved: false,
+  },
+  {
+    id: "pod-4",
+    type: "podcast",
+    title: "Architecting Scalable, AI-Safe Revenue Systems",
+    source: "RevOps FM",
+    sourceUrl: "https://revops.fm",
+    author: "Justin Norris",
+    publishedAt: new Date(Date.now() - 84 * 3600000).toISOString(),
+    duration: 45,
+    summary:
+      "Pranav Lal, Head of Business Technology at Gusto, on designing revenue systems that survive AI disruption — including the ACE framework for cross-functional revenue results.",
+    tags: ["Systems Design", "AI", "Architecture", "Framework"],
+    relevanceScore: 86,
+    whyItMatters: [
+      "Practical systems design patterns for AI-ready RevOps.",
+      "The ACE framework can be applied to your current operating model.",
+    ],
+    saved: false,
+  },
+];
+
+export const mockTrendingThemes: TrendingTheme[] = [
+  {
+    rank: 1,
+    topic: "AI in RevOps",
+    change: 24,
+    direction: "up",
+  },
+  {
+    rank: 2,
+    topic: "Revenue Forecasting",
+    change: 18,
+    direction: "up",
+  },
+  {
+    rank: 3,
+    topic: "GTM Alignment",
+    change: 12,
+    direction: "up",
+  },
+  {
+    rank: 4,
+    topic: "Data Quality",
+    change: 8,
+    direction: "up",
+  },
+  {
+    rank: 5,
+    topic: "RevOps Operations",
+    change: -3,
+    direction: "down",
+  },
+];
