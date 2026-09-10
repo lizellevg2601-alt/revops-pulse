@@ -47,6 +47,18 @@ export interface FeedFiltersState {
 export interface TrendingTheme {
   rank: number;
   topic: string;
+  count: number;
+  recent3: number;
   change: number;
   direction: "up" | "down" | "flat";
+  articles: number;
+  podcasts: number;
+  topItem: string;
+  secondItem: string;
+}
+
+export interface FeedPayload {
+  items: FeedItem[];
+  trends: TrendingTheme[];
+  fetchedAt: string;
 }

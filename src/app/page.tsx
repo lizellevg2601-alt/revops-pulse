@@ -12,13 +12,13 @@ import { PodcastCard } from "@/components/feed/PodcastCard";
 import { ThemeOfWeekCard } from "@/components/intelligence/ThemeOfWeekCard";
 import { AIOverviewCard } from "@/components/intelligence/AIOverviewCard";
 import { TrendingThemes } from "@/components/intelligence/TrendingThemes";
-import type { FeedFiltersState, FeedItem } from "@/lib/types";
+import type { FeedFiltersState, FeedItem, FeedPayload, TrendingTheme } from "@/lib/types";
 
 function filterAndSort(
   items: FeedItem[],
   filters: FeedFiltersState
 ): FeedItem[] {
-  let filtered =
+  const filtered =
     filters.contentType === "all"
       ? items
       : items.filter((i) => i.type === filters.contentType);
@@ -51,6 +51,7 @@ function filterAndSort(
 
 export default function Dashboard() {
   const [feed, setFeed] = useState<FeedItem[]>([]);
+  const [trends, setTrends] = useState<TrendingTheme[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<FeedFiltersState>({
@@ -65,8 +66,9 @@ export default function Dashboard() {
         setError(null);
         const res = await fetch("/feed-data.json");
         if (!res.ok) throw new Error("Failed to load feed");
-        const data = await res.json();
+        const data: FeedPayload = await res.json();
         setFeed(data.items);
+        setTrends(data.trends || []);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Unknown error");
       } finally {
@@ -157,7 +159,7 @@ export default function Dashboard() {
               <aside className="xl:w-[300px] shrink-0 space-y-4">
                 <ThemeOfWeekCard />
                 <AIOverviewCard />
-                <TrendingThemes />
+                <TrendingThemes trends={trends} />
               </aside>
             </div>
           </main>

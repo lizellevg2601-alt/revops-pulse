@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import { placeholderArt } from "@/lib/placeholder";
 
 export function ThemeOfWeekCard() {
   return (
@@ -13,7 +14,7 @@ export function ThemeOfWeekCard() {
     >
       <div className="h-40 relative">
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+          src={placeholderArt("Theme of the Week")}
           alt="Coastal lighthouse guiding the way"
           className="absolute inset-0 w-full h-full object-cover"
         />

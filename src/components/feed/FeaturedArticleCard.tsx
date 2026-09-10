@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Bookmark, Clock, Sparkles } from "lucide-react";
 import { TopicTag } from "../shared/TopicTag";
+import { placeholderArt } from "@/lib/placeholder";
 import type { FeedItem } from "@/lib/types";
 
 type Props = {
@@ -26,9 +27,12 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
           className="md:w-1/2 h-56 md:h-auto relative block"
         >
           <img
-            src={item.imageUrl}
+            src={item.imageUrl || placeholderArt(item.source)}
             alt="Editorial feature"
             className="absolute inset-0 w-full h-full object-cover"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).style.display = "none";
+            }}
           />
         </a>
         <div className="p-5 md:p-6 md:w-1/2 flex flex-col justify-center">

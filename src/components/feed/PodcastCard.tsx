@@ -9,6 +9,7 @@ import {
   MoreHorizontal,
 } from "lucide-react";
 import { TopicTag } from "../shared/TopicTag";
+import { placeholderArt } from "@/lib/placeholder";
 import type { FeedItem } from "@/lib/types";
 
 type Props = {
@@ -28,8 +29,12 @@ export function PodcastCard({ item, onSave }: Props) {
       className="bg-[var(--surface)] border border-[var(--border)] rounded-xl p-4"
     >
       <div className="flex items-start gap-4">
-        <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[var(--navy-800)] to-[var(--navy-950)] flex items-center justify-center shrink-0 shadow-sm">
-          <HeadphonesIcon />
+        <div className="w-14 h-14 rounded-xl shrink-0 shadow-sm overflow-hidden bg-gradient-to-br from-[var(--navy-800)] to-[var(--navy-950)] flex items-center justify-center">
+          <img
+            src={item.imageUrl || placeholderArt(item.source)}
+            alt={item.title}
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2 text-xs text-[var(--slate-500)] mb-1">
@@ -121,23 +126,5 @@ export function PodcastCard({ item, onSave }: Props) {
         </div>
       </div>
     </motion.div>
-  );
-}
-
-function HeadphonesIcon() {
-  return (
-    <svg
-      className="w-6 h-6 text-white"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M3 12a9 9 0 0118 0v4.5a2.25 2.25 0 01-2.25 2.25h-1.5a2.25 2.25 0 01-2.25-2.25V15a2.25 2.25 0 012.25-2.25h1.5A2.25 2.25 0 0118 15v2.25M3 15a2.25 2.25 0 012.25-2.25h1.5A2.25 2.25 0 019 15v1.5a2.25 2.25 0 01-2.25 2.25h-1.5A2.25 2.25 0 013 16.5V15z"
-      />
-    </svg>
   );
 }
