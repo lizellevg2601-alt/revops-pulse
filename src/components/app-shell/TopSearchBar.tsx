@@ -2,7 +2,6 @@
 
 import { Search, Bell, Command } from "lucide-react";
 import { useState } from "react";
-import { AppSidebar } from "./AppSidebar";
 
 export function TopSearchBar() {
   const [query, setQuery] = useState("");
@@ -10,26 +9,6 @@ export function TopSearchBar() {
   return (
     <header className="bg-white border-b border-[var(--border)]">
       <div className="flex items-center gap-4 px-4 lg:px-6 h-14">
-        {/* Mobile hamburger — triggers sidebar drawer */}
-        <button
-          className="lg:hidden w-8 h-8 flex items-center justify-center rounded-lg hover:bg-[var(--coral-50)] -ml-1"
-          aria-label="Open menu"
-        >
-          <svg
-            className="w-5 h-5 text-[var(--navy-900)]"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
-
         <div className="relative flex-1 max-w-lg">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--slate-500)]" />
           <input

@@ -1,9 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AppSidebar } from "@/components/app-shell/AppSidebar";
 import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
-import { MobileNav } from "@/components/app-shell/MobileNav";
 import { PersonalisationBar } from "@/components/personalisation/PersonalisationBar";
 import { RelevanceProfileDrawer } from "@/components/personalisation/RelevanceProfileDrawer";
 import { FeedFilters } from "@/components/feed/FeedFilters";
@@ -92,11 +90,8 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-[var(--page)]">
-      <div className="flex">
-        <AppSidebar />
-
-        <div className="flex-1 flex flex-col min-w-0 pb-16 lg:pb-0">
-          <TopSearchBar />
+      <div>
+        <TopSearchBar />
           <PersonalisationBar />
 
           <main className="flex-1 p-4 lg:p-6">
@@ -164,9 +159,6 @@ export default function Dashboard() {
             </div>
           </main>
         </div>
-      </div>
-
-      <MobileNav />
     </div>
   );
 }
