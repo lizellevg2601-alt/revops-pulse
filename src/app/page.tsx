@@ -76,7 +76,10 @@ export default function Dashboard() {
     loadFeed();
   }, []);
 
-  const featured = feed.find((i) => i.type === "article") || feed[0];
+  const featured =
+    filters.contentType === "podcast"
+      ? undefined
+      : feed.find((i) => i.type === "article") || feed[0];
   const rest = feed.filter((i) => i.id !== featured?.id);
   const filtered = filterAndSort(rest, filters);
 
