@@ -11,8 +11,10 @@
       "readTime": 1,
       "summary": "From a scrappy discussion board in 2006 to millions of members worldwide, the Trailblazer Community's 20-year story has always been about people showing up for each other - and setting the stage for the agentic AI era.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -26,8 +28,11 @@
       "readTime": 1,
       "summary": "Have you ever stared at a music festival lineup and felt your heart rate spike? You know the feeling: your favorite indie band is playing at the exact same time a legacy headliner…",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -41,8 +46,11 @@
       "readTime": 1,
       "summary": "Learn how to combine native Experience Cloud capabilities around the Account object to route authentication, align data access, and scale onboarding through configuration.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -56,8 +64,12 @@
       "duration": 30,
       "summary": "Matt Allison, CEO and Founder of Handraise, joins us to share why he's skipping the SMB trap and building an AI-powered media intelligence platform for enterprise from day one. Drawing on hard-won lessons from scaling TrendKite, Matt breaks down how Handraise is targeting $30K+ deals with brands like Walgreens and Hershey, the importance of patience in early go-to-market, and how AI is helping them build a more thoughtful, scalable, and enterprise-ready product from the start.\n Matt also talks about:\n - Why Handraise is skipping the SMB trap and going enterprise from day one\n - What TrendKite taught him about building for high-value, high-retention customers\n - Why patience and discipline matter when you're building an enterprise GTM motion\n - How AI is helping Handraise build a more sophisticated product with a lean team\n - Why being AI-first changes what's possible in product development\n - How to build a sustainable business without chasing hypergrowth at all costs\n  Chapters:\n 00:00 Introduction to Matt Allison and Handraise\n 01:15 Why Handraise Is Going Enterprise From Day One\n 08:46 The Challenge: Building for $30K+ Enterprise Deals\n 11:56 Why Patience Matters in Enterprise GTM\n 15:17 How AI Is Changing Product Development\n 19:02 Building an AI-First, Enterprise-Ready Product\n 22:43 Why Handraise Isn't Chasing Hypergrowth\n 26:00 Matt's Favorite Book and Podcast\n 28:00 Where to Find Matt and Handraise\n Try Handraise: handraise.com",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -71,8 +83,12 @@
       "readTime": 1,
       "summary": "You have spent weeks perfecting campaign copy, designing responsive HTML templates, and segmenting high-intent subscriber lists. Yet when the send button is pressed, conversion metrics stall. Open rates drop from an expected 35%…",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -86,8 +102,11 @@
       "readTime": 1,
       "summary": "Here’s a quick strategy to manage multiple AI agents easily. (Don’t worry, it’s all one tool.)",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -101,8 +120,12 @@
       "duration": 78,
       "summary": "AGENDA: \n 00:00 Jensen Huang Declares AGI Has Arrived\n 04:05 Instinct and GrokBot Ignite the AI Assistant War\n 13:32 OpenAI's GPT Astra Redefines What AGI Means\n 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race\n 30:38 OpenAI's Chief Scientist Calls for Enforced AI Safety Limits\n 40:50 Tesla Launches Cybercabs as Travis Kalanick Returns to Robotaxis\n 45:55 Index Pulls Out of Town Deal Following Instinct Conflict\n 49:45 Anthropic Abandons $6BN Descartes Acquisition After Due Diligence\n 56:18 Robinhood Earns First Underwriting Role in Oura IPO\n 01:00:28 Wonderful Doubles to $5BN and Approves $170M in Secondaries\n 01:09:02 Thinking Machines Targets $40BN Valuation in $6BN Funding Round",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -121,8 +144,12 @@
         "platform for change",
         "sustainability"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -136,8 +163,11 @@
       "readTime": 1,
       "summary": "These quick tips help your employee agent take on the big stuff.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -151,8 +181,10 @@
       "readTime": 1,
       "summary": "Read this to discover how our scheduling technology sets itself apart from the rest.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -166,8 +198,10 @@
       "readTime": 1,
       "summary": "In just twelve months we’ve been recognized as a leading innovator in employee services.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -179,10 +213,13 @@
       "author": "Annie Weinberger",
       "publishedAt": "2026-09-08T16:36:42.000Z",
       "readTime": 1,
-      "summary": "Dreamforce (Sept. 15–17) is your opportunity to see the latest Agentforce Service innovations in action, hear from customers, get the inside scoop on new launches, and explore what’s next for service across every channel.",
+      "summary": "Dreamforce (Sept. 15–17) is your opportunity to see the latest Service Cloud innovations in action, hear from customers, get the inside scoop on new launches, and explore what’s next for service across every channel.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -198,8 +235,12 @@
       "tags": [
         "Reports"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -219,8 +260,12 @@
         "Revenue Growth",
         "Events"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -234,8 +279,12 @@
       "duration": 71,
       "summary": "Jean-Denis \"JD\" Grèze is the Co-Founder and CEO of Town, the AI work assistant reportedly in talks to raise funding at a $1BN valuation. Before founding Town, JD spent seven years as CTO of Plaid. Before Plaid, he was Director of Engineering at Dropbox. He is also a prolific angel investor backing companies including Modal, BaseTen, Merge and NexHealth.\n AGENDA:\n 00:00 Why AI Assistants Are Silicon Valley's Hottest Market\n 07:00 How Does Town Compete With Grokbot, Instinct and Big Tech?\n 11:00 Will We Have One AI Agent or Different Agents for Every Part of Our Lives?\n 17:00 How Many Mistakes Can AI Agents Make Before We Stop Trusting Them?\n 20:00 How Does Town Choose the Best Models Without Destroying Its Margins?\n 29:00 Is the AI Assistant Market Already Too Crowded?\n 37:00 Can Apple Win the Agent Race—and Are We Entering a Cybersecurity Nightmare?\n 41:00 What Does a Successful Town User Look Like—and Which Pricing Tier Makes Money?\n 47:00 What Will AI Agents Be Able to Do in Three Years That They Cannot Do Today?\n 54:00 Is the Skepticism Around Billion-Dollar AI Assistant Companies Justified?\n 58:00 What Needs to Happen for Town to Become a $100BN Company?\n 1:02:00 How Has AI Changed Hiring—and Why Does Town Spend $75K Per Engineer on AI Tools?\n 1:06:00 What Is JD Most Excited About Over the Next Decade?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -249,8 +298,10 @@
       "readTime": 1,
       "summary": "How we went from dirt floors to AI and why the biggest economic boom in human history is just beginning",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -264,8 +315,12 @@
       "duration": 72,
       "summary": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures\n Tomasz Tunguz, General Partner at Theory Ventures, joins Sam Jacobs, AJ Bruno, and Asad Zaman with public software multiples sitting at 4 to 4.5 times forward revenue, down from the 100x ceiling of 2021. Topics include why the market now pays for an AI story rather than growth, the $10 billion AI companies committed in a single year to putting forward-deployed engineers inside customer orgs, and the 41 days a model company gets to commercialize a state-of-the-art release before it is knocked off the perch. Plus, why the mid-market is being abandoned for enterprise deals that close in 45 days, what quota inflation at AI-native companies is actually measuring, and a bull-versus-bear call on 50 to 100x multiples for AI harness companies twelve months from now.\n Key Takeaways:\n - The valuation follows the AI story, not the growth rate. Average public software trades around 4 to 4.5 times forward revenue today, and the category leaders carrying 30x and up are usually not the fastest growers in their category. As Tomasz put it: \"what the market is asking for, and this is both true in the public and the private market, is great, you have an existing business, now show me that you can sell tokens.\" Revenue growth is still the highest single correlate to multiple, but the token story is what re-rates a company before the revenue shows up.\n - Before you copy an AI-native company's quota model, work out where the number is actually coming from. \"It's not the supply side has changed and suddenly become 10x more productive. It's the demand side budgets have increased by a factor of 10. And that's what's driving quotas,\" said Tomasz. Quota-to-OTE ratios that topped out between 2.5 and 4 at Oracle and IBM five years ago are now routinely 1.5 at early startups, and a single insurance account can carry a quota in the tens to hundreds of millions, which is why he no longer grades companies on AE to SDR or AE to CSM ratios at all.\n - Using AI to save time is the wrong target for top-tier performance. Tunguz rebuilt his blog workflow so every edit runs through AI, and the total edit count held flat at 134 per post regardless of how long he had been at it, while a graded review of ten years of posts showed a 20% quality increase in 2026. \"if you're a chess grandmaster and you want to be better with AI, you don't train less. You train just as much, but you hold yourself to a higher standard.\" The hour to an hour and a half per post did not change; the research, citations, and depth of analysis did.\n - Product advantage is thinning, so the distribution move is what investors are underwriting now. \"the go-to-market innovation is now significantly more important than it was. And if you can find a founder who can execute a beautiful go-to-market judo move and produce a lot of leverage for the company, then it's incredible,\" said Tomasz Tunguz, General Partner at Theory Ventures, placing Dropbox, Zoom, Confluent, and HashiCorp as the previous era's version of the same pattern. \n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Tomasz Tunguz, General Partner at Theory Ventures - https://www.linkedin.com/in/tomasztunguz/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Tomasz Tunguz\n 02:16 Market Stopped Paying For Growth\n 04:56 Show Me You Can Sell Tokens\n 06:33 Inside The Hugging Face Hack\n 10:07 Explaining RL With A Roomba\n 13:43 Is Security The Next AI Use Case\n 17:49 Fertility, Consumption, And Tokens\n 22:36 Overleveraged On The AI Buildout\n 26:08 Writing Every Post Through AI\n 30:55 The $10 Billion FDE Boom\n 39:11 FDE Moat Or Toll Booth\n 44:39 Quotas Are A Demand-Side Story\n 52:54 Does Customer Success Die\n 55:55 Enterprise Shift And GTM Judo\n 01:03:41 Bulls and Bears\n Sources & Attribution:\n 2015 quota figure: https://tomtunguz.com/how-big-should-your-sales-pipeline-be/\n SaaS AE compensation: https://blog.bridgegroupinc.com/saas-account-executive-compensation\n  2024 AE metrics and compensation benchmark: https://blog.bridgegroupinc.com/2024-ae-metrics-compensation-benchmark\n  AI investment map: https://www.forbes.com/councils/forbestechcouncil/2026/02/27/ai-is-redrawing-the-tech-investment-map-in-2026/\n  The $10B FDE Boom: https://tomtunguz.com/the-10b-fde-boom/\n Clip: https://www.youtube.com/watch?v=8DbCQn86f9w\n Clip: https://www.youtube.com/watch?v=bSo4V6tY9XQ&t=1385s\n Clip: https://www.youtube.com/watch?v=36mE3cjYldU&t=560s",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -279,8 +334,12 @@
       "duration": 65,
       "summary": "Cliff Weitzman is the co-founder and CEO of Speechify, the world's leading AI voice and text-to-speech platform, used by more than 60 million people globally. Diagnosed with dyslexia as a child, Cliff first built Speechify at Brown University to help him consume written material through audio. \n AGENDA: \n 00:00 Cliff Weitzman Reveals His Biggest-Ever Strategic Mistake\n 03:08 Why Speechify Is Paying Millions to Build Their Own Data Centres\n 09:59 What No One Knows About Buying Chips That Everyone Should Know?\n 20:19 The AI Data Gold Rush Has a Brutal Business-Model Problem\n 23:42 How ElevenLabs Leapfrogged Speechify—and Why It Was Cliff's Fault\n 31:00 The $15M AI Talent War: Can Startups Still Compete for the Best Talent?\n 36:57 The New 10X Engineer: Ten Killer Decisions Every Day\n 46:12 The Voice-AI Bloodbath: Who Survives Commoditisation?\n 53:21 The Screen Is Dying—and Voice Will Replace It\n 57:58 How Cliff Plans to Use AI to Cure His Brother's Disease",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 86,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -299,8 +358,12 @@
         "revenue intelligence",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -314,8 +377,12 @@
       "duration": 25,
       "summary": "Evan Huck, CEO and co-founder of UserEvidence, opens up about the hard decision to shift from a tried-and-true outbound sales playbook to a long-term brand-building strategy. After eight straight quarters of flat pipeline growth, Evan had to trust the process, convince his board to stay the course, and rethink how UserEvidence reached its ideal customers. In this conversation, he shares what it takes to stay patient when results don't come fast, how to balance short-term pipeline needs with brand investments, and why the payoff was worth the wait.\n  Evan also shares:\n - Why eight quarters of flat pipeline tested their commitment to brand over quick wins\n - How UserEvidence narrowed its ICP to unlock stronger growth\n - Why creative, one-to-one outreach can still break through with enterprise buyers\n - How Slack communities helped build credibility and generate early enterprise demand\n - Why product marketing came before demand generation in building the GTM engine\n - How customer advocacy became an increasingly powerful source of growth\n  Chapters:\n 00:00 Introduction to Evan Huck and UserEvidence\n 04:31 From SDR to CEO: Evan's GTM Journey\n 07:54 Why UserEvidence Bet on Brand\n 09:31 Eight Quarters of Crickets: Waiting for Brand to Pay Off\n 12:30 Narrowing the ICP to Unlock Growth\n 13:51 The CEO Hustle Behind Enterprise Growth\n 16:00 Building Credibility Through Communities\n 18:00 Why the Right Team Matters\n 19:14 Why Product Marketing Came First\n 20:39 Turning Customers Into a Growth Engine\n 22:07 The \"Chill, Humble\" Leadership Philosophy\n 22:43 Evan's Favorite Book for Founders\n Try UserEvidence: userevidence.com",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -329,8 +396,12 @@
       "duration": 78,
       "summary": "AGENDA: \n 00:00 Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal\n 13:52 OpenAI cuts off Cursor as the Altman–Musk feud escalates\n 17:40 OpenAI's 1,000-agent cyberattack triggers an industry wake-up call\n 22:58 Instinct hits $2.5B valuation as AI assistants gain spending power\n 36:39 Cognition targets $1.6B ARR as the coding-agent market explodes\n 40:31 AI forces every startup to become a compound company—or get left behind\n 52:42 Salesforce embraces Claude and outcome-based pricing in major AI reset\n 1:00:52 Stripe–PayPal deal collapses as both sides clash over price\n 1:02:31 Clay hits $7B and Linear reaches $100M ARR as agents choose their tools\n 1:11:52 Texas pauses Flock cameras as police-surveillance backlash grows",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -347,8 +418,12 @@
         "Brief",
         "RevOps"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -365,8 +440,12 @@
         "Brief",
         "CX"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Backed by data or benchmarks you can calibrate your own numbers against.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -387,8 +466,12 @@
         "Brand Strategy",
         "Content Development"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -404,8 +487,12 @@
       "tags": [
         "Reports"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -419,8 +506,12 @@
       "duration": 64,
       "summary": "Aaron Katz is the Co-Founder and CEO of ClickHouse, the real-time analytics database powering companies including OpenAI, Anthropic, Tesla and Microsoft. ClickHouse just surpassed $350M in ARR and raised over $1B from investors including Dragoneer, Khosla Ventures, Coatue, 20VC and Benchmark. Previously, Aaron was CRO at Elastic, where he helped scale revenue from approximately $5M to $500M and led the company through its IPO. Before Elastic, he spent 12 years at Salesforce, working alongside Marc Benioff and helping transform it from a 200-person startup into a global software giant.\n AGENDA:\n 4:05 Are we in an AI bubble?\n 13:40 How does software change when agents—not humans—make buying decisions?\n 22:28 Will 90% of tokens flow through open models; can enterprises trust them?\n 31:09 Why did ClickHouse sponsor Fulham; and could sports teams become $20B assets?\n 35:49 When will ClickHouse hit $1B ARR? \n 38:31 Can startups still win elite talent from OpenAI? Biggest remote work mistake?\n 44:54 Is zero-to-$100M ARR now table stakes; or is durable growth what matters?\n 48:51 Is college still worth it;  which jobs will survive AI?\n 57:58 When will ClickHouse go public; and why not next year?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -434,8 +525,10 @@
       "readTime": 1,
       "summary": "Why we've lost the ability to vacation and what that means for the future of AI",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -449,8 +542,12 @@
       "duration": 78,
       "summary": "Keenan, founder and CEO of A Sales Growth Company and the bestselling author of Gap Selling, joins Sam Jacobs, AJ Bruno, and Asad Zaman to make the case that two companies with identical revenue can be valued 3 to 4 times apart, depending entirely on how that revenue got made. Topics include the four sales org archetypes (heroic, random, peacock, and compounding), the valuation discount investors quietly apply to revenue produced by heroics, why quota attainment fell from 60% to 23% while enablement spend went up 7x, and the difference between a sales system and sales structure. Plus, what revenue leaders can learn from how Sequoia, Blackstone, and CAA actually run their people, why Keenan is done with the phrase go-to-market, and the story behind the one-name brand.\n   \n  \nKey Takeaways:\n - How you produce revenue changes what the market will pay for it: investors are buying your ability to repeat the number, not the number itself. Keenan puts a figure on it in his paper Not All Revenue Is Created Equal: \"the discount could be as much as 15 to 20% discount on the valuation.\" Heroics hides the cost; nobody opens a CRM and sees \"we closed a $2 million deal and nobody saw that that $2 million deal started at $2.6 million.\"\n - Systems are not structure. A system defines the outputs it wants and stays agnostic about how each rep gets there, which is what separates it from a script. \"Making people do everything the same is structure,\" Keenan said. He runs it through golf: \"I focus less on what your swing looks like, and I'm asking myself, are you able to hit a draw when you need to hit a draw?\"\n - Sales teams over-invest in training the behavior (structure) and under-invest in understanding the buyer, which Keenan calls sales physics: \"nobody buys anything unless their current state is untenable and intolerable.\" A good system helps the buyer realize that state, which will allow a deal to close.\n - The spending trend is going the wrong way, and Keenan closes the episode with the numbers: \"In 2012, depending who you ask, 60% of reps made quota… now 23%… And the spend has gone up 7x… But win rates declined by 29%. Sales cycles extended by 37 days… What we're investing in isn't working.\" It persists because no CRO gets room to rebuild: \"It's the boat's got a hole in it… You got to fix it. But by the way, you cannot dry dock the boat.\"\n And yes: AJ Bruno is buying the book for the first 20 listeners who reach out. Send AJ a direct message on LinkedIn or in the Pavilion Topline Slack and he will buy you a copy of Gap Revenue Performance.\n  \n  \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Keenan, CEO & Founder at A Sales Growth Company - https://www.linkedin.com/in/jimkeenan/\n   \n  Topline is more than a YouTube Channel:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n   \n  Chapters:\n  00:00 Introducing Keenan And Gap Selling\n  03:08 A Dollar Of Revenue Is Not A Dollar\n  03:46 The Four Sales Org Archetypes\n  06:59 The 15 To 20% Valuation Discount\n  08:58 The MEDDIC Definition Problem\n  12:47 The Left Tackle Analogy\n  18:24 Can Heroics Be Predictable?\n  23:10 Structure Is Not A System\n  28:32 What VC Firms Get Right\n  42:09 The Physics Of Selling\n  50:16 Awareness First, Then Pipeline\n  51:55 Tired Of The Word Go-To-Market\n  1:00:23 AI, Product Velocity And Enablement\n  1:04:26 Is Sales A Power Law?\n  1:12:09 The Story Behind One Name",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -464,8 +561,12 @@
       "duration": 89,
       "summary": "Eno Reyes is the co-founder and CTO of Factory, the agent-native software development platform building autonomous \"Droids\" for enterprise engineering teams. Factory has raised $220 million, most recently a $150 million Series C at a $1.5 billion valuation, from investors including Khosla Ventures, Sequoia Capital, 20VC, NEA, Blackstone, Insight Partners and Nvidia. Before founding Factory, Eno worked as a machine-learning engineer at Hugging Face, training, optimizing and deploying large language models for enterprise customers.\n AGENDA:\n 00:00 Are We Underestimating AI by an Order of Magnitude? \n 06:35 Why Can the Smartest AI Model Be the Cheapest? \n 18:51 Is Anthropic's Coding Business Really Worth $2 Trillion? \n 33:41 Will Continuous-Learning Models Help or Hurt Factory? \n 40:43 Will 80–90% of Neo-Labs Die in the Next 18 Months? \n 44:33 Should American Enterprises Work With Open-Source Chinese Models? \n 55:42 Must AI Founders Radically Rethink What a Great Outcome Looks Like? \n 1:04:30 Do Pedigree and Credentials Still Matter in AI Hiring? \n 1:19:17 Which Is the Biggest Threat: Claude Code, Codex, Cognition or Cursor? \n 1:24:20 What Seems Crazy Today but Will Be Obvious in Five Years?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -479,8 +580,12 @@
       "duration": 32,
       "summary": "Bryan Murphy, CEO of Smartling, confronts a $40 billion industry stuck in the slow lane—the world of translation. Most companies still handle translations like it's 1999: manual, expensive, and painfully slow. Bryan saw AI as the game changer that could rewrite the rules, but integrating it wasn't a walk in the park.\n He shares how Smartling harnessed AI to not just cut costs and speed up translation but to finally boost quality close to human-level precision without losing control over brand voice or nuance. Yet, making this leap meant upheaval: reorganizing teams, hiring AI experts, and establishing ruthless R&D discipline to separate winning ideas from distractions.\n  Bryan also shares:\n - Why a $40 billion translation industry was ripe for disruption\n - How AI helped Smartling move from faster and cheaper to dramatically better\n - What it took to bring AI into a traditional business without sacrificing quality or brand voice\n - Why hiring the right AI talent was critical to making the shift\n - How ruthless R&D discipline helps separate breakthrough ideas from distractions\n - Why every AI initiative needs a clear connection to customer outcomes\n  Chapters\n  00:00 - Introduction to Bryan Murphy and Defining the Translation Challenge\n 02:30 - The Hidden $40B Translation Market and Its Untapped Potential\n 06:00 - Early AI in Translation: Faster and Cheaper, But Not Yet Better\n 09:20 - Human-in-the-Loop AI: Boosting Translator Productivity Tenfold\n 13:00 - Unlocking Market Expansion Through Improved SEO and Digital Footprint\n 15:00 - The Moment of Truth: Recognizing GPT's Impact and Rolling Out Rapid Innovation\n 18:00 - Overcoming Organizational Challenges: From Excitement to Structured Execution\n 22:00 - The Discipline of \"Customer-First\" in AI Development and Roadmapping\n 24:00 - Leadership Lessons: Listening Without Losing Vision Amidst Painful Change\n 26:00 - Winning Customer Trust: Betting On Proofs of Concept Against Skeptics\n 28:00 - Personal Insights: Favorite Leadership Books and the Role of Intellectual Curiosity\n 33:00 - Wrap-up and Invitation to Follow Smartling's AI-Empowered Evolution\n Try Smartling: smartling.com",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -494,8 +599,12 @@
       "duration": 83,
       "summary": "AGENDA: \n 00:00 NVIDIA Launches a Three-Deal Blitz Across the AI Stack\n 04:31 NVIDIA's $12BN Poolside Deal Exposes Frontier AI's Capital Wall\n 15:39 NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN\n 26:55 OpenAI Confirms 2027 IPO as Anthropic Seizes the Lead\n 40:42 Hugging Face Draws $13BN Takeover Interest as Open Models Boom\n 44:56 Citadel Cashes Out 80% of Its Leopold Aschenbrenner AI Trade\n 51:51 AI Boom Is \"Less Than One-Third Over\"—But Token Addiction Has a Price\n 01:04:07 Stripe Reaccelerates to 41% as AI Reshapes Software's Leaderboard\n 01:07:45 Instinct Security Scare Exposes Why AI Agents Still Cannot Be Trusted\n 01:23:55 VCs Name AI's Biggest Bubbles: Support, Defense, Humanoids and Roll-Ups",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -509,8 +618,11 @@
       "duration": 79,
       "summary": "Julien Bek is a Partner at Sequoia Capital, one of the most renowned venture firms in the world.  At Sequoia, he has partnered with companies including Rillet, Tacto, and Auctor. Before joining Sequoia, Julien spent five years at Accel, where he worked with companies including Miro, Melio, and BeReal. He is also an angel investor in Revolut and Attio.\n AGENDA:\n 06:35 – What did Julien only discover about Sequoia after joining the firm?\n 08:05 – What does everyone get wrong about Sequoia?\n 13:00 – Is Series A the hardest stage at which to invest today?\n 14:00 – Is Sequoia less focused on ownership as outcomes become larger?\n 19:20 – Does Sequoia simply pay more than everyone else to win deals?\n 22:00 – Is the \"triple, triple, double, double\" growth model dead?\n 25:00 – What is Sequoia's investment process really like behind the scenes?\n 27:15 – Can a partner still invest when the rest of Sequoia votes against them?\n 30:00 – Why can a flawless founder pitch actually be a warning sign?\n 31:00 – How do you judge whether a founder is exceptional in just 30 minutes?\n 33:00 – How can investors tell whether a founder's story is genuine?\n 35:10 – Is arrogance a bad trait in a founder?\n 36:00 – Which great founder did Julien completely misread?\n 37:15 – How should investors adjust their founder assessment across different cultures?\n 39:00 – What does a founder's childhood reveal about their future trajectory?\n 40:30 – What has Julien learned from Doug Leone, Pat Grady, Alfred Lin and Shaun Maguire?\n 47:00 – What does it mean when \"agents become the new customer\"?\n 49:00 – Does UI become irrelevant in an agent-first economy?\n 50:15 – Will answer-engine optimisation become larger than SEO?\n 52:00 – Will AI agents destroy software margins and brand loyalty?\n 53:00 – How quickly will enterprises allow agents to make purchasing decisions?\n 54:00 – Is AI infrastructure a safer investment than applications?\n 56:00 – Do software margins matter less when the potential outcomes are larger?\n 58:00 – Could the next trillion-dollar company masquerade as a services business?\n 01:00:00 – Which service industries can AI truly automate end-to-end?\n 01:02:00 – Are enterprises simply crying out for more help implementing AI?\n 01:03:10 – Will AI lead to dramatically smaller teams?\n 01:06:15 – Is traditional private equity screwed?\n 01:07:00 – The most overfunded and underfunded categories in venture\n 01:08:15 – What is the best AI agent company outside Sequoia's portfolio?\n 01:09:00 – Which missed investment still haunts Julien?\n 01:09:45 – Which founder trait will Julien never compromise on?\n 01:10:00 – Which competing fund makes Sequoia bring its A-game?\n 01:10:45 – How Julien missed Revolut—and helped his mother retire by investing anyway\n 01:14:00 – What does Julien believe that other Sequoia partners might disagree with?\n 01:15:00 – What is Julien most excited about over the next five years of AI?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
       "saved": false
     },
     {
@@ -524,8 +636,11 @@
       "readTime": 1,
       "summary": "On Airtable, Bending Spoons, Manny Medina, and the long marriage of entrepreneurship",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
       "saved": false
     },
     {
@@ -539,8 +654,12 @@
       "duration": 74,
       "summary": "The Unwritten Rules of CRO Survival | Rick Smolen, CRO @ ShipHero\n Rick Smolen, CRO of ShipHero and sales advisor to Riverwood Capital's portfolio of more than 2 dozen enterprise software companies, joins Sam Jacobs, AJ Bruno, and Asad Zaman to argue that AI is leverage rather than a shortcut. Topics include why AI note-takers quietly degrade seller performance, why ShipHero has not raised a single quota despite real AI investment, and why the leading AI companies keep hiring classic enterprise CROs. Plus Rick's scorecard for judging revenue leadership beyond the number, an honest conversation about getting fired, and a bull case for HubSpot. In short... big episode!\n Key Takeaways:\n - AI widens the gap between the best and worst sellers instead of lifting everyone, and Rick Smolen, CRO at ShipHero, frames it in financial terms: \"It's like debt... debt is leverage. It can make performance exceptionally good, or it can bankrupt you.\" His prediction is that the strongest performers get 10x better while the weakest become \"unmistakable and hard to hide.\"\n - Outsourcing note-taking to an AI tool costs sellers the exact signal that closes enterprise deals. As Rick put it: \"the computer can't capture the tone, can't capture the nuance, can't capture the content.\" His warning to any rep who treats it as time saved: \"when a seller is going to say, oh cool, I don't have to do note-taking anymore, like their performance is going to go backwards.\"\n - The 3-to-5x rep productivity story does not survive contact with an enterprise sales cycle. Despite meaningful AI investment and measurable conversion-rate gains, Rick reports that at ShipHero \"we have not raised quotas on anybody on the team,\" adding that \"I don't believe that if I was to double somebody's quota that I give them any chance to be successful.\"\n - The AI-native companies scaling fastest are staffing go-to-market with the most traditional enterprise leaders available. Asad Zaman, CEO at STA, walks through the CRO hires at OpenAI, Cursor, Factory, and Anthropic and lands on the pattern: \"we're back to like, let's just hire John McMahon's disciples and let them run at the market.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Rick Smolen, CRO at ShipHero - https://www.linkedin.com/in/ricksmolen/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Introducing Rick Smolen\n 02:37 AI Is Not Good Or Bad\n 05:19 The AI Slop Email Mystery\n 08:25 AI Note-Takers And Lost Nuance\n 12:01 The Best Get Better, The Rest Worse\n 15:24 The Soft Part Of Enterprise Sales\n 18:24 Can Reps Be 5x More Productive?\n 23:09 Have Quotas Gone Up At ShipHero?\n 26:48 Why AI Firms Hire Classic CROs\n 30:48 What Is Driving Pipeline Now\n 49:37 Leadership In A Confused World\n 56:44 Should A CRO Jump Ship?\n 59:35 Have A Plan, Not Excuses\n 1:06:08 Bulls And Bears: HubSpot\n 1:09:32 Vibe-Coded Demos And FDE Teams",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -554,8 +673,12 @@
       "duration": 66,
       "summary": "Jerry Murdock is the Co-Founder of Insight Partners, which manages over $90 billion in assets. Jerry personally backed companies including Twitter, Nest and Docker, while Insight's portfolio includes giants such as Shopify, Wiz and monday.com. Across three decades, Insight has helped produce 55+ IPOs and become one of the most powerful technology investment firms in the world. \n AGENDA:\n 00:00 — Is the AI Bubble About to Burst?\n 11:00 — Will Half of All Neoclouds Disappear Within 36 Months?\n 13:00 — Can Open Source Models Actually Beat OpenAI and Anthropic?\n 22:00 — Are We Entering the Golden Age of Cybersecurity Attacks?\n 32:00 — Have AI Valuations Completely Lost Touch With Reality?\n 42:00 — Is AI About to Wipe Out an Entire Generation of SaaS & Private Equity?\n 47:00 — Should We Ban U.S. Chips From Being Exported to China?\n 48:00 — Should We Be Fearful of Open-Source Chinese Models?\n 49:00 — Will Continuous Learning Kill Every AI Model We Use Today?\n 53:00 — Why Microsoft Remains a Mega Buy\n 56:00 — Which Mag 7 Giant Would You Short — and Is Apple's AI Strategy a Disaster?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -574,8 +697,11 @@
         "AI & automation",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution."
+      ],
       "saved": false
     },
     {
@@ -589,8 +715,11 @@
       "duration": 30,
       "summary": "Mike Carpenter — CEO of Xfactor.io, former President of Global Sales at CrowdStrike — didn't win VP of the Year seven out of eight times by outworking everyone. He did it by finding cheat codes in the data everyone else was ignoring.\n In this episode, he walks through the X-Factor methodology: how he staffed ops teams that were abnormally large by industry standards, how he cut rep ramp time from 18 months to 90 days by warming territories before a new hire ever showed up, and why he thinks most companies running AI on their CRM are getting confident, wrong answers and won't know it until the numbers drop.\n Mike also shared:\n - Why working harder isn't the same as finding an X-Factor\n - How he used data to uncover the hidden patterns that drive revenue\n - Why static operating plans break down as businesses scale\n - How he cut sales ramp time by warming territories before reps entered them\n - Why causal AI matters more than simply putting an LLM on your data\n - What it takes to build AI that leaders can actually trust\n Chapters\n 00:00 Intro\n 00:33 Meet Mike Carpenter and Xfactor\n 04:11 The \"X-Factor\" mindset that drove 25 years of sales success\n 08:18 Why working harder isn't a sustainable competitive advantage\n 10:56 The planning problem that inspired Xfactor\n 14:57 How AI uncovers hidden revenue opportunities\n 18:20 Why MQLs are the wrong metric to optimize\n 23:12 The biggest mistake companies make with AI today\n 25:52 Where to find Mike and Xfactor\n Try Xfactor: xfactor.io/",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -604,8 +733,12 @@
       "duration": 73,
       "summary": "AGENDA:\n 04:20 Elon's Deal of the Decade: SpaceX Buys Cursor for $60BN\n 06:10 Why Cursor Was Surprisingly Cheap at $60BN\n 07:00 Why Zuckerberg Failed to Buy the AI Prize Elon Secured\n 12:00 Elon vs Zuck: Who Would You Rather Work For?\n 14:00 Will Microsoft or Amazon Now Race to Buy Cognition?\n 17:05 Stripe's $7BN OpenRouter Deal Creates Huge VC Winners\n 25:00 OpenRouter's Fatal Risk: Enterprises Don't Want 10 Models\n 28:15 Anthropic Turns Its First Profit on $11.5BN of Quarterly Revenue\n 32:15 Can Anthropic Really Reach $600BN in Revenue?\n 37:00 Why Every Elite Engineer Could Soon Get $100K in AI Tokens\n 39:30 Would Rory Buy Anthropic at a $2.5TN Valuation?\n 44:50 Silver Lake's $43BN Workday Bet: SaaS Isn't Dead, It's Mature\n 53:00 How Silver Lake Could Make $30BN From Workday\n 57:00 Lovable vs Higgsfield: Similar Revenue, Radically Different Valuations\n 58:00 Is Lovable's $13.3BN Price Actually Cheap?\n 63:30 Why the DOJ Is Coming After Andreessen Horowitz\n 69:00 Why A16Z Has \"50 Legal Battles\" Happening at Once",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -619,8 +752,12 @@
       "duration": 67,
       "summary": "Andrew Macdonald (Mac) is the longest-serving employee at Uber. Today, he is the President and COO. No one on the planet has spent more time mastering ride-sharing than Mac. Uber now does 300M rides per week, has 200M users, and is one of the most recognised brands on the planet. Mac never does interviews and so this was a rare look behind the scenes at the Uber machine. \n AGENDA:\n 05:39 – How was Mac the only survivor from the Travis era?\n 10:39 – How does Uber decide what to include in Uber One membership?\n 11:45 – How does Uber decide which new products to pursue?\n 16:08 – What does Uber need to do to reach 500 million users?\n 20:37 – Why Uber was right to focus on its core business and divest autonomy?\n 24:08 – Why India and Brazil will delay Uber's autonomous future?\n 28:34 – The craziest story from Uber's battle in China\n 29:27 – Why Travis Kalanick believed money was the moat?\n 31:17 – Was Uber structurally disadvantaged in China from day one?\n 35:48 – Inside Uber's SWAT team of its 30 best AI engineers\n 37:55 – How companies need to extract real efficiency from AI?\n 42:00 – Will Uber have more or fewer employees in five years?\n 43:52 – Will companies that do not work with frontier models be disaggregated?\n 46:02 – Will AI agents disaggregate Uber's interface and customer relationship?\n 48:26 – Why Brian Chesky was right: chat is not the best interface for everything\n 55:52 – Why it is bullshit to say DoorDash would not be number one if Travis were still CEO\n 59:13 – The single biggest lesson from Travis Kalanick\n 1:00:07 – The second biggest lesson from Travis Kalanick",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -639,7 +776,9 @@
         "Articles"
       ],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -653,8 +792,10 @@
       "readTime": 1,
       "summary": "On Isaac Asimov, Mark Zuckerberg, AI safety, and who gets to govern intelligence.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -668,8 +809,12 @@
       "duration": 71,
       "summary": "Enterprise account executives are now signing for $200,000 salaries, $200,000 variable comp plans, and up to half a million dollars in equity at sign-on. Meanwhile, offer acceptance at the top AI companies sits at 45% and half of the 38,000 startup sales reps in San Francisco and New York have taken a new job in the last two years. In this episode, Sam Jacobs, AJ Bruno, and Asad Zaman go hosts-only on why the sales talent market broke, what QuotaPath's compensation data across more than 1,400 companies says about quota attainment splitting into a barbell, and why Paul Graham calling go-to-market bogus says more about Silicon Valley's blind spot than it does about sales. Plus, where young sellers still get their start, whether a CRO can be great without ever carrying a bag, why go-to-market cannot rescue a company that has lost product-market fit, and what HubSpot's 20% stock drop signals for every SaaS business trying to make the AI transition.\n Key Takeaways:\n - The AI buildout has drained the two talent pools it depends on, and compensation is repricing in real time. As Asad Zaman, CEO of STA, described the enterprise AE market: \"Enterprise account executives now get paid $200,000 salaries, $200,000 variable comp plans, up to half a million dollars in equity at sign-on. That used to be $150,000 to $175,000 at the top end, just like a year and a bit ago.\" With 38,000 startup software sellers in San Francisco and New York and a quarter of them changing jobs in the last twelve months, the constraint on AI companies hitting escape velocity is no longer capital, it is people.\n - The jobs data cuts against the automation narrative. Sam Jacobs, CEO of Pavilion, pointed to the Philippines outsourcing sector, 8% of that country's GDP, where employment in IT and business outsourcing is up 20% to 1.9 million workers and industry revenue is up 30% to $42 billion since the launch of ChatGPT: \"I just think, you know, it's Jevons' paradox. It is what happens with every new piece of technology. Everybody thinks the technology is going to wipe everybody out, and instead the economy adapts.\" Companies are leaner per dollar of revenue and still cannot hire fast enough.\n - Quota attainment is no longer distributed the way comp plans assume. QuotaPath's first-half numbers put 58% of AEs on track against annual quota versus 55% a year ago, but as AJ Bruno, CEO of QuotaPath, explained, the shape underneath moved: \"the standard deviation is way higher this year. Meaning that the winners are going to be winning more … So it's more like a barbell than it is a bell curve.\" At some AI companies two reps out of ten are closing half the entire number, which breaks the capacity math most sales leaders use to set targets.\n - For individual sellers, the window matters more than the title. Asad Zaman's advice to reps weighing a step up into leadership: \"this is the moment where you can make millions of dollars right now … So don't make silly choices … Become a leader later. Go make money right now.\" He now benchmarks offers on whether 300% of plan clears a million dollars, and warns that private equity portfolio companies that never gave equity to individual contributors are losing these candidates outright.\n Connect with the Hosts:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Three Hosts, Three Topics\n 02:19 The Talent Market Has Gone Crazy\n 05:42 $200K Base, $200K Variable\n 09:00 AI Was Supposed To Kill Sales\n 15:16 Go Make A Million Right Now\n 16:53 Where Young Sellers Get Their Start\n 23:20 Build A University Inside The Company\n 31:58 Paul Graham Versus Go-To-Market\n 36:22 Why YC Misses Enterprise Software\n 40:55 Can A Non-Seller Be A Great CRO?\n 44:42 GTM Cannot Fix Product-Market Fit\n 49:30 One To Ten To A Hundred\n 53:38 Quota Attainment Is A Barbell\n 1:02:41 The HubSpot Nightmare\n 1:06:05 Falling Back In Love With The Business",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -683,8 +828,12 @@
       "duration": 79,
       "summary": "Matt Swulinski is one of the best growth leaders in AI. He is currently Head of Growth at Viktor, the Accel-backed AI coworker. Previously, he was Head of Growth at Wispr Flow, where he was marketing hire #1 and built the growth function from pre-launch to millions of users. Matt also built the AI-powered marketing OS that automated 100 newsletter sponsorships a month and enabled a lean team to scale dramatically faster. Before Wispr Flow, Matt worked in growth at Superhuman.\n AGENDA:\n 00:00 Why SaaS Founders Should Steal the E-Commerce Growth Playbook\n 04:47 How Does PLG Change When AI Agents Become the Customer?\n 07:46 When Should an Early-Stage Founder Start Spending on Paid Growth?\n 10:36 How Do You Build the Tracking Stack to Know Whether Paid Is Working?\n 17:38 How Much Should You Spend on Creative—and How Do You Produce 500 Ads a Month?\n 23:10 How Long Should You Test Paid—and How Do You Scale Meta, Google and YouTube?\n 39:38 How Do You Build Referral, Paywall and AEO Loops That Compound?\n 49:46 How Do You Hire and Structure an AI-Native Growth Team?\n 1:04:27 Which Growth Channels Are Most Underrated—and Most Overrated?\n 1:09:28 How Do You Build an AI Operating System That Makes Your Work Compound?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -702,7 +851,9 @@
         "Articles"
       ],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
       "saved": false
     },
     {
@@ -716,8 +867,12 @@
       "duration": 21,
       "summary": "In this episode of Topline Spotlight, Sam Jacobs sits down with Snehal Nimje, co-founder and CEO of Outdoo, to talk about one of the hardest calls an early-stage founder can make: narrowing focus when leads are coming in.\n Snehal breaks down how Outdoo went from trying to serve every mid-market and enterprise buyer to getting much more specific about where the product was truly essential. They get into why usage dropped, what customer conversations revealed, how the team handled the internal shift, and what changed once they focused on insurance and finance use cases where compliance and ramp speed mattered most.\n They also talk about:\n  - Why enterprise readiness starts with architecture, compliance, and security\n - How to tell the difference between interest and real traction\n - What founders miss when they chase every lead\n - Where defensibility really comes from in AI\n Chapters:\n 00:00 Intro\n 00:46 Meet Snehal Nimje and Outdoo\n 04:55 Why selling to everyone nearly derailed the business\n 06:51 Finding the customers who truly need your product\n 08:54 The hard decision to narrow their ICP\n 11:00 How focus accelerated enterprise growth\n 13:09 Advice for founders struggling to find product-market fit\n 15:36 What creates a moat in the AI era?\n 17:13 Why workflow—not AI models—is the real competitive advantage\n 18:51 Snehal's biggest business inspiration\n 19:38 Where to find Snehal and Outdoo\n Try Outdoo: outdoo.ai\n If you're building an early-stage company and trying to find traction without turning your product into a Frankenstein, this one's worth your time.\n Subscribe for more founder stories, operator lessons, and go-to-market conversations from Topline.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -731,8 +886,12 @@
       "duration": 87,
       "summary": "AGENDA:\n  \n05:00 Canva's Growth Gets Slashed as AI Costs Explode\n 20:00 The Great Software Reset: Why 2026 Will Punish AI Hesitancy\n 29:00 Canva's Valuation Reality Check—and the LP Liquidity Trap\n 35:00 Google's AI Brain Drain: Jeff Dean Leaves, Demis Steps Back\n 43:00 Why Google Can't Afford to Cure Alzheimer's\n 50:00 The Data-Centre Revolt: Can AI Survive the Political Backlash?\n 55:00 Elon Musk's $55BN Terrafab Bet to Break Free from TSMC\n 57:00 Revolut's $50BN CEO Pay Package—and the Return of Founder Control\n 01:13 AI Shopping, Atlassian's Revival, and Airtable's Brutal Sale Reality",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -748,8 +907,11 @@
       "tags": [
         "Seafoam News"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -766,8 +928,11 @@
         "Worldview",
         "Featured"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
       "saved": false
     },
     {
@@ -784,8 +949,11 @@
         "Data analysis",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -799,8 +967,12 @@
       "duration": 60,
       "summary": "Alex Atallah is the Founder and CEO @ OpenRouter, the unified interface for LLMs. The company has raised over $153M in funding, with the latest valuation pricing the company at $1.3BN. OpenRouter is reportedly in an acquisition process with Stripe for $10BN. \n AGENDA:\n 00:00 Is OpenRouter Selling to Stripe for $10 Billion?\n 04:05 What Did Alex Learn From Scaling OpenSea?\n 06:38 What Did OpenRouter's Founding Thesis Get Wrong?\n 14:47 Is AI Model Routing Already Being Commoditized?\n 19:12 Do Falling Token Prices Help or Hurt OpenRouter?\n 27:16 Should America Be Alarmed by Chinese Open Models?\n 32:43 Will US Open-Source Models Compete With Chinese Models in the Next 12 Months?\n 39:26 Will the Router Be Swallowed by the Agent Framework?\n 48:56 Is Distillation Wrong—and How Should We Look at It?\n 50:01 Is the Reported $10 Billion Stripe Deal Actually Happening?",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -815,7 +987,9 @@
       "summary": "On open-weight models, AWS, and why gross margin drives product-market fit",
       "tags": [],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
       "saved": false
     },
     {
@@ -829,8 +1003,12 @@
       "duration": 74,
       "summary": "Jaleh Rezaei, Co-founder and CEO of Mutiny, joins Sam Jacobs, AJ Bruno, and Asad Zaman to explain how she deprecated a thriving 8-figure SaaS business in November 2025, shipped a private preview in February, and GA'd an AI-native product in April that is now used by more than 3,500 organizations including Snowflake, Rippling, Uber, and GitLab. Topics include why running a scaled SaaS business and a zero-to-one AI bet at the same time proved impossible, how to price and defend AI credit consumption when a $5,000 design project now costs 50 credits, and the shift from sales-led outbound to product-led growth for enterprise go-to-market. Plus, why brand is one of the few remaining moats in B2B, an AI raccoon launch video that fooled (some of) the panel, and a bulls-versus-bears debate on quota attainment, AI note-takers, and whether salespeople will ever spend 85% of their time selling.\n Key Takeaways:\n - Make the hard decisions FAST. As Jaleh Rezaei, CEO and Co-founder of Mutiny, put it: \"I definitely would've said the job of the CEO is you have to make the hard calls. But what I learned in that experience is that it's actually about making the hard calls really fast, which means that you're getting there before everybody else on your team is there.\" Her test for founders weighing a similar bet is a single question: \"is there one really hard decision, maybe one that scares the hell out of you that you don't want to do, that you can make that would make 50 subsequent downstream decisions a lot easier for your company?\"\n - AI budgets get cut because vendors let buyers anchor on the credit bill. Instead, they need to help buyers see the value of the work the credits replace. Jaleh Rezaei, CEO and Co-founder of Mutiny, reframed it with her own before-and-after: \"I used to have a designer that I paid $5,000 to, and it would take 2 weeks of back and forth, and I paid $5,000 to get to something that I was pretty happy with. But end to end took a month. Now in 6, 7 hours, I can build that in Mutiny, and maybe that does cost me 50 credits. That's really freaking cheap relative to what I used to pay that designer.\" She argues the vendor has to build the ROI case for the customer, per rep, or budget conversations default to minimizing every AI bill.\n - Brand is a durable moat in B2B mostly because so few companies are willing to pay for it in risk. According to Jaleh Rezaei, CEO and Co-founder of Mutiny: \"great brand comes when you marry deep customer knowledge and a willingness to take risk … a lot of times people that own brand they don't necessarily either have the deep customer knowledge or they don't have the ability to take that kind of risk inside of the company.\" Her internal standard is blunt: \"anything we do on marketing, like, if it's not different, just stop doing it. It's just not going to matter.\"\n - Quota attainment is snapping back hard, and the data has not caught up to the narrative. AJ Bruno, CEO of QuotaPath, brought Q2 numbers to the bulls-versus-bears round: \"I just looked at Q2 numbers and they're trending wildly back up. We're actually, the average quota attainment for a QuotaPath customer was 76% in Q2.\" Asad Zaman pushed back that a jump from roughly 40% to 76% in a single quarter reads more like a bubble signal than a sudden improvement in selling, and AJ offered to run a comp study with Pavilion on the data.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Jaleh Rezaei, CEO & Co-founder at Mutiny - https://www.linkedin.com/in/jalehr/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Jaleh Rezaei\n 04:00 Can SaaS Era Companies Go AI Native?\n 05:01 From Gusto To Founding Mutiny\n 07:00 When AI Became A Reasoning Engine\n 11:28 Why Running Two Products Was Impossible\n 13:32 Shutting Down An 8-Figure Business\n 16:18 Winning Formula: Speed, No Backup Plan\n 20:17 The Hard Months After Deprecation\n 24:47 Acute Pain Versus Chronic Pain\n 29:17 CEO Has To Be The Bad Guy (Sometimes)\n 37:17 AI Margins And Credit-Based Pricing\n 40:10 A $5,000 Deck Versus 50 Credits\n 47:03 Sales-Led To PLG For Enterprise\n 50:37 Brand As The Remaining Moat\n 1:00:34 Bulls and Bears",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 86,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -844,8 +1022,12 @@
       "duration": 84,
       "summary": "David Frankel is one of the great seed investors of our time. As the Co-Founder of Founder Collective he has backed the likes of Uber, Coupang, Suno, PillPack, Airtable, Whoop, Shield AI and many more. In a world of expanding fund sizes, David and Founder Collective are one of the only successful franchises to truly stick to small, boutique funds. \n AGENDA:\n 00:00 The Bubbles Are Getting Bigger—and There Will Be a Lot of Roadkill\n 05:21 The Worst-Performing Funds Will Be the $50M–$100M Seed Funds\n 25:06 \"We're Greedy for Returns, Not Management Fees\"\n 30:10 \"Pro Rata Is the Original Sin\"\n 32:59 \"A $1BN Valuation Is the New Series A\"\n 46:39 \"I Have Never Seen Secondary Markets This Liquid\"\n 58:03 Microsoft Has Done a Crappy Job of AI—and Another Dot-Com Crash Is Inevitable\n 01:08:25 OpenAI and Anthropic Will Be Disrupted—and China Could Do It\n 01:16:12 \"Anyone Who Claims They Knew Is Full of Shit\"\n 01:19:56 Our Children Won't Need to Drive—and Chemotherapy Will Look Prehistoric",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -862,8 +1044,12 @@
         "Brief",
         "CX"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -881,8 +1067,12 @@
         "Analytics & Reporting",
         "RevOps"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -900,8 +1090,12 @@
         "AI & automation",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -922,8 +1116,12 @@
         "Content Development",
         "PPC / Google Ads"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -937,8 +1135,10 @@
       "readTime": 1,
       "summary": "On McDonald's, Walter Benjamin, Jeremy Giffon, and why AI resists cheap comparison",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -952,8 +1152,12 @@
       "duration": 74,
       "summary": "Amanda Kahlow, Founder & CEO of 1mind, joins Sam Jacobs, AJ Bruno, and Asad Zaman to break down how an AI-powered solutions engineer named Nigel took 33% of the talk time in a two and a half hour enterprise meeting and produced a $278,000 deal. Topics include why AI aimed at efficiency gains misses real revenue impact, Amanda's prediction that marketing, sales, and customer success collapse into one function within 12 months, and why AI adoption has to be top-down instead of bottoms-up. Plus, the 15 agents running behind every superhuman, a 98% accuracy bar measured by live evals, whether agents will negotiate with other agents on the buy side, and a bulls versus bears round on Salesforce, sales dinners, and the health of the average go-to-market team.\n Key Takeaways:\n - Most go-to-market teams are pointing AI at the wrong layer. Better forecasting, faster research, and cleaner dashboards make the people you already have marginally more productive, which is not where the revenue is. As Amanda Kahlow, Founder & CEO at 1mind, framed it: \"My thesis is that buying and selling happens in the conversation.\" Everything built around the conversation to enable a seller is, in her words, yesterday's workflow.\n - Trust, not novelty, is what moves an enterprise deal. Amanda flew a red-eye to Austin for a second meeting with a CPO and CMO, brought a superhuman named Nigel on screen, and watched the room turn to the AI for depth even she could not provide. As she told it, \"the CPO was like, Amanda, shut up, basically. I wanna talk to Nigel.\" The meeting scheduled for an hour ran two and a half, and produced \"a $278,000 deal from one in-person meeting going through procurement in one week\". Her read on why it worked: \"People say people buy from people. You buy when you trust.\"\n - The human face on an AI agent is a click-through device, not the value. Amanda's verdict after a year of selling them: \"The face is a novelty.\" 1mind drops the face entirely on live calls because the movement distracts. The important part is the conversational AI, where \"each superhuman has roughly 15 agents working behind the scenes.\" One handles small talk, another loads the live demo, another builds the perspective slide a human seller would normally take a week to produce.\n - Bottom-up AI adoption is where the value leaks out. Amanda's pushback on the idea that people who use AI will simply eat the people who do not: telling every individual to go be more efficient produces slop and no measurable gain, while the real impact, in her words, \"is going to come at the top down when we think about restructuring the org\".\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Amanda Kahlow, Founder & CEO at 1mind - https://www.linkedin.com/in/amandakahlow/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Introducing Amanda Kahlow\n 00:59 Building Superhumans At 1mind\n 03:24 Why Efficiency Gains Miss The Point\n 06:04 GTM Functions Collapse In 12 Months\n 08:48 The Ghost Note Debate\n 15:20 Nigel Takes 33% Of Talk Time\n 20:41 The Face Is Just Novelty\n 22:27 Fifteen Agents Behind One Superhuman\n 38:46 Compute Costs And AI Margins\n 41:19 How Accurate Are AI Agents?\n 47:08 Positioning An AI Company\n 52:13 When Agents Negotiate With Agents\n 53:54 Will CSM Jobs Survive?\n 57:56 Bulls and Bears\n 1:06:15 Boards, 6sense, And Burnout",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -971,8 +1175,12 @@
         "Podcasts",
         "Videos"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -989,8 +1197,11 @@
         "AI & automation",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
       "saved": false
     },
     {
@@ -1004,8 +1215,12 @@
       "duration": 24,
       "summary": "AI isn't just changing sales. It's completely rewriting how revenue teams operate.\n In this episode of Topline Spotlight, Sam Jacobs sits down with Justin Shriber, CEO of Terret AI, to break down how modern revenue organizations are using AI to improve forecasting, shorten sales cycles, ramp reps faster, and operationalize winning sales behavior in real time.\n Justin shares:\n Why traditional sales enablement is broken\n How AI helped reduce rep ramp time by 40%\n The \"answer-to-action\" engine powering modern RevOps\n The hidden dangers of decentralized AI adoption\n Why companies are struggling with inconsistent AI-generated data\n The real debate: build your own AI stack vs buy from vendors\n How leading teams are using AI agents today\n One of the most interesting conversations in GTM right now.\n If you're a CRO, RevOps leader, founder, or GTM operator trying to understand where AI is actually delivering value, this episode is worth your time.\n Chapters:\n 00:00 Intro\n 00:40 Meet Justin Schreiber and Terret\n 04:17 How AI is changing sales productivity\n 06:07 The biggest problem in revenue execution\n 09:37 Why great strategies never get executed\n 11:01 Building AI that's secure, accurate, and scalable\n 13:32 Buy vs. build: The future of enterprise AI\n 16:25 Why AI needs centralized governance\n 17:35 Jurassic Park, AI agents, and organizational chaos\n 20:15 Justin's biggest inspirations for building great companies\n 22:58 Where to find Justin and Terret\n Try Terret: terret.ai",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -1020,7 +1235,9 @@
       "summary": "On astrology, Demis Hassabis, the nature of time, and the search for God",
       "tags": [],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
       "saved": false
     },
     {
@@ -1034,8 +1251,12 @@
       "duration": 82,
       "summary": "Tim Rutten, CMO of Backbase, the €2.5 billion Amsterdam tech company whose AI-native Banking OS powers 120+ banks worldwide, joins Sam Jacobs, AJ Bruno, and Asad Zaman with the clearest AI ROI numbers we have heard on the show: double the pipeline on 25% less budget. Topics include the custom go-to-market operating system his team built on the Vercel stack, why real bank deployments are 99% deterministic, the 90% cost reduction banks are finding in customer care, and why most enterprise workloads do not need frontier-model intelligence. Plus, where the AI bubble breaks, what happens to judgment and taste when anyone can generate output, and a bulls-versus-bears round on LinkedIn, banking apps, and sales spiffs.\n Key Takeaways:\n - Backbase's marketing org runs on GTMOS, a custom go-to-market operating system built on the Vercel stack and wired into Salesforce and the company's finance tools, and the numbers behind it are specific. As Tim Rutten, CMO at Backbase, put it: \"Double the pipeline, 25% head cut on my budget... So with 25% less budget, I'm actually still doubling the pipeline.\" The unlock came from rebuilding how the team works rather than layering tools on top of it.\n - Shipping AI into a regulated industry means using AI more narrowly than you might expect. On what real bank deployments look like, Tim Rutten said: \"the actual implementations are almost 99% deterministic, and there's this one little percent that actually gets them to gain, to reason at the right moment in time.\" That same architecture caps the bill, because most banking workloads are repetitive and rule-bound. But the same rigor can net fantastic results from AI in broader applications as well.\n - Backbase treats AI slop as an architecture problem, containing content generation inside hard boundaries. Per Tim Rutten: \"You have tone of voice, you have guardrails that we don't have AI slop. There's like 22 rules that are applied. If they don't check out, the agent needs to rewrite and continuously learns to rewrite.\" The human half of the risk is harder to engineer around, as Asad Zaman, CEO of Sales Talent Agency, framed it: \"a lot of people that didn't have a skill are using AI for that thing. And if you didn't have a skill in an area or judgment or taste in that particular area, you have no mechanism to stress test the quality of what is coming out.\"\n - On how the AI bubble pops, Sam Jacobs, CEO of Pavilion, put the risk on the business model sitting underneath the capex: \"if everybody presumes the way that all these companies make money is selling tokens… and then all of a sudden it turns out selling tokens is a really terrible business. Well, then that's a thing that would compress.\" Tim Rutten lands in a similar place on timing while staying long on the outcome: \"a little bit bearish on timing, massively bullish on the future… it will happen nevertheless, but it's going to be a very rocky ride.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Tim Rutten, CMO at Backbase - https://www.linkedin.com/in/timrutten/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Tim Rutten\n 03:11 Inside Backbase And 120 Banks\n 09:42 90% Cost Cuts In Call Centers\n 12:04 Why The Application Layer Wins\n 15:23 Europe, The US, And Regulation\n 21:50 Where The AI Bubble Breaks\n 27:24 Why Banks Skip Frontier Models\n 34:34 Bank Budgets Shift To AI Native\n 38:23 Real ROI At Lloyds And JPMorgan\n 44:31 Quiz Pro Quo\n 49:37 GTMOS, The Go To Market OS\n 52:02 Double Pipeline On 25% Less Budget\n 53:53 Judgment, Taste, And AI Slop\n 1:06:15 Real Time Marketing By Christmas\n 1:09:30 Bulls and Bears",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -1049,8 +1270,11 @@
       "readTime": 1,
       "summary": "RevOps is shifting from operator to GTM architect. New research from Varicent and the Revenue Operations Alliance breaks down the skills defining what comes next.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1064,8 +1288,12 @@
       "duration": 22,
       "summary": "Buyers stopped picking up the phone. They research on their own, ask their peers, and now they ask AI which vendors to consider before a single salesperson ever hears about it. So where does that leave marketers?\n Sam Jacobs sits down with Alexander Kesler, founder and CEO of Infuse, to break down the dark funnel and what it means for B2B demand gen right now. They get into why most of the buying journey happens before you're ever contacted, how AI tools are generating \"day one\" shortlists on the spot, and why the real game is earning a spot on the day zero shortlist — the vendors a buyer already trusts no matter what ChatGPT says.\n Alex has spent 25+ years building companies across marketing, media, and data, and is the author of two books on B2B marketing best practices. His advice for marketers comes down to one thing: stay flexible, read the research, and build the relationship before the buyer is in market.\n  What we get into:\n Why the traditional B2B sales funnel no longer reflects how today's buyers actually buy\n What the Dark Funnel is and why 80% of the buying journey happens before prospects contact sales\n The difference between Day Zero and Day One shortlists and why every marketer needs to understand both\n How AI and Generative Engine Optimization (GEO) are reshaping vendor discovery\n Why building trust and thought leadership before buyers are in-market is the new competitive advantage\n Alex Kesler's advice for modern B2B marketers on staying relevant in an AI-first world\n Chapters:\n 00:00 Intro\n 00:36 Meet Alex Kesler and Infuse\n 03:10 The dark funnel explained\n 05:16 Why buyers don't want to talk to sales anymore\n 08:07 The AI buying journey and Day One shortlists\n 11:28 GEO: Winning recommendations from AI search\n 14:07 Day Zero vs. Day One: The new marketing playbook\n 16:06 Marketing 101 is making a comeback\n 16:27 Why ABM can limit your growth\n 17:35 The #1 trait every modern B2B marketer needs\n 19:20 Alex's leadership philosophy: Do the right thing\n 20:36 Where to find Alex and Infuse\n Try Infuse: infuse.com",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 86,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1081,8 +1309,11 @@
       "tags": [
         "CRM"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
       "saved": false
     },
     {
@@ -1100,8 +1331,12 @@
         "Ondemand",
         "Events"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1117,8 +1352,12 @@
       "tags": [
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1135,8 +1374,12 @@
         "AI & automation",
         "Articles"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1150,8 +1393,12 @@
       "duration": 25,
       "summary": "A rep says \"follow up on that\" on a call, then buries it under five more calls and a late-night inbox. Three days later the deal's gone cold, but the CRM still says it's live. The manager forecasts off that. \n  The CRO forecasts off the manager. The board asks the CEO if anyone actually has a grip on the number. The whole thing was built on a promise nobody kept. \n Adam Liska worked on the early Gemini models at Google DeepMind before leaving to close that gap. His company, airspeed, just raised a $20M Series A on a bet that \"revenue execution\" is the next real category, not another tool that logs calls and calls it intelligence. \n Sam Jacobs traces the full arc with him: DeepMind to founder-led sales to the unglamorous work of turning a founder's instincts into a system a team can actually run. \n What we get into: \n Why \"follow up on that\" breaks the forecast chain from rep to CRO to board What \"revenue execution\" means, and why it isn't revenue intelligence with a new label \n Whether you own the interface or hand it to a chat model and live as middleware \n The Nashville lunch that became airspeed's first six-figure deal \n The real sequence from founder-led to scalable: capture the data first, then build the playbooks \n Owning your data instead of renting Salesforce's architecture \n The modern Turing test, AI-native orgs, and where the back office is headed\n Chapters:  \n 00:00 Intro\n 00:44 From DeepMind to airspeed, and the $20M Series A \n 01:30 \"Follow up on that\" — the execution gap that breaks forecasts \n 04:00 What category is this? Revenue execution, defined \n 05:40 Headless vs. owning the interface \n 08:00 The origin story: leaving DeepMind in 2022 \n 11:39 Founder-led sales and the Nashville lunch that closed a six-figure deal \n 13:18 The hard part: turning founder-led into a repeatable system \n 14:14 Why they recorded everything from day one \n 16:35 Owning your data, and where the source of truth lives \n 19:03 The playbook: data first, then hierarchical playbooks \n 20:52 Influences: the modern Turing test and AI-native orgs \n 23:37 Where to find airspeed \n Try airspeed: goairspeed.com",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 86,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1165,8 +1412,10 @@
       "readTime": 1,
       "summary": "On Tony Robbins, OpenAI, and the coming spiritual boom",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -1182,8 +1431,11 @@
       "tags": [
         "Worldview"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1197,8 +1449,11 @@
       "readTime": 1,
       "summary": "On AI, railroads, telecom, and how bubbles turn optimism into infrastructure",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1214,8 +1469,11 @@
       "tags": [
         "Worldview"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
       "saved": false
     },
     {
@@ -1229,8 +1487,10 @@
       "readTime": 1,
       "summary": "Leadership isn’t avoiding conflict. It’s entering it without losing your humanity.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1247,8 +1507,12 @@
         "Brief",
         "CX"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -1265,8 +1529,12 @@
         "Brief",
         "RevOps"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -1280,8 +1548,11 @@
       "readTime": 1,
       "summary": "Why intelligence becomes infrastructure, but focus remains strategy",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1295,8 +1566,11 @@
       "readTime": 1,
       "summary": "The SpaceX IPO, the AI gold rush, and the strange despair of watching someone else win.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution."
+      ],
       "saved": false
     },
     {
@@ -1311,7 +1585,9 @@
       "summary": "On distribution, LinkedIn, and the impossible work of keeping anyone’s attention",
       "tags": [],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
       "saved": false
     },
     {
@@ -1325,8 +1601,10 @@
       "readTime": 1,
       "summary": "On castles, ChatGPT, Real Madrid, and why every competitive advantage is collapsing",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
       "saved": false
     },
     {
@@ -1341,7 +1619,9 @@
       "summary": "Why revenue is not enough, predictability is priceless, and endurance is the only real asset",
       "tags": [],
       "relevanceScore": 50,
-      "whyItMatters": [],
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
       "saved": false
     },
     {
@@ -1357,8 +1637,12 @@
       "tags": [
         "CRM Industry"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Advances the Composable & Headless thread — the modern, API-first architecture you follow.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
       "saved": false
     },
     {
@@ -1374,8 +1658,12 @@
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1391,8 +1679,12 @@
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Grounded in real examples you can adapt to your own setup."
+      ],
       "saved": false
     },
     {
@@ -1409,8 +1701,11 @@
         "Product news",
         "Sync Data"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1427,8 +1722,11 @@
         "Insights",
         "Marketing tools"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
       "saved": false
     },
     {
@@ -1444,8 +1742,11 @@
       "tags": [
         "Business Management"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1462,8 +1763,12 @@
         "Buying CRM",
         "no-sidebar"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1477,8 +1782,11 @@
       "readTime": 1,
       "summary": "Two ops leaders compare notes on building production-ready AI",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1492,8 +1800,12 @@
       "duration": 44,
       "summary": "Justin and Lily reflect on their parallel journeys diving deep into AI throughout 2025. They discuss why most AI content misses the mark for operators and system builders working within corporate constraints, share lessons from building production AI tools, and explore what's next for bringing these capabilities into the enterprise.\nGuest: Lily Luo — Systems & Operations Leader, Author of Applied AI for MOps Substack\nRead more of Justin's thoughts on AI Builders: The operator's roadmap for AI in 2026\nKEY TOPICS\nThe Gap in AI Content Most resources target researchers or GTM engineers focused on outbound automation. There's little guidance for operators dealing with cloud tools, security, and corporate complexity. That creates an opportunity to define best practices for this underserved audience.\n2025 Project Highlights Lily built an \"Analysis Dossier\" tool that generates full account research reports at the click of a button. Justin replaced a vendor intelligence tool with a custom system using Retool and a conversational agent.\nLessons Learned Start with tightly scoped AI steps in linear workflows for reliability. Pre-process insights asynchronously rather than relying on real-time agent calculations. Match tools to use cases. Failures teach more than successes.\nAtlas: Lily's Autonomous Agent Runs on Google Cloud and wakes every 4 hours to research and progress projects. Uses a three-layer memory architecture: identity, temporal journal, and knowledge graph. Can push its own code and interact with other agents.\n2026 Outlook Focus on scalability, reduced hallucination, and team enablement. Build infrastructure that unlocks flexible, ad-hoc use cases. Bridge the gap between AI capabilities and enterprise readiness.\nThe Human Side Working closely with AI changes how you think. Boundaries matter—don't let AI become a crutch.\nRESOURCES\n\nApplied AI for MOps — Lily's Substack\nAI Builders Blog — Justin's Substack\nTools mentioned: Claude Code, Gemini, ChatGPT, Zapier, Retool, Dust, Azure AI Foundry, Letta, VS Code\n\nONE TIP FOR GETTING STARTED\nPick a real pain point. Start with low-code tools you already know. Test relentlessly. Expect to fail—and learn from it.",
       "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1509,8 +1821,11 @@
       "tags": [
         "Business Management"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
       "saved": false
     },
     {
@@ -1526,8 +1841,12 @@
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 68,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     },
     {
@@ -1543,8 +1862,11 @@
       "tags": [
         "Insights"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 80,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
       "saved": false
     },
     {
@@ -1560,8 +1882,11 @@
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
       "saved": false
     },
     {
@@ -1577,8 +1902,12 @@
       "tags": [
         "Insights"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
       "saved": false
     },
     {
@@ -1594,8 +1923,11 @@
       "tags": [
         "Business AI"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
       "saved": false
     },
     {
@@ -1612,8 +1944,11 @@
         "Featured",
         "Manufacturing Technology"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
       "saved": false
     },
     {
@@ -1630,8 +1965,11 @@
         "Buying CRM",
         "crm-requirements"
       ],
-      "relevanceScore": 50,
-      "whyItMatters": [],
+      "relevanceScore": 62,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
       "saved": false
     }
   ],
@@ -1639,11 +1977,11 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 77,
-      "recent3": 11,
-      "change": 3,
+      "count": 76,
+      "recent3": 10,
+      "change": -4,
       "direction": "flat",
-      "articles": 46,
+      "articles": 45,
       "podcasts": 31,
       "topItem": "Celebrating 20 Years of the Trailblazer Community",
       "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
@@ -1733,5 +2071,5 @@
       "secondItem": "The Future of RevOps & GTM Survey 2026"
     }
   ],
-  "fetchedAt": "2026-09-10T19:15:16.010Z"
+  "fetchedAt": "2026-09-10T19:50:15.988Z"
 }

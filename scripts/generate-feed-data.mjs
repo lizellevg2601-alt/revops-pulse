@@ -31,6 +31,64 @@ function parseDuration(duration) {
   return Math.round(Number(duration) / 60);
 }
 
+function textOf(item) {
+  return `${item.title} ${item.tags?.join(" ") || ""} ${item.summary || ""}`.toLowerCase();
+}
+
+const reasonTemplates = {
+  "AI & Agents": "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+  "Revenue Forecasting": "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+  "GTM Strategy": "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+  "Org Design & Leadership": "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+  "Data & Attribution": "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+  "Tech Stack & CPQ": "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+  "Composable & Headless": "Advances the Composable & Headless thread — the modern, API-first architecture you follow.",
+  "Marketing & Brand": "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+  "Founders & Fundraising": "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+};
+
+function signalBullets(item) {
+  const t = textOf(item);
+  const bullets = [];
+  if (/playbook|checklist|how to|template|tips?|guide|step-?by-?step|actionable|best practice/.test(t))
+    bullets.push("Actionable — offers concrete steps or a playbook you can lift into your own programs.");
+  if (/benchmark|survey|\d+%|\$\d|report|study|data on/.test(t))
+    bullets.push("Backed by data or benchmarks you can calibrate your own numbers against.");
+  if (/case stud|example|real-world|walkthrough|story of/.test(t))
+    bullets.push("Grounded in real examples you can adapt to your own setup.");
+  if (/trend|emerging|2026|roadmap|wave|shift|evolv/.test(t))
+    bullets.push("Forward-looking — frames where the practice is heading this cycle.");
+  return bullets;
+}
+
+function buildWhyItMatters(matched, item) {
+  const bullets = [];
+  for (const topic of matched) {
+    const line = reasonTemplates[topic];
+    if (line && !bullets.includes(line)) {
+      bullets.push(line);
+      if (bullets.length >= 2) break;
+    }
+  }
+  for (const line of signalBullets(item)) {
+    if (bullets.length >= 3) break;
+    bullets.push(line);
+  }
+  if (bullets.length === 0) {
+    bullets.push("Highlights go-to-market themes that shape day-to-day RevOps work.");
+  }
+  return bullets;
+}
+
+function relevanceScoreFor(item, matched) {
+  const t = textOf(item);
+  let score = 50 + Math.min(24, matched.length * 6);
+  if (/benchmark|survey|report|study|data/.test(t)) score += 6;
+  if (/playbook|how to|template|guide/.test(t)) score += 6;
+  if (new Date(item.publishedAt).getTime() >= Date.now() - 3 * 24 * 3600 * 1000) score += 4;
+  return Math.min(96, Math.max(38, score));
+}
+
 const trendTopics = [
   {
     topic: "AI & Agents",
@@ -162,21 +220,37 @@ async function main() {
         const link = item.link || source.siteUrl;
         const content = item.content || item.contentSnippet || "";
         const isArticle = source.type === "article";
+        const summary =
+          item.contentSnippet?.trim() ||
+          item.content?.replace(/<[^>]*>/g, "").trim().slice(0, 400) ||
+          "";
+        const tags = (item.categories || []).slice(0, 6);
+        const publishedAt = item.isoDate || item.pubDate || new Date().toISOString();
+        const baseItem = {
+          title: item.title || "Untitled",
+          summary,
+          tags,
+          type: source.type,
+          publishedAt,
+        };
+        const matched = trendTopics
+          .filter((tp) => tp.keywords.some((k) => textOf(baseItem).includes(k)))
+          .map((tp) => tp.topic);
 
         return {
           id: `feed-${source.id}-${hashId(link)}`,
           type: source.type,
-          title: item.title || "Untitled",
+          title: baseItem.title,
           source: source.name,
           sourceUrl: link,
           author: item.creator || source.author,
-          publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
+          publishedAt,
           readTime: isArticle ? estimateReadTime(content) : undefined,
           duration: !isArticle ? parseDuration(item["itunes:duration"]) : undefined,
-          summary: item.contentSnippet?.trim() || item.content?.replace(/<[^>]*>/g, "").trim().slice(0, 400) || "",
-          tags: (item.categories || []).slice(0, 6),
-          relevanceScore: 50,
-          whyItMatters: [],
+          summary,
+          tags,
+          relevanceScore: relevanceScoreFor(baseItem, matched),
+          whyItMatters: buildWhyItMatters(matched, baseItem),
           saved: false,
         };
       });
