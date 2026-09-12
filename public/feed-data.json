@@ -1,6 +1,113 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-e9lkwg",
+      "type": "podcast",
+      "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-12T07:07:00.000Z",
+      "duration": 76,
+      "summary": "AGENDA: \n 04:30 How Do You Hire Exceptional People in the AI Era?\n 08:00 What Actually Works in Growth—and Why Can't You Trust Meta's Numbers?\n 17:00 How to Run Hundreds of Millions in Marketing with Zero Employees \n 19:30 \"Our Engineers Stopped Coding\": What Stack Does Eight Sleep Use?\n 24:00 Is China Leaving the Rest of the World Behind?\n 35:00 How Do You Turn Superstar Athletes into Investors and Brand Ambassadors?\n 43:00 What Happens When Your Co-Founder Is Also Your Wife?\n 51:30 Should You Match Anthropic's Salaries—or Let Your Best People Leave?\n 59:30 Will Children Born Today Ever Need to Work?\n 01:05:00 What Drives You to Succeed—and Why Can't You Ever Switch Off?",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ygvn6i",
+      "type": "article",
+      "title": "Your Dreamforce ’26 Resource for Financial Services",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/financial-services-dreamforce-resources/",
+      "author": "Julie Jutte",
+      "publishedAt": "2026-09-11T17:10:43.000Z",
+      "readTime": 1,
+      "summary": "Whether you’re going to Dreamforce in person or watching online on Salesforce+, we’ve got you covered with all the financial services resources to help you continue your journey well after Dreamforce has ended.…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-rqrr4a",
+      "type": "article",
+      "title": "Salesforce collaborates with HP for friction-free, global point of sale",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/salesforce-pos-hp/",
+      "author": "Sara Gutierrez",
+      "publishedAt": "2026-09-11T15:25:35.000Z",
+      "readTime": 1,
+      "summary": "Picture a retailer’s busiest week of the year: Holiday shoppers are lined up and most of the associates working the floor just started their job last week. There was no time for a…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-91dnqs",
+      "type": "article",
+      "title": "The GTM Strategy Playbook: Launch, Scale, and Dominate",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/gtm-strategy-framework-playbook/",
+      "author": "Gopaluni Sai Karthik",
+      "publishedAt": "2026-09-11T14:56:07.000Z",
+      "readTime": 1,
+      "summary": "In 2026, building a great product is no longer enough. Companies with exceptional products fail regularly because they lack a clear go-to-market (GTM) strategy. Research shows that poor GTM execution accounts for nearly…",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-j9k9gk",
+      "type": "article",
+      "title": "5 Solopreneur Tools For the Lone Business Ranger",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/solopreneur-tools/",
+      "author": "Caylin White, Hannah Freeman",
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Being a one-person show doesn’t mean you need to work alone. Try out some AI solopreneur tools and see what’s possible.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-e4psq2",
+      "type": "article",
+      "title": "5 Ways Marketers Can Turn Dreamforce Into Career Growth",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/5-ways-marketers-can-turn-dreamforce-into-career-growth/",
+      "author": "Pallavi Agrawal",
+      "publishedAt": "2026-09-11T12:18:43.000Z",
+      "readTime": 1,
+      "summary": "Dreamforce is more than keynotes and product news. Here are five ways marketers can turn four days in San Francisco into lasting career growth.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-9grvjs",
       "type": "article",
       "title": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next",
@@ -110,24 +217,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-b9l6nh",
-      "type": "article",
-      "title": "Create Your Multi-Agent Strategy With These 4 Steps",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/multi-agent-strategy/",
-      "author": "Caylin White",
-      "publishedAt": "2026-09-10T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Here’s a quick strategy to manage multiple AI agents easily. (Don’t worry, it’s all one tool.)",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-1i0zdm",
       "type": "podcast",
       "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
@@ -143,82 +232,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-a7vlya",
-      "type": "article",
-      "title": "Living Our Values: Your Guide to Dreamforce 2026",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/platform-for-change-at-dreamforce/",
-      "author": "Sunya Norman",
-      "publishedAt": "2026-09-09T15:34:53.000Z",
-      "readTime": 1,
-      "summary": "Join us at Dreamforce to discover Business as a Platform for Change sessions, networking opportunities, and activities.",
-      "tags": [
-        "dreamforce",
-        "net zero",
-        "platform for change",
-        "sustainability"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-24hbm1",
-      "type": "article",
-      "title": "6 Tips to Make Your Employee Agent a Powerhouse (Plus Tools and Use Cases)",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/employee-agent-tips-and-use-cases/",
-      "author": "Hannah Freeman",
-      "publishedAt": "2026-09-09T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "These quick tips help your employee agent take on the big stuff.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-b4paqi",
-      "type": "article",
-      "title": "Coming to Dreamforce: Our Scheduling Agent That’s Always On and Unrivaled",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/field-scheduling-agent/",
-      "author": "Sophia Le-Dimitrova",
-      "publishedAt": "2026-09-08T19:23:18.000Z",
-      "readTime": 1,
-      "summary": "Read this to discover how our scheduling technology sets itself apart from the rest.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-gm7za1",
-      "type": "article",
-      "title": "One Year In: Reimagining IT and HR Service with Agentforce",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/agentic-it-hr/",
-      "author": "RJ Jainendra",
-      "publishedAt": "2026-09-08T17:53:50.000Z",
-      "readTime": 1,
-      "summary": "In just twelve months we’ve been recognized as a leading innovator in employee services.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
       "saved": false
     },
@@ -922,25 +935,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-2x7i5p",
-      "type": "podcast",
-      "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-boom-will-create-enormous-roadkill-who-wins-loses-why-founders-should-never-take-multi-stage-money-at-seed-why-triple-triple-double-double-is-good-enough",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-08T12:56:00.000Z",
-      "duration": 84,
-      "summary": "David Frankel is one of the great seed investors of our time. As the Co-Founder of Founder Collective he has backed the likes of Uber, Coupang, Suno, PillPack, Airtable, Whoop, Shield AI and many more. In a world of expanding fund sizes, David and Founder Collective are one of the only successful franchises to truly stick to small, boutique funds. \n AGENDA:\n 00:00 The Bubbles Are Getting Bigger—and There Will Be a Lot of Roadkill\n 05:21 The Worst-Performing Funds Will Be the $50M–$100M Seed Funds\n 25:06 \"We're Greedy for Returns, Not Management Fees\"\n 30:10 \"Pro Rata Is the Original Sin\"\n 32:59 \"A $1BN Valuation Is the New Series A\"\n 46:39 \"I Have Never Seen Secondary Markets This Liquid\"\n 58:03 Microsoft Has Done a Crappy Job of AI—and Another Dot-Com Crash Is Inevitable\n 01:08:25 OpenAI and Anthropic Will Be Disrupted—and China Could Do It\n 01:16:12 \"Anyone Who Claims They Knew Is Full of Shit\"\n 01:19:56 Our Children Won't Need to Drive—and Chemotherapy Will Look Prehistoric",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -2020,45 +2014,45 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 78,
-      "recent3": 10,
-      "change": 0,
+      "count": 76,
+      "recent3": 9,
+      "change": -8,
       "direction": "flat",
-      "articles": 40,
+      "articles": 38,
       "podcasts": 38,
-      "topItem": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next",
-      "secondItem": "Celebrating 20 Years of the Trailblazer Community"
+      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+      "secondItem": "Salesforce collaborates with HP for friction-free, global point of sale"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 60,
-      "recent3": 2,
-      "change": -49,
+      "recent3": 3,
+      "change": -46,
       "direction": "down",
-      "articles": 25,
-      "podcasts": 35,
-      "topItem": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "articles": 26,
+      "podcasts": 34,
+      "topItem": "5 Ways Marketers Can Turn Dreamforce Into Career Growth",
+      "secondItem": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 46,
-      "recent3": 1,
-      "change": -57,
+      "count": 47,
+      "recent3": 2,
+      "change": -55,
       "direction": "down",
       "articles": 25,
-      "podcasts": 21,
-      "topItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise",
-      "secondItem": "Chief Revenue Officer Summit Boston, August 2026 | OnDemand"
+      "podcasts": 22,
+      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 45,
       "recent3": 1,
-      "change": -67,
+      "change": -77,
       "direction": "down",
       "articles": 27,
       "podcasts": 18,
@@ -2069,44 +2063,44 @@
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 38,
-      "recent3": 2,
-      "change": -31,
+      "recent3": 3,
+      "change": -26,
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
-      "topItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise",
-      "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
+      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
-      "recent3": 3,
-      "change": -37,
+      "count": 34,
+      "recent3": 4,
+      "change": -35,
       "direction": "down",
-      "articles": 16,
+      "articles": 17,
       "podcasts": 17,
-      "topItem": "4 ways to unlock more value with Salesforce partners at Dreamforce 2026",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "topItem": "Your Dreamforce ’26 Resource for Financial Services",
+      "secondItem": "Salesforce collaborates with HP for friction-free, global point of sale"
     },
     {
       "rank": 7,
       "topic": "GTM Strategy",
-      "count": 23,
-      "recent3": 1,
-      "change": -32,
-      "direction": "down",
-      "articles": 5,
+      "count": 24,
+      "recent3": 2,
+      "change": -2,
+      "direction": "flat",
+      "articles": 6,
       "podcasts": 18,
-      "topItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise",
-      "secondItem": "The Future of RevOps & GTM Survey 2026"
+      "topItem": "The GTM Strategy Playbook: Launch, Scale, and Dominate",
+      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
     },
     {
       "rank": 8,
       "topic": "Revenue Forecasting",
       "count": 19,
       "recent3": 1,
-      "change": -15,
+      "change": -43,
       "direction": "down",
       "articles": 4,
       "podcasts": 15,
@@ -2114,5 +2108,5 @@
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-11T10:55:23.697Z"
+  "fetchedAt": "2026-09-12T10:22:30.683Z"
 }
