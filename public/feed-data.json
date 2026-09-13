@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-pock2g",
+      "type": "podcast",
+      "title": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/revops-for-hypergrowth-fireworks-ai-perplexity-exa-more-ceo-go-nimbly-jen-igartua",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-09-13T04:01:00.000Z",
+      "duration": 61,
+      "summary": "Jen Igartua, CEO at Go Nimbly, joins Sam Jacobs, AJ Bruno, and Asad Zaman. Her client roster is wild: Fireworks AI, Perplexity, Exa, and Wispr Flow, plus some of the biggest names in SaaS. Topics in today's episode include how the fastest-growing AI-native companies are growing in spite of their revenue operations (not because of them), the first project she runs when she wants to show ROI fast, and how she makes the case that RevOps is a support function and always was. Plus, whether the GTM engineer is anything more than RevOps with better marketing (and more)!\n Key Takeaways:\n - Operational debt at the fastest-growing AI companies tracks demand, not management quality. Go Nimbly's second customer was Zendesk in 2016, where the head of IT told her \"oh, we've grown in spite of our operations.\" Jen shares what it takes to make a difference at the breakneck pace these environments demand.\n - RevOps spent a decade insisting it was strategic, and Jen thinks that cost the function credibility with the sellers it exists to serve. As she says in the episode: \"I think that operators have been doing an injustice to sellers for a long time. And we are starting to really take onus of the fact that revenue operations needs to be a support function to the sales team. And we've been fighting it forever. We are not a support function. And I'm like, we actually are.\" Asad, who has argued the same line for years, put the failure mode in football terms: \"if a goalkeeper starts trying to play like a striker, you don't let in a lot of goals, right?\"\n - In a people business, staffing is the product, and Jen only learned that after COVID took Go Nimbly down to 20 people. The rule she rebuilt around is \"I should only take projects of skills that I want to nurture,\" then staff someone who is 80% of the way there so the last 20% is stretch. \"Our whole job is playing Tetris with resources.\" She is equally direct about what did not work: \"I poured a bunch of money in being tech enabled... I burned millions of dollars trying to do it,\" because at her clients' scale \"everything's custom.\" The payoff line is the one to keep: \"if you nail staffing, you grow a really great services organization.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Jen Igartua, CEO at Go Nimbly - https://www.linkedin.com/in/jen-igartua/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n  \n  00:00 Introducing Jen Igartua\n 02:15 Growing In Spite Of Their Operations\n 05:46 Top Of Funnel Is The First Fix\n 06:39 What AI-Native Ops Teams Actually Have\n 10:50 The Twenty-Rep Qualification Bar\n 11:37 Is Sales More Broken Than Before\n 15:00 RevOps Is A Support Function\n 16:29 Do Great Products Make Great Sellers\n 22:51 Caesars, COVID, And Twenty People\n 24:56 Lessons From A Services Business\n 28:21 Staffing Is The Whole Game\n 31:10 Why Contractors Do Not Work\n 40:09 What Is A GTM Engineer Really\n 49:26 What Scares Jen About 2027\n 54:40 Bulls and Bears",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-e9lkwg",
       "type": "podcast",
       "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
@@ -227,7 +246,7 @@
       "duration": 78,
       "summary": "AGENDA: \n 00:00 Jensen Huang Declares AGI Has Arrived\n 04:05 Instinct and GrokBot Ignite the AI Assistant War\n 13:32 OpenAI's GPT Astra Redefines What AGI Means\n 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race\n 30:38 OpenAI's Chief Scientist Calls for Enforced AI Safety Limits\n 40:50 Tesla Launches Cybercabs as Travis Kalanick Returns to Robotaxis\n 45:55 Index Pulls Out of Town Deal Following Instinct Conflict\n 49:45 Anthropic Abandons $6BN Descartes Acquisition After Due Diligence\n 56:18 Robinhood Earns First Underwriting Role in Oura IPO\n 01:00:28 Wonderful Doubles to $5BN and Approves $170M in Secondaries\n 01:09:02 Thinking Machines Targets $40BN Valuation in $6BN Funding Round",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -1257,25 +1276,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-7zql2j",
-      "type": "podcast",
-      "title": "SPOTLIGHT: The AI category GTM teams are about to converge on | Adam Liska, CEO & Co-Founder @ airspeed",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-the-ai-category-gtm-teams-are-about-to-converge-on-adam-liska-ceo-co-founder-airspeed",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-07-21T04:01:00.000Z",
-      "duration": 25,
-      "summary": "A rep says \"follow up on that\" on a call, then buries it under five more calls and a late-night inbox. Three days later the deal's gone cold, but the CRM still says it's live. The manager forecasts off that. \n  The CRO forecasts off the manager. The board asks the CEO if anyone actually has a grip on the number. The whole thing was built on a promise nobody kept. \n Adam Liska worked on the early Gemini models at Google DeepMind before leaving to close that gap. His company, airspeed, just raised a $20M Series A on a bet that \"revenue execution\" is the next real category, not another tool that logs calls and calls it intelligence. \n Sam Jacobs traces the full arc with him: DeepMind to founder-led sales to the unglamorous work of turning a founder's instincts into a system a team can actually run. \n What we get into: \n Why \"follow up on that\" breaks the forecast chain from rep to CRO to board What \"revenue execution\" means, and why it isn't revenue intelligence with a new label \n Whether you own the interface or hand it to a chat model and live as middleware \n The Nashville lunch that became airspeed's first six-figure deal \n The real sequence from founder-led to scalable: capture the data first, then build the playbooks \n Owning your data instead of renting Salesforce's architecture \n The modern Turing test, AI-native orgs, and where the back office is headed\n Chapters:  \n 00:00 Intro\n 00:44 From DeepMind to airspeed, and the $20M Series A \n 01:30 \"Follow up on that\" — the execution gap that breaks forecasts \n 04:00 What category is this? Revenue execution, defined \n 05:40 Headless vs. owning the interface \n 08:00 The origin story: leaving DeepMind in 2022 \n 11:39 Founder-led sales and the Nashville lunch that closed a six-figure deal \n 13:18 The hard part: turning founder-led into a repeatable system \n 14:14 Why they recorded everything from day one \n 16:35 Owning your data, and where the source of truth lives \n 19:03 The playbook: data first, then hierarchical playbooks \n 20:52 Influences: the modern Turing test and AI-native orgs \n 23:37 Where to find airspeed \n Try airspeed: goairspeed.com",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-hdxrp2",
       "type": "article",
       "title": "Green Dashboards Don’t Necessarily Grow Businesses",
@@ -2020,44 +2020,44 @@
       "direction": "flat",
       "articles": 38,
       "podcasts": 38,
-      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
-      "secondItem": "Salesforce collaborates with HP for friction-free, global point of sale"
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 60,
-      "recent3": 3,
+      "recent3": 4,
       "change": -46,
       "direction": "down",
       "articles": 26,
       "podcasts": 34,
-      "topItem": "5 Ways Marketers Can Turn Dreamforce Into Career Growth",
-      "secondItem": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next"
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "5 Ways Marketers Can Turn Dreamforce Into Career Growth"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 47,
-      "recent3": 2,
-      "change": -55,
+      "count": 48,
+      "recent3": 3,
+      "change": -56,
       "direction": "down",
       "articles": 25,
-      "podcasts": 22,
-      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "podcasts": 23,
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 45,
-      "recent3": 1,
+      "recent3": 2,
       "change": -77,
       "direction": "down",
       "articles": 27,
       "podcasts": 18,
-      "topItem": "Start with Accounts: Design Identity and Access That Scales",
-      "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "Start with Accounts: Design Identity and Access That Scales"
     },
     {
       "rank": 5,
@@ -2068,18 +2068,18 @@
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
-      "topItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 34,
+      "count": 33,
       "recent3": 4,
-      "change": -35,
+      "change": -33,
       "direction": "down",
       "articles": 17,
-      "podcasts": 17,
+      "podcasts": 16,
       "topItem": "Your Dreamforce ’26 Resource for Financial Services",
       "secondItem": "Salesforce collaborates with HP for friction-free, global point of sale"
     },
@@ -2087,26 +2087,26 @@
       "rank": 7,
       "topic": "GTM Strategy",
       "count": 24,
-      "recent3": 2,
+      "recent3": 3,
       "change": -2,
       "direction": "flat",
       "articles": 6,
       "podcasts": 18,
-      "topItem": "The GTM Strategy Playbook: Launch, Scale, and Dominate",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
+      "secondItem": "The GTM Strategy Playbook: Launch, Scale, and Dominate"
     },
     {
       "rank": 8,
       "topic": "Revenue Forecasting",
-      "count": 19,
-      "recent3": 1,
-      "change": -43,
+      "count": 18,
+      "recent3": 0,
+      "change": -71,
       "direction": "down",
       "articles": 4,
-      "podcasts": 15,
+      "podcasts": 14,
       "topItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-12T10:22:30.683Z"
+  "fetchedAt": "2026-09-13T11:24:17.310Z"
 }
