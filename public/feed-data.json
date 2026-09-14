@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-snwn3g",
+      "type": "podcast",
+      "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-14T07:07:00.000Z",
+      "duration": 69,
+      "summary": "David Morehead is one of the most respected CIOs in the endowment fund world as Chief Investment Officer at Baylor University, overseeing its $2.6BN endowment. Before joining Baylor in 2011, he was a senior portfolio manager at several Chicago hedge funds, investing across corporate securities, distressed debt and public and private energy.\n AGENDA:\n 04:00 The Portfolio Construction of a $2.6 Billion University Endowment?\n 09:00 Why We Spend More Time on Porfolio Construction Than Manager Selection?\n 14:00 Should LPs Back VC's Biggest Names or Find the Next Breakout Manager?\n 21:00 How Baylor Made Millions in the SaaSpocalypse?\n 26:00 Are Public Markets a Casino or Are Private Valuations the Real Fiction?\n 34:00 How Do You Buy a Market Crash Without Catching a Falling Knife?\n 49:00 Would You Fire a Fund Manager Who's Making You Money?\n 57:00 Could the Backlash Against Data Centres Derail the AI Boom?\n 01:02:00 Which Asset Class Is Overhyped—and Where Is the Next Big Opportunity?",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-pock2g",
       "type": "podcast",
       "title": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
@@ -137,7 +156,7 @@
       "readTime": 1,
       "summary": "Discover how Service Insights elevates interactions and accelerates resolutions with purpose-built, AI-powered insights in your flow of work.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -155,7 +174,7 @@
       "readTime": 1,
       "summary": "From a scrappy discussion board in 2006 to millions of members worldwide, the Trailblazer Community's 20-year story has always been about people showing up for each other - and setting the stage for the agentic AI era.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -172,7 +191,7 @@
       "readTime": 1,
       "summary": "Have you ever stared at a music festival lineup and felt your heart rate spike? You know the feeling: your favorite indie band is playing at the exact same time a legacy headliner…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
         "Forward-looking — frames where the practice is heading this cycle."
@@ -190,7 +209,7 @@
       "readTime": 1,
       "summary": "Learn how to combine native Experience Cloud capabilities around the Account object to route authentication, align data access, and scale onboarding through configuration.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
@@ -208,7 +227,7 @@
       "duration": 30,
       "summary": "Matt Allison, CEO and Founder of Handraise, joins us to share why he's skipping the SMB trap and building an AI-powered media intelligence platform for enterprise from day one. Drawing on hard-won lessons from scaling TrendKite, Matt breaks down how Handraise is targeting $30K+ deals with brands like Walgreens and Hershey, the importance of patience in early go-to-market, and how AI is helping them build a more thoughtful, scalable, and enterprise-ready product from the start.\n Matt also talks about:\n - Why Handraise is skipping the SMB trap and going enterprise from day one\n - What TrendKite taught him about building for high-value, high-retention customers\n - Why patience and discipline matter when you're building an enterprise GTM motion\n - How AI is helping Handraise build a more sophisticated product with a lean team\n - Why being AI-first changes what's possible in product development\n - How to build a sustainable business without chasing hypergrowth at all costs\n  Chapters:\n 00:00 Introduction to Matt Allison and Handraise\n 01:15 Why Handraise Is Going Enterprise From Day One\n 08:46 The Challenge: Building for $30K+ Enterprise Deals\n 11:56 Why Patience Matters in Enterprise GTM\n 15:17 How AI Is Changing Product Development\n 19:02 Building an AI-First, Enterprise-Ready Product\n 22:43 Why Handraise Isn't Chasing Hypergrowth\n 26:00 Matt's Favorite Book and Podcast\n 28:00 Where to Find Matt and Handraise\n Try Handraise: handraise.com",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
@@ -227,7 +246,7 @@
       "readTime": 1,
       "summary": "You have spent weeks perfecting campaign copy, designing responsive HTML templates, and segmenting high-intent subscriber lists. Yet when the send button is pressed, conversion metrics stall. Open rates drop from an expected 35%…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
@@ -915,25 +934,6 @@
       "relevanceScore": 62,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-kh13r6",
-      "type": "podcast",
-      "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-10T07:07:00.000Z",
-      "duration": 60,
-      "summary": "Alex Atallah is the Founder and CEO @ OpenRouter, the unified interface for LLMs. The company has raised over $153M in funding, with the latest valuation pricing the company at $1.3BN. OpenRouter is reportedly in an acquisition process with Stripe for $10BN. \n AGENDA:\n 00:00 Is OpenRouter Selling to Stripe for $10 Billion?\n 04:05 What Did Alex Learn From Scaling OpenSea?\n 06:38 What Did OpenRouter's Founding Thesis Get Wrong?\n 14:47 Is AI Model Routing Already Being Commoditized?\n 19:12 Do Falling Token Prices Help or Hurt OpenRouter?\n 27:16 Should America Be Alarmed by Chinese Open Models?\n 32:43 Will US Open-Source Models Compete With Chinese Models in the Next 12 Months?\n 39:26 Will the Router Be Swallowed by the Agent Framework?\n 48:56 Is Distillation Wrong—and How Should We Look at It?\n 50:01 Is the Reported $10 Billion Stripe Deal Actually Happening?",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -2015,31 +2015,31 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 76,
-      "recent3": 9,
+      "recent3": 6,
       "change": -8,
       "direction": "flat",
       "articles": 38,
       "podcasts": 38,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
+      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 60,
-      "recent3": 4,
-      "change": -46,
+      "count": 61,
+      "recent3": 3,
+      "change": -47,
       "direction": "down",
       "articles": 26,
-      "podcasts": 34,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "5 Ways Marketers Can Turn Dreamforce Into Career Growth"
+      "podcasts": 35,
+      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 48,
-      "recent3": 3,
+      "recent3": 2,
       "change": -56,
       "direction": "down",
       "articles": 25,
@@ -2050,14 +2050,14 @@
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 45,
+      "count": 46,
       "recent3": 2,
-      "change": -77,
+      "change": -66,
       "direction": "down",
       "articles": 27,
-      "podcasts": 18,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "Start with Accounts: Design Identity and Access That Scales"
+      "podcasts": 19,
+      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 5,
@@ -2068,14 +2068,14 @@
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
+      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 33,
-      "recent3": 4,
+      "recent3": 2,
       "change": -33,
       "direction": "down",
       "articles": 17,
@@ -2087,7 +2087,7 @@
       "rank": 7,
       "topic": "GTM Strategy",
       "count": 24,
-      "recent3": 3,
+      "recent3": 2,
       "change": -2,
       "direction": "flat",
       "articles": 6,
@@ -2108,5 +2108,5 @@
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-13T11:24:17.310Z"
+  "fetchedAt": "2026-09-14T12:16:54.837Z"
 }
