@@ -1,6 +1,184 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-b3ws10",
+      "type": "article",
+      "title": "The Online Trailblazer Community: Reimagined Together and Coming Soon to Slack",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/trailblazer-community-on-slack/",
+      "author": "Gloria Ramchandani",
+      "publishedAt": "2026-09-15T04:56:17.000Z",
+      "readTime": 1,
+      "summary": "A first look at the new community experience, launching in November, and how you can help shape it today.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-g7xi3n",
+      "type": "article",
+      "title": "Introducing The Campaign Agent That Turns Goals Into Growth",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/introducing-the-campaign-agent-that-turns-goals-into-growth/",
+      "author": "Brett Bothe, Max Kiely",
+      "publishedAt": "2026-09-15T00:58:33.000Z",
+      "readTime": 1,
+      "summary": "Most campaigns run blind to every other campaign hitting the same customer. Campaign Agent arbitrates across all of them, in real time, in the customer's favor.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-69skej",
+      "type": "article",
+      "title": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/security-mesh/",
+      "author": "Cynthia Huang",
+      "publishedAt": "2026-09-14T23:25:30.000Z",
+      "readTime": 1,
+      "summary": "When signals live in silos, its hard to see the whole picture. Turn a flood of security data into a clear, actionable picture of risk.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-4wb5le",
+      "type": "article",
+      "title": "Meet Your Digital Teammate, Slackbot: Spotlight on Productivity Agent",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-slack/",
+      "author": "Jenn Sei, Caylin White",
+      "publishedAt": "2026-09-14T20:00:00.000Z",
+      "readTime": 1,
+      "summary": "Meet Slackbot — the AI teammate that keeps your work moving right where you collaborate.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-kof0kr",
+      "type": "article",
+      "title": "Meet Your Digital Teammate, Casey: Spotlight on Service",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-service-agent/",
+      "author": "Allison Williams, Caylin White",
+      "publishedAt": "2026-09-14T20:00:00.000Z",
+      "readTime": 1,
+      "summary": "Meet Casey, the new help agent serving up excellent experiences for your customers.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ushjy",
+      "type": "article",
+      "title": "Meet Your Digital Teammate, Hunter: Spotlight on Sales Agent",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-sales-agent/",
+      "author": "Erin Hueffner, Caylin White",
+      "publishedAt": "2026-09-14T20:00:00.000Z",
+      "readTime": 1,
+      "summary": "Meet Hunter — the AI teammate that fills your pipeline while you focus on closing.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-3l2yv0",
+      "type": "article",
+      "title": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-marketing-agent/",
+      "author": "Hannah Freeman, Caylin White",
+      "publishedAt": "2026-09-14T20:00:00.000Z",
+      "readTime": 1,
+      "summary": "Meet your Marketing Agent, the AI teammate turning a one-person team into a full campaign engine.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-bnv50n",
+      "type": "article",
+      "title": "Introducing Builder Central: The No Code AI Workspace for Salesforce ",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/builder-central-ai-development/",
+      "author": "Neal Mhaskar",
+      "publishedAt": "2026-09-14T19:30:19.000Z",
+      "readTime": 1,
+      "summary": "Bridge the gap between speed and security by building with Builder Central.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-dlpo5q",
+      "type": "article",
+      "title": "The Dreamstore runs on Salesforce: How we built a retail experience for 40K attendees in just two months",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/dreamstore-runs-on-salesforce/",
+      "author": "Sara Gutierrez",
+      "publishedAt": "2026-09-14T16:14:21.000Z",
+      "readTime": 1,
+      "summary": "Product launches. Bold ideas. Breakthroughs. These are some of the most exciting aspects of Dreamforce. But, let’s be honest… The swag deserves a shoutout, too. Enter: The Dreamstore, the official onsite shop at…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-h81eof",
+      "type": "article",
+      "title": "Your Business Processes Are Ready for Their Revolution",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/regrello/",
+      "author": "Simon Mulcahy",
+      "publishedAt": "2026-09-14T15:51:30.000Z",
+      "readTime": 1,
+      "summary": "Middle- and back-office technology hasn't seen transformation in over 20 years, until now. Agentforce Operations, powered by Regrello, turns human-first processes into AI-first operations.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-snwn3g",
       "type": "podcast",
       "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
@@ -49,169 +227,10 @@
       "duration": 76,
       "summary": "AGENDA: \n 04:30 How Do You Hire Exceptional People in the AI Era?\n 08:00 What Actually Works in Growth—and Why Can't You Trust Meta's Numbers?\n 17:00 How to Run Hundreds of Millions in Marketing with Zero Employees \n 19:30 \"Our Engineers Stopped Coding\": What Stack Does Eight Sleep Use?\n 24:00 Is China Leaving the Rest of the World Behind?\n 35:00 How Do You Turn Superstar Athletes into Investors and Brand Ambassadors?\n 43:00 What Happens When Your Co-Founder Is Also Your Wife?\n 51:30 Should You Match Anthropic's Salaries—or Let Your Best People Leave?\n 59:30 Will Children Born Today Ever Need to Work?\n 01:05:00 What Drives You to Succeed—and Why Can't You Ever Switch Off?",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ygvn6i",
-      "type": "article",
-      "title": "Your Dreamforce ’26 Resource for Financial Services",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/financial-services-dreamforce-resources/",
-      "author": "Julie Jutte",
-      "publishedAt": "2026-09-11T17:10:43.000Z",
-      "readTime": 1,
-      "summary": "Whether you’re going to Dreamforce in person or watching online on Salesforce+, we’ve got you covered with all the financial services resources to help you continue your journey well after Dreamforce has ended.…",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-rqrr4a",
-      "type": "article",
-      "title": "Salesforce collaborates with HP for friction-free, global point of sale",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/salesforce-pos-hp/",
-      "author": "Sara Gutierrez",
-      "publishedAt": "2026-09-11T15:25:35.000Z",
-      "readTime": 1,
-      "summary": "Picture a retailer’s busiest week of the year: Holiday shoppers are lined up and most of the associates working the floor just started their job last week. There was no time for a…",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-91dnqs",
-      "type": "article",
-      "title": "The GTM Strategy Playbook: Launch, Scale, and Dominate",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/gtm-strategy-framework-playbook/",
-      "author": "Gopaluni Sai Karthik",
-      "publishedAt": "2026-09-11T14:56:07.000Z",
-      "readTime": 1,
-      "summary": "In 2026, building a great product is no longer enough. Companies with exceptional products fail regularly because they lack a clear go-to-market (GTM) strategy. Research shows that poor GTM execution accounts for nearly…",
-      "tags": [],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-j9k9gk",
-      "type": "article",
-      "title": "5 Solopreneur Tools For the Lone Business Ranger",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/solopreneur-tools/",
-      "author": "Caylin White, Hannah Freeman",
-      "publishedAt": "2026-09-11T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Being a one-person show doesn’t mean you need to work alone. Try out some AI solopreneur tools and see what’s possible.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-e4psq2",
-      "type": "article",
-      "title": "5 Ways Marketers Can Turn Dreamforce Into Career Growth",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/5-ways-marketers-can-turn-dreamforce-into-career-growth/",
-      "author": "Pallavi Agrawal",
-      "publishedAt": "2026-09-11T12:18:43.000Z",
-      "readTime": 1,
-      "summary": "Dreamforce is more than keynotes and product news. Here are five ways marketers can turn four days in San Francisco into lasting career growth.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-9grvjs",
-      "type": "article",
-      "title": "Meet Service Insights: Agentic Analytics Built for Service Teams Powered by Tableau Next",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/service-insights-agentic-analytics-tableau-next/",
-      "author": "Karthik Balasubramanian",
-      "publishedAt": "2026-09-10T20:28:17.000Z",
-      "readTime": 1,
-      "summary": "Discover how Service Insights elevates interactions and accelerates resolutions with purpose-built, AI-powered insights in your flow of work.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-g6ojiv",
-      "type": "article",
-      "title": "Celebrating 20 Years of the Trailblazer Community",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/trailblazer-community-20th-anniversary/",
-      "author": "Gloria Ramchandani",
-      "publishedAt": "2026-09-10T19:00:00.000Z",
-      "readTime": 1,
-      "summary": "From a scrappy discussion board in 2006 to millions of members worldwide, the Trailblazer Community's 20-year story has always been about people showing up for each other - and setting the stage for the agentic AI era.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-46xr2u",
-      "type": "article",
-      "title": "4 ways to unlock more value with Salesforce partners at Dreamforce 2026",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/4-ways-to-unlock-more-value-with-salesforce-partners-at-dreamforce-2026/",
-      "author": "Julia Foster",
-      "publishedAt": "2026-09-10T17:47:51.000Z",
-      "readTime": 1,
-      "summary": "Have you ever stared at a music festival lineup and felt your heart rate spike? You know the feeling: your favorite indie band is playing at the exact same time a legacy headliner…",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-xjbl1d",
-      "type": "article",
-      "title": "Start with Accounts: Design Identity and Access That Scales",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/experience-cloud-identity-access-account/",
-      "author": "Iuliia Kolisnyk",
-      "publishedAt": "2026-09-10T16:40:58.000Z",
-      "readTime": 1,
-      "summary": "Learn how to combine native Experience Cloud capabilities around the Account object to route authentication, align data access, and scale onboarding through configuration.",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
@@ -232,25 +251,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ts37s3",
-      "type": "article",
-      "title": "DNS Records for Email Deliverability: The Complete Guide",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/dns-records-for-email-deliverability-the-complete-guide/",
-      "author": "Gopaluni Sai Karthik",
-      "publishedAt": "2026-09-10T13:04:27.000Z",
-      "readTime": 1,
-      "summary": "You have spent weeks perfecting campaign copy, designing responsive HTML templates, and segmenting high-intent subscriber lists. Yet when the send button is pressed, conversion metrics stall. Open rates drop from an expected 35%…",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -2014,57 +2014,57 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 76,
-      "recent3": 6,
-      "change": -8,
-      "direction": "flat",
-      "articles": 38,
+      "count": 79,
+      "recent3": 11,
+      "change": 22,
+      "direction": "up",
+      "articles": 41,
       "podcasts": 38,
-      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "The Online Trailblazer Community: Reimagined Together and Coming Soon to Slack",
+      "secondItem": "Introducing The Campaign Agent That Turns Goals Into Growth"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 61,
-      "recent3": 3,
-      "change": -47,
+      "count": 64,
+      "recent3": 7,
+      "change": -19,
       "direction": "down",
-      "articles": 26,
+      "articles": 29,
       "podcasts": 35,
-      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "Introducing The Campaign Agent That Turns Goals Into Growth",
+      "secondItem": "Meet Your Digital Teammate, Slackbot: Spotlight on Productivity Agent"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 48,
+      "count": 49,
       "recent3": 2,
-      "change": -56,
+      "change": -50,
       "direction": "down",
-      "articles": 25,
+      "articles": 26,
       "podcasts": 23,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep"
+      "topItem": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 46,
-      "recent3": 2,
-      "change": -66,
+      "recent3": 3,
+      "change": -60,
       "direction": "down",
       "articles": 27,
       "podcasts": 19,
-      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility",
+      "secondItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 38,
-      "recent3": 3,
-      "change": -26,
+      "recent3": 2,
+      "change": -14,
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
@@ -2074,39 +2074,39 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
+      "count": 32,
       "recent3": 2,
-      "change": -33,
+      "change": -41,
       "direction": "down",
-      "articles": 17,
+      "articles": 16,
       "podcasts": 16,
-      "topItem": "Your Dreamforce ’26 Resource for Financial Services",
-      "secondItem": "Salesforce collaborates with HP for friction-free, global point of sale"
+      "topItem": "Introducing Builder Central: The No Code AI Workspace for Salesforce ",
+      "secondItem": "The Dreamstore runs on Salesforce: How we built a retail experience for 40K attendees in just two months"
     },
     {
       "rank": 7,
       "topic": "GTM Strategy",
-      "count": 24,
-      "recent3": 2,
-      "change": -2,
-      "direction": "flat",
-      "articles": 6,
+      "count": 23,
+      "recent3": 1,
+      "change": -46,
+      "direction": "down",
+      "articles": 5,
       "podcasts": 18,
       "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "The GTM Strategy Playbook: Launch, Scale, and Dominate"
+      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
     },
     {
       "rank": 8,
       "topic": "Revenue Forecasting",
-      "count": 18,
-      "recent3": 0,
-      "change": -71,
+      "count": 19,
+      "recent3": 1,
+      "change": -33,
       "direction": "down",
-      "articles": 4,
+      "articles": 5,
       "podcasts": 14,
-      "topItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
-      "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
+      "topItem": "Meet Your Digital Teammate, Hunter: Spotlight on Sales Agent",
+      "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
     }
   ],
-  "fetchedAt": "2026-09-14T12:16:54.837Z"
+  "fetchedAt": "2026-09-15T11:25:00.563Z"
 }
