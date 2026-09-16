@@ -1,13 +1,153 @@
 {
   "items": [
     {
+      "id": "feed-revops-alliance-4jp75o",
+      "type": "article",
+      "title": "Revenue Intelligence Summit, September 2026 | OnDemand",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/revenue-intelligence-summit-september-2026-ondemand/",
+      "author": "Revenue Operations Alliance",
+      "publishedAt": "2026-09-16T10:26:31.000Z",
+      "readTime": 1,
+      "summary": "Catch up on every session from Revenue Intelligence Summit, including talks from Uber, ServiceNow, Xero and more.",
+      "tags": [
+        "virtual",
+        "Events",
+        "revenue intelligence",
+        "Revenue Operations Alliance",
+        "Ondemand"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-i9iq4k",
+      "type": "article",
+      "title": "Salesforce and OpenAI Customers Are Putting AI to Work",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/openai-agentforce/",
+      "author": "Desiree Motamedi",
+      "publishedAt": "2026-09-15T20:55:32.000Z",
+      "readTime": 1,
+      "summary": "See how shared customers pair OpenAI's frontier reasoning with Salesforce context, orchestration, and governance to turn good answers into finished work.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-gh0ljd",
+      "type": "article",
+      "title": "Making partner revenue as reliable as direct sales",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/making-partner-revenue-as-reliable-as-direct-sales/",
+      "author": "Revenue Operations Alliance",
+      "publishedAt": "2026-09-15T18:51:29.000Z",
+      "readTime": 1,
+      "summary": "Partner-led growth September 30,  6am PT / 9am ET / 2pm BST|",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-j3oaqr",
+      "type": "article",
+      "title": "Get Ready for a Spooktacular Quest: Unravel the Mystery of Campfire Stories",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/trick-or-trailhead-headless-apis/",
+      "author": "Kyren Wong",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "readTime": 1,
+      "summary": "Learn how headless patterns and AI agents power the ultimate seasonal quest on Trailhead.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-7tbn54",
+      "type": "article",
+      "title": "AI Beliefs, reconsidered: A RevOps panel",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/ai-beliefs-reconsidered-a-revops-panel/",
+      "author": "Revenue Operations Alliance",
+      "publishedAt": "2026-09-15T15:37:34.000Z",
+      "readTime": 1,
+      "summary": "The AI advice you accepted eighteen months ago is due for a review.",
+      "tags": [
+        "AI",
+        "AI & automation",
+        "Live session",
+        "Revenue Operations Alliance",
+        "RevOps strategy"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-ofhkwo",
+      "type": "article",
+      "title": "Why most revenue teams  still can't prove their AI earned anything",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/prove-ai-earned-anything/",
+      "author": "Ivan Nyagatare",
+      "publishedAt": "2026-09-15T13:14:46.000Z",
+      "readTime": 1,
+      "summary": "In the AI for Revenue Leaders 2026 report, 53% of revenue leaders reported productivity improvements they couldn't connect to revenue. Most read that as being early. For many teams it's a measurement design decision made before deployment, and Dell's Danny Lenz shows what the alternative looks like.",
+      "tags": [
+        "Articles",
+        "AI & automation"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-73vw29",
+      "type": "article",
+      "title": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/professional-service-crms-for-small-firms/",
+      "author": "Allen Aguilar",
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "The right professional services CRM keeps your lean team working like a much larger one.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-b3ws10",
       "type": "article",
       "title": "The Online Trailblazer Community: Reimagined Together and Coming Soon to Slack",
       "source": "Salesforce Blog",
       "sourceUrl": "https://www.salesforce.com/blog/trailblazer-community-on-slack/",
       "author": "Gloria Ramchandani",
-      "publishedAt": "2026-09-15T04:56:17.000Z",
+      "publishedAt": "2026-09-15T12:18:10.000Z",
       "readTime": 1,
       "summary": "A first look at the new community experience, launching in November, and how you can help shape it today.",
       "tags": [],
@@ -126,59 +266,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-bnv50n",
-      "type": "article",
-      "title": "Introducing Builder Central: The No Code AI Workspace for Salesforce ",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/builder-central-ai-development/",
-      "author": "Neal Mhaskar",
-      "publishedAt": "2026-09-14T19:30:19.000Z",
-      "readTime": 1,
-      "summary": "Bridge the gap between speed and security by building with Builder Central.",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-dlpo5q",
-      "type": "article",
-      "title": "The Dreamstore runs on Salesforce: How we built a retail experience for 40K attendees in just two months",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/dreamstore-runs-on-salesforce/",
-      "author": "Sara Gutierrez",
-      "publishedAt": "2026-09-14T16:14:21.000Z",
-      "readTime": 1,
-      "summary": "Product launches. Bold ideas. Breakthroughs. These are some of the most exciting aspects of Dreamforce. But, let’s be honest… The swag deserves a shoutout, too. Enter: The Dreamstore, the official onsite shop at…",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-h81eof",
-      "type": "article",
-      "title": "Your Business Processes Are Ready for Their Revolution",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/regrello/",
-      "author": "Simon Mulcahy",
-      "publishedAt": "2026-09-14T15:51:30.000Z",
-      "readTime": 1,
-      "summary": "Middle- and back-office technology hasn't seen transformation in over 20 years, until now. Agentforce Operations, powered by Regrello, turns human-first processes into AI-first operations.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-snwn3g",
       "type": "podcast",
       "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
@@ -208,7 +295,7 @@
       "duration": 61,
       "summary": "Jen Igartua, CEO at Go Nimbly, joins Sam Jacobs, AJ Bruno, and Asad Zaman. Her client roster is wild: Fireworks AI, Perplexity, Exa, and Wispr Flow, plus some of the biggest names in SaaS. Topics in today's episode include how the fastest-growing AI-native companies are growing in spite of their revenue operations (not because of them), the first project she runs when she wants to show ROI fast, and how she makes the case that RevOps is a support function and always was. Plus, whether the GTM engineer is anything more than RevOps with better marketing (and more)!\n Key Takeaways:\n - Operational debt at the fastest-growing AI companies tracks demand, not management quality. Go Nimbly's second customer was Zendesk in 2016, where the head of IT told her \"oh, we've grown in spite of our operations.\" Jen shares what it takes to make a difference at the breakneck pace these environments demand.\n - RevOps spent a decade insisting it was strategic, and Jen thinks that cost the function credibility with the sellers it exists to serve. As she says in the episode: \"I think that operators have been doing an injustice to sellers for a long time. And we are starting to really take onus of the fact that revenue operations needs to be a support function to the sales team. And we've been fighting it forever. We are not a support function. And I'm like, we actually are.\" Asad, who has argued the same line for years, put the failure mode in football terms: \"if a goalkeeper starts trying to play like a striker, you don't let in a lot of goals, right?\"\n - In a people business, staffing is the product, and Jen only learned that after COVID took Go Nimbly down to 20 people. The rule she rebuilt around is \"I should only take projects of skills that I want to nurture,\" then staff someone who is 80% of the way there so the last 20% is stretch. \"Our whole job is playing Tetris with resources.\" She is equally direct about what did not work: \"I poured a bunch of money in being tech enabled... I burned millions of dollars trying to do it,\" because at her clients' scale \"everything's custom.\" The payoff line is the one to keep: \"if you nail staffing, you grow a really great services organization.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Jen Igartua, CEO at Go Nimbly - https://www.linkedin.com/in/jen-igartua/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n  \n  00:00 Introducing Jen Igartua\n 02:15 Growing In Spite Of Their Operations\n 05:46 Top Of Funnel Is The First Fix\n 06:39 What AI-Native Ops Teams Actually Have\n 10:50 The Twenty-Rep Qualification Bar\n 11:37 Is Sales More Broken Than Before\n 15:00 RevOps Is A Support Function\n 16:29 Do Great Products Make Great Sellers\n 22:51 Caesars, COVID, And Twenty People\n 24:56 Lessons From A Services Business\n 28:21 Staffing Is The Whole Game\n 31:10 Why Contractors Do Not Work\n 40:09 What Is A GTM Engineer Really\n 49:26 What Scares Jen About 2027\n 54:40 Bulls and Bears",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
@@ -1153,24 +1240,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-f9p8r4",
-      "type": "article",
-      "title": "From Operator to GTM Architect: The Skills Redefining RevOps",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/from-operator-to-gtm-architect/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-07-24T13:07:52.000Z",
-      "readTime": 1,
-      "summary": "RevOps is shifting from operator to GTM architect. New research from Varicent and the Revenue Operations Alliance breaks down the skills defining what comes next.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-fckri4",
       "type": "podcast",
       "title": "SPOTLIGHT: Why 80% of B2B Buying Happens Without You | Alexander Kesler, CEO @ INFUSE",
@@ -1206,72 +1275,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-5olba0",
-      "type": "article",
-      "title": "RevOps Festival New York, July 2026 | OnDemand",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/revops-festival-new-york-july-2026-ondemand/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-07-23T13:43:49.000Z",
-      "readTime": 1,
-      "summary": "Tune into RevOps Festival New York and hear from sessions with Paramount, Fidelity Investments, WebAI and more.",
-      "tags": [
-        "2026",
-        "Ondemand",
-        "Events"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-jsnyw",
-      "type": "article",
-      "title": "When revenue operations grows up:   moving from execution to strategy",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/when-revenue-operations-grows-up-moving-from-execution-to-strategy/",
-      "author": "Avi Ryan",
-      "publishedAt": "2026-07-22T14:30:00.000Z",
-      "readTime": 1,
-      "summary": "Move beyond reactive reporting and build a strategic revenue operations roadmap that drives measurable business impact and secures leadership buy-in.",
-      "tags": [
-        "Articles"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-z47aj7",
-      "type": "article",
-      "title": "The CRO's playbook for proactive transformation",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/the-cros-playbook-for-proactive-transformation/",
-      "author": "Svetlana Morozova",
-      "publishedAt": "2026-07-21T15:02:00.000Z",
-      "readTime": 1,
-      "summary": "AI doesn't transform your business automatically. What it does is amplify whatever's already there.",
-      "tags": [
-        "AI & automation",
-        "Articles"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -2014,57 +2017,57 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 79,
+      "count": 78,
       "recent3": 11,
-      "change": 22,
-      "direction": "up",
-      "articles": 41,
+      "change": 2,
+      "direction": "flat",
+      "articles": 40,
       "podcasts": 38,
-      "topItem": "The Online Trailblazer Community: Reimagined Together and Coming Soon to Slack",
-      "secondItem": "Introducing The Campaign Agent That Turns Goals Into Growth"
+      "topItem": "Salesforce and OpenAI Customers Are Putting AI to Work",
+      "secondItem": "Get Ready for a Spooktacular Quest: Unravel the Mystery of Campfire Stories"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 64,
-      "recent3": 7,
-      "change": -19,
+      "recent3": 8,
+      "change": -21,
       "direction": "down",
       "articles": 29,
       "podcasts": 35,
-      "topItem": "Introducing The Campaign Agent That Turns Goals Into Growth",
-      "secondItem": "Meet Your Digital Teammate, Slackbot: Spotlight on Productivity Agent"
+      "topItem": "Why most revenue teams  still can't prove their AI earned anything",
+      "secondItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 49,
       "recent3": 2,
-      "change": -50,
+      "change": -52,
       "direction": "down",
       "articles": 26,
       "podcasts": 23,
-      "topItem": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "Revenue Intelligence Summit, September 2026 | OnDemand",
+      "secondItem": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 46,
+      "count": 47,
       "recent3": 3,
       "change": -60,
       "direction": "down",
-      "articles": 27,
+      "articles": 28,
       "podcasts": 19,
-      "topItem": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility",
-      "secondItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor"
+      "topItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm",
+      "secondItem": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 38,
-      "recent3": 2,
-      "change": -14,
+      "recent3": 1,
+      "change": -35,
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
@@ -2074,23 +2077,23 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 32,
-      "recent3": 2,
-      "change": -41,
+      "count": 31,
+      "recent3": 1,
+      "change": -71,
       "direction": "down",
-      "articles": 16,
+      "articles": 15,
       "podcasts": 16,
-      "topItem": "Introducing Builder Central: The No Code AI Workspace for Salesforce ",
-      "secondItem": "The Dreamstore runs on Salesforce: How we built a retail experience for 40K attendees in just two months"
+      "topItem": "Salesforce and OpenAI Customers Are Putting AI to Work",
+      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
     },
     {
       "rank": 7,
       "topic": "GTM Strategy",
-      "count": 23,
-      "recent3": 1,
-      "change": -46,
+      "count": 22,
+      "recent3": 0,
+      "change": -57,
       "direction": "down",
-      "articles": 5,
+      "articles": 4,
       "podcasts": 18,
       "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
       "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
@@ -2100,7 +2103,7 @@
       "topic": "Revenue Forecasting",
       "count": 19,
       "recent3": 1,
-      "change": -33,
+      "change": -50,
       "direction": "down",
       "articles": 5,
       "podcasts": 14,
@@ -2108,5 +2111,5 @@
       "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
     }
   ],
-  "fetchedAt": "2026-09-15T11:25:00.563Z"
+  "fetchedAt": "2026-09-16T11:10:09.367Z"
 }
