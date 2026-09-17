@@ -1,6 +1,59 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-hp0djg",
+      "type": "podcast",
+      "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-why-pacing-the-frontier-is-bs-instinct-raising-1bn-at-10bn-meta-launches-muse-miro-sells-for-135bn-after-a-175bn-valuation-mistral-raises-3bn-could-sam-bankman-fried-win-his-freedom",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-17T07:07:00.000Z",
+      "duration": 76,
+      "summary": "AGENDA:\n 03:40 Dario Calls to \"Pace the Frontier\"\n 11:30 Why the Fed Will Raid Anthropic if Needed \n 21:50 Meta Launches Muse to Take On Instinct\n 28:30 Instinct Raising $1BN at $10BN—Would You Invest?\n 39:55 Miro Sells for $1.35BN After a $17.5BN Valuation\n 47:45 Could Sam Bankman-Fried Win His Freedom?\n 51:25 WordPress Power Struggle: Matt Mullenweg Ousted, Then Returns\n 1:01:20 Mistral Raises €3BN in Europe's Biggest-Ever Tech Round\n 1:05:00 Adobe's New CEO & Canva's Slowing Growth: SaaS Giants Under Pressure",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-alf2lo",
+      "type": "article",
+      "title": "Your Agent Can Sprint, But Can It Go the Distance?",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/long-horizon-agents/",
+      "author": "George Saines",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Long-horizon agents work alongside users to achieve a goal over time and can adapt their behavior to changing circumstances.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-f2tyy5",
+      "type": "article",
+      "title": "Behind The Dreamforce Music: Artists Over the Years Supporting a Good Cause",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/behind-the-dreamforce-music/",
+      "author": "Caylin White",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "From Metallica to P!nk, take a look back at the biggest Dreamforce musicians who've taken the stage for a big cause.",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-revops-alliance-4jp75o",
       "type": "article",
       "title": "Revenue Intelligence Summit, September 2026 | OnDemand",
@@ -52,7 +105,10 @@
       "publishedAt": "2026-09-15T18:51:29.000Z",
       "readTime": 1,
       "summary": "Partner-led growth September 30,  6am PT / 9am ET / 2pm BST|",
-      "tags": [],
+      "tags": [
+        "Live session",
+        "Revenue Growth"
+      ],
       "relevanceScore": 54,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
@@ -230,42 +286,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-ushjy",
-      "type": "article",
-      "title": "Meet Your Digital Teammate, Hunter: Spotlight on Sales Agent",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-sales-agent/",
-      "author": "Erin Hueffner, Caylin White",
-      "publishedAt": "2026-09-14T20:00:00.000Z",
-      "readTime": 1,
-      "summary": "Meet Hunter — the AI teammate that fills your pipeline while you focus on closing.",
-      "tags": [],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-3l2yv0",
-      "type": "article",
-      "title": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-marketing-agent/",
-      "author": "Hannah Freeman, Caylin White",
-      "publishedAt": "2026-09-14T20:00:00.000Z",
-      "readTime": 1,
-      "summary": "Meet your Marketing Agent, the AI teammate turning a one-person team into a full campaign engine.",
-      "tags": [],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-snwn3g",
       "type": "podcast",
       "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
@@ -276,7 +296,7 @@
       "duration": 69,
       "summary": "David Morehead is one of the most respected CIOs in the endowment fund world as Chief Investment Officer at Baylor University, overseeing its $2.6BN endowment. Before joining Baylor in 2011, he was a senior portfolio manager at several Chicago hedge funds, investing across corporate securities, distressed debt and public and private energy.\n AGENDA:\n 04:00 The Portfolio Construction of a $2.6 Billion University Endowment?\n 09:00 Why We Spend More Time on Porfolio Construction Than Manager Selection?\n 14:00 Should LPs Back VC's Biggest Names or Find the Next Breakout Manager?\n 21:00 How Baylor Made Millions in the SaaSpocalypse?\n 26:00 Are Public Markets a Casino or Are Private Valuations the Real Fiction?\n 34:00 How Do You Buy a Market Crash Without Catching a Falling Knife?\n 49:00 Would You Fire a Fund Manager Who's Making You Money?\n 57:00 Could the Backlash Against Data Centres Derail the AI Boom?\n 01:02:00 Which Asset Class Is Overhyped—and Where Is the Next Big Opportunity?",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -338,6 +358,27 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-ft3rhp",
+      "type": "article",
+      "title": "The revenue tech sprawl  costing you 42% of the week",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/the-revenue-tech-sprawl-costing-you-42-of-the-week/",
+      "author": "Marisa Garanhel",
+      "publishedAt": "2026-09-10T11:27:00.000Z",
+      "readTime": 1,
+      "summary": "The real cost of revenue tech sprawl: lost selling time, integration debt, and shelfware. Plus 5 signs it's time to consolidate your stack.",
+      "tags": [
+        "Revenue Growth",
+        "Articles"
+      ],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -945,25 +986,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-saom1j",
-      "type": "podcast",
-      "title": "20VC: Canva Slashes Growth: How Much is it Really Worth | Demis Hassabis and Jeff Dean: Talent Exodus at Google | Revolut's $50BN CEO Pay Package | Elon Musk's $55BN Terrafab",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-canva-slashes-growth-how-much-is-it-really-worth-demis-hassabis-and-jeff-dean-talent-exodus-at-google-revoluts-50bn-ceo-pay-package-elon-musks-55bn-terrafab",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-13T07:07:00.000Z",
-      "duration": 87,
-      "summary": "AGENDA:\n  \n05:00 Canva's Growth Gets Slashed as AI Costs Explode\n 20:00 The Great Software Reset: Why 2026 Will Punish AI Hesitancy\n 29:00 Canva's Valuation Reality Check—and the LP Liquidity Trap\n 35:00 Google's AI Brain Drain: Jeff Dean Leaves, Demis Steps Back\n 43:00 Why Google Can't Afford to Cure Alzheimer's\n 50:00 The Data-Centre Revolt: Can AI Survive the Political Backlash?\n 55:00 Elon Musk's $55BN Terrafab Bet to Break Free from TSMC\n 57:00 Revolut's $50BN CEO Pay Package—and the Return of Founder Control\n 01:13 AI Shopping, Atlassian's Revival, and Airtable's Brutal Sale Reality",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-q0609h",
       "type": "article",
       "title": "Seafoam Named to the 2026 Future100 by St. Louis Small Business Monthly",
@@ -1177,27 +1199,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-pqy8lz",
-      "type": "article",
-      "title": "Which CRM should  you actually be using?",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/which-crm-should-you-actually-be-using/",
-      "author": "Katyusca Barth",
-      "publishedAt": "2026-07-29T11:37:00.000Z",
-      "readTime": 1,
-      "summary": "A framework for decision-making, sharing a real story, and giving you some honest perspective on the questions that keep coming up in our community right now.",
-      "tags": [
-        "AI & automation",
-        "Articles"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
       ],
       "saved": false
     },
@@ -2017,48 +2018,48 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 78,
-      "recent3": 11,
-      "change": 2,
-      "direction": "flat",
-      "articles": 40,
+      "count": 76,
+      "recent3": 10,
+      "change": -10,
+      "direction": "down",
+      "articles": 38,
       "podcasts": 38,
-      "topItem": "Salesforce and OpenAI Customers Are Putting AI to Work",
-      "secondItem": "Get Ready for a Spooktacular Quest: Unravel the Mystery of Campfire Stories"
+      "topItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
+      "secondItem": "Your Agent Can Sprint, But Can It Go the Distance?"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 64,
-      "recent3": 8,
-      "change": -21,
+      "count": 61,
+      "recent3": 5,
+      "change": -40,
       "direction": "down",
-      "articles": 29,
-      "podcasts": 35,
+      "articles": 27,
+      "podcasts": 34,
       "topItem": "Why most revenue teams  still can't prove their AI earned anything",
       "secondItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 49,
-      "recent3": 2,
-      "change": -52,
+      "count": 48,
+      "recent3": 1,
+      "change": -64,
       "direction": "down",
-      "articles": 26,
+      "articles": 25,
       "podcasts": 23,
       "topItem": "Revenue Intelligence Summit, September 2026 | OnDemand",
-      "secondItem": "Meet Your Digital Teammate, Piper: Spotlight on Marketing Agent"
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 47,
-      "recent3": 3,
-      "change": -60,
+      "count": 45,
+      "recent3": 2,
+      "change": -61,
       "direction": "down",
-      "articles": 28,
-      "podcasts": 19,
+      "articles": 27,
+      "podcasts": 18,
       "topItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm",
       "secondItem": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility"
     },
@@ -2067,21 +2068,21 @@
       "topic": "Founders & Fundraising",
       "count": 38,
       "recent3": 1,
-      "change": -35,
+      "change": -39,
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
-      "topItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
+      "secondItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 31,
+      "count": 32,
       "recent3": 1,
-      "change": -71,
+      "change": -59,
       "direction": "down",
-      "articles": 15,
+      "articles": 16,
       "podcasts": 16,
       "topItem": "Salesforce and OpenAI Customers Are Putting AI to Work",
       "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
@@ -2091,7 +2092,7 @@
       "topic": "GTM Strategy",
       "count": 22,
       "recent3": 0,
-      "change": -57,
+      "change": -60,
       "direction": "down",
       "articles": 4,
       "podcasts": 18,
@@ -2101,15 +2102,15 @@
     {
       "rank": 8,
       "topic": "Revenue Forecasting",
-      "count": 19,
-      "recent3": 1,
-      "change": -50,
+      "count": 18,
+      "recent3": 0,
+      "change": -100,
       "direction": "down",
-      "articles": 5,
+      "articles": 4,
       "podcasts": 14,
-      "topItem": "Meet Your Digital Teammate, Hunter: Spotlight on Sales Agent",
-      "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
+      "topItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
+      "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-16T11:10:09.367Z"
+  "fetchedAt": "2026-09-17T11:18:25.134Z"
 }
