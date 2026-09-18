@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-ofvuzb",
+      "type": "article",
+      "title": "What Does Salesforce Do?",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/what-does-salesforce-do/",
+      "author": "Jody Farrar",
+      "publishedAt": "2026-09-17T21:51:58.000Z",
+      "readTime": 1,
+      "summary": "From your first customer conversation to your next big win, Salesforce's #1 AI CRM helps you build stronger relationships, work smarter with AI agents, and transform your business into an agentic enterprise.",
+      "tags": [
+        "Uncategorized"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-topline-podcast-ov121h",
+      "type": "podcast",
+      "title": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-skipping-the-smb-trap-and-building-for-big-brands-eric-anderson-ceo-walnut",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-09-17T16:30:00.000Z",
+      "duration": 20,
+      "summary": "What happens when a seasoned GTM leader becomes CEO for the first time and steps into a founder-led company with a global team? \n In this episode, Eric Anderson, CEO of Walnut, shares what it's really like to take over a business built by someone else. He talks with AJ Bruno about building trust across time zones, rebuilding the go-to-market motion, and making bold decisions while honoring legacy culture. \n From listening tours to tough calls on pricing and segmentation, Eric opens up about the challenges and wins of his first six months in the role.\n Eric talks about:\n - What it's really like to step into a founder-led company as a first-time CEO\n - Building trust and alignment across a global, distributed leadership team\n - Why CEOs need to be willing to make bold and unpopular decisions\n - The challenge of walking away from revenue that doesn't fit the business\n - How pricing and market segmentation can force difficult but necessary changes\n - Why rebuilding the GTM organization can unlock a company's next stage of growth\n Chapters\n 00:00 Introduction to Eric Anderson and Walnut\n 02:30 From GTM Leader to First-Time CEO\n 06:49 Leading Across Cultures and Time Zones\n 09:11 The Boardroom: A New CEO's Balancing Act\n 11:36 Why CEOs Have to Make the Hard Calls\n 15:00 The Cost of Trying to Serve Everyone\n 16:52 Rebuilding Walnut for What's Next\n 18:30 Where to Find Eric and Walnut\n Try Walnut: walnut.io",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-jqlmqu",
+      "type": "article",
+      "title": "What Does an AI Harness Have To Do With Growing Business?",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-harness-explained-for-smbs/",
+      "author": "Caylin White",
+      "publishedAt": "2026-09-17T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "An AI harness sounds technical, but it's really just managing your agents.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-32ao9e",
+      "type": "article",
+      "title": "B2B Lead Detection 2026: Master Intent Data & Account-Based ABM",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/b2b-lead-detection-intent-data-abm-2026/",
+      "author": "Gopaluni Sai Karthik",
+      "publishedAt": "2026-09-17T12:42:05.000Z",
+      "readTime": 1,
+      "summary": "The old way of B2B lead detection is dead. For decades, marketers relied on a simple equation: form fill = sales-qualified lead. A prospect downloads your whitepaper, signs up for your webinar, or…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-hp0djg",
       "type": "podcast",
       "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
@@ -224,61 +297,7 @@
       "readTime": 1,
       "summary": "Most campaigns run blind to every other campaign hitting the same customer. Campaign Agent arbitrates across all of them, in real time, in the customer's favor.",
       "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-69skej",
-      "type": "article",
-      "title": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/security-mesh/",
-      "author": "Cynthia Huang",
-      "publishedAt": "2026-09-14T23:25:30.000Z",
-      "readTime": 1,
-      "summary": "When signals live in silos, its hard to see the whole picture. Turn a flood of security data into a clear, actionable picture of risk.",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-4wb5le",
-      "type": "article",
-      "title": "Meet Your Digital Teammate, Slackbot: Spotlight on Productivity Agent",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-slack/",
-      "author": "Jenn Sei, Caylin White",
-      "publishedAt": "2026-09-14T20:00:00.000Z",
-      "readTime": 1,
-      "summary": "Meet Slackbot — the AI teammate that keeps your work moving right where you collaborate.",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-kof0kr",
-      "type": "article",
-      "title": "Meet Your Digital Teammate, Casey: Spotlight on Service",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-service-agent/",
-      "author": "Allison Williams, Caylin White",
-      "publishedAt": "2026-09-14T20:00:00.000Z",
-      "readTime": 1,
-      "summary": "Meet Casey, the new help agent serving up excellent experiences for your customers.",
-      "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -1241,25 +1260,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-fckri4",
-      "type": "podcast",
-      "title": "SPOTLIGHT: Why 80% of B2B Buying Happens Without You | Alexander Kesler, CEO @ INFUSE",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-why-80-of-b2b-buying-happens-without-you-alexander-kesler-ceo-infuse",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-07-24T04:01:00.000Z",
-      "duration": 22,
-      "summary": "Buyers stopped picking up the phone. They research on their own, ask their peers, and now they ask AI which vendors to consider before a single salesperson ever hears about it. So where does that leave marketers?\n Sam Jacobs sits down with Alexander Kesler, founder and CEO of Infuse, to break down the dark funnel and what it means for B2B demand gen right now. They get into why most of the buying journey happens before you're ever contacted, how AI tools are generating \"day one\" shortlists on the spot, and why the real game is earning a spot on the day zero shortlist — the vendors a buyer already trusts no matter what ChatGPT says.\n Alex has spent 25+ years building companies across marketing, media, and data, and is the author of two books on B2B marketing best practices. His advice for marketers comes down to one thing: stay flexible, read the research, and build the relationship before the buyer is in market.\n  What we get into:\n Why the traditional B2B sales funnel no longer reflects how today's buyers actually buy\n What the Dark Funnel is and why 80% of the buying journey happens before prospects contact sales\n The difference between Day Zero and Day One shortlists and why every marketer needs to understand both\n How AI and Generative Engine Optimization (GEO) are reshaping vendor discovery\n Why building trust and thought leadership before buyers are in-market is the new competitive advantage\n Alex Kesler's advice for modern B2B marketers on staying relevant in an AI-first world\n Chapters:\n 00:00 Intro\n 00:36 Meet Alex Kesler and Infuse\n 03:10 The dark funnel explained\n 05:16 Why buyers don't want to talk to sales anymore\n 08:07 The AI buying journey and Day One shortlists\n 11:28 GEO: Winning recommendations from AI search\n 14:07 Day Zero vs. Day One: The new marketing playbook\n 16:06 Marketing 101 is making a comeback\n 16:27 Why ABM can limit your growth\n 17:35 The #1 trait every modern B2B marketer needs\n 19:20 Alex's leadership philosophy: Do the right thing\n 20:36 Where to find Alex and Infuse\n Try Infuse: infuse.com",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-crm-switch-sk0ty4",
       "type": "article",
       "title": "Should You Vibe Code Your Own CRM?",
@@ -2018,36 +2018,36 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 76,
-      "recent3": 10,
-      "change": -10,
+      "count": 75,
+      "recent3": 9,
+      "change": -11,
       "direction": "down",
       "articles": 38,
-      "podcasts": 38,
-      "topItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
-      "secondItem": "Your Agent Can Sprint, But Can It Go the Distance?"
+      "podcasts": 37,
+      "topItem": "What Does Salesforce Do?",
+      "secondItem": "What Does an AI Harness Have To Do With Growing Business?"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 61,
-      "recent3": 5,
-      "change": -40,
+      "count": 59,
+      "recent3": 3,
+      "change": -52,
       "direction": "down",
-      "articles": 27,
+      "articles": 25,
       "podcasts": 34,
-      "topItem": "Why most revenue teams  still can't prove their AI earned anything",
-      "secondItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm"
+      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
+      "secondItem": "Why most revenue teams  still can't prove their AI earned anything"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 48,
+      "count": 47,
       "recent3": 1,
-      "change": -64,
+      "change": -71,
       "direction": "down",
       "articles": 25,
-      "podcasts": 23,
+      "podcasts": 22,
       "topItem": "Revenue Intelligence Summit, September 2026 | OnDemand",
       "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
@@ -2055,49 +2055,49 @@
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 45,
-      "recent3": 2,
-      "change": -61,
+      "recent3": 3,
+      "change": -47,
       "direction": "down",
-      "articles": 27,
-      "podcasts": 18,
-      "topItem": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm",
-      "secondItem": "Introducing Security Mesh: Unify Your Security Data for Greater Visibility"
+      "articles": 28,
+      "podcasts": 17,
+      "topItem": "What Does Salesforce Do?",
+      "secondItem": "B2B Lead Detection 2026: Master Intent Data & Account-Based ABM"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 38,
-      "recent3": 1,
-      "change": -39,
+      "recent3": 2,
+      "change": -35,
       "direction": "down",
       "articles": 3,
       "podcasts": 35,
-      "topItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
-      "secondItem": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor"
+      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
+      "secondItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 32,
-      "recent3": 1,
-      "change": -59,
+      "count": 33,
+      "recent3": 2,
+      "change": -72,
       "direction": "down",
-      "articles": 16,
+      "articles": 17,
       "podcasts": 16,
-      "topItem": "Salesforce and OpenAI Customers Are Putting AI to Work",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "topItem": "What Does Salesforce Do?",
+      "secondItem": "Salesforce and OpenAI Customers Are Putting AI to Work"
     },
     {
       "rank": 7,
       "topic": "GTM Strategy",
       "count": 22,
-      "recent3": 0,
-      "change": -60,
+      "recent3": 1,
+      "change": -57,
       "direction": "down",
       "articles": 4,
       "podcasts": 18,
-      "topItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "secondItem": "SPOTLIGHT: Skipping the SMB Trap and Building for Big Brands | Matt Allison, CEO & Founder @ Handraise"
+      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
+      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
     },
     {
       "rank": 8,
@@ -2112,5 +2112,5 @@
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-17T11:18:25.134Z"
+  "fetchedAt": "2026-09-18T10:52:52.297Z"
 }
