@@ -1,6 +1,47 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-6kzq1n",
+      "type": "podcast",
+      "title": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-19T07:07:00.000Z",
+      "duration": 72,
+      "summary": "Thomas Sohmers is the co-founder and chairman of Positron AI, building chips to make running AI dramatically cheaper and more energy-efficient. The company recently announced an $875 million Series C at a $5 billion valuation, backed by investors including Gavin Baker's Atreides Management, NEA, Valor Equity Partners and Netscape co-founder Jim Clark.\n AGENDA:\n 04:30 Why Does AI Inference Need Different Hardware from Training?\n 10:25 What Is Nobody Telling You About AI's Token Economics?\n 13:10 Should We Really Slow Down the AI Frontier?\n 16:55 What Happens If America Slows Down—and China Doesn't?\n 19:30 Should We Restrict China's Access to AI Chips?\n 20:15 Why Aren't Zuckerberg and Jensen Backing an AI Slowdown?\n 21:25 Are We Being Misled About Data Centers?\n 23:25 Can the West Beat China While Drowning in Regulation?\n 26:20 How Many Planned Data Centers Will Actually Get Built?\n 27:15 Data Centers in Space: Real Opportunity or Elon Hype?\n 28:10 Is Energy AI's Biggest Bottleneck?\n 29:55 Could the Debt Boom Derail AI?\n 31:25 What Is KV Caching—and Why Does It Change AI Economics?\n 35:25 Does Compressing AI's Memory Make It Less Intelligent?\n 41:05 How Do We Solve AI's Exploding Memory Demands?\n 43:45 Will Every Company Own Its Own AI Model?\n 47:10 Why Bet on Ever-Bigger Models?\n 48:20 If We Already Have AGI, What Comes Next?\n 53:25 What Happens When Every AI Lab Builds Its Own Chips?\n 57:30 If DeepSeek Can Slash Costs with Software, Why Build New Hardware?\n 59:50 How Cheap Will AI Tokens Be by 2028?\n 1:03:15 What Would Be the First Warning Sign of an AI Bust?\n 1:03:55 Could Open Models Break OpenAI and Anthropic's Growth?\n 1:05:55 Could Mercor and Surge Become $200 Billion Companies?",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-zd2vwt",
+      "type": "article",
+      "title": "Try firing yourself  on December 31st",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/try-firing-yourself-on-december-31st/",
+      "author": "Samantha Lomow",
+      "publishedAt": "2026-09-18T16:14:01.000Z",
+      "readTime": 1,
+      "summary": "A ritual that forces you to see what success hid.",
+      "tags": [
+        "Premium content",
+        "Members-only articles",
+        "revenue intelligence",
+        "Articles"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-ofvuzb",
       "type": "article",
       "title": "What Does Salesforce Do?",
@@ -143,7 +184,7 @@
         "Revenue Operations Alliance",
         "Ondemand"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
         "Forward-looking — frames where the practice is heading this cycle."
@@ -161,7 +202,7 @@
       "readTime": 1,
       "summary": "See how shared customers pair OpenAI's frontier reasoning with Salesforce context, orchestration, and governance to turn good answers into finished work.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
@@ -182,7 +223,7 @@
         "Live session",
         "Revenue Growth"
       ],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
@@ -199,7 +240,7 @@
       "readTime": 1,
       "summary": "Learn how headless patterns and AI agents power the ultimate seasonal quest on Trailhead.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
@@ -223,7 +264,7 @@
         "Revenue Operations Alliance",
         "RevOps strategy"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -243,7 +284,7 @@
         "Articles",
         "AI & automation"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -262,7 +303,7 @@
       "readTime": 1,
       "summary": "The right professional services CRM keeps your lean team working like a much larger one.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
@@ -280,7 +321,7 @@
       "readTime": 1,
       "summary": "A first look at the new community experience, launching in November, and how you can help shape it today.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -947,25 +988,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-wiz32e",
-      "type": "podcast",
-      "title": "20Growth: How to Build a $100M Growth Engine: Lessons from Wispr Flow and Superhuman | Why You Should Do Paid Ads Today and How To Do Them | How to Build the Best Referral Programs and How to Crush UGC with Matt Swulinski",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20growth-how-to-build-a-100m-growth-engine-lessons-from-wispr-flow-and-superhuman-why-you-should-do-paid-ads-today-and-how-to-do-them-how-to-build-the-best-referral-programs-and-how-to-crush-ugc-with-matt-swulinski",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-15T17:53:00.000Z",
-      "duration": 79,
-      "summary": "Matt Swulinski is one of the best growth leaders in AI. He is currently Head of Growth at Viktor, the Accel-backed AI coworker. Previously, he was Head of Growth at Wispr Flow, where he was marketing hire #1 and built the growth function from pre-launch to millions of users. Matt also built the AI-powered marketing OS that automated 100 newsletter sponsorships a month and enabled a lean team to scale dramatically faster. Before Wispr Flow, Matt worked in growth at Superhuman.\n AGENDA:\n 00:00 Why SaaS Founders Should Steal the E-Commerce Growth Playbook\n 04:47 How Does PLG Change When AI Agents Become the Customer?\n 07:46 When Should an Early-Stage Founder Start Spending on Paid Growth?\n 10:36 How Do You Build the Tracking Stack to Know Whether Paid Is Working?\n 17:38 How Much Should You Spend on Creative—and How Do You Produce 500 Ads a Month?\n 23:10 How Long Should You Test Paid—and How Do You Scale Meta, Google and YouTube?\n 39:38 How Do You Build Referral, Paywall and AEO Loops That Compound?\n 49:46 How Do You Hire and Structure an AI-Native Growth Team?\n 1:04:27 Which Growth Channels Are Most Underrated—and Most Overrated?\n 1:09:28 How Do You Build an AI Operating System That Makes Your Work Compound?",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-v20p9t",
       "type": "article",
       "title": "Why collaboration is the real  engine behind revenue growth",
@@ -1195,29 +1217,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-dsb6sx",
-      "type": "article",
-      "title": "How to move RevOps from   tactical to strategic with Avi Ryan",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/how-to-move-revops-from-tactical-video/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-08-01T09:20:00.000Z",
-      "readTime": 1,
-      "summary": "Avi Ryan spent seven years in RevOps at Google, where impact-first was the rule before any project started. He explains what that discipline protects, and what startups lose without it.",
-      "tags": [
-        "RevOps strategy",
-        "Podcasts",
-        "Videos"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -2018,69 +2017,69 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 75,
-      "recent3": 9,
-      "change": -11,
+      "count": 74,
+      "recent3": 5,
+      "change": -15,
       "direction": "down",
-      "articles": 38,
+      "articles": 37,
       "podcasts": 37,
-      "topItem": "What Does Salesforce Do?",
-      "secondItem": "What Does an AI Harness Have To Do With Growing Business?"
+      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "secondItem": "What Does Salesforce Do?"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 59,
-      "recent3": 3,
-      "change": -52,
+      "count": 58,
+      "recent3": 1,
+      "change": -54,
       "direction": "down",
       "articles": 25,
-      "podcasts": 34,
+      "podcasts": 33,
       "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
       "secondItem": "Why most revenue teams  still can't prove their AI earned anything"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 47,
-      "recent3": 1,
-      "change": -71,
+      "count": 48,
+      "recent3": 2,
+      "change": -64,
       "direction": "down",
-      "articles": 25,
+      "articles": 26,
       "podcasts": 22,
-      "topItem": "Revenue Intelligence Summit, September 2026 | OnDemand",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "secondItem": "Try firing yourself  on December 31st"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 45,
+      "count": 46,
       "recent3": 3,
-      "change": -47,
+      "change": -40,
       "direction": "down",
       "articles": 28,
-      "podcasts": 17,
-      "topItem": "What Does Salesforce Do?",
-      "secondItem": "B2B Lead Detection 2026: Master Intent Data & Account-Based ABM"
+      "podcasts": 18,
+      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "secondItem": "What Does Salesforce Do?"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 38,
-      "recent3": 2,
-      "change": -35,
+      "count": 37,
+      "recent3": 3,
+      "change": -38,
       "direction": "down",
-      "articles": 3,
+      "articles": 2,
       "podcasts": 35,
-      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
-      "secondItem": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?"
+      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 33,
-      "recent3": 2,
-      "change": -72,
+      "recent3": 1,
+      "change": -74,
       "direction": "down",
       "articles": 17,
       "podcasts": 16,
@@ -2092,7 +2091,7 @@
       "topic": "GTM Strategy",
       "count": 22,
       "recent3": 1,
-      "change": -57,
+      "change": -60,
       "direction": "down",
       "articles": 4,
       "podcasts": 18,
@@ -2112,5 +2111,5 @@
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-18T10:52:52.297Z"
+  "fetchedAt": "2026-09-19T10:35:24.782Z"
 }
