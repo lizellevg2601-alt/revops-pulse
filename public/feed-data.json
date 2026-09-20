@@ -125,7 +125,7 @@
       "duration": 76,
       "summary": "AGENDA:\n 03:40 Dario Calls to \"Pace the Frontier\"\n 11:30 Why the Fed Will Raid Anthropic if Needed \n 21:50 Meta Launches Muse to Take On Instinct\n 28:30 Instinct Raising $1BN at $10BN—Would You Invest?\n 39:55 Miro Sells for $1.35BN After a $17.5BN Valuation\n 47:45 Could Sam Bankman-Fried Win His Freedom?\n 51:25 WordPress Power Struggle: Matt Mullenweg Ousted, Then Returns\n 1:01:20 Mistral Raises €3BN in Europe's Biggest-Ever Tech Round\n 1:05:00 Adobe's New CEO & Canva's Slowing Growth: SaaS Giants Under Pressure",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
@@ -144,7 +144,7 @@
       "readTime": 1,
       "summary": "Long-horizon agents work alongside users to achieve a goal over time and can adapt their behavior to changing circumstances.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -161,7 +161,7 @@
       "readTime": 1,
       "summary": "From Metallica to P!nk, take a look back at the biggest Dreamforce musicians who've taken the stage for a big cause.",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
@@ -2018,8 +2018,8 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 74,
-      "recent3": 5,
-      "change": -15,
+      "recent3": 3,
+      "change": -17,
       "direction": "down",
       "articles": 37,
       "podcasts": 37,
@@ -2031,7 +2031,7 @@
       "topic": "Org Design & Leadership",
       "count": 58,
       "recent3": 1,
-      "change": -54,
+      "change": -60,
       "direction": "down",
       "articles": 25,
       "podcasts": 33,
@@ -2043,7 +2043,7 @@
       "topic": "Marketing & Brand",
       "count": 48,
       "recent3": 2,
-      "change": -64,
+      "change": -72,
       "direction": "down",
       "articles": 26,
       "podcasts": 22,
@@ -2055,7 +2055,7 @@
       "topic": "Data & Attribution",
       "count": 46,
       "recent3": 3,
-      "change": -40,
+      "change": -48,
       "direction": "down",
       "articles": 28,
       "podcasts": 18,
@@ -2066,8 +2066,8 @@
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 37,
-      "recent3": 3,
-      "change": -38,
+      "recent3": 2,
+      "change": -48,
       "direction": "down",
       "articles": 2,
       "podcasts": 35,
@@ -2079,7 +2079,7 @@
       "topic": "Tech Stack & CPQ",
       "count": 33,
       "recent3": 1,
-      "change": -74,
+      "change": -72,
       "direction": "down",
       "articles": 17,
       "podcasts": 16,
@@ -2091,7 +2091,7 @@
       "topic": "GTM Strategy",
       "count": 22,
       "recent3": 1,
-      "change": -60,
+      "change": -80,
       "direction": "down",
       "articles": 4,
       "podcasts": 18,
@@ -2111,5 +2111,5 @@
       "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
     }
   ],
-  "fetchedAt": "2026-09-19T10:35:24.782Z"
+  "fetchedAt": "2026-09-20T10:58:12.856Z"
 }
