@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-rkz57k",
+      "type": "podcast",
+      "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-21T07:07:00.000Z",
+      "duration": 71,
+      "summary": "Daniel Dines is one of the greatest European founders of the last decade. As the Co-Founder of UiPath, he has scaled the business to a market cap high of $ 44BN in 2021, with the company now generating $1.72BN in revenue, growing 15% year-on-year. The company raised $2BN before its IPO, backed by Sequoia, Accel, CapitalG, Coatue and Kleiner Perkins. \n \n AGENDA: \n 05:00 Why Dario is Wrong About Millions of AI Einsteins?\n 13:00 Is AI Safety Becoming an Excuse to Kill Open Source?\n 21:00 Does UiPath Really Need 4,000 Employees?\n 28:00 Would You Help Train the AI That Could Replace You?\n 32:00 What Percent of Salary Spend Does Daniel Spend on Inference?\n 34:00 Can You Really Vibe Code Your Way Out of Paying for Software?\n 37:00 Why Would Anyone Take Their Company Public Today?\n 39:00 Could an OpenAI–Anthropic Duopoly Break Nvidia's Business?\n 45:00 Will AI Models Capture the Value—or Will the Apps?\n 49:00 Is Fireworks Still Undervalued at $15 Billion?\n 56:00 Has Europe Already Lost—and Should Founders Leave?\n 1:03:00 What Could Kill UiPath—and How Is AI Changing the CEO's Job?\n 1:06:00 60 Supplements a Day: How Far Would You Go to Live Longer?",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-topline-podcast-czh0u3",
+      "type": "podcast",
+      "title": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/crm-as-a-business-world-model-the-future-for-gtm-teams-keith-peiris-ceo-lightfield",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-09-20T04:01:00.000Z",
+      "duration": 67,
+      "summary": "Keith Peiris, Co-Founder and CEO of Lightfield, joins Sam Jacobs, AJ Bruno, and Asad Zaman to talk about building an agentic CRM that launched in November 2025, has been adopted by more than 5,000 customers, and just raised a $47 million Series A led by Andreessen Horowitz. Topics include why every system of record was really a forecasting tool, how to get reliable output from non-deterministic models, and the two reasons companies actually rip out Salesforce or HubSpot. Plus, a spirited debate on whether the SaaS partner ecosystem is dead, why AI-native deal sizes at 200-person companies can rival enterprise contracts, and how Lightfield landed on a mix of seat-based and consumption pricing.\n   \n Key Takeaways:\n   \n - Plan for models that will always make some mistakes. Keith builds Lightfield on the assumption that models stay non-deterministic, and calls reliability \"a harness problem\" that they're making fantastic progress against.\n - Use LLMs for insight and plain code for arithmetic. When Asad asked whether auditing AI forecasts saves anyone any time, Keith described a one-time implementation where Lightfield's head of finance checked every formula: \"We converted some things from prompts to real code, right? I don't want LLMs doing math. I want real code doing math.\" That got the dashboards 95% of the way there, leaving the models to flag which deals were on the cusp because of missing features or competition.\n - Slightly better AI output won't justify replacing a CRM. After several rip-and-replace projects off Salesforce and HubSpot, Keith said marginally better agentic emails are \"not a good enough reason to change a system of record.\" The two reasons that do move customers are believing one model of the business improves every stage of the revenue funnel, with SDRs pulling real-time case studies from customer success, and higher-level scenario planning, where \"the modeling really matters. The data completion really matters.\"\n - Put predictable work in the seat price and meter the work with visible ROI. Lightfield tried both extremes, and pure consumption backfired: \"It's like going to a store where everything's really expensive, that our customers didn't touch anything.\" The seat and platform fee now covers the core CRM, call recording, and the data model, while pipeline generation, AI workflow automations, and scenario planning run on consumption, because \"most revenue leaders, CEOs… have an uncapped budget for business intelligence.\"\n   \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Keith Peiris, Co-Founder & CEO at Lightfield - https://www.linkedin.com/in/keithpeiris/\n   \n  Topline is more than a Podcast:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack",
+      "tags": [],
+      "relevanceScore": 90,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-6kzq1n",
       "type": "podcast",
       "title": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
@@ -54,7 +92,7 @@
       "tags": [
         "Uncategorized"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
@@ -72,7 +110,7 @@
       "duration": 20,
       "summary": "What happens when a seasoned GTM leader becomes CEO for the first time and steps into a founder-led company with a global team? \n In this episode, Eric Anderson, CEO of Walnut, shares what it's really like to take over a business built by someone else. He talks with AJ Bruno about building trust across time zones, rebuilding the go-to-market motion, and making bold decisions while honoring legacy culture. \n From listening tours to tough calls on pricing and segmentation, Eric opens up about the challenges and wins of his first six months in the role.\n Eric talks about:\n - What it's really like to step into a founder-led company as a first-time CEO\n - Building trust and alignment across a global, distributed leadership team\n - Why CEOs need to be willing to make bold and unpopular decisions\n - The challenge of walking away from revenue that doesn't fit the business\n - How pricing and market segmentation can force difficult but necessary changes\n - Why rebuilding the GTM organization can unlock a company's next stage of growth\n Chapters\n 00:00 Introduction to Eric Anderson and Walnut\n 02:30 From GTM Leader to First-Time CEO\n 06:49 Leading Across Cultures and Time Zones\n 09:11 The Boardroom: A New CEO's Balancing Act\n 11:36 Why CEOs Have to Make the Hard Calls\n 15:00 The Cost of Trying to Serve Everyone\n 16:52 Rebuilding Walnut for What's Next\n 18:30 Where to Find Eric and Walnut\n Try Walnut: walnut.io",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -90,7 +128,7 @@
       "readTime": 1,
       "summary": "An AI harness sounds technical, but it's really just managing your agents.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -107,7 +145,7 @@
       "readTime": 1,
       "summary": "The old way of B2B lead detection is dead. For decades, marketers relied on a simple equation: form fill = sales-qualified lead. A prospect downloads your whitepaper, signs up for your webinar, or…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Forward-looking — frames where the practice is heading this cycle."
@@ -929,25 +967,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-7scrnq",
-      "type": "podcast",
-      "title": "20VC: Uber President on The Untold Uber Stories: Travis, China and Self-Driving | Why Autonomy Is Existential | How to Beat DoorDash to #1 in Food with Andrew MacDonald",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-uber-president-on-budgeting-ai-at-uber-how-ai-helps-and-hurts-uber-why-autonomy-is-existential-how-to-beat-doordash-to-1-in-food-the-untold-stories-of-travis-kalanick-dara-khosrowshahi-and-china-with-andrew-macdonald",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-17T16:04:00.000Z",
-      "duration": 67,
-      "summary": "Andrew Macdonald (Mac) is the longest-serving employee at Uber. Today, he is the President and COO. No one on the planet has spent more time mastering ride-sharing than Mac. Uber now does 300M rides per week, has 200M users, and is one of the most recognised brands on the planet. Mac never does interviews and so this was a rare look behind the scenes at the Uber machine. \n AGENDA:\n 05:39 – How was Mac the only survivor from the Travis era?\n 10:39 – How does Uber decide what to include in Uber One membership?\n 11:45 – How does Uber decide which new products to pursue?\n 16:08 – What does Uber need to do to reach 500 million users?\n 20:37 – Why Uber was right to focus on its core business and divest autonomy?\n 24:08 – Why India and Brazil will delay Uber's autonomous future?\n 28:34 – The craziest story from Uber's battle in China\n 29:27 – Why Travis Kalanick believed money was the moat?\n 31:17 – Was Uber structurally disadvantaged in China from day one?\n 35:48 – Inside Uber's SWAT team of its 30 best AI engineers\n 37:55 – How companies need to extract real efficiency from AI?\n 42:00 – Will Uber have more or fewer employees in five years?\n 43:52 – Will companies that do not work with frontier models be disaggregated?\n 46:02 – Will AI agents disaggregate Uber's interface and customer relationship?\n 48:26 – Why Brian Chesky was right: chat is not the best interface for everything\n 55:52 – Why it is bullshit to say DoorDash would not be number one if Travis were still CEO\n 59:13 – The single biggest lesson from Travis Kalanick\n 1:00:07 – The second biggest lesson from Travis Kalanick",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-3fefvx",
       "type": "article",
       "title": "The hidden costs of revenue tech sprawl",
@@ -1232,25 +1251,6 @@
       "summary": "AI isn't just changing sales. It's completely rewriting how revenue teams operate.\n In this episode of Topline Spotlight, Sam Jacobs sits down with Justin Shriber, CEO of Terret AI, to break down how modern revenue organizations are using AI to improve forecasting, shorten sales cycles, ramp reps faster, and operationalize winning sales behavior in real time.\n Justin shares:\n Why traditional sales enablement is broken\n How AI helped reduce rep ramp time by 40%\n The \"answer-to-action\" engine powering modern RevOps\n The hidden dangers of decentralized AI adoption\n Why companies are struggling with inconsistent AI-generated data\n The real debate: build your own AI stack vs buy from vendors\n How leading teams are using AI agents today\n One of the most interesting conversations in GTM right now.\n If you're a CRO, RevOps leader, founder, or GTM operator trying to understand where AI is actually delivering value, this episode is worth your time.\n Chapters:\n 00:00 Intro\n 00:40 Meet Justin Schreiber and Terret\n 04:17 How AI is changing sales productivity\n 06:07 The biggest problem in revenue execution\n 09:37 Why great strategies never get executed\n 11:01 Building AI that's secure, accurate, and scalable\n 13:32 Buy vs. build: The future of enterprise AI\n 16:25 Why AI needs centralized governance\n 17:35 Jurassic Park, AI agents, and organizational chaos\n 20:15 Justin's biggest inspirations for building great companies\n 22:58 Where to find Justin and Terret\n Try Terret: terret.ai",
       "tags": [],
       "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-topline-podcast-798n8v",
-      "type": "podcast",
-      "title": "World's #1 Banking CMO: How AI Is Changing Billion Dollar Banks Today | Tim Rutten, CMO @ Backbase",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/worlds-1-banking-cmo-how-ai-is-changing-billion-dollar-banks-today-tim-rutten-cmo-backbase",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-07-26T04:57:00.000Z",
-      "duration": 82,
-      "summary": "Tim Rutten, CMO of Backbase, the €2.5 billion Amsterdam tech company whose AI-native Banking OS powers 120+ banks worldwide, joins Sam Jacobs, AJ Bruno, and Asad Zaman with the clearest AI ROI numbers we have heard on the show: double the pipeline on 25% less budget. Topics include the custom go-to-market operating system his team built on the Vercel stack, why real bank deployments are 99% deterministic, the 90% cost reduction banks are finding in customer care, and why most enterprise workloads do not need frontier-model intelligence. Plus, where the AI bubble breaks, what happens to judgment and taste when anyone can generate output, and a bulls-versus-bears round on LinkedIn, banking apps, and sales spiffs.\n Key Takeaways:\n - Backbase's marketing org runs on GTMOS, a custom go-to-market operating system built on the Vercel stack and wired into Salesforce and the company's finance tools, and the numbers behind it are specific. As Tim Rutten, CMO at Backbase, put it: \"Double the pipeline, 25% head cut on my budget... So with 25% less budget, I'm actually still doubling the pipeline.\" The unlock came from rebuilding how the team works rather than layering tools on top of it.\n - Shipping AI into a regulated industry means using AI more narrowly than you might expect. On what real bank deployments look like, Tim Rutten said: \"the actual implementations are almost 99% deterministic, and there's this one little percent that actually gets them to gain, to reason at the right moment in time.\" That same architecture caps the bill, because most banking workloads are repetitive and rule-bound. But the same rigor can net fantastic results from AI in broader applications as well.\n - Backbase treats AI slop as an architecture problem, containing content generation inside hard boundaries. Per Tim Rutten: \"You have tone of voice, you have guardrails that we don't have AI slop. There's like 22 rules that are applied. If they don't check out, the agent needs to rewrite and continuously learns to rewrite.\" The human half of the risk is harder to engineer around, as Asad Zaman, CEO of Sales Talent Agency, framed it: \"a lot of people that didn't have a skill are using AI for that thing. And if you didn't have a skill in an area or judgment or taste in that particular area, you have no mechanism to stress test the quality of what is coming out.\"\n - On how the AI bubble pops, Sam Jacobs, CEO of Pavilion, put the risk on the business model sitting underneath the capex: \"if everybody presumes the way that all these companies make money is selling tokens… and then all of a sudden it turns out selling tokens is a really terrible business. Well, then that's a thing that would compress.\" Tim Rutten lands in a similar place on timing while staying long on the outcome: \"a little bit bearish on timing, massively bullish on the future… it will happen nevertheless, but it's going to be a very rocky ride.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Tim Rutten, CMO at Backbase - https://www.linkedin.com/in/timrutten/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Tim Rutten\n 03:11 Inside Backbase And 120 Banks\n 09:42 90% Cost Cuts In Call Centers\n 12:04 Why The Application Layer Wins\n 15:23 Europe, The US, And Regulation\n 21:50 Where The AI Bubble Breaks\n 27:24 Why Banks Skip Frontier Models\n 34:34 Bank Budgets Shift To AI Native\n 38:23 Real ROI At Lloyds And JPMorgan\n 44:31 Quiz Pro Quo\n 49:37 GTMOS, The Go To Market OS\n 52:02 Double Pipeline On 25% Less Budget\n 53:53 Judgment, Taste, And AI Slop\n 1:06:15 Real Time Marketing By Christmas\n 1:09:30 Bulls and Bears",
-      "tags": [],
-      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -2019,97 +2019,97 @@
       "topic": "AI & Agents",
       "count": 74,
       "recent3": 3,
-      "change": -17,
+      "change": -15,
       "direction": "down",
       "articles": 37,
       "podcasts": 37,
-      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
-      "secondItem": "What Does Salesforce Do?"
+      "topItem": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 58,
+      "count": 57,
       "recent3": 1,
-      "change": -60,
+      "change": -62,
       "direction": "down",
       "articles": 25,
-      "podcasts": 33,
-      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
-      "secondItem": "Why most revenue teams  still can't prove their AI earned anything"
+      "podcasts": 32,
+      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     },
     {
       "rank": 3,
+      "topic": "Data & Attribution",
+      "count": 46,
+      "recent3": 2,
+      "change": -51,
+      "direction": "down",
+      "articles": 28,
+      "podcasts": 18,
+      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "secondItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron"
+    },
+    {
+      "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 48,
+      "count": 46,
       "recent3": 2,
       "change": -72,
       "direction": "down",
       "articles": 26,
-      "podcasts": 22,
+      "podcasts": 20,
       "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
       "secondItem": "Try firing yourself  on December 31st"
-    },
-    {
-      "rank": 4,
-      "topic": "Data & Attribution",
-      "count": 46,
-      "recent3": 3,
-      "change": -48,
-      "direction": "down",
-      "articles": 28,
-      "podcasts": 18,
-      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
-      "secondItem": "What Does Salesforce Do?"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 37,
-      "recent3": 2,
-      "change": -48,
+      "recent3": 3,
+      "change": -38,
       "direction": "down",
       "articles": 2,
       "podcasts": 35,
-      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
-      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
+      "topItem": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 33,
       "recent3": 1,
-      "change": -72,
+      "change": -60,
       "direction": "down",
       "articles": 17,
       "podcasts": 16,
-      "topItem": "What Does Salesforce Do?",
-      "secondItem": "Salesforce and OpenAI Customers Are Putting AI to Work"
+      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "secondItem": "What Does Salesforce Do?"
     },
     {
       "rank": 7,
       "topic": "GTM Strategy",
       "count": 22,
       "recent3": 1,
-      "change": -80,
+      "change": -60,
       "direction": "down",
       "articles": 4,
       "podcasts": 18,
-      "topItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
-      "secondItem": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua"
+      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     },
     {
       "rank": 8,
       "topic": "Revenue Forecasting",
       "count": 18,
-      "recent3": 0,
-      "change": -100,
+      "recent3": 1,
+      "change": -76,
       "direction": "down",
       "articles": 4,
       "podcasts": 14,
-      "topItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
-      "secondItem": "Forget Growth. Your Valuation Depends On Your AI Story | Tomasz Tunguz, GP @ Theory Ventures"
+      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
+      "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
     }
   ],
-  "fetchedAt": "2026-09-20T10:58:12.856Z"
+  "fetchedAt": "2026-09-21T12:24:39.004Z"
 }
