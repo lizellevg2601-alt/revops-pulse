@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-b1ktnc",
+      "type": "article",
+      "title": "Agent Optimizer: A Faster Path to Better Outcomes",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/agent-optimizer/",
+      "author": "Aron Kale",
+      "publishedAt": "2026-09-21T14:00:24.000Z",
+      "readTime": 1,
+      "summary": "Agentforce’s agent for building, testing and improving agents accelerates the development loop—from business intent to learning from production—with humans guiding the work.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-xbgxto",
+      "type": "article",
+      "title": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/dreamforce-takeways-for-small-teams-2026/",
+      "author": "Brett Grossfeld",
+      "publishedAt": "2026-09-21T13:15:07.000Z",
+      "readTime": 1,
+      "summary": "From AIforce to Slack CRM — what happened at Dreamforce and how is it making business better?",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-rkz57k",
       "type": "podcast",
       "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
@@ -49,7 +84,7 @@
       "duration": 72,
       "summary": "Thomas Sohmers is the co-founder and chairman of Positron AI, building chips to make running AI dramatically cheaper and more energy-efficient. The company recently announced an $875 million Series C at a $5 billion valuation, backed by investors including Gavin Baker's Atreides Management, NEA, Valor Equity Partners and Netscape co-founder Jim Clark.\n AGENDA:\n 04:30 Why Does AI Inference Need Different Hardware from Training?\n 10:25 What Is Nobody Telling You About AI's Token Economics?\n 13:10 Should We Really Slow Down the AI Frontier?\n 16:55 What Happens If America Slows Down—and China Doesn't?\n 19:30 Should We Restrict China's Access to AI Chips?\n 20:15 Why Aren't Zuckerberg and Jensen Backing an AI Slowdown?\n 21:25 Are We Being Misled About Data Centers?\n 23:25 Can the West Beat China While Drowning in Regulation?\n 26:20 How Many Planned Data Centers Will Actually Get Built?\n 27:15 Data Centers in Space: Real Opportunity or Elon Hype?\n 28:10 Is Energy AI's Biggest Bottleneck?\n 29:55 Could the Debt Boom Derail AI?\n 31:25 What Is KV Caching—and Why Does It Change AI Economics?\n 35:25 Does Compressing AI's Memory Make It Less Intelligent?\n 41:05 How Do We Solve AI's Exploding Memory Demands?\n 43:45 Will Every Company Own Its Own AI Model?\n 47:10 Why Bet on Ever-Bigger Models?\n 48:20 If We Already Have AGI, What Comes Next?\n 53:25 What Happens When Every AI Lab Builds Its Own Chips?\n 57:30 If DeepSeek Can Slash Costs with Software, Why Build New Hardware?\n 59:50 How Cheap Will AI Tokens Be by 2028?\n 1:03:15 What Would Be the First Warning Sign of an AI Bust?\n 1:03:55 Could Open Models Break OpenAI and Anthropic's Growth?\n 1:05:55 Could Mercor and Surge Become $200 Billion Companies?",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
@@ -73,7 +108,7 @@
         "revenue intelligence",
         "Articles"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
       ],
@@ -345,41 +380,6 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-b3ws10",
-      "type": "article",
-      "title": "The Online Trailblazer Community: Reimagined Together and Coming Soon to Slack",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/trailblazer-community-on-slack/",
-      "author": "Gloria Ramchandani",
-      "publishedAt": "2026-09-15T12:18:10.000Z",
-      "readTime": 1,
-      "summary": "A first look at the new community experience, launching in November, and how you can help shape it today.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-g7xi3n",
-      "type": "article",
-      "title": "Introducing The Campaign Agent That Turns Goals Into Growth",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/introducing-the-campaign-agent-that-turns-goals-into-growth/",
-      "author": "Brett Bothe, Max Kiely",
-      "publishedAt": "2026-09-15T00:58:33.000Z",
-      "readTime": 1,
-      "summary": "Most campaigns run blind to every other campaign hitting the same customer. Campaign Agent arbitrates across all of them, in real time, in the customer's favor.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
       ],
       "saved": false
     },
@@ -2018,43 +2018,43 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 74,
-      "recent3": 3,
+      "recent3": 4,
       "change": -15,
       "direction": "down",
       "articles": 37,
       "podcasts": 37,
-      "topItem": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "topItem": "Agent Optimizer: A Faster Path to Better Outcomes",
+      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 57,
-      "recent3": 1,
+      "recent3": 2,
       "change": -62,
       "direction": "down",
       "articles": 25,
       "podcasts": 32,
-      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
+      "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 46,
+      "count": 47,
       "recent3": 2,
-      "change": -51,
+      "change": -41,
       "direction": "down",
-      "articles": 28,
+      "articles": 29,
       "podcasts": 18,
-      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron"
+      "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 46,
-      "recent3": 2,
+      "recent3": 0,
       "change": -72,
       "direction": "down",
       "articles": 26,
@@ -2066,7 +2066,7 @@
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 37,
-      "recent3": 3,
+      "recent3": 2,
       "change": -38,
       "direction": "down",
       "articles": 2,
@@ -2111,5 +2111,5 @@
       "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
     }
   ],
-  "fetchedAt": "2026-09-21T12:24:39.004Z"
+  "fetchedAt": "2026-09-22T11:14:59.947Z"
 }
