@@ -1,6 +1,81 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-6ja1xr",
+      "type": "article",
+      "title": "The Top 5 Announcements Dreamforce for IT: AIforce, MCP Security, and More",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-top-it-announcements/",
+      "author": "Samantha Marsh",
+      "publishedAt": "2026-09-22T22:04:30.000Z",
+      "readTime": 1,
+      "summary": "For IT leaders, developers, and admins, the headline was unmistakable: the future of work is all about humans and AI building side-by-side on a single, trusted foundation.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-seafoam-media-b1yxiv",
+      "type": "article",
+      "title": "What a Slow Reply Does to Your Sales Close Rate",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/lens/slow-reply-sales-close-rate/",
+      "author": "Nikki Bisel",
+      "publishedAt": "2026-09-22T19:33:53.000Z",
+      "readTime": 1,
+      "summary": "A 1-hour delay in replying cut the chance of being hired by 46%. What the research says about speed to lead, from first inquiry to signed contract.\nThe post What a Slow Reply Does to Your Sales Close Rate appeared first on Seafoam.",
+      "tags": [
+        "Lens",
+        "Conversion Rate Optimization",
+        "Customer Experience",
+        "RevOps"
+      ],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ep2q4h",
+      "type": "article",
+      "title": "Build Agents Your Way with Claude and Commerce Cloud",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/agentforce-commerce-anthropic-agents/",
+      "author": "Katja Franz",
+      "publishedAt": "2026-09-22T15:10:12.000Z",
+      "readTime": 1,
+      "summary": "Anthropic recently launched a blueprint to help build commerce agents on Claude. This new starter kit for developers includes the reference code, guardrails, and best practices needed to build a shopping agent (to…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-cho3wo",
+      "type": "article",
+      "title": "What’s the Best Way To Follow Up With a Sales Lead?",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/how-to-follow-up-with-a-lead/",
+      "author": "Erin Hueffner, Caylin White",
+      "publishedAt": "2026-09-22T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "A smart lead follow-up strategy is the difference between a closed deal and a missed opportunity — here's how to get it right.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-b1ktnc",
       "type": "article",
       "title": "Agent Optimizer: A Faster Path to Better Outcomes",
@@ -36,6 +111,29 @@
       "saved": false
     },
     {
+      "id": "feed-revops-alliance-9a1b0v",
+      "type": "article",
+      "title": "4% of deals close  when sellers say they will",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/4-of-deals-close-when-sellers-say-they-will/",
+      "author": "Marisa Garanhel",
+      "publishedAt": "2026-09-21T08:41:00.000Z",
+      "readTime": 1,
+      "summary": "If close dates in your CRM are almost always wrong, what is your pipeline actually telling you?",
+      "tags": [
+        "Forecasting",
+        "Customer experience",
+        "Articles"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-rkz57k",
       "type": "podcast",
       "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
@@ -65,7 +163,7 @@
       "duration": 67,
       "summary": "Keith Peiris, Co-Founder and CEO of Lightfield, joins Sam Jacobs, AJ Bruno, and Asad Zaman to talk about building an agentic CRM that launched in November 2025, has been adopted by more than 5,000 customers, and just raised a $47 million Series A led by Andreessen Horowitz. Topics include why every system of record was really a forecasting tool, how to get reliable output from non-deterministic models, and the two reasons companies actually rip out Salesforce or HubSpot. Plus, a spirited debate on whether the SaaS partner ecosystem is dead, why AI-native deal sizes at 200-person companies can rival enterprise contracts, and how Lightfield landed on a mix of seat-based and consumption pricing.\n   \n Key Takeaways:\n   \n - Plan for models that will always make some mistakes. Keith builds Lightfield on the assumption that models stay non-deterministic, and calls reliability \"a harness problem\" that they're making fantastic progress against.\n - Use LLMs for insight and plain code for arithmetic. When Asad asked whether auditing AI forecasts saves anyone any time, Keith described a one-time implementation where Lightfield's head of finance checked every formula: \"We converted some things from prompts to real code, right? I don't want LLMs doing math. I want real code doing math.\" That got the dashboards 95% of the way there, leaving the models to flag which deals were on the cusp because of missing features or competition.\n - Slightly better AI output won't justify replacing a CRM. After several rip-and-replace projects off Salesforce and HubSpot, Keith said marginally better agentic emails are \"not a good enough reason to change a system of record.\" The two reasons that do move customers are believing one model of the business improves every stage of the revenue funnel, with SDRs pulling real-time case studies from customer success, and higher-level scenario planning, where \"the modeling really matters. The data completion really matters.\"\n - Put predictable work in the seat price and meter the work with visible ROI. Lightfield tried both extremes, and pure consumption backfired: \"It's like going to a store where everything's really expensive, that our customers didn't touch anything.\" The seat and platform fee now covers the core CRM, call recording, and the data model, while pipeline generation, AI workflow automations, and scenario planning run on consumption, because \"most revenue leaders, CEOs… have an uncapped budget for business intelligence.\"\n   \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Keith Peiris, Co-Founder & CEO at Lightfield - https://www.linkedin.com/in/keithpeiris/\n   \n  Topline is more than a Podcast:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack",
       "tags": [],
-      "relevanceScore": 90,
+      "relevanceScore": 86,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -111,6 +209,26 @@
       "relevanceScore": 56,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-n0jw8l",
+      "type": "article",
+      "title": "Forecasts your CFO  will actually believe",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/forecasts-your-cfo-will-actually-believe/",
+      "author": "Olga Traskova",
+      "publishedAt": "2026-09-18T09:55:00.000Z",
+      "readTime": 1,
+      "summary": "CFOs don't trust forecasts, they trust execution. Six practical moves to build a forecasting system finance can actually believe in.",
+      "tags": [
+        "Forecasting",
+        "Articles"
+      ],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
       ],
       "saved": false
     },
@@ -265,24 +383,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-i9iq4k",
-      "type": "article",
-      "title": "Salesforce and OpenAI Customers Are Putting AI to Work",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/openai-agentforce/",
-      "author": "Desiree Motamedi",
-      "publishedAt": "2026-09-15T20:55:32.000Z",
-      "readTime": 1,
-      "summary": "See how shared customers pair OpenAI's frontier reasoning with Salesforce context, orchestration, and governance to turn good answers into finished work.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-gh0ljd",
       "type": "article",
       "title": "Making partner revenue as reliable as direct sales",
@@ -299,24 +399,6 @@
       "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-j3oaqr",
-      "type": "article",
-      "title": "Get Ready for a Spooktacular Quest: Unravel the Mystery of Campfire Stories",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/trick-or-trailhead-headless-apis/",
-      "author": "Kyren Wong",
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "readTime": 1,
-      "summary": "Learn how headless patterns and AI agents power the ultimate seasonal quest on Trailhead.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
       ],
       "saved": false
     },
@@ -362,24 +444,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-73vw29",
-      "type": "article",
-      "title": "5 Professional Service CRMs To Consider For Your Growing Consulting Firm",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/professional-service-crms-for-small-firms/",
-      "author": "Allen Aguilar",
-      "publishedAt": "2026-09-15T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "The right professional services CRM keeps your lean team working like a much larger one.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
       ],
       "saved": false
     },
@@ -541,6 +605,28 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-p772tg",
+      "type": "article",
+      "title": "How revenue intelligence  is moving into the real world",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/how-revenue-intelligence-is-moving-into-the-real-world/",
+      "author": "Al Simpson",
+      "publishedAt": "2026-09-07T09:16:00.000Z",
+      "readTime": 1,
+      "summary": "From three data points to AI-driven account research: how revenue intelligence is evolving, and what it means for the B2B SaaS pipeline.",
+      "tags": [
+        "revenue intelligence",
+        "Articles"
+      ],
+      "relevanceScore": 74,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Forward-looking — frames where the practice is heading this cycle."
       ],
       "saved": false
@@ -1007,26 +1093,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-v20p9t",
-      "type": "article",
-      "title": "Why collaboration is the real  engine behind revenue growth",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/why-collaboration-is-the-real-engine-behind-revenue-growth/",
-      "author": "Dominic Grounsell",
-      "publishedAt": "2026-08-14T10:20:00.000Z",
-      "readTime": 1,
-      "summary": "What happens when accountability and authority don't line up.",
-      "tags": [
-        "Revenue Growth",
-        "Articles"
-      ],
-      "relevanceScore": 50,
-      "whyItMatters": [
-        "Highlights go-to-market themes that shape day-to-day RevOps work."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-z7cw30",
       "type": "podcast",
       "title": "SPOTLIGHT: He Said No to Bad-Fit Customers. Growth Got Better. | Snehal Nimje, CEO & Co-Founder @ Outdoo",
@@ -1083,27 +1149,6 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-tthfgj",
-      "type": "article",
-      "title": "85% of your CRM loss reasons are wrong",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/85-of-your-crm-loss-reasons-are-wrong/",
-      "author": "Spencer Dent",
-      "publishedAt": "2026-08-10T09:49:00.000Z",
-      "readTime": 1,
-      "summary": "The gap between what reps log and what buyers actually say.",
-      "tags": [
-        "Data analysis",
-        "Articles"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -1168,29 +1213,6 @@
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-ptoufr",
-      "type": "article",
-      "title": "Why AI in go-to-market  has crossed a new threshold",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/why-ai-in-go-to-market-has-crossed-a-new-threshold/",
-      "author": "Vinay Wagh",
-      "publishedAt": "2026-08-05T12:08:00.000Z",
-      "readTime": 1,
-      "summary": "We've moved from AI that observes and reports to AI that actually learns and executes. That shift is more significant than most people realize",
-      "tags": [
-        "GTM Strategy",
-        "AI & automation",
-        "Articles"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -1336,28 +1358,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-seafoam-media-6xhr5x",
-      "type": "article",
-      "title": "July 2026 RevOps News: Trends & Insights",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/brief/july-2026-revops-news/",
-      "author": "Nikki Bisel",
-      "publishedAt": "2026-06-30T22:45:51.000Z",
-      "readTime": 1,
-      "summary": "Salesforce Pays $3.6B for Fin — and the Agentic Land-Grab Comes for Service On June 15, Salesforce signed a definitive agreement to acquire Fin — the AI customer-service company formerly known as Intercom — for roughly $3.6 billion. Fin’s pitch is an AI agent that resolves complex queries end-to-end across chat, email, WhatsApp, SMS, phone, […]\nThe post July 2026 RevOps News: Trends & Insights appeared first on Seafoam.",
-      "tags": [
-        "Brief",
-        "RevOps"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -2017,23 +2017,23 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 74,
-      "recent3": 4,
-      "change": -15,
+      "count": 73,
+      "recent3": 5,
+      "change": -24,
       "direction": "down",
-      "articles": 37,
+      "articles": 36,
       "podcasts": 37,
-      "topItem": "Agent Optimizer: A Faster Path to Better Outcomes",
-      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
+      "topItem": "The Top 5 Announcements Dreamforce for IT: AIforce, MCP Security, and More",
+      "secondItem": "Build Agents Your Way with Claude and Commerce Cloud"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 57,
-      "recent3": 2,
-      "change": -62,
+      "count": 54,
+      "recent3": 1,
+      "change": -75,
       "direction": "down",
-      "articles": 25,
+      "articles": 22,
       "podcasts": 32,
       "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
@@ -2043,19 +2043,19 @@
       "topic": "Data & Attribution",
       "count": 47,
       "recent3": 2,
-      "change": -41,
+      "change": -38,
       "direction": "down",
       "articles": 29,
       "podcasts": 18,
       "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "secondItem": "4% of deals close  when sellers say they will"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 46,
       "recent3": 0,
-      "change": -72,
+      "change": -81,
       "direction": "down",
       "articles": 26,
       "podcasts": 20,
@@ -2066,8 +2066,8 @@
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 37,
-      "recent3": 2,
-      "change": -38,
+      "recent3": 1,
+      "change": -33,
       "direction": "down",
       "articles": 2,
       "podcasts": 35,
@@ -2077,39 +2077,39 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
-      "recent3": 1,
-      "change": -60,
+      "count": 31,
+      "recent3": 0,
+      "change": -71,
       "direction": "down",
-      "articles": 17,
+      "articles": 15,
       "podcasts": 16,
       "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
       "secondItem": "What Does Salesforce Do?"
     },
     {
       "rank": 7,
-      "topic": "GTM Strategy",
-      "count": 22,
+      "topic": "Revenue Forecasting",
+      "count": 21,
       "recent3": 1,
-      "change": -60,
+      "change": -29,
       "direction": "down",
-      "articles": 4,
-      "podcasts": 18,
-      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
+      "articles": 7,
+      "podcasts": 14,
+      "topItem": "4% of deals close  when sellers say they will",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 8,
-      "topic": "Revenue Forecasting",
-      "count": 18,
-      "recent3": 1,
-      "change": -76,
+      "topic": "GTM Strategy",
+      "count": 21,
+      "recent3": 0,
+      "change": -55,
       "direction": "down",
-      "articles": 4,
-      "podcasts": 14,
+      "articles": 3,
+      "podcasts": 18,
       "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition"
+      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     }
   ],
-  "fetchedAt": "2026-09-22T11:14:59.947Z"
+  "fetchedAt": "2026-09-23T11:07:18.779Z"
 }
