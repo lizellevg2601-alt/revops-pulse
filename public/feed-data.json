@@ -1,9 +1,46 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-i9o42l",
+      "type": "podcast",
+      "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-24T07:07:00.000Z",
+      "duration": 81,
+      "summary": "AGENDA:\n 04:35 Anthropic's $2 Trillion IPO Delayed. Cracks in the AI Boom?\n 10:30 OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028?\n 12:55 Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival?\n 17:05 Amazon Blocks AI Shopping Agents. Shopify Welcomes Them.\n 24:10 ChatGPT Inventor Launches Jev. Vercel's Fastest Launch Ever.\n 34:15 A $40 Million Seed Round. Is Traditional Seed Investing Dead?\n 39:00 Menlo Sounds the AI Bubble Alarm. Harry Calls BS.\n 54:00 Factory Triples Its Valuation to $5 Billion. Coding Is the Mother Lode.\n 1:00:20 Legora Hits $200 Million ARR. Is $11 Billion Too Rich?\n 1:03:50 Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?\n 1:08:55 Keith Rabois vs Airwallex. Fintech's Feud Escalates.\n 1:16:40 Sydney Sweeney for Airwallex? Lemkin's Wild PR Plan.",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ap2iaq",
+      "type": "article",
+      "title": "How Can AI in Slack Help Your Startup? Let Us Count The Ways",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-in-slack-for-startups/",
+      "author": "Jenn Sei",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Your team is small, but your to-do list isn't — here's how AI in Slack helps startups connect all over the globe.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-6ja1xr",
       "type": "article",
-      "title": "The Top 5 Announcements Dreamforce for IT: AIforce, MCP Security, and More",
+      "title": "The Top 5 Dreamforce Announcements for IT: AIforce, MCP Security, and More",
       "source": "Salesforce Blog",
       "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-top-it-announcements/",
       "author": "Samantha Marsh",
@@ -125,7 +162,7 @@
         "Customer experience",
         "Articles"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
@@ -144,7 +181,7 @@
       "duration": 71,
       "summary": "Daniel Dines is one of the greatest European founders of the last decade. As the Co-Founder of UiPath, he has scaled the business to a market cap high of $ 44BN in 2021, with the company now generating $1.72BN in revenue, growing 15% year-on-year. The company raised $2BN before its IPO, backed by Sequoia, Accel, CapitalG, Coatue and Kleiner Perkins. \n \n AGENDA: \n 05:00 Why Dario is Wrong About Millions of AI Einsteins?\n 13:00 Is AI Safety Becoming an Excuse to Kill Open Source?\n 21:00 Does UiPath Really Need 4,000 Employees?\n 28:00 Would You Help Train the AI That Could Replace You?\n 32:00 What Percent of Salary Spend Does Daniel Spend on Inference?\n 34:00 Can You Really Vibe Code Your Way Out of Paying for Software?\n 37:00 Why Would Anyone Take Their Company Public Today?\n 39:00 Could an OpenAI–Anthropic Duopoly Break Nvidia's Business?\n 45:00 Will AI Models Capture the Value—or Will the Apps?\n 49:00 Is Fireworks Still Undervalued at $15 Billion?\n 56:00 Has Europe Already Lost—and Should Founders Leave?\n 1:03:00 What Could Kill UiPath—and How Is AI Changing the CEO's Job?\n 1:06:00 60 Supplements a Day: How Far Would You Go to Live Longer?",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
@@ -338,23 +375,6 @@
       "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-f2tyy5",
-      "type": "article",
-      "title": "Behind The Dreamforce Music: Artists Over the Years Supporting a Good Cause",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/behind-the-dreamforce-music/",
-      "author": "Caylin White",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "From Metallica to P!nk, take a look back at the biggest Dreamforce musicians who've taken the stage for a big cause.",
-      "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [
-        "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
       "saved": false
     },
@@ -1030,25 +1050,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-1jeym6",
-      "type": "podcast",
-      "title": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-20T07:07:00.000Z",
-      "duration": 73,
-      "summary": "AGENDA:\n 04:20 Elon's Deal of the Decade: SpaceX Buys Cursor for $60BN\n 06:10 Why Cursor Was Surprisingly Cheap at $60BN\n 07:00 Why Zuckerberg Failed to Buy the AI Prize Elon Secured\n 12:00 Elon vs Zuck: Who Would You Rather Work For?\n 14:00 Will Microsoft or Amazon Now Race to Buy Cognition?\n 17:05 Stripe's $7BN OpenRouter Deal Creates Huge VC Winners\n 25:00 OpenRouter's Fatal Risk: Enterprises Don't Want 10 Models\n 28:15 Anthropic Turns Its First Profit on $11.5BN of Quarterly Revenue\n 32:15 Can Anthropic Really Reach $600BN in Revenue?\n 37:00 Why Every Elite Engineer Could Soon Get $100K in AI Tokens\n 39:30 Would Rory Buy Anthropic at a $2.5TN Valuation?\n 44:50 Silver Lake's $43BN Workday Bet: SaaS Isn't Dead, It's Mature\n 53:00 How Silver Lake Could Make $30BN From Workday\n 57:00 Lovable vs Higgsfield: Similar Revenue, Radically Different Valuations\n 58:00 Is Lovable's $13.3BN Price Actually Cheap?\n 63:30 Why the DOJ Is Coming After Andreessen Horowitz\n 69:00 Why A16Z Has \"50 Legal Battles\" Happening at Once",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -2017,45 +2018,45 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 73,
-      "recent3": 5,
-      "change": -24,
+      "count": 74,
+      "recent3": 6,
+      "change": -20,
       "direction": "down",
-      "articles": 36,
+      "articles": 37,
       "podcasts": 37,
-      "topItem": "The Top 5 Announcements Dreamforce for IT: AIforce, MCP Security, and More",
-      "secondItem": "Build Agents Your Way with Claude and Commerce Cloud"
+      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 54,
-      "recent3": 1,
-      "change": -75,
+      "recent3": 2,
+      "change": -64,
       "direction": "down",
-      "articles": 22,
-      "podcasts": 32,
-      "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "articles": 23,
+      "podcasts": 31,
+      "topItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways",
+      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 47,
+      "count": 48,
       "recent3": 2,
-      "change": -38,
+      "change": -22,
       "direction": "down",
       "articles": 29,
-      "podcasts": 18,
-      "topItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
-      "secondItem": "4% of deals close  when sellers say they will"
+      "podcasts": 19,
+      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 46,
       "recent3": 0,
-      "change": -81,
+      "change": -79,
       "direction": "down",
       "articles": 26,
       "podcasts": 20,
@@ -2065,21 +2066,21 @@
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 37,
-      "recent3": 1,
-      "change": -33,
+      "count": 38,
+      "recent3": 2,
+      "change": -15,
       "direction": "down",
-      "articles": 2,
+      "articles": 3,
       "podcasts": 35,
-      "topItem": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
       "recent3": 0,
-      "change": -71,
+      "change": -69,
       "direction": "down",
       "articles": 15,
       "podcasts": 16,
@@ -2089,21 +2090,21 @@
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 21,
+      "count": 22,
       "recent3": 1,
-      "change": -29,
-      "direction": "down",
+      "change": 1,
+      "direction": "flat",
       "articles": 7,
-      "podcasts": 14,
-      "topItem": "4% of deals close  when sellers say they will",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "podcasts": 15,
+      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+      "secondItem": "4% of deals close  when sellers say they will"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 21,
       "recent3": 0,
-      "change": -55,
+      "change": -52,
       "direction": "down",
       "articles": 3,
       "podcasts": 18,
@@ -2111,5 +2112,5 @@
       "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     }
   ],
-  "fetchedAt": "2026-09-23T11:07:18.779Z"
+  "fetchedAt": "2026-09-24T11:24:14.948Z"
 }
