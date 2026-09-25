@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-5k8bog",
+      "type": "article",
+      "title": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/your-roadmap-to-marketing-cloud-next/",
+      "author": "Amanda Miller Knuth",
+      "publishedAt": "2026-09-24T13:40:12.000Z",
+      "readTime": 1,
+      "summary": "A practical framework for choosing where to start with Marketing Cloud, getting the foundations right, and tying every agent you launch to a business outcome.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-9zsjpe",
+      "type": "article",
+      "title": "Product-Market Fit Questions and Answers For Startups",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/product-market-fit-questions/",
+      "author": "Jessica Williams",
+      "publishedAt": "2026-09-24T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Product-market fit isn't a finish line — it's where the real work begins, and we’re here to answer some burning questions about what’s next.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-i9o42l",
       "type": "podcast",
       "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
@@ -123,7 +159,7 @@
       "readTime": 1,
       "summary": "Agentforce’s agent for building, testing and improving agents accelerates the development loop—from business intent to learning from production—with humans guiding the work.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -140,7 +176,7 @@
       "readTime": 1,
       "summary": "From AIforce to Slack CRM — what happened at Dreamforce and how is it making business better?",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -325,24 +361,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-32ao9e",
-      "type": "article",
-      "title": "B2B Lead Detection 2026: Master Intent Data & Account-Based ABM",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/b2b-lead-detection-intent-data-abm-2026/",
-      "author": "Gopaluni Sai Karthik",
-      "publishedAt": "2026-09-17T12:42:05.000Z",
-      "readTime": 1,
-      "summary": "The old way of B2B lead detection is dead. For decades, marketers relied on a simple equation: form fill = sales-qualified lead. A prospect downloads your whitepaper, signs up for your webinar, or…",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-hp0djg",
       "type": "podcast",
       "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
@@ -358,23 +376,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-alf2lo",
-      "type": "article",
-      "title": "Your Agent Can Sprint, But Can It Go the Distance?",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/long-horizon-agents/",
-      "author": "George Saines",
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Long-horizon agents work alongside users to achieve a goal over time and can adapt their behavior to changing circumstances.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
       "saved": false
     },
@@ -2019,20 +2020,20 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 74,
-      "recent3": 6,
-      "change": -20,
+      "recent3": 5,
+      "change": -11,
       "direction": "down",
       "articles": 37,
       "podcasts": 37,
-      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
+      "topItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
+      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 54,
-      "recent3": 2,
-      "change": -64,
+      "recent3": 1,
+      "change": -67,
       "direction": "down",
       "articles": 23,
       "podcasts": 31,
@@ -2042,11 +2043,11 @@
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 48,
-      "recent3": 2,
-      "change": -22,
+      "count": 47,
+      "recent3": 1,
+      "change": -33,
       "direction": "down",
-      "articles": 29,
+      "articles": 28,
       "podcasts": 19,
       "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
       "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
@@ -2054,33 +2055,33 @@
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 46,
-      "recent3": 0,
-      "change": -79,
+      "count": 47,
+      "recent3": 1,
+      "change": -61,
       "direction": "down",
-      "articles": 26,
+      "articles": 27,
       "podcasts": 20,
-      "topItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
-      "secondItem": "Try firing yourself  on December 31st"
+      "topItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
+      "secondItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 38,
-      "recent3": 2,
-      "change": -15,
-      "direction": "down",
-      "articles": 3,
+      "count": 39,
+      "recent3": 3,
+      "change": 3,
+      "direction": "flat",
+      "articles": 4,
       "podcasts": 35,
-      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
+      "topItem": "Product-Market Fit Questions and Answers For Startups",
+      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
       "recent3": 0,
-      "change": -69,
+      "change": -81,
       "direction": "down",
       "articles": 15,
       "podcasts": 16,
@@ -2092,8 +2093,8 @@
       "topic": "Revenue Forecasting",
       "count": 22,
       "recent3": 1,
-      "change": 1,
-      "direction": "flat",
+      "change": -11,
+      "direction": "down",
       "articles": 7,
       "podcasts": 15,
       "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
@@ -2104,7 +2105,7 @@
       "topic": "GTM Strategy",
       "count": 21,
       "recent3": 0,
-      "change": -52,
+      "change": -72,
       "direction": "down",
       "articles": 3,
       "podcasts": 18,
@@ -2112,5 +2113,5 @@
       "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     }
   ],
-  "fetchedAt": "2026-09-24T11:24:14.948Z"
+  "fetchedAt": "2026-09-25T11:29:56.836Z"
 }
