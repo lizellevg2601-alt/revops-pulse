@@ -1,6 +1,101 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-v68qte",
+      "type": "article",
+      "title": "3 Must-Haves for Scaling Agentic AI in Health",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/3-must-haves-for-scaling-agentic-ai-in-health/",
+      "author": "Lizanne Kiel",
+      "publishedAt": "2026-09-25T17:45:03.000Z",
+      "readTime": 1,
+      "summary": "Learn how to build an Agentic Health Enterprise through trust, context, and action with insights from the Health Keynote at Dreamforce 2026. Healthcare professionals are doing more than ever. Simultaneously, fragmented systems and…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-5328gv",
+      "type": "article",
+      "title": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/rewriting-the-script-for-life-sciences/",
+      "author": "John Cullinane",
+      "publishedAt": "2026-09-25T17:43:55.000Z",
+      "readTime": 1,
+      "summary": "Learn how to move from fragmented data to coordinated action with insights from the Life Sciences Keynote at Dreamforce 2026. Life sciences organizations are navigating an industry landscape that’s changing faster than the…",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-lp5lj7",
+      "type": "article",
+      "title": "The 2027 SPM Readiness Guide",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/the-2027-spm-readiness-guide-ebook/",
+      "author": "Revenue Operations Alliance",
+      "publishedAt": "2026-09-25T16:27:48.000Z",
+      "readTime": 1,
+      "summary": "Diagnose the gaps between your current state and the connected, AI-enabled revenue system your competitors are already building.",
+      "tags": [
+        "Reports"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-y9tp37",
+      "type": "article",
+      "title": "Datablazer Roundup: September",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/datablazer-monthly-roundup/",
+      "author": "Mala Ravi",
+      "publishedAt": "2026-09-25T13:04:00.000Z",
+      "readTime": 1,
+      "summary": "Welcome back to the latest edition of the Datablazer Roundup. Your monthly dose of what Datablazers are reading, writing, watching, building, and talking about. From asking why historical CRM data is worth keeping…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-jdejjx",
+      "type": "article",
+      "title": "State of Commerce Report Takeaways For Startups and SMBs",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/state-of-commerce-report-takeaways-for-smbs/",
+      "author": "Lauren Wallace",
+      "publishedAt": "2026-09-25T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "AI just became your customers' first stop before they ever land on your site — here's what the latest State of Commerce report means for your business.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-5k8bog",
       "type": "article",
       "title": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
@@ -84,7 +179,7 @@
       "readTime": 1,
       "summary": "For IT leaders, developers, and admins, the headline was unmistakable: the future of work is all about humans and AI building side-by-side on a single, trusted foundation.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
@@ -107,7 +202,7 @@
         "Customer Experience",
         "RevOps"
       ],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
@@ -124,7 +219,7 @@
       "readTime": 1,
       "summary": "Anthropic recently launched a blueprint to help build commerce agents on Claude. This new starter kit for developers includes the reference code, guardrails, and best practices needed to build a shopping agent (to…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
@@ -142,44 +237,9 @@
       "readTime": 1,
       "summary": "A smart lead follow-up strategy is the difference between a closed deal and a missed opportunity — here's how to get it right.",
       "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-b1ktnc",
-      "type": "article",
-      "title": "Agent Optimizer: A Faster Path to Better Outcomes",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/agent-optimizer/",
-      "author": "Aron Kale",
-      "publishedAt": "2026-09-21T14:00:24.000Z",
-      "readTime": 1,
-      "summary": "Agentforce’s agent for building, testing and improving agents accelerates the development loop—from business intent to learning from production—with humans guiding the work.",
-      "tags": [],
       "relevanceScore": 56,
       "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-xbgxto",
-      "type": "article",
-      "title": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/dreamforce-takeways-for-small-teams-2026/",
-      "author": "Brett Grossfeld",
-      "publishedAt": "2026-09-21T13:15:07.000Z",
-      "readTime": 1,
-      "summary": "From AIforce to Slack CRM — what happened at Dreamforce and how is it making business better?",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -306,26 +366,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-ofvuzb",
-      "type": "article",
-      "title": "What Does Salesforce Do?",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/what-does-salesforce-do/",
-      "author": "Jody Farrar",
-      "publishedAt": "2026-09-17T21:51:58.000Z",
-      "readTime": 1,
-      "summary": "From your first customer conversation to your next big win, Salesforce's #1 AI CRM helps you build stronger relationships, work smarter with AI agents, and transform your business into an agentic enterprise.",
-      "tags": [
-        "Uncategorized"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-ov121h",
       "type": "podcast",
       "title": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut",
@@ -340,23 +380,6 @@
       "whyItMatters": [
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-jqlmqu",
-      "type": "article",
-      "title": "What Does an AI Harness Have To Do With Growing Business?",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-harness-explained-for-smbs/",
-      "author": "Caylin White",
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "An AI harness sounds technical, but it's really just managing your agents.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
       "saved": false
     },
@@ -1055,27 +1078,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-3fefvx",
-      "type": "article",
-      "title": "The hidden costs of revenue tech sprawl",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/the-hidden-costs-of-revenue-tech-sprawl/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-08-17T11:49:00.000Z",
-      "readTime": 1,
-      "summary": "An actionable eBook breaking down the true cost of disconnected sales tools, featuring expert insights and proven consolidation strategies from revenue leaders.",
-      "tags": [
-        "eBooks",
-        "RevOps strategy",
-        "Articles"
-      ],
-      "relevanceScore": 50,
-      "whyItMatters": [
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-ezxmnb",
       "type": "podcast",
       "title": "Sales Millionaires Are Back… Wasn't AI Supposed to Destroy This Job?!",
@@ -1373,7 +1375,7 @@
       "author": "Steve Chipman",
       "publishedAt": "2026-04-26T13:17:37.000Z",
       "readTime": 1,
-      "summary": "A headless CRM is a customer relationship management system in which the data layer, business logic, and workflows are decoupled from the user interface and exposed via APIs, MCPs (Model Context Protocols) tools, and CLIs (Command Line Interfaces). Instead of a human logging into a browser to update records, run reports, or advance opportunities, any ... Read more",
+      "summary": "A headless CRM is a customer relationship management system in which the data layer, business logic, and workflows are decoupled from the user interface and exposed via APIs, MCPs (Model Context Protocols), tools, and CLIs (Command Line Interfaces). Instead of a human logging into a browser to update records, run reports, or advance opportunities, any ... Read more",
       "tags": [
         "CRM Industry"
       ],
@@ -2019,45 +2021,45 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 74,
-      "recent3": 5,
-      "change": -11,
+      "count": 73,
+      "recent3": 6,
+      "change": -17,
       "direction": "down",
-      "articles": 37,
+      "articles": 36,
       "podcasts": 37,
-      "topItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
-      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
+      "topItem": "3 Must-Haves for Scaling Agentic AI in Health",
+      "secondItem": "The 2027 SPM Readiness Guide"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 54,
-      "recent3": 1,
-      "change": -67,
+      "recent3": 2,
+      "change": -69,
       "direction": "down",
       "articles": 23,
       "podcasts": 31,
-      "topItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways",
-      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
+      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
+      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
       "count": 47,
-      "recent3": 1,
-      "change": -33,
+      "recent3": 3,
+      "change": -37,
       "direction": "down",
       "articles": 28,
       "podcasts": 19,
-      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "secondItem": "Dreamforce Takeaways: Small Teams, Big Summit — Even Bigger Future"
+      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
+      "secondItem": "Datablazer Roundup: September"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 47,
       "recent3": 1,
-      "change": -61,
+      "change": -89,
       "direction": "down",
       "articles": 27,
       "podcasts": 20,
@@ -2067,33 +2069,33 @@
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 39,
-      "recent3": 3,
-      "change": 3,
+      "count": 40,
+      "recent3": 4,
+      "change": -7,
       "direction": "flat",
-      "articles": 4,
+      "articles": 5,
       "podcasts": 35,
-      "topItem": "Product-Market Fit Questions and Answers For Startups",
-      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
+      "topItem": "State of Commerce Report Takeaways For Startups and SMBs",
+      "secondItem": "Product-Market Fit Questions and Answers For Startups"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
-      "recent3": 0,
-      "change": -81,
+      "recent3": 1,
+      "change": -64,
       "direction": "down",
       "articles": 15,
       "podcasts": 16,
-      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "What Does Salesforce Do?"
+      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 22,
       "recent3": 1,
-      "change": -11,
+      "change": -17,
       "direction": "down",
       "articles": 7,
       "podcasts": 15,
@@ -2105,7 +2107,7 @@
       "topic": "GTM Strategy",
       "count": 21,
       "recent3": 0,
-      "change": -72,
+      "change": -74,
       "direction": "down",
       "articles": 3,
       "podcasts": 18,
@@ -2113,5 +2115,5 @@
       "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     }
   ],
-  "fetchedAt": "2026-09-25T11:29:56.836Z"
+  "fetchedAt": "2026-09-26T11:04:52.886Z"
 }
