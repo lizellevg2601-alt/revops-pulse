@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-bpxoq8",
+      "type": "podcast",
+      "title": "If the AI Money Dries Up, Which Companies Burn?",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/if-the-ai-money-dries-up-these-companies-burn-these-survive",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-09-27T04:01:00.000Z",
+      "duration": 69,
+      "summary": "Harvey's gross margin fell from roughly positive 50% at the start of 2026 to negative 50% by June, so every $1 of revenue cost $1.50 to deliver. Sam Jacobs, CEO of Pavilion, AJ Bruno, CEO of QuotaPath, and Asad Zaman, CEO of STA, go hosts-only on when AI growth justifies margins like that, why open weight models are no substitute for frontier intelligence, and what happens to the application layer if the exuberant market funding it goes away. Plus, AJ's 100x raise from 2021, a 68% jump in tech M&A and what it means for employee equity, and a Bulls and Bears round on AI catastrophe before 2031.\n Key Takeaways:\n - Negative gross margins can be a phase if there's a way out. Sam's straw man: \"Above 200% growth, I can tolerate bad margins temporarily if you can show me you have a path to a good business.\" Between 100% and 200% he wants \"a clear improving trajectory,\" and below 50% the margins have to be good.\n - Cheaper models fix the margin line but can break the product. Asad likened the switch to open weight models to \"going from hiring people only from Harvard to then going and hiring people from the worst university you can find or some mid-tier university and saying it's the same thing.\" That leaves application companies \"completely at the behest of these model companies.\"\n - The 2021 hangover is still on cap tables. AJ raised QuotaPath's Series B \"at a 100x valuation in '21,\" but with SaaS multiples at \"1x or less than 1x,\" he said, \"If I wanted to go sell QuotaPath today, I really couldn't find a buyer.\" Asad countered that secondaries changed the math: \"The founders are making a lot of money along the way.\"\n Connect with the Hosts:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 The Math Of AI, Deals, And Equity\n 02:03 SaaS Margins Were A Law Of Nature\n 03:24 Harvey's Margins Went To Negative 50%\n 04:18 Sam's 200% Growth Straw Man\n 05:46 Open Weight Models Aren't Harvard\n 14:13 Open Models Vs. Frontier Lab Economics\n 19:01 What Would You Spend $1M On?\n 30:08 Bullish Or Bearish On The AI Trade?\n 34:15 Walrath's Warning And A 100x Round\n 36:37 Secondaries Changed The Founder Math\n 42:35 Most Companies Never Get The Choice\n 47:32 Corporate M&A Is Surging\n 52:04 Should Equity Vest Monthly?\n 57:40 AJ's Case For Performance Equity\n 1:02:49 Bulls And Bears: AI Catastrophe",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-tdktrn",
+      "type": "podcast",
+      "title": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-26T12:27:00.000Z",
+      "duration": 57,
+      "summary": "Parag Agrawal is the Co-Founder and CEO of Parallel, building web search infrastructure for AI agents.\n Parallel has announced $230M in funding from Sequoia, Khosla, and First Round Capital. Previously, he was CEO of Twitter, succeeding Jack Dorsey after serving as CTO and becoming the company's first Distinguished Engineer.\n AGENDA:\n 03:00 What Breaks When Agents Search the Web 1,000x More?\n 07:00 Speed, Cost or Accuracy: What Do Agents Really Need?\n 13:00 Will Tiny Models Catch Today's Most Powerful AI?\n 16:00 Is Model Routing a Commodity?\n 21:00 Is Amazon Making a Mistake by Blocking AI Agents?\n 23:00 Does the Ads Business Model Die in a World of Agents?\n 27:00 Can You Pay Publishers Without Killing Your Margins?\n 33:00 Why Parag Wants a Race to the Bottom on Price\n 43:00 What Stops Your AI Agent Breaking the Rules to Get Results?\n 45:00 Why AI Hacks Should Embarrass the Labs\n 52:00 What Parag Saw Working With Elon Musk",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-v68qte",
       "type": "article",
       "title": "3 Must-Haves for Scaling Agentic AI in Health",
@@ -142,7 +180,7 @@
       "duration": 81,
       "summary": "AGENDA:\n 04:35 Anthropic's $2 Trillion IPO Delayed. Cracks in the AI Boom?\n 10:30 OpenAI Faces $278 Billion Cash Burn. Out of Money by 2028?\n 12:55 Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival?\n 17:05 Amazon Blocks AI Shopping Agents. Shopify Welcomes Them.\n 24:10 ChatGPT Inventor Launches Jev. Vercel's Fastest Launch Ever.\n 34:15 A $40 Million Seed Round. Is Traditional Seed Investing Dead?\n 39:00 Menlo Sounds the AI Bubble Alarm. Harry Calls BS.\n 54:00 Factory Triples Its Valuation to $5 Billion. Coding Is the Mother Lode.\n 1:00:20 Legora Hits $200 Million ARR. Is $11 Billion Too Rich?\n 1:03:50 Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?\n 1:08:55 Keith Rabois vs Airwallex. Fintech's Feud Escalates.\n 1:16:40 Sydney Sweeney for Airwallex? Lemkin's Wild PR Plan.",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -161,7 +199,7 @@
       "readTime": 1,
       "summary": "Your team is small, but your to-do list isn't — here's how AI in Slack helps startups connect all over the globe.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -1018,25 +1056,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-sg6tvl",
-      "type": "podcast",
-      "title": "20VC: The AI Bubble Will Burst: Half the Neoclouds Will Die | China: Should We Ban Chip Exports & Be Fearful of Chinese Open-Source | Mag7: Who Dies and Who Thrives: Why Meta is Meh and Microsoft is Mega",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-will-burst-half-the-neoclouds-will-die-china-should-we-ban-chip-exports-be-fearful-of-chinese-open-source-mag7-who-dies-and-who-thrives-why-meta-is-meh-and-microsoft-is-mega",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-22T07:07:00.000Z",
-      "duration": 66,
-      "summary": "Jerry Murdock is the Co-Founder of Insight Partners, which manages over $90 billion in assets. Jerry personally backed companies including Twitter, Nest and Docker, while Insight's portfolio includes giants such as Shopify, Wiz and monday.com. Across three decades, Insight has helped produce 55+ IPOs and become one of the most powerful technology investment firms in the world. \n AGENDA:\n 00:00 — Is the AI Bubble About to Burst?\n 11:00 — Will Half of All Neoclouds Disappear Within 36 Months?\n 13:00 — Can Open Source Models Actually Beat OpenAI and Anthropic?\n 22:00 — Are We Entering the Golden Age of Cybersecurity Attacks?\n 32:00 — Have AI Valuations Completely Lost Touch With Reality?\n 42:00 — Is AI About to Wipe Out an Entire Generation of SaaS & Private Equity?\n 47:00 — Should We Ban U.S. Chips From Being Exported to China?\n 48:00 — Should We Be Fearful of Open-Source Chinese Models?\n 49:00 — Will Continuous Learning Kill Every AI Model We Use Today?\n 53:00 — Why Microsoft Remains a Mega Buy\n 56:00 — Which Mag 7 Giant Would You Short — and Is Apple's AI Strategy a Disaster?",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-ijugrj",
       "type": "article",
       "title": "How AI is changing RevOps and GTM",
@@ -1258,25 +1277,6 @@
       "summary": "Amanda Kahlow, Founder & CEO of 1mind, joins Sam Jacobs, AJ Bruno, and Asad Zaman to break down how an AI-powered solutions engineer named Nigel took 33% of the talk time in a two and a half hour enterprise meeting and produced a $278,000 deal. Topics include why AI aimed at efficiency gains misses real revenue impact, Amanda's prediction that marketing, sales, and customer success collapse into one function within 12 months, and why AI adoption has to be top-down instead of bottoms-up. Plus, the 15 agents running behind every superhuman, a 98% accuracy bar measured by live evals, whether agents will negotiate with other agents on the buy side, and a bulls versus bears round on Salesforce, sales dinners, and the health of the average go-to-market team.\n Key Takeaways:\n - Most go-to-market teams are pointing AI at the wrong layer. Better forecasting, faster research, and cleaner dashboards make the people you already have marginally more productive, which is not where the revenue is. As Amanda Kahlow, Founder & CEO at 1mind, framed it: \"My thesis is that buying and selling happens in the conversation.\" Everything built around the conversation to enable a seller is, in her words, yesterday's workflow.\n - Trust, not novelty, is what moves an enterprise deal. Amanda flew a red-eye to Austin for a second meeting with a CPO and CMO, brought a superhuman named Nigel on screen, and watched the room turn to the AI for depth even she could not provide. As she told it, \"the CPO was like, Amanda, shut up, basically. I wanna talk to Nigel.\" The meeting scheduled for an hour ran two and a half, and produced \"a $278,000 deal from one in-person meeting going through procurement in one week\". Her read on why it worked: \"People say people buy from people. You buy when you trust.\"\n - The human face on an AI agent is a click-through device, not the value. Amanda's verdict after a year of selling them: \"The face is a novelty.\" 1mind drops the face entirely on live calls because the movement distracts. The important part is the conversational AI, where \"each superhuman has roughly 15 agents working behind the scenes.\" One handles small talk, another loads the live demo, another builds the perspective slide a human seller would normally take a week to produce.\n - Bottom-up AI adoption is where the value leaks out. Amanda's pushback on the idea that people who use AI will simply eat the people who do not: telling every individual to go be more efficient produces slop and no measurable gain, while the real impact, in her words, \"is going to come at the top down when we think about restructuring the org\".\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Amanda Kahlow, Founder & CEO at 1mind - https://www.linkedin.com/in/amandakahlow/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Introducing Amanda Kahlow\n 00:59 Building Superhumans At 1mind\n 03:24 Why Efficiency Gains Miss The Point\n 06:04 GTM Functions Collapse In 12 Months\n 08:48 The Ghost Note Debate\n 15:20 Nigel Takes 33% Of Talk Time\n 20:41 The Face Is Just Novelty\n 22:27 Fifteen Agents Behind One Superhuman\n 38:46 Compute Costs And AI Margins\n 41:19 How Accurate Are AI Agents?\n 47:08 Positioning An AI Company\n 52:13 When Agents Negotiate With Agents\n 53:54 Will CSM Jobs Survive?\n 57:56 Bulls and Bears\n 1:06:15 Boards, 6sense, And Burnout",
       "tags": [],
       "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-topline-podcast-qvqxxp",
-      "type": "podcast",
-      "title": "SPOTLIGHT: AI Is Making Sales Reps 60% Faster to Revenue | Justin Shriber, CEO & Co-Founder @ Terret AI",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-ai-is-making-sales-reps-60-faster-to-revenue-justin-shriber-ceo-co-founder-terret-ai",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-07-28T04:01:00.000Z",
-      "duration": 24,
-      "summary": "AI isn't just changing sales. It's completely rewriting how revenue teams operate.\n In this episode of Topline Spotlight, Sam Jacobs sits down with Justin Shriber, CEO of Terret AI, to break down how modern revenue organizations are using AI to improve forecasting, shorten sales cycles, ramp reps faster, and operationalize winning sales behavior in real time.\n Justin shares:\n Why traditional sales enablement is broken\n How AI helped reduce rep ramp time by 40%\n The \"answer-to-action\" engine powering modern RevOps\n The hidden dangers of decentralized AI adoption\n Why companies are struggling with inconsistent AI-generated data\n The real debate: build your own AI stack vs buy from vendors\n How leading teams are using AI agents today\n One of the most interesting conversations in GTM right now.\n If you're a CRO, RevOps leader, founder, or GTM operator trying to understand where AI is actually delivering value, this episode is worth your time.\n Chapters:\n 00:00 Intro\n 00:40 Meet Justin Schreiber and Terret\n 04:17 How AI is changing sales productivity\n 06:07 The biggest problem in revenue execution\n 09:37 Why great strategies never get executed\n 11:01 Building AI that's secure, accurate, and scalable\n 13:32 Buy vs. build: The future of enterprise AI\n 16:25 Why AI needs centralized governance\n 17:35 Jurassic Park, AI agents, and organizational chaos\n 20:15 Justin's biggest inspirations for building great companies\n 22:58 Where to find Justin and Terret\n Try Terret: terret.ai",
-      "tags": [],
-      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -2023,39 +2023,27 @@
       "topic": "AI & Agents",
       "count": 73,
       "recent3": 6,
-      "change": -17,
+      "change": -13,
       "direction": "down",
       "articles": 36,
       "podcasts": 37,
-      "topItem": "3 Must-Haves for Scaling Agentic AI in Health",
-      "secondItem": "The 2027 SPM Readiness Guide"
+      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
+      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 54,
-      "recent3": 2,
-      "change": -69,
+      "recent3": 3,
+      "change": -61,
       "direction": "down",
       "articles": 23,
       "podcasts": 31,
-      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
-      "secondItem": "How Can AI in Slack Help Your Startup? Let Us Count The Ways"
+      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
+      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
     },
     {
       "rank": 3,
-      "topic": "Data & Attribution",
-      "count": 47,
-      "recent3": 3,
-      "change": -37,
-      "direction": "down",
-      "articles": 28,
-      "podcasts": 19,
-      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
-      "secondItem": "Datablazer Roundup: September"
-    },
-    {
-      "rank": 4,
       "topic": "Marketing & Brand",
       "count": 47,
       "recent3": 1,
@@ -2067,23 +2055,35 @@
       "secondItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron"
     },
     {
+      "rank": 4,
+      "topic": "Data & Attribution",
+      "count": 46,
+      "recent3": 2,
+      "change": -54,
+      "direction": "down",
+      "articles": 28,
+      "podcasts": 18,
+      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
+      "secondItem": "Datablazer Roundup: September"
+    },
+    {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 40,
       "recent3": 4,
-      "change": -7,
+      "change": 4,
       "direction": "flat",
       "articles": 5,
       "podcasts": 35,
-      "topItem": "State of Commerce Report Takeaways For Startups and SMBs",
-      "secondItem": "Product-Market Fit Questions and Answers For Startups"
+      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
+      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
       "recent3": 1,
-      "change": -64,
+      "change": -84,
       "direction": "down",
       "articles": 15,
       "podcasts": 16,
@@ -2095,25 +2095,25 @@
       "topic": "Revenue Forecasting",
       "count": 22,
       "recent3": 1,
-      "change": -17,
+      "change": -23,
       "direction": "down",
       "articles": 7,
       "podcasts": 15,
-      "topItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
-      "secondItem": "4% of deals close  when sellers say they will"
+      "topItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
+      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 21,
+      "count": 20,
       "recent3": 0,
-      "change": -74,
+      "change": -100,
       "direction": "down",
       "articles": 3,
-      "podcasts": 18,
+      "podcasts": 17,
       "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
       "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
     }
   ],
-  "fetchedAt": "2026-09-26T11:04:52.886Z"
+  "fetchedAt": "2026-09-27T11:43:52.502Z"
 }
