@@ -1,6 +1,81 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-ou5uv3",
+      "type": "article",
+      "title": "21 Things We Announced at Dreamforce 2026",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+      "author": "Dmitry Sheynin, Austin Javellana",
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "From agents that tackle long-term goals to new tools for optimizing your Agentforce, Dreamforce 2026 was all about taking production agents to the next level.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-xw5nw0",
+      "type": "article",
+      "title": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) ",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/small-business-service-playbook-insights/",
+      "author": "Allison Williams",
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Learn how agentic self-service, AI service reps, and customer trust are playing a role for support teams.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-b3ka9m",
+      "type": "podcast",
+      "title": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-09-28T07:07:00.000Z",
+      "duration": 70,
+      "summary": "Alex Mashrabov is the Founder and CEO of Higgsfield, the third fastest scaling company to $1BN in ARR behind OpenAI and Anthropic. Reports suggest their latest funding round could place an $8BN valuation on the company. Prior to Higgsfield, Alex sold his prior company to Snap Inc for $166M. Alex was a competitive programmer as a kid, reaching third best in the world.\n AGENDA: \n 00:00 The Programming Prodigy Who Sold to Snap for $166M\n 09:00 Burning $10M: The Pivot That Saved Higgsfield\n 12:00 A $1B Revenue Run Rate in 18 Months; How Real Is It?\n 16:00 Will OpenAI and Google Wipe Out $20 AI Subscriptions?\n 21:00 Are AI Labs Gaming the Benchmarks?\n 28:00 Spending $4M a Month on AI; Genius or Insanity?\n 36:00 Are AI Moats Bullshit? The Great \"Wrapper\" Debate\n 43:00 One Full Day With His Son in Three Months: The Cost of Ambition\n 54:00 Quickfire: Is Snap Broken—and Will HubSpot Survive AI?\n 01:02:00 $10B in the Next 12 Months? Alex's Audacious Growth Bet",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-fm-podcast-iz3vil",
+      "type": "podcast",
+      "title": "Building a Company Brain for AI - Jacob Dietle",
+      "source": "RevOps FM",
+      "sourceUrl": "https://revops.fm/episode/company-brain-ai-jacob-dietle",
+      "author": "Justin Norris",
+      "publishedAt": "2026-09-27T13:00:00.000Z",
+      "duration": 46,
+      "summary": "Every time you explain your business to an AI from scratch, you’re repeating work. The opportunity with context engineering is to make your company’s expertise, processes, and past learning available whenever an agent needs them—so each new task builds on what you already know.\nIn this episode, I’m joined by Jacob Dietle—a consultant focused on context engineering and AI collaboration—to explore company brains, shared knowledge, and how to give agents the information they need to do useful work.\nWe discuss:\n\nWhat context engineering means in practice\nWhen to move beyond individual ChatGPT projects to shared company context\nHow existing knowledge bases fit into a company brain\nTurning customer conversations into insights agents can reuse\nUsing skills, version control, and source evidence to manage context\nHow agents find information without loading everything at once\nThe challenges of keeping context useful across teams\n\nWhether you’re building AI workflows for yourself or helping your company adopt agents, this conversation explores the decisions involved in organizing knowledge, choosing tools, and starting with practical use cases.\nAbout Today's Guest\nJacob Dietle helps teams organize company knowledge and build systems for AI collaboration through Taste Systems.\nHis work combines context engineering, knowledge management, and team enablement, with a focus on making company expertise usable across people and agents. In this conversation, he shares his approach to working with seed and Series A companies on AI for go-to-market.\nYou can find him sharing his work on LinkedIn and his Substack, Speed to Insight.\nKey Topics\n\n[00:00] - Introduction and defining context engineering\n[03:30] - How business context changes AI outputs\n[05:15] - From individual AI projects to company brains\n[09:20] - Where existing knowledge bases fit\n[14:27] - Choosing where to start\n[17:12] - Turning customer calls into grounded insights\n[22:45] - Building useful skills without modeling the whole business\n[25:25] - Version control and preserving organizational learning\n[30:46] - Choosing tools and structures for your use case\n[33:06] - Progressive disclosure and how agents retrieve context\n[34:53] - File-based retrieval versus semantic search\n[39:44] - Managing context across teams\n[41:40] - Self-learning systems and human review\n[43:26] - Connecting with Jacob\n\n\nResource Links\n\nTaste Systems\nContext OS Quickstart\nWhat even is context?\nApplied Context Engineering\n\n\nLearn More\nVisit the RevOps FM Substack for our weekly newsletter: \nNewsletter",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-bpxoq8",
       "type": "podcast",
       "title": "If the AI Money Dries Up, Which Companies Burn?",
@@ -108,7 +183,7 @@
       "readTime": 1,
       "summary": "Welcome back to the latest edition of the Datablazer Roundup. Your monthly dose of what Datablazers are reading, writing, watching, building, and talking about. From asking why historical CRM data is worth keeping…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
       ],
@@ -125,7 +200,7 @@
       "readTime": 1,
       "summary": "AI just became your customers' first stop before they ever land on your site — here's what the latest State of Commerce report means for your business.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
@@ -144,7 +219,7 @@
       "readTime": 1,
       "summary": "A practical framework for choosing where to start with Marketing Cloud, getting the foundations right, and tying every agent you launch to a business outcome.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
@@ -163,7 +238,7 @@
       "readTime": 1,
       "summary": "Product-market fit isn't a finish line — it's where the real work begins, and we’re here to answer some burning questions about what’s next.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Relevant to Founders & Fundraising — funding dynamics and founder execution."
       ],
@@ -243,41 +318,6 @@
       "relevanceScore": 50,
       "whyItMatters": [
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ep2q4h",
-      "type": "article",
-      "title": "Build Agents Your Way with Claude and Commerce Cloud",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/agentforce-commerce-anthropic-agents/",
-      "author": "Katja Franz",
-      "publishedAt": "2026-09-22T15:10:12.000Z",
-      "readTime": 1,
-      "summary": "Anthropic recently launched a blueprint to help build commerce agents on Claude. This new starter kit for developers includes the reference code, guardrails, and best practices needed to build a shopping agent (to…",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-cho3wo",
-      "type": "article",
-      "title": "What’s the Best Way To Follow Up With a Sales Lead?",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/how-to-follow-up-with-a-lead/",
-      "author": "Erin Hueffner, Caylin White",
-      "publishedAt": "2026-09-22T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "A smart lead follow-up strategy is the difference between a closed deal and a missed opportunity — here's how to get it right.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -1015,24 +1055,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-flatdw",
-      "type": "podcast",
-      "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with Julien Bek",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-24T07:07:00.000Z",
-      "duration": 79,
-      "summary": "Julien Bek is a Partner at Sequoia Capital, one of the most renowned venture firms in the world.  At Sequoia, he has partnered with companies including Rillet, Tacto, and Auctor. Before joining Sequoia, Julien spent five years at Accel, where he worked with companies including Miro, Melio, and BeReal. He is also an angel investor in Revolut and Attio.\n AGENDA:\n 06:35 – What did Julien only discover about Sequoia after joining the firm?\n 08:05 – What does everyone get wrong about Sequoia?\n 13:00 – Is Series A the hardest stage at which to invest today?\n 14:00 – Is Sequoia less focused on ownership as outcomes become larger?\n 19:20 – Does Sequoia simply pay more than everyone else to win deals?\n 22:00 – Is the \"triple, triple, double, double\" growth model dead?\n 25:00 – What is Sequoia's investment process really like behind the scenes?\n 27:15 – Can a partner still invest when the rest of Sequoia votes against them?\n 30:00 – Why can a flawless founder pitch actually be a warning sign?\n 31:00 – How do you judge whether a founder is exceptional in just 30 minutes?\n 33:00 – How can investors tell whether a founder's story is genuine?\n 35:10 – Is arrogance a bad trait in a founder?\n 36:00 – Which great founder did Julien completely misread?\n 37:15 – How should investors adjust their founder assessment across different cultures?\n 39:00 – What does a founder's childhood reveal about their future trajectory?\n 40:30 – What has Julien learned from Doug Leone, Pat Grady, Alfred Lin and Shaun Maguire?\n 47:00 – What does it mean when \"agents become the new customer\"?\n 49:00 – Does UI become irrelevant in an agent-first economy?\n 50:15 – Will answer-engine optimisation become larger than SEO?\n 52:00 – Will AI agents destroy software margins and brand loyalty?\n 53:00 – How quickly will enterprises allow agents to make purchasing decisions?\n 54:00 – Is AI infrastructure a safer investment than applications?\n 56:00 – Do software margins matter less when the potential outcomes are larger?\n 58:00 – Could the next trillion-dollar company masquerade as a services business?\n 01:00:00 – Which service industries can AI truly automate end-to-end?\n 01:02:00 – Are enterprises simply crying out for more help implementing AI?\n 01:03:10 – Will AI lead to dramatically smaller teams?\n 01:06:15 – Is traditional private equity screwed?\n 01:07:00 – The most overfunded and underfunded categories in venture\n 01:08:15 – What is the best AI agent company outside Sequoia's portfolio?\n 01:09:00 – Which missed investment still haunts Julien?\n 01:09:45 – Which founder trait will Julien never compromise on?\n 01:10:00 – Which competing fund makes Sequoia bring its A-game?\n 01:10:45 – How Julien missed Revolut—and helped his mother retire by investing anyway\n 01:14:00 – What does Julien believe that other Sequoia partners might disagree with?\n 01:15:00 – What is Julien most excited about over the next five years of AI?",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
       ],
       "saved": false
     },
@@ -1996,124 +2018,105 @@
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
-    },
-    {
-      "id": "feed-revops-fm-podcast-bx306o",
-      "type": "podcast",
-      "title": "Building a Composable Tech Stack for Outbound and ABM - Justin guests on \"RevOps Lab\"",
-      "source": "RevOps FM",
-      "sourceUrl": "https://revops.fm/episode/building-a-next-gen-outbound-tech-stack",
-      "author": "Justin Norris",
-      "publishedAt": "2024-11-05T13:00:00.000Z",
-      "duration": 42,
-      "summary": "One of the most interesting projects I worked on recently was a rebuild of our ABM / outbound / buying signal tech stack at my day job. \nI had bought one of the big legacy ABM platforms a few years ago but had never really seen the value we were hoping for, at least not enough to justify the cost. \nAnd meanwhile, there’s been this explosion of new vendors in the outbound space—tracking signals, aggregating signals, powering sales workflows, enrichment, AI SDR assistants, and the list goes on. \nI did a really deep evaluation to understand the landscape, and just as I wrapped that up, I sat down with Janis and Philipp who host the RevOps Lab podcast by Weflow.\nWe had a great discussion and really went into the details on this topic. If you’re thinking about changing up your ABM tech or just want to get oriented on what’s going on here, this is a great episode for you. \nHope you enjoy it, and check out more episodes from RevOps Lab here: https://www.getweflow.com/revops-lab\n--------\nJustin Norris, Senior Director of Marketing Ops at 360 Learning and host of the RevOps FM podcast, joins us to dive into outbound strategies and the evolving role of AI in sales. Justin shares his approach to outbound, focusing on experimentation, signals, and leveraging technology to make outbound motions more effective. He also discusses the importance of flexibility in trying new outbound approaches and creating a system where teams can experiment and learn what works best.\nWe cover:\n\nThe shift from traditional outbound methods to AI-driven strategies\nHow signals play a critical role in outbound success\nThe importance of flexibility and experimentation in outbound\nUsing tools like MadKudu to streamline outbound workflows\nAI’s role in the future of outbound and sales engagement\n\nChapters:\n\n[00:00] Introduction\n[01:17] Justin’s Background and Journey in RevOps\n[03:59] Outbound in the Modern Sales Environment\n[07:31] Signals and AI in Outbound Strategy\n[14:39] Building Flexibility into Outbound Motions\n[19:06] The Future of AI and Sales Engagement\n[24:00] Experimentation and Learning in Outbound\n[35:30] Final Thoughts and Advice\n\n--------\n\nThanks to Our Sponsor\nMany thanks to the sponsor of this episode - Knak. \nIf you don't know them (you should), Knak is an amazing email and landing page builder that integrates directly with your marketing automation platform. \nYou set the brand guidelines and then give your users a building experience that’s slick, modern and beautiful. When they’re done, everything goes to your MAP at the push of a button. \nWhat's more, it supports global teams, approval workflows, and it’s got your integrations. Click the link below to get a special offer just for my listeners. \nTry Knak \n \nThanks to Our Sponsor\nBig thanks goes out UserGems for sponsoring today’s episode. \nWe all know running outbound is a huge pain—you need to manage a dozen different tools and data sources and it takes ton of manual work to keep it all going. \nUserGems solves that with one platform to capture signals and automate next steps with workflows and AI.\nYou get a library of the most impactful signals in one place, automated playbooks to make sure your team executes consistently, and Gem AI to create personalized messaging for each prospect. \nSo stop wasting time and start targeting your most promising buyers with less headcount. Click the link below for a special offer just for my listeners. \nTry UserGems",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
     }
   ],
   "trends": [
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 73,
-      "recent3": 6,
-      "change": -13,
-      "direction": "down",
-      "articles": 36,
+      "count": 74,
+      "recent3": 8,
+      "change": 4,
+      "direction": "flat",
+      "articles": 37,
       "podcasts": 37,
-      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
-      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
+      "topItem": "21 Things We Announced at Dreamforce 2026",
+      "secondItem": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) "
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 54,
-      "recent3": 3,
-      "change": -61,
+      "count": 55,
+      "recent3": 6,
+      "change": -29,
       "direction": "down",
-      "articles": 23,
+      "articles": 24,
       "podcasts": 31,
-      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
-      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
+      "topItem": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) ",
+      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 47,
+      "count": 46,
       "recent3": 1,
-      "change": -89,
+      "change": -78,
       "direction": "down",
       "articles": 27,
-      "podcasts": 20,
-      "topItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition",
-      "secondItem": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron"
+      "podcasts": 19,
+      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "secondItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 46,
-      "recent3": 2,
-      "change": -54,
+      "count": 45,
+      "recent3": 1,
+      "change": -65,
       "direction": "down",
       "articles": 28,
-      "podcasts": 18,
+      "podcasts": 17,
       "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
       "secondItem": "Datablazer Roundup: September"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 40,
-      "recent3": 4,
-      "change": 4,
+      "count": 39,
+      "recent3": 3,
+      "change": 7,
       "direction": "flat",
       "articles": 5,
-      "podcasts": 35,
-      "topItem": "If the AI Money Dries Up, Which Companies Burn?",
-      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
+      "podcasts": 34,
+      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "secondItem": "If the AI Money Dries Up, Which Companies Burn?"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
-      "recent3": 1,
-      "change": -84,
+      "recent3": 2,
+      "change": -66,
       "direction": "down",
       "articles": 15,
       "podcasts": 16,
-      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "secondItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 22,
-      "recent3": 1,
+      "recent3": 2,
       "change": -23,
       "direction": "down",
       "articles": 7,
       "podcasts": 15,
-      "topItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
-      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
+      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 20,
-      "recent3": 0,
-      "change": -100,
+      "recent3": 1,
+      "change": -74,
       "direction": "down",
       "articles": 3,
       "podcasts": 17,
-      "topItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield",
-      "secondItem": "SPOTLIGHT: What It Takes to Step into the CEO Role | Eric Anderson, CEO @ Walnut"
+      "topItem": "Building a Company Brain for AI - Jacob Dietle",
+      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-09-27T11:43:52.502Z"
+  "fetchedAt": "2026-09-28T13:21:44.469Z"
 }
