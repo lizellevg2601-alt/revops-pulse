@@ -1,6 +1,60 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-xipa37",
+      "type": "article",
+      "title": "What an Unforgettable Dreamforce 2026: Unleashing IT & HR Service Innovation",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-it-hr-innovation/",
+      "author": "RJ Jainendra",
+      "publishedAt": "2026-09-28T19:10:07.000Z",
+      "readTime": 1,
+      "summary": "What an incredible week at Dreamforce 2026! Having the opportunity to connect with so many visionary leaders, innovators, and partners in person is always a highlight and honor, but this past week was…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-gejslg",
+      "type": "article",
+      "title": "Want to Maximize Revenue and Cut Costs? Align Your Sales and Service Teams",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/align-your-sales-and-service-teams/",
+      "author": "Taylor Weik",
+      "publishedAt": "2026-09-28T18:13:32.000Z",
+      "readTime": 1,
+      "summary": "With one central platform between sales and service, productivity goes up, costs go down, and shared insights can lead to upsell opportunities.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-tfg8hv",
+      "type": "article",
+      "title": "Extending Admin Control to the Runtime Layer with NVIDIA OpenShell and Slack",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/extending-admin-control-to-the-runtime-layer-with-nvidia-openshell-and-slack/",
+      "author": "Gregg Rybicki",
+      "publishedAt": "2026-09-28T13:46:29.000Z",
+      "readTime": 1,
+      "summary": "As AI agents take on longer-running work across enterprise systems, they need broader access to tools, data, credentials, and services to get that work done. The challenge is giving agents enough autonomy to…",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-ou5uv3",
       "type": "article",
       "title": "21 Things We Announced at Dreamforce 2026",
@@ -105,7 +159,7 @@
       "duration": 57,
       "summary": "Parag Agrawal is the Co-Founder and CEO of Parallel, building web search infrastructure for AI agents.\n Parallel has announced $230M in funding from Sequoia, Khosla, and First Round Capital. Previously, he was CEO of Twitter, succeeding Jack Dorsey after serving as CTO and becoming the company's first Distinguished Engineer.\n AGENDA:\n 03:00 What Breaks When Agents Search the Web 1,000x More?\n 07:00 Speed, Cost or Accuracy: What Do Agents Really Need?\n 13:00 Will Tiny Models Catch Today's Most Powerful AI?\n 16:00 Is Model Routing a Commodity?\n 21:00 Is Amazon Making a Mistake by Blocking AI Agents?\n 23:00 Does the Ads Business Model Die in a World of Agents?\n 27:00 Can You Pay Publishers Without Killing Your Margins?\n 33:00 Why Parag Wants a Race to the Bottom on Price\n 43:00 What Stops Your AI Agent Breaking the Rules to Get Results?\n 45:00 Why AI Hacks Should Embarrass the Labs\n 52:00 What Parag Saw Working With Elon Musk",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -124,7 +178,7 @@
       "readTime": 1,
       "summary": "Learn how to build an Agentic Health Enterprise through trust, context, and action with insights from the Health Keynote at Dreamforce 2026. Healthcare professionals are doing more than ever. Simultaneously, fragmented systems and…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
@@ -143,7 +197,7 @@
       "readTime": 1,
       "summary": "Learn how to move from fragmented data to coordinated action with insights from the Life Sciences Keynote at Dreamforce 2026. Life sciences organizations are navigating an industry landscape that’s changing faster than the…",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
@@ -164,7 +218,7 @@
       "tags": [
         "Reports"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
@@ -228,23 +282,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-9zsjpe",
-      "type": "article",
-      "title": "Product-Market Fit Questions and Answers For Startups",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/product-market-fit-questions/",
-      "author": "Jessica Williams",
-      "publishedAt": "2026-09-24T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Product-market fit isn't a finish line — it's where the real work begins, and we’re here to answer some burning questions about what’s next.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Relevant to Founders & Fundraising — funding dynamics and founder execution."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-i9o42l",
       "type": "podcast",
       "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
@@ -260,42 +297,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ap2iaq",
-      "type": "article",
-      "title": "How Can AI in Slack Help Your Startup? Let Us Count The Ways",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-in-slack-for-startups/",
-      "author": "Jenn Sei",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Your team is small, but your to-do list isn't — here's how AI in Slack helps startups connect all over the globe.",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-6ja1xr",
-      "type": "article",
-      "title": "The Top 5 Dreamforce Announcements for IT: AIforce, MCP Security, and More",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-top-it-announcements/",
-      "author": "Samantha Marsh",
-      "publishedAt": "2026-09-22T22:04:30.000Z",
-      "readTime": 1,
-      "summary": "For IT leaders, developers, and admins, the headline was unmistakable: the future of work is all about humans and AI building side-by-side on a single, trusted foundation.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Advances the Composable & Headless thread — the modern, API-first architecture you follow."
       ],
       "saved": false
     },
@@ -2024,29 +2025,41 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 74,
-      "recent3": 8,
-      "change": 4,
+      "count": 73,
+      "recent3": 6,
+      "change": -4,
       "direction": "flat",
-      "articles": 37,
+      "articles": 36,
       "podcasts": 37,
-      "topItem": "21 Things We Announced at Dreamforce 2026",
-      "secondItem": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) "
+      "topItem": "Extending Admin Control to the Runtime Layer with NVIDIA OpenShell and Slack",
+      "secondItem": "21 Things We Announced at Dreamforce 2026"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 55,
-      "recent3": 6,
-      "change": -29,
-      "direction": "down",
-      "articles": 24,
+      "count": 57,
+      "recent3": 7,
+      "change": -8,
+      "direction": "flat",
+      "articles": 26,
       "podcasts": 31,
-      "topItem": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) ",
-      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
+      "topItem": "What an Unforgettable Dreamforce 2026: Unleashing IT & HR Service Innovation",
+      "secondItem": "Want to Maximize Revenue and Cut Costs? Align Your Sales and Service Teams"
     },
     {
       "rank": 3,
+      "topic": "Data & Attribution",
+      "count": 46,
+      "recent3": 1,
+      "change": -54,
+      "direction": "down",
+      "articles": 29,
+      "podcasts": 17,
+      "topItem": "Extending Admin Control to the Runtime Layer with NVIDIA OpenShell and Slack",
+      "secondItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action"
+    },
+    {
+      "rank": 4,
       "topic": "Marketing & Brand",
       "count": 46,
       "recent3": 1,
@@ -2058,25 +2071,13 @@
       "secondItem": "Your Roadmap to Marketing Cloud Next: A Role-Based Training Plan for the MCE Transition"
     },
     {
-      "rank": 4,
-      "topic": "Data & Attribution",
-      "count": 45,
-      "recent3": 1,
-      "change": -65,
-      "direction": "down",
-      "articles": 28,
-      "podcasts": 17,
-      "topItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action",
-      "secondItem": "Datablazer Roundup: September"
-    },
-    {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 39,
-      "recent3": 3,
-      "change": 7,
-      "direction": "flat",
-      "articles": 5,
+      "count": 37,
+      "recent3": 2,
+      "change": -24,
+      "direction": "down",
+      "articles": 3,
       "podcasts": 34,
       "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
       "secondItem": "If the AI Money Dries Up, Which Companies Burn?"
@@ -2084,20 +2085,20 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 31,
+      "count": 32,
       "recent3": 2,
-      "change": -66,
+      "change": -49,
       "direction": "down",
-      "articles": 15,
+      "articles": 16,
       "podcasts": 16,
-      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
-      "secondItem": "Rewriting the Script for Life Sciences: 3 Ways Salesforce Turns Healthcare Complexity Into Action"
+      "topItem": "Want to Maximize Revenue and Cut Costs? Align Your Sales and Service Teams",
+      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 22,
-      "recent3": 2,
+      "recent3": 1,
       "change": -23,
       "direction": "down",
       "articles": 7,
@@ -2118,5 +2119,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-09-28T13:21:44.469Z"
+  "fetchedAt": "2026-09-29T12:27:13.405Z"
 }
