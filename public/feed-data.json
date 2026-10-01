@@ -1,6 +1,148 @@
 {
   "items": [
     {
+      "id": "feed-seafoam-media-oysh4m",
+      "type": "article",
+      "title": "October 2026 CX News: Trends & Insights",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/brief/october-2026-cx-news-trends-insights/",
+      "author": "Ryan Foizey",
+      "publishedAt": "2026-10-01T09:00:00.000Z",
+      "readTime": 1,
+      "summary": "Salesforce buys Fin, Zendesk goes specialist, and just 9% of support chats run on AI alone. Our read on October 2026 CX news and events.\nThe post October 2026 CX News: Trends & Insights appeared first on Seafoam.",
+      "tags": [
+        "Brief",
+        "CX"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-seafoam-media-b44j89",
+      "type": "article",
+      "title": "October 2026 Marketing News: Trends & Insights",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/brief/october-2026-marketing-news-trends-insights/",
+      "author": "Allie Wolf",
+      "publishedAt": "2026-10-01T09:00:00.000Z",
+      "readTime": 1,
+      "summary": "October 2026 marketing news for operators: AI Max takeover, the FTC's Amazon ad suit, AI search reporting, ChatGPT ads, and the events worth your time.\nThe post October 2026 Marketing News: Trends & Insights appeared first on Seafoam.",
+      "tags": [
+        "Brief",
+        "Thinking",
+        "AI SEO",
+        "Analytics & Reporting",
+        "Brand Strategy",
+        "Content Development"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-seafoam-media-rzxdao",
+      "type": "article",
+      "title": "October 2026 RevOps News: Trends & Insights",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/brief/october-2026-revops-news-trends-insights/",
+      "author": "Jared Lender",
+      "publishedAt": "2026-10-01T09:00:00.000Z",
+      "readTime": 1,
+      "summary": "October 2026 RevOps news: Salesforce and HubSpot bet on context, Clay hits $7.1B, Microsoft kills release waves. What it means for your revenue system.\nThe post October 2026 RevOps News: Trends & Insights appeared first on Seafoam.",
+      "tags": [
+        "Brief",
+        "RevOps"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-w62gy2",
+      "type": "podcast",
+      "title": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-instinct-raises-1b-at-10b-valuation-amd-buys-fei-fei-lis-world-labs-for-82b-meta-poaches-mongodbs-ceo-bessemer-raises-575b-oura-pulls-ipo-nubank-eyes-812b-monzo-takeover",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-01T07:07:00.000Z",
+      "duration": 79,
+      "summary": "AGENDA: \n 00:00 Highlights: Jack Altman Joins The Trio\n 05:00 Anthropic's S-1 Leaks: $8B Operating Loss and $518B in Compute Commitments\n 10:00 Instinct Raises $1B at a $10B Valuation to Take On Meta\n 25:00 AMD Buys Fei-Fei Li's World Labs for $8.2B\n 39:00 Meta Poaches MongoDB's CEO as Shares Plunge 20%\n 43:00 AI Startup Seeks $10B Valuation Just One Week After Seed\n 47:00 Modal Hits $15B Valuation as Baseten Eyes $26B\n 54:00 OpenAI Reopens Its $200 Plan—and Halves What You Get\n 57:00 Oura Pulls IPO After Targeting a $16B Valuation\n 01:03:00 Nubank Eyes $8–12B Monzo Takeover\n 01:08:00 Bessemer Raises $5.75B as NFX Switches to Its Own Capital\n 01:14:00 Anthropic Founders Move to Lock In 50.1% Voting Control",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-i647p6",
+      "type": "article",
+      "title": "How West Marine Drives Revenue and Scalability with AI-Native Search and Agents",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/west-marine-customer-story/",
+      "author": "Miryam Meir",
+      "publishedAt": "2026-09-30T17:33:53.000Z",
+      "readTime": 1,
+      "summary": "For over 58 years, West Marine has been the go-to destination for water sports, fishing, and boating enthusiasts. Serving water lovers of all kinds means catering to a broad spectrum of customers from…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-13ijhw",
+      "type": "article",
+      "title": "The Tableau Knowledge Engine: How We Built Trustworthy Agentic Analytics",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/knowledge-engine-how-we-built-trustworthy-agentic-analytics/",
+      "author": "Trevor Hall, Gunther Hagleitner",
+      "publishedAt": "2026-09-30T15:46:48.000Z",
+      "readTime": 1,
+      "summary": "Ensure accurate AI insights with a dynamic knowledge engine that equips AI agents with a reliable, trustworthy understanding of your business.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-1462zx",
+      "type": "article",
+      "title": "Can You Become an Agentic Enterprise? Get a Sneak Peek in The Latest Guide",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/agentic-enterprise-guide-takeaways/",
+      "author": "Benny Spiewak",
+      "publishedAt": "2026-09-30T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Salesforce’s latest Agentic Enterprise guide will surprise you with insights on our next chapter of AI in business.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-bhkk0f",
       "type": "article",
       "title": "Salesforce Achieves UK Cyber Essentials and Cyber Essentials Plus Certifications",
@@ -126,43 +268,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-ou5uv3",
-      "type": "article",
-      "title": "21 Things We Announced at Dreamforce 2026",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
-      "author": "Dmitry Sheynin, Austin Javellana",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "From agents that tackle long-term goals to new tools for optimizing your Agentforce, Dreamforce 2026 was all about taking production agents to the next level.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-xw5nw0",
-      "type": "article",
-      "title": "Sneak Peek Into the Small Business Service Playbook (3 Key Insights) ",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/small-business-service-playbook-insights/",
-      "author": "Allison Williams",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Learn how agentic self-service, AI service reps, and customer trust are playing a role for support teams.",
-      "tags": [],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-b3ka9m",
       "type": "podcast",
       "title": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
@@ -173,7 +278,7 @@
       "duration": 70,
       "summary": "Alex Mashrabov is the Founder and CEO of Higgsfield, the third fastest scaling company to $1BN in ARR behind OpenAI and Anthropic. Reports suggest their latest funding round could place an $8BN valuation on the company. Prior to Higgsfield, Alex sold his prior company to Snap Inc for $166M. Alex was a competitive programmer as a kid, reaching third best in the world.\n AGENDA: \n 00:00 The Programming Prodigy Who Sold to Snap for $166M\n 09:00 Burning $10M: The Pivot That Saved Higgsfield\n 12:00 A $1B Revenue Run Rate in 18 Months; How Real Is It?\n 16:00 Will OpenAI and Google Wipe Out $20 AI Subscriptions?\n 21:00 Are AI Labs Gaming the Benchmarks?\n 28:00 Spending $4M a Month on AI; Genius or Insanity?\n 36:00 Are AI Moats Bullshit? The Great \"Wrapper\" Debate\n 43:00 One Full Day With His Son in Three Months: The Cost of Ambition\n 54:00 Quickfire: Is Snap Broken—and Will HubSpot Survive AI?\n 01:02:00 $10B in the Next 12 Months? Alex's Audacious Growth Bet",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -192,7 +297,7 @@
       "duration": 46,
       "summary": "Every time you explain your business to an AI from scratch, you’re repeating work. The opportunity with context engineering is to make your company’s expertise, processes, and past learning available whenever an agent needs them—so each new task builds on what you already know.\nIn this episode, I’m joined by Jacob Dietle—a consultant focused on context engineering and AI collaboration—to explore company brains, shared knowledge, and how to give agents the information they need to do useful work.\nWe discuss:\n\nWhat context engineering means in practice\nWhen to move beyond individual ChatGPT projects to shared company context\nHow existing knowledge bases fit into a company brain\nTurning customer conversations into insights agents can reuse\nUsing skills, version control, and source evidence to manage context\nHow agents find information without loading everything at once\nThe challenges of keeping context useful across teams\n\nWhether you’re building AI workflows for yourself or helping your company adopt agents, this conversation explores the decisions involved in organizing knowledge, choosing tools, and starting with practical use cases.\nAbout Today's Guest\nJacob Dietle helps teams organize company knowledge and build systems for AI collaboration through Taste Systems.\nHis work combines context engineering, knowledge management, and team enablement, with a focus on making company expertise usable across people and agents. In this conversation, he shares his approach to working with seed and Series A companies on AI for go-to-market.\nYou can find him sharing his work on LinkedIn and his Substack, Speed to Insight.\nKey Topics\n\n[00:00] - Introduction and defining context engineering\n[03:30] - How business context changes AI outputs\n[05:15] - From individual AI projects to company brains\n[09:20] - Where existing knowledge bases fit\n[14:27] - Choosing where to start\n[17:12] - Turning customer calls into grounded insights\n[22:45] - Building useful skills without modeling the whole business\n[25:25] - Version control and preserving organizational learning\n[30:46] - Choosing tools and structures for your use case\n[33:06] - Progressive disclosure and how agents retrieve context\n[34:53] - File-based retrieval versus semantic search\n[39:44] - Managing context across teams\n[41:40] - Self-learning systems and human review\n[43:26] - Connecting with Jacob\n\n\nResource Links\n\nTaste Systems\nContext OS Quickstart\nWhat even is context?\nApplied Context Engineering\n\n\nLearn More\nVisit the RevOps FM Substack for our weekly newsletter: \nNewsletter",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
@@ -235,25 +340,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-v68qte",
-      "type": "article",
-      "title": "3 Must-Haves for Scaling Agentic AI in Health",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/3-must-haves-for-scaling-agentic-ai-in-health/",
-      "author": "Lizanne Kiel",
-      "publishedAt": "2026-09-25T17:45:03.000Z",
-      "readTime": 1,
-      "summary": "Learn how to build an Agentic Health Enterprise through trust, context, and action with insights from the Health Keynote at Dreamforce 2026. Healthcare professionals are doing more than ever. Simultaneously, fragmented systems and…",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
-        "Forward-looking — frames where the practice is heading this cycle."
       ],
       "saved": false
     },
@@ -513,12 +599,12 @@
       "readTime": 1,
       "summary": "Partner-led growth September 30,  6am PT / 9am ET / 2pm BST|",
       "tags": [
-        "Live session",
-        "Revenue Growth"
+        "Revenue Growth",
+        "Ondemand"
       ],
-      "relevanceScore": 50,
+      "relevanceScore": 56,
       "whyItMatters": [
-        "Highlights go-to-market themes that shape day-to-day RevOps work."
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
       ],
       "saved": false
     },
@@ -1038,25 +1124,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-dndes4",
-      "type": "podcast",
-      "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-27T07:07:00.000Z",
-      "duration": 83,
-      "summary": "AGENDA: \n 00:00 NVIDIA Launches a Three-Deal Blitz Across the AI Stack\n 04:31 NVIDIA's $12BN Poolside Deal Exposes Frontier AI's Capital Wall\n 15:39 NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN\n 26:55 OpenAI Confirms 2027 IPO as Anthropic Seizes the Lead\n 40:42 Hugging Face Draws $13BN Takeover Interest as Open Models Boom\n 44:56 Citadel Cashes Out 80% of Its Leopold Aschenbrenner AI Trade\n 51:51 AI Boom Is \"Less Than One-Third Over\"—But Token Addiction Has a Price\n 01:04:07 Stripe Reaccelerates to 41% as AI Reshapes Software's Leaderboard\n 01:07:45 Instinct Security Scare Exposes Why AI Agents Still Cannot Be Trusted\n 01:23:55 VCs Name AI's Biggest Bubbles: Support, Defense, Humanoids and Roll-Ups",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-lizzbn",
       "type": "podcast",
       "title": "The Unwritten Rules of CRO Survival | Rick Smolen, CRO @ ShipHero",
@@ -1321,68 +1388,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-seafoam-media-hdxrp2",
-      "type": "article",
-      "title": "Green Dashboards Don’t Necessarily Grow Businesses",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/worldview/green-dashboards-dont-necessarily-grow-businesses/",
-      "author": "Jared Lender",
-      "publishedAt": "2026-07-17T17:07:57.000Z",
-      "readTime": 1,
-      "summary": "The meeting nobody wants to have. There’s a version of the marketing review that happens in boardrooms and leadership meetings across thousands of companies every month. The deck goes up. The charts go up and to the right. Impressions are climbing. Click-through rates are strong. Organic visibility is improving. The agency did what they said […]\nThe post Green Dashboards Don’t Necessarily Grow Businesses appeared first on Seafoam.",
-      "tags": [
-        "Worldview"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-seafoam-media-6b2pbr",
-      "type": "article",
-      "title": "Why your marketing isn’t the problem",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/worldview/why-your-marketing-isnt-the-problem/",
-      "author": "Ryan Foizey",
-      "publishedAt": "2026-07-07T16:30:17.000Z",
-      "readTime": 1,
-      "summary": "The argument, said plainly You’ve spent years and real money on marketing that didn’t move your business. You’ve switched vendors. You’ve increased budget. You’ve hired internally and fired the internal hire. You’ve been told the problem was the website, and then the ads, and then the brand, and then the funnel. What’s actually happening is […]\nThe post Why your marketing isn’t the problem appeared first on Seafoam.",
-      "tags": [
-        "Worldview"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-seafoam-media-tgjerj",
-      "type": "article",
-      "title": "July 2026 CX News: Trends & Insights",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/brief/july-2026-cx-news/",
-      "author": "Jared Lender",
-      "publishedAt": "2026-06-30T22:48:55.000Z",
-      "readTime": 1,
-      "summary": "Salesforce Buys Fin for $3.6B — Then Undercuts It Ten Days Later The CX platform wars produced their loudest week of the year in mid-June. On June 15, Salesforce agreed to acquire Fin — the AI company formerly known as Intercom — for roughly $3.6 billion, its fifth acquisition of the year. Fin brings an […]\nThe post July 2026 CX News: Trends & Insights appeared first on Seafoam.",
-      "tags": [
-        "Brief",
-        "CX"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -2022,45 +2027,45 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 73,
-      "recent3": 7,
+      "count": 72,
+      "recent3": 9,
       "change": 3,
       "direction": "flat",
-      "articles": 36,
+      "articles": 35,
       "podcasts": 37,
-      "topItem": "Agentic AI and the Future of Work: What It Means for Salesforce Practitioners",
-      "secondItem": "Dreamforce 2026: 5 Ways Marketing Cloud Is Building a New Model for Growth"
+      "topItem": "October 2026 CX News: Trends & Insights",
+      "secondItem": "October 2026 Marketing News: Trends & Insights"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 56,
-      "recent3": 6,
-      "change": -12,
+      "count": 54,
+      "recent3": 4,
+      "change": -26,
       "direction": "down",
-      "articles": 25,
-      "podcasts": 31,
-      "topItem": "What an Unforgettable Dreamforce 2026: Unleashing IT & HR Service Innovation",
-      "secondItem": "Want to Maximize Revenue and Cut Costs? Align Your Sales and Service Teams"
+      "articles": 24,
+      "podcasts": 30,
+      "topItem": "October 2026 RevOps News: Trends & Insights",
+      "secondItem": "What an Unforgettable Dreamforce 2026: Unleashing IT & HR Service Innovation"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 46,
       "recent3": 2,
-      "change": -76,
+      "change": -70,
       "direction": "down",
       "articles": 27,
       "podcasts": 19,
-      "topItem": "Dreamforce 2026: 5 Ways Marketing Cloud Is Building a New Model for Growth",
-      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
+      "topItem": "October 2026 Marketing News: Trends & Insights",
+      "secondItem": "Dreamforce 2026: 5 Ways Marketing Cloud Is Building a New Model for Growth"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 44,
       "recent3": 1,
-      "change": -75,
+      "change": -90,
       "direction": "down",
       "articles": 27,
       "podcasts": 17,
@@ -2072,31 +2077,31 @@
       "topic": "Founders & Fundraising",
       "count": 36,
       "recent3": 1,
-      "change": -34,
+      "change": -47,
       "direction": "down",
       "articles": 2,
       "podcasts": 34,
-      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
-      "secondItem": "If the AI Money Dries Up, Which Companies Burn?"
+      "topItem": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover",
+      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
-      "recent3": 4,
-      "change": -28,
-      "direction": "down",
-      "articles": 17,
+      "count": 35,
+      "recent3": 6,
+      "change": 7,
+      "direction": "flat",
+      "articles": 19,
       "podcasts": 16,
-      "topItem": "Salesforce Achieves UK Cyber Essentials and Cyber Essentials Plus Certifications",
-      "secondItem": "Agentic AI and the Future of Work: What It Means for Salesforce Practitioners"
+      "topItem": "October 2026 CX News: Trends & Insights",
+      "secondItem": "October 2026 RevOps News: Trends & Insights"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 22,
-      "recent3": 1,
-      "change": -17,
+      "recent3": 0,
+      "change": -57,
       "direction": "down",
       "articles": 7,
       "podcasts": 15,
@@ -2107,8 +2112,8 @@
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 20,
-      "recent3": 1,
-      "change": -72,
+      "recent3": 0,
+      "change": -78,
       "direction": "down",
       "articles": 3,
       "podcasts": 17,
@@ -2116,5 +2121,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-09-30T12:12:38.623Z"
+  "fetchedAt": "2026-10-01T12:46:30.309Z"
 }
