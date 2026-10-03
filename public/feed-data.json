@@ -1,6 +1,82 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-nqpc4x",
+      "type": "podcast",
+      "title": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-03T07:07:00.000Z",
+      "duration": 61,
+      "summary": "Chase Lochmiller is the Co-founder and CEO of Crusoe. Crusoe builds and powers the data centres that companies use to train and run AI. It has raised approximately $6.4 billion in equity, including its latest $3.9 billion Series F at a $30.9 billion valuation. Its backers include NVIDIA, Founders Fund, Gavin Baker's Atreides Management, Mubadala Capital and Valor Equity Partners.\n AGENDA:\n 04:40 What Does Climbing Everest Teach You About Building a Company?\n 17:40 What's Really Stopping Us From Building Enough AI Data Centres?\n 25:50 Are Data Centres Really Driving Up Your Energy Bills?\n 28:05 Will Half of Planned AI Data Centres Never Get Built?\n 32:10 How Quickly Can a GPU Pay for Itself?\n 38:35 Will Your GPUs Become Obsolete Before You've Paid Them Off?\n 44:20 What Does It Take to Produce the Cheapest Intelligence?\n 49:50 Will Companies Building Their Own Models Eat Into OpenAI's Business?\n 51:55 Can You Build a $30B Company and Still Be a Great Dad?",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-sg848r",
+      "type": "article",
+      "title": "Unpacking Dreamforce: Why Your AI Needs Trusted Context",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/why-your-ai-needs-trusted-context-data-360/",
+      "author": "Mala Ravi",
+      "publishedAt": "2026-10-02T20:08:36.000Z",
+      "readTime": 1,
+      "summary": "Imagine asking an AI agent to prepare an offer for a loyal customer. It finds their purchase history, spots an opportunity, and recommends the next product. But it misses the service case they’ve…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-h2onco",
+      "type": "article",
+      "title": "Why simplifying your revenue stack  comes before everything else",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/why-simplifying-your-revenue-stack-comes-before-everything-else/",
+      "author": "Fabrice Buron",
+      "publishedAt": "2026-10-02T16:50:50.000Z",
+      "readTime": 1,
+      "summary": "How Siemens Digital Industries is simplifying RevOps across 4,000 sellers.",
+      "tags": [
+        "Premium content",
+        "Members-only articles",
+        "Revenue Growth",
+        "Articles"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-dp3xcw",
+      "type": "article",
+      "title": "Where’s the Party? Zero-Party Data Basics for Small and Growing Businesses",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/zero-party-data-basics/",
+      "author": "Kavea S. Abhishek",
+      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Ask and you shall receive — zero-party data is the fastest way to build a business your customers actually trust.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-5j5g2n",
       "type": "article",
       "title": "Agents Can Mimic Good Design. Ours Know Why It Works",
@@ -247,7 +323,7 @@
       "readTime": 1,
       "summary": "Reinforcing Commitment to Customer Trust",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
       ],
@@ -264,46 +340,10 @@
       "readTime": 1,
       "summary": "Technology is changing fast. Follow the work to see where your role goes next.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-6v42gt",
-      "type": "article",
-      "title": "Dreamforce 2026: 5 Ways Marketing Cloud Is Building a New Model for Growth",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/dreamforce-2026-5-ways-marketing-cloud-is-building-a-new-model-for-growth/",
-      "author": "Natalie Mathes",
-      "publishedAt": "2026-09-29T15:51:01.000Z",
-      "readTime": 1,
-      "summary": "From shaping how AI represents your brand to campaigns that keep improving after launch, see what’s new in Marketing Cloud and what it means for marketers.",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-b3fybf",
-      "type": "article",
-      "title": "Cash Flow Management Tips: What’s Your Strategy, Business Owners?",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/cash-flow-management-tips/",
-      "author": "Allen Aguilar",
-      "publishedAt": "2026-09-29T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Get in the (cash) flow with these quick tips.",
-      "tags": [],
-      "relevanceScore": 54,
-      "whyItMatters": [
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -1067,27 +1107,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-bgcdrm",
-      "type": "article",
-      "title": "AI for Revenue Leaders Report 2026",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/ai-for-revenue-leaders-report-2026/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-08-31T09:57:11.000Z",
-      "readTime": 1,
-      "summary": "const recordId = 'recWPSLOCZARRyqaU';\n    \n    \nCan you show AI in your revenue numbers?\nAdoption of AI among revenue leaders is nearly universal in 2026, yet only 5% can demonstrate",
-      "tags": [
-        "Reports"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-2cmfq4",
       "type": "podcast",
       "title": "20VC: The AI Bubble Is Wrong | AI Margins Need to Improve | Revenue Concentration Should be a Concern | Why People Over-Estimate Open Models But Enterprises Still Fear Frontier Models with Aaron Katz, ClickHouse",
@@ -1122,25 +1141,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-c59151",
-      "type": "podcast",
-      "title": "20VC: Is Anthropic's Coding Business Worth $2 Trillion? | Should American Enterprises Work With Open-Source Chinese Models? | Why 80–90% of Neo-Labs Die in the Next 18 Months? with Eno Reyes, Co-Founder @ Factory",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-is-anthropics-coding-business-worth-2-trillion-should-american-enterprises-work-with-open-source-chinese-models-why-8090-of-neo-labs-die-in-the-next-18-months-with-eno-reyes-co-founder-factory",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-29T07:07:00.000Z",
-      "duration": 89,
-      "summary": "Eno Reyes is the co-founder and CTO of Factory, the agent-native software development platform building autonomous \"Droids\" for enterprise engineering teams. Factory has raised $220 million, most recently a $150 million Series C at a $1.5 billion valuation, from investors including Khosla Ventures, Sequoia Capital, 20VC, NEA, Blackstone, Insight Partners and Nvidia. Before founding Factory, Eno worked as a machine-learning engineer at Hugging Face, training, optimizing and deploying large language models for enterprise customers.\n AGENDA:\n 00:00 Are We Underestimating AI by an Order of Magnitude? \n 06:35 Why Can the Smartest AI Model Be the Cheapest? \n 18:51 Is Anthropic's Coding Business Really Worth $2 Trillion? \n 33:41 Will Continuous-Learning Models Help or Hurt Factory? \n 40:43 Will 80–90% of Neo-Labs Die in the Next 18 Months? \n 44:33 Should American Enterprises Work With Open-Source Chinese Models? \n 55:42 Must AI Founders Radically Rethink What a Great Outcome Looks Like? \n 1:04:30 Do Pedigree and Credentials Still Matter in AI Hiring? \n 1:19:17 Which Is the Biggest Threat: Claude Code, Codex, Cognition or Cursor? \n 1:24:20 What Seems Crazy Today but Will Be Obvious in Five Years?",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -2025,83 +2025,83 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 72,
+      "count": 71,
       "recent3": 11,
-      "change": 7,
+      "change": 3,
       "direction": "flat",
-      "articles": 35,
+      "articles": 34,
       "podcasts": 37,
-      "topItem": "Agents Can Mimic Good Design. Ours Know Why It Works",
-      "secondItem": "What’s New in B2C Commerce: The September 2026 Release"
+      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+      "secondItem": "Unpacking Dreamforce: Why Your AI Needs Trusted Context"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 52,
-      "recent3": 3,
-      "change": -41,
+      "recent3": 4,
+      "change": -36,
       "direction": "down",
-      "articles": 22,
-      "podcasts": 30,
-      "topItem": "What’s New in B2C Commerce: The September 2026 Release",
-      "secondItem": "SPOTLIGHT: The Problem With Your CRM Nobody Talks About | Ramin Heydari, CEO & President @ XYZies"
+      "articles": 23,
+      "podcasts": 29,
+      "topItem": "Why simplifying your revenue stack  comes before everything else",
+      "secondItem": "What’s New in B2C Commerce: The September 2026 Release"
     },
     {
       "rank": 3,
-      "topic": "Marketing & Brand",
-      "count": 45,
+      "topic": "Data & Attribution",
+      "count": 46,
       "recent3": 3,
-      "change": -63,
+      "change": -75,
       "direction": "down",
       "articles": 27,
-      "podcasts": 18,
-      "topItem": "Revenue Operations Summit San Francisco, September 22 & 23 2026 | OnDemand",
-      "secondItem": "October 2026 Marketing News: Trends & Insights"
+      "podcasts": 19,
+      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+      "secondItem": "Where’s the Party? Zero-Party Data Basics for Small and Growing Businesses"
     },
     {
       "rank": 4,
-      "topic": "Data & Attribution",
-      "count": 44,
-      "recent3": 1,
-      "change": -91,
+      "topic": "Marketing & Brand",
+      "count": 45,
+      "recent3": 3,
+      "change": -65,
       "direction": "down",
-      "articles": 26,
+      "articles": 27,
       "podcasts": 18,
-      "topItem": "SPOTLIGHT: The Problem With Your CRM Nobody Talks About | Ramin Heydari, CEO & President @ XYZies",
-      "secondItem": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?"
+      "topItem": "Why simplifying your revenue stack  comes before everything else",
+      "secondItem": "Revenue Operations Summit San Francisco, September 22 & 23 2026 | OnDemand"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 36,
-      "recent3": 2,
-      "change": -39,
+      "recent3": 3,
+      "change": -29,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "Founder-led Sales Strategies: The Startups and Small Business Edition",
-      "secondItem": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover"
+      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+      "secondItem": "Founder-led Sales Strategies: The Startups and Small Business Edition"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
-      "recent3": 5,
-      "change": -16,
+      "count": 32,
+      "recent3": 3,
+      "change": -18,
       "direction": "down",
       "articles": 18,
-      "podcasts": 15,
+      "podcasts": 14,
       "topItem": "October 2026 CX News: Trends & Insights",
       "secondItem": "October 2026 RevOps News: Trends & Insights"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 21,
+      "count": 20,
       "recent3": 0,
-      "change": -60,
+      "change": -61,
       "direction": "down",
-      "articles": 7,
+      "articles": 6,
       "podcasts": 14,
       "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
       "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
@@ -2111,7 +2111,7 @@
       "topic": "GTM Strategy",
       "count": 18,
       "recent3": 0,
-      "change": -78,
+      "change": -79,
       "direction": "down",
       "articles": 2,
       "podcasts": 16,
@@ -2119,5 +2119,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-02T12:10:29.436Z"
+  "fetchedAt": "2026-10-03T11:20:58.283Z"
 }
