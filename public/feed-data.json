@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-qtxtub",
+      "type": "podcast",
+      "title": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/turning-ai-tokens-into-roi-that-you-can-measure-ceo-paid-manny-medina",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-04T04:01:00.000Z",
+      "duration": 66,
+      "summary": "Manny Medina, Co-Founder and CEO of Paid, the monetization platform for AI agents, and the founder who took Outreach from nothing, joins Sam Jacobs, AJ Bruno, and Asad Zaman in person on how to price AI agents once seats stop making sense. Topics include why every SaaS company needs its own agents before someone else's run on its MCP layer, why a token is the wrong unit of value, and the itemized phone bill every agent builder owes its buyers. Plus, why fixed-price deals win logos but stall expansion, the case for 40% to 60% gross margins in the agent era, and what Satya Nadella told Manny in a green room.\n  Key Takeaways:\n  - Price the work your agent does, not the seats it fills. In SaaS you sell 100 seats, procurement sees 20 in heavy use, and the renewal shrinks to 50. With agents, \"if you've sold 100 seats and only 2 were hyper-users, you don't care because you're charging for all the uses and all the value those 2 seats were getting.\" For now that pricing lives between effort and output, because true outcome pricing needs attribution, and as Manny put it, \"Attribution is really hard.\"\n  - Make the bill readable before you argue about ROI. Manny compares it to the old itemized phone bill, where you went straight to the biggest line and asked, \"Did I really call Pakistan from New York?\" Tokens can't play that role: \"A token should not be a unit of value for charging because a token is really kind of like the inside secret.\" Show the buyer the research, deck, or analysis the agent produced, because \"explainability is like the first rung in the ladder.\"\n  - Fixed pricing is easy money that boxes you in at renewal. Enterprises are buying one of each right now, so \"new logo is not hard. Expansion is hard.\" Teams that land logos on fixed price hit the first renewal with nowhere to go, which is why Paid opens with a monetization consultant and takes a percentage of revenue: \"You grow, I grow.\" - Plan for thinner margins and narrower markets. Manny learned Amazon's margins cold (books 20%, electronics 7%, jewelry 3%) and calls SaaS's 70 to 80% an anomaly of cheap money: \"I feel like a normal, you know, software business will be running on 40% margins, 60% tops.\"\n \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Manny Medina, Co-Founder & CEO at Paid - https://www.linkedin.com/in/medinism/\n   \n  Topline is more than a podcast:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n   \n  Chapters:\n  00:00 Introducing Manny Medina\n  01:37 What Paid Is Building\n  04:38 Will All Software Go Agentic?\n  06:35 The 100-Seat Renewal Problem\n  10:02 An Itemized Phone Bill for Agents\n  13:33 Why Outcome Pricing Takes Time\n  19:04 Open Source vs. Frontier Models\n  26:41 Pricing Agents Is an NRR Problem\n  33:11 Why Manny Won't Build Workflows\n  35:39 Fundraising Lessons From Outreach\n  41:10 Life Is Path Dependent\n  45:46 Culture Is the Exhaust of Winning\n  47:50 Is AI Spend Still Experimental?\n  58:22 The End of 80% Software Margins",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-nqpc4x",
       "type": "podcast",
       "title": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
@@ -184,7 +203,7 @@
         "Brief",
         "CX"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
@@ -210,7 +229,7 @@
         "Brand Strategy",
         "Content Development"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
@@ -232,7 +251,7 @@
         "Brief",
         "RevOps"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
@@ -251,7 +270,7 @@
       "duration": 79,
       "summary": "AGENDA: \n 00:00 Highlights: Jack Altman Joins The Trio\n 05:00 Anthropic's S-1 Leaks: $8B Operating Loss and $518B in Compute Commitments\n 10:00 Instinct Raises $1B at a $10B Valuation to Take On Meta\n 25:00 AMD Buys Fei-Fei Li's World Labs for $8.2B\n 39:00 Meta Poaches MongoDB's CEO as Shares Plunge 20%\n 43:00 AI Startup Seeks $10B Valuation Just One Week After Seed\n 47:00 Modal Hits $15B Valuation as Baseten Eyes $26B\n 54:00 OpenAI Reopens Its $200 Plan—and Halves What You Get\n 57:00 Oura Pulls IPO After Targeting a $16B Valuation\n 01:03:00 Nubank Eyes $8–12B Monzo Takeover\n 01:08:00 Bessemer Raises $5.75B as NFX Switches to Its Own Capital\n 01:14:00 Anthropic Founders Move to Lock In 50.1% Voting Control",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
@@ -270,7 +289,7 @@
       "readTime": 1,
       "summary": "For over 58 years, West Marine has been the go-to destination for water sports, fishing, and boating enthusiasts. Serving water lovers of all kinds means catering to a broad spectrum of customers from…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -287,7 +306,7 @@
       "readTime": 1,
       "summary": "Ensure accurate AI insights with a dynamic knowledge engine that equips AI agents with a reliable, trustworthy understanding of your business.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -304,7 +323,7 @@
       "readTime": 1,
       "summary": "Salesforce’s latest Agentic Enterprise guide will surprise you with insights on our next chapter of AI in business.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
@@ -1280,25 +1299,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-wjzcmi",
-      "type": "podcast",
-      "title": "The (Painful) Pivot To AI-Native: What They Don't Tell You | CEO @ Mutiny, Jaleh Rezaei",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-painful-pivot-to-ai-native-what-they-dont-tell-you-ceo-mutiny-jaleh-rezaei",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-08-09T04:53:00.000Z",
-      "duration": 74,
-      "summary": "Jaleh Rezaei, Co-founder and CEO of Mutiny, joins Sam Jacobs, AJ Bruno, and Asad Zaman to explain how she deprecated a thriving 8-figure SaaS business in November 2025, shipped a private preview in February, and GA'd an AI-native product in April that is now used by more than 3,500 organizations including Snowflake, Rippling, Uber, and GitLab. Topics include why running a scaled SaaS business and a zero-to-one AI bet at the same time proved impossible, how to price and defend AI credit consumption when a $5,000 design project now costs 50 credits, and the shift from sales-led outbound to product-led growth for enterprise go-to-market. Plus, why brand is one of the few remaining moats in B2B, an AI raccoon launch video that fooled (some of) the panel, and a bulls-versus-bears debate on quota attainment, AI note-takers, and whether salespeople will ever spend 85% of their time selling.\n Key Takeaways:\n - Make the hard decisions FAST. As Jaleh Rezaei, CEO and Co-founder of Mutiny, put it: \"I definitely would've said the job of the CEO is you have to make the hard calls. But what I learned in that experience is that it's actually about making the hard calls really fast, which means that you're getting there before everybody else on your team is there.\" Her test for founders weighing a similar bet is a single question: \"is there one really hard decision, maybe one that scares the hell out of you that you don't want to do, that you can make that would make 50 subsequent downstream decisions a lot easier for your company?\"\n - AI budgets get cut because vendors let buyers anchor on the credit bill. Instead, they need to help buyers see the value of the work the credits replace. Jaleh Rezaei, CEO and Co-founder of Mutiny, reframed it with her own before-and-after: \"I used to have a designer that I paid $5,000 to, and it would take 2 weeks of back and forth, and I paid $5,000 to get to something that I was pretty happy with. But end to end took a month. Now in 6, 7 hours, I can build that in Mutiny, and maybe that does cost me 50 credits. That's really freaking cheap relative to what I used to pay that designer.\" She argues the vendor has to build the ROI case for the customer, per rep, or budget conversations default to minimizing every AI bill.\n - Brand is a durable moat in B2B mostly because so few companies are willing to pay for it in risk. According to Jaleh Rezaei, CEO and Co-founder of Mutiny: \"great brand comes when you marry deep customer knowledge and a willingness to take risk … a lot of times people that own brand they don't necessarily either have the deep customer knowledge or they don't have the ability to take that kind of risk inside of the company.\" Her internal standard is blunt: \"anything we do on marketing, like, if it's not different, just stop doing it. It's just not going to matter.\"\n - Quota attainment is snapping back hard, and the data has not caught up to the narrative. AJ Bruno, CEO of QuotaPath, brought Q2 numbers to the bulls-versus-bears round: \"I just looked at Q2 numbers and they're trending wildly back up. We're actually, the average quota attainment for a QuotaPath customer was 76% in Q2.\" Asad Zaman pushed back that a jump from roughly 40% to 76% in a single quarter reads more like a bubble signal than a sudden improvement in selling, and AJ offered to run a comp study with Pavilion on the data.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Jaleh Rezaei, CEO & Co-founder at Mutiny - https://www.linkedin.com/in/jalehr/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Jaleh Rezaei\n 04:00 Can SaaS Era Companies Go AI Native?\n 05:01 From Gusto To Founding Mutiny\n 07:00 When AI Became A Reasoning Engine\n 11:28 Why Running Two Products Was Impossible\n 13:32 Shutting Down An 8-Figure Business\n 16:18 Winning Formula: Speed, No Backup Plan\n 20:17 The Hard Months After Deprecation\n 24:47 Acute Pain Versus Chronic Pain\n 29:17 CEO Has To Be The Bad Guy (Sometimes)\n 37:17 AI Margins And Credit-Based Pricing\n 40:10 A $5,000 Deck Versus 50 Credits\n 47:03 Sales-Led To PLG For Enterprise\n 50:37 Brand As The Remaining Moat\n 1:00:34 Bulls and Bears",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-oa9xf0",
       "type": "article",
       "title": "August 2026 CX News: Trends & Insights",
@@ -2026,47 +2026,47 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 71,
-      "recent3": 11,
-      "change": 3,
+      "recent3": 6,
+      "change": 1,
       "direction": "flat",
       "articles": 34,
       "podcasts": 37,
-      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
-      "secondItem": "Unpacking Dreamforce: Why Your AI Needs Trusted Context"
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 52,
       "recent3": 4,
-      "change": -36,
+      "change": -41,
       "direction": "down",
       "articles": 23,
       "podcasts": 29,
-      "topItem": "Why simplifying your revenue stack  comes before everything else",
-      "secondItem": "What’s New in B2C Commerce: The September 2026 Release"
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "Why simplifying your revenue stack  comes before everything else"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
       "count": 46,
-      "recent3": 3,
-      "change": -75,
+      "recent3": 4,
+      "change": -64,
       "direction": "down",
       "articles": 27,
       "podcasts": 19,
-      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
-      "secondItem": "Where’s the Party? Zero-Party Data Basics for Small and Growing Businesses"
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 45,
-      "recent3": 3,
-      "change": -65,
+      "count": 44,
+      "recent3": 2,
+      "change": -62,
       "direction": "down",
       "articles": 27,
-      "podcasts": 18,
+      "podcasts": 17,
       "topItem": "Why simplifying your revenue stack  comes before everything else",
       "secondItem": "Revenue Operations Summit San Francisco, September 22 & 23 2026 | OnDemand"
     },
@@ -2075,49 +2075,49 @@
       "topic": "Founders & Fundraising",
       "count": 36,
       "recent3": 3,
-      "change": -29,
+      "change": -39,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
-      "secondItem": "Founder-led Sales Strategies: The Startups and Small Business Edition"
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 32,
-      "recent3": 3,
-      "change": -18,
-      "direction": "down",
+      "count": 33,
+      "recent3": 1,
+      "change": 1,
+      "direction": "flat",
       "articles": 18,
-      "podcasts": 14,
-      "topItem": "October 2026 CX News: Trends & Insights",
-      "secondItem": "October 2026 RevOps News: Trends & Insights"
+      "podcasts": 15,
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "October 2026 CX News: Trends & Insights"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 20,
-      "recent3": 0,
-      "change": -61,
+      "recent3": 1,
+      "change": -58,
       "direction": "down",
       "articles": 6,
       "podcasts": 14,
-      "topItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
-      "secondItem": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel"
+      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
+      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 18,
+      "count": 17,
       "recent3": 0,
-      "change": -79,
+      "change": -76,
       "direction": "down",
       "articles": 2,
-      "podcasts": 16,
+      "podcasts": 15,
       "topItem": "Building a Company Brain for AI - Jacob Dietle",
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-03T11:20:58.283Z"
+  "fetchedAt": "2026-10-04T12:02:02.999Z"
 }
