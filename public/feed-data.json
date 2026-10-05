@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-rcu5yv",
+      "type": "article",
+      "title": "The No-Code AI Toolbox For Entrepreneurs: All the AI Tools",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/no-code-ai-tools-for-entrepreneurs/",
+      "author": "Christian Sabogal",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Put these no-code AI tools in your entrepreneurial toolbox and get growing on day one.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-ndfr0a",
+      "type": "podcast",
+      "title": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-05T07:07:00.000Z",
+      "duration": 67,
+      "summary": "Venky Ganesan is a Partner at Menlo Ventures, whose portfolio includes Anthropic, Lovable, Legora and Higgsfield, alongside earlier hits Uber and Roku. Venky's own investment track record includes Palo Alto Networks, Upwork, Poshmark and Rover. He is a three-time Forbes Midas List investor and former Chair of the National Venture Capital Association.\n AGENDA:\n 07:00 Can You Still Do Seed Without a $1 Billion Fund?\n 11:00 How Much of AI's Revenue Growth Is Actually Real?\n 19:00 When Is \"Overpaying\" the Smartest Investment You Can Make?\n 25:00 Does Ownership Still Matter in a World of Trillion-Dollar Outcomes?\n 31:00 Is \"Big Tech Will Buy Us\" a Dangerous Investment Thesis?\n 36:00 Why Invest in Venture When You Can Just Buy the Magnificent Seven?\n 45:00 When Should You Sell a 40x Winner—and When Should You Double Down?\n 54:00 Can a $50 Million Fund Still Compete With the Venture Giants?\n 58:00 Quickfire: Is Benchmark Harder to Beat Than Sequoia?",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-qtxtub",
       "type": "podcast",
       "title": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
@@ -89,7 +125,7 @@
       "readTime": 1,
       "summary": "Ask and you shall receive — zero-party data is the fastest way to build a business your customers actually trust.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
       ],
@@ -106,7 +142,7 @@
       "readTime": 1,
       "summary": "We give coding agents the knowledge to make sound decisions and turn ideas into accessible, production-ready experiences.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -123,7 +159,7 @@
       "readTime": 1,
       "summary": "Summer is officially over and the holiday season is closing in fast for retailers. Ecommerce teams have their hands full: Merchandisers are optimizing catalogs, marketers are racing to capture compliant customer consent without…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -142,7 +178,7 @@
       "duration": 20,
       "summary": "You have the CRM. You have the data. You have the sales team. You have the AI tools. So why does everything still feel broken?\n  Ramin Heydari, CEO & President of XYZies, has spent more than 30 years building businesses across telecom, sales, distribution, and technology.\n In this episode of Topline Spotlight, he explains why fragmented systems can become one of the biggest obstacles to growth and why AI requires businesses to rethink how they operate, not simply add another tool.\n Sam Jacobs sits down with Ramin to unpack the shift from traditional growth to 10X thinking, the problem with scattered data and sales systems, and how AI can create real-time visibility and coaching across an organization.\n What we get into:\n - Why businesses need to think beyond traditional growth\n - Why adding AI to existing software isn't enough\n - The hidden cost of fragmented systems and data\n - How AI can provide real-time coaching and performance feedback\n - Why continuous improvement matters more than occasional reviews\n - What a truly AI-powered CRM could look like\n - The leadership principle: \"The future belongs to those who can see it before it becomes obvious.\"\n Chapters:\n 02:01 Why XYZ Exists And Why \"The Details\" Matter\n 03:27 Building the Smarter Home With AI\n 04:10 Information Overload and Better Decisions\n 07:32 Why Businesses Need to Think 10X\n 09:47 The Problem With Too Many Systems\n 10:15 The Human Side of the Technology Problem\n 10:58 The \"Dream CRM\"\n 12:49 Real-Time AI Coaching and Continuous Improvement\n 15:07 The Hidden Cost of Enterprise Software\n 17:56 Ramin's Leadership Lessons\n 19:20 Where to Find XYZies\n 19:46 Outro\n Try XYZies: xyzies.com",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -165,7 +201,7 @@
         "Events",
         "Ondemand"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
         "Forward-looking — frames where the practice is heading this cycle."
@@ -183,7 +219,7 @@
       "readTime": 1,
       "summary": "What’s the fastest path to product-market fit? Try these sales strategies.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Relevant to Founders & Fundraising — funding dynamics and founder execution."
       ],
@@ -344,24 +380,6 @@
       "tags": [],
       "relevanceScore": 56,
       "whyItMatters": [
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-21ay9l",
-      "type": "article",
-      "title": "Agentic AI and the Future of Work: What It Means for Salesforce Practitioners",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/agentic-ai-and-the-future-of-work-salesforce-practitioners/",
-      "author": "Rebecca Saar, Christophe Coenraets",
-      "publishedAt": "2026-09-29T17:38:30.000Z",
-      "readTime": 1,
-      "summary": "Technology is changing fast. Follow the work to see where your role goes next.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
       ],
       "saved": false
@@ -1121,25 +1139,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-2cmfq4",
-      "type": "podcast",
-      "title": "20VC: The AI Bubble Is Wrong | AI Margins Need to Improve | Revenue Concentration Should be a Concern | Why People Over-Estimate Open Models But Enterprises Still Fear Frontier Models with Aaron Katz, ClickHouse",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-is-wrong-ai-margins-need-to-improve-revenue-concentration-should-be-a-concern-why-people-over-estimate-open-models-but-enterprises-still-fear-frontier-models-with-aaron-katz-clickhouse",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-08-31T07:07:00.000Z",
-      "duration": 64,
-      "summary": "Aaron Katz is the Co-Founder and CEO of ClickHouse, the real-time analytics database powering companies including OpenAI, Anthropic, Tesla and Microsoft. ClickHouse just surpassed $350M in ARR and raised over $1B from investors including Dragoneer, Khosla Ventures, Coatue, 20VC and Benchmark. Previously, Aaron was CRO at Elastic, where he helped scale revenue from approximately $5M to $500M and led the company through its IPO. Before Elastic, he spent 12 years at Salesforce, working alongside Marc Benioff and helping transform it from a 200-person startup into a global software giant.\n AGENDA:\n 4:05 Are we in an AI bubble?\n 13:40 How does software change when agents—not humans—make buying decisions?\n 22:28 Will 90% of tokens flow through open models; can enterprises trust them?\n 31:09 Why did ClickHouse sponsor Fulham; and could sports teams become $20B assets?\n 35:49 When will ClickHouse hit $1B ARR? \n 38:31 Can startups still win elite talent from OpenAI? Biggest remote work mistake?\n 44:54 Is zero-to-$100M ARR now table stakes; or is durable growth what matters?\n 48:51 Is college still worth it;  which jobs will survive AI?\n 57:58 When will ClickHouse go public; and why not next year?",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -2026,35 +2025,35 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 71,
-      "recent3": 6,
-      "change": 1,
+      "recent3": 5,
+      "change": -2,
       "direction": "flat",
       "articles": 34,
       "podcasts": 37,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
+      "topItem": "The No-Code AI Toolbox For Entrepreneurs: All the AI Tools",
+      "secondItem": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 52,
-      "recent3": 4,
-      "change": -41,
+      "count": 51,
+      "recent3": 2,
+      "change": -57,
       "direction": "down",
       "articles": 23,
-      "podcasts": 29,
+      "podcasts": 28,
       "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
       "secondItem": "Why simplifying your revenue stack  comes before everything else"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 46,
-      "recent3": 4,
-      "change": -64,
+      "count": 45,
+      "recent3": 2,
+      "change": -61,
       "direction": "down",
       "articles": 27,
-      "podcasts": 19,
+      "podcasts": 18,
       "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
       "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
     },
@@ -2062,8 +2061,8 @@
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 44,
-      "recent3": 2,
-      "change": -62,
+      "recent3": 1,
+      "change": -71,
       "direction": "down",
       "articles": 27,
       "podcasts": 17,
@@ -2075,34 +2074,34 @@
       "topic": "Founders & Fundraising",
       "count": 36,
       "recent3": 3,
-      "change": -39,
+      "change": -35,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
+      "topItem": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
+      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 33,
+      "count": 31,
       "recent3": 1,
-      "change": 1,
-      "direction": "flat",
-      "articles": 18,
-      "podcasts": 15,
+      "change": -23,
+      "direction": "down",
+      "articles": 17,
+      "podcasts": 14,
       "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
       "secondItem": "October 2026 CX News: Trends & Insights"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 20,
+      "count": 19,
       "recent3": 1,
-      "change": -58,
+      "change": -78,
       "direction": "down",
       "articles": 6,
-      "podcasts": 14,
+      "podcasts": 13,
       "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
       "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
     },
@@ -2111,7 +2110,7 @@
       "topic": "GTM Strategy",
       "count": 17,
       "recent3": 0,
-      "change": -76,
+      "change": -100,
       "direction": "down",
       "articles": 2,
       "podcasts": 15,
@@ -2119,5 +2118,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-04T12:02:02.999Z"
+  "fetchedAt": "2026-10-05T14:05:34.961Z"
 }
