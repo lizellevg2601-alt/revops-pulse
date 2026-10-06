@@ -1,6 +1,102 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-u3zjyx",
+      "type": "article",
+      "title": "Building Your Slack-First Communication Policy: A Guide for Growing Teams",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/slack-first-communication-policy/",
+      "author": "Jenn Sei",
+      "publishedAt": "2026-10-06T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Communication with Slack gives your growing team alignment, so they can move faster, and actually enjoy working together.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ij9p51",
+      "type": "article",
+      "title": "Don’t Just Appreciate Your Reps This Customer Service Week: Engage Them All Year Long — With or Without Donuts",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/customer-service-week-ideas/",
+      "author": "Kourtney Martin",
+      "publishedAt": "2026-10-05T23:15:09.000Z",
+      "readTime": 1,
+      "summary": "Here are 4 ways to show your hard-working customer service reps that you’re invested in their success and well-being every single day.",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ih8idi",
+      "type": "article",
+      "title": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/commerce-cloud-tiktok-integration/",
+      "author": "Jon Stahl",
+      "publishedAt": "2026-10-05T22:05:49.000Z",
+      "readTime": 1,
+      "summary": "In the past three months, 27% of consumers have reported making a purchase on a social shopping platform. This is led by 48% of Gen Z consumers and 37% of Millennial consumers, according…",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-y3fi2s",
+      "type": "article",
+      "title": "Winter ’27 Release Architect Highlights: Security, Agentic Architecture, and Governance",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/winter-27-release-architect-highlights/",
+      "author": "Marlene Guerra-Reeve",
+      "publishedAt": "2026-10-05T17:31:18.000Z",
+      "readTime": 1,
+      "summary": "Focus on the Winter ’27 changes that require architectural attention and turn them into informed decisions across security, scale, agentic architecture, and governance.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-v4fcdk",
+      "type": "article",
+      "title": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/chief-revenue-officer-summit-san-francisco-september-2026-ondemand-2/",
+      "author": "Revenue Operations Alliance",
+      "publishedAt": "2026-10-05T15:08:01.000Z",
+      "readTime": 1,
+      "summary": "Catch up on every session from CRO Summit San Francisco, including talks from Google, TD Synnex, Quarrio and more.",
+      "tags": [
+        "Ondemand",
+        "Live session",
+        "Events",
+        "Chief Revenue Officer"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-rcu5yv",
       "type": "article",
       "title": "The No-Code AI Toolbox For Entrepreneurs: All the AI Tools",
@@ -66,7 +162,7 @@
       "duration": 61,
       "summary": "Chase Lochmiller is the Co-founder and CEO of Crusoe. Crusoe builds and powers the data centres that companies use to train and run AI. It has raised approximately $6.4 billion in equity, including its latest $3.9 billion Series F at a $30.9 billion valuation. Its backers include NVIDIA, Founders Fund, Gavin Baker's Atreides Management, Mubadala Capital and Valor Equity Partners.\n AGENDA:\n 04:40 What Does Climbing Everest Teach You About Building a Company?\n 17:40 What's Really Stopping Us From Building Enough AI Data Centres?\n 25:50 Are Data Centres Really Driving Up Your Energy Bills?\n 28:05 Will Half of Planned AI Data Centres Never Get Built?\n 32:10 How Quickly Can a GPU Pay for Itself?\n 38:35 Will Your GPUs Become Obsolete Before You've Paid Them Off?\n 44:20 What Does It Take to Produce the Cheapest Intelligence?\n 49:50 Will Companies Building Their Own Models Eat Into OpenAI's Business?\n 51:55 Can You Build a $30B Company and Still Be a Great Dad?",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
@@ -85,7 +181,7 @@
       "readTime": 1,
       "summary": "Imagine asking an AI agent to prepare an offer for a loyal customer. It finds their purchase history, spots an opportunity, and recommends the next product. But it misses the service case they’ve…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -107,7 +203,7 @@
         "Revenue Growth",
         "Articles"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
@@ -311,76 +407,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-i647p6",
-      "type": "article",
-      "title": "How West Marine Drives Revenue and Scalability with AI-Native Search and Agents",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/west-marine-customer-story/",
-      "author": "Miryam Meir",
-      "publishedAt": "2026-09-30T17:33:53.000Z",
-      "readTime": 1,
-      "summary": "For over 58 years, West Marine has been the go-to destination for water sports, fishing, and boating enthusiasts. Serving water lovers of all kinds means catering to a broad spectrum of customers from…",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-13ijhw",
-      "type": "article",
-      "title": "The Tableau Knowledge Engine: How We Built Trustworthy Agentic Analytics",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/knowledge-engine-how-we-built-trustworthy-agentic-analytics/",
-      "author": "Trevor Hall, Gunther Hagleitner",
-      "publishedAt": "2026-09-30T15:46:48.000Z",
-      "readTime": 1,
-      "summary": "Ensure accurate AI insights with a dynamic knowledge engine that equips AI agents with a reliable, trustworthy understanding of your business.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-1462zx",
-      "type": "article",
-      "title": "Can You Become an Agentic Enterprise? Get a Sneak Peek in The Latest Guide",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/agentic-enterprise-guide-takeaways/",
-      "author": "Benny Spiewak",
-      "publishedAt": "2026-09-30T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Salesforce’s latest Agentic Enterprise guide will surprise you with insights on our next chapter of AI in business.",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-bhkk0f",
-      "type": "article",
-      "title": "Salesforce Achieves UK Cyber Essentials and Cyber Essentials Plus Certifications",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/salesforce-achieves-uk-cyber-essentials-and-cyber-essentials-plus-certifications/",
-      "author": "Jan Edquilang",
-      "publishedAt": "2026-09-29T20:42:00.000Z",
-      "readTime": 1,
-      "summary": "Reinforcing Commitment to Customer Trust",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
       ],
       "saved": false
     },
@@ -1012,30 +1038,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-c6rzl7",
-      "type": "article",
-      "title": "How to turn borrowed communities into your next pipeline source",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/how-to-turn-borrowed-communities-into-your-next-pipeline-source/",
-      "author": "Bijay Alex Mathew",
-      "publishedAt": "2026-09-04T16:00:56.000Z",
-      "readTime": 1,
-      "summary": "What if your next source of pipeline is already out there, and your buyer is already in it?",
-      "tags": [
-        "Premium content",
-        "Members-only articles",
-        "revenue intelligence",
-        "Articles"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-j1jzp6",
       "type": "podcast",
       "title": "SPOTLIGHT: Surviving the Inbox Apocalypse | Evan Huck, CEO & Co-Founder @ UserEvidence",
@@ -1412,20 +1414,20 @@
     {
       "id": "feed-crm-switch-8hvqrf",
       "type": "article",
-      "title": "Three CRM Categories for 2026",
+      "title": "Traditional, AI-Native, or Build Your Own: Three CRM Paths for 2026",
       "source": "CRM Switch",
       "sourceUrl": "https://crmswitch.com/buying-crm/crm-categories/",
       "author": "Steve Chipman",
       "publishedAt": "2026-04-16T17:59:49.000Z",
       "readTime": 1,
-      "summary": "Thinking about adopting a new CRM platform? As with SaaS apps in general, the CRM playing field has been shifting under everyone’s feet. Before creating a CRM vendor shortlist, consider which high-level system category best suits your business. You may pull your shortlist from more than one category. Here are three high-level CRM categories to ... Read more",
+      "summary": "Thinking about adopting a new CRM platform? As with SaaS apps in general, the CRM playing field has been shifting under everyone’s feet. Before creating a CRM vendor shortlist, consider which high-level system path best suits your business. You may pull your shortlist from more than one path. Here are three high-level CRM paths to ... Read more",
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 62,
+      "relevanceScore": 68,
       "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
         "Forward-looking — frames where the practice is heading this cycle."
       ],
       "saved": false
@@ -2026,31 +2028,31 @@
       "topic": "AI & Agents",
       "count": 71,
       "recent3": 5,
-      "change": -2,
-      "direction": "flat",
+      "change": -16,
+      "direction": "down",
       "articles": 34,
       "podcasts": 37,
-      "topItem": "The No-Code AI Toolbox For Entrepreneurs: All the AI Tools",
-      "secondItem": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures"
+      "topItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
+      "secondItem": "Winter ’27 Release Architect Highlights: Security, Agentic Architecture, and Governance"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 51,
-      "recent3": 2,
-      "change": -57,
+      "count": 55,
+      "recent3": 5,
+      "change": -26,
       "direction": "down",
-      "articles": 23,
+      "articles": 27,
       "podcasts": 28,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "Why simplifying your revenue stack  comes before everything else"
+      "topItem": "Building Your Slack-First Communication Policy: A Guide for Growing Teams",
+      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
       "count": 45,
-      "recent3": 2,
-      "change": -61,
+      "recent3": 1,
+      "change": -63,
       "direction": "down",
       "articles": 27,
       "podcasts": 18,
@@ -2062,19 +2064,19 @@
       "topic": "Marketing & Brand",
       "count": 44,
       "recent3": 1,
-      "change": -71,
+      "change": -62,
       "direction": "down",
       "articles": 27,
       "podcasts": 17,
-      "topItem": "Why simplifying your revenue stack  comes before everything else",
-      "secondItem": "Revenue Operations Summit San Francisco, September 22 & 23 2026 | OnDemand"
+      "topItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
+      "secondItem": "Why simplifying your revenue stack  comes before everything else"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 36,
-      "recent3": 3,
-      "change": -35,
+      "recent3": 2,
+      "change": -39,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
@@ -2084,26 +2086,26 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 31,
-      "recent3": 1,
-      "change": -23,
+      "count": 30,
+      "recent3": 2,
+      "change": -42,
       "direction": "down",
-      "articles": 17,
+      "articles": 16,
       "podcasts": 14,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "October 2026 CX News: Trends & Insights"
+      "topItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
+      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 19,
-      "recent3": 1,
-      "change": -78,
+      "recent3": 2,
+      "change": -56,
       "direction": "down",
       "articles": 6,
       "podcasts": 13,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov"
+      "topItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
+      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
     },
     {
       "rank": 8,
@@ -2118,5 +2120,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-05T14:05:34.961Z"
+  "fetchedAt": "2026-10-06T13:03:29.535Z"
 }
