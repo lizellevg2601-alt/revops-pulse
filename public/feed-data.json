@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-5o8ty4",
+      "type": "article",
+      "title": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/how-salesforce-built-a-seller-experience-in-slack/",
+      "author": "Jonathan Norton, Adam Johnson",
+      "publishedAt": "2026-10-06T20:42:22.000Z",
+      "readTime": 1,
+      "summary": "Salesforce used AI coding agents, Slack, and a small cross-functional squad to turn customer signals into seller action. Here’s how Customer Zero built a seller experience in weeks, not quarters.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-bbcne4",
+      "type": "article",
+      "title": "Sales success culture:  The CRO's ultimate leverage point",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/sales-success-culture-the-cros-ultimate-leverage-point/",
+      "author": "Mark Rosenthal",
+      "publishedAt": "2026-10-06T14:46:45.000Z",
+      "readTime": 1,
+      "summary": "Losing a top performer costs 2x their quota. Here's the three-pillar culture framework that prevents it, and drives double-digit revenue growth.",
+      "tags": [
+        "Sales Ops",
+        "Articles"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-u3zjyx",
       "type": "article",
       "title": "Building Your Slack-First Communication Policy: A Guide for Growing Teams",
@@ -15,6 +53,28 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-seafoam-media-8ir1gg",
+      "type": "article",
+      "title": "How do you track ROI on marketing?",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/lens/how-do-you-track-roi-on-marketing/",
+      "author": "Jared Lender",
+      "publishedAt": "2026-10-06T09:00:00.000Z",
+      "readTime": 1,
+      "summary": "Track marketing ROI in dollars: compare gross profit to full cost, pick two or three measures per goal, and set a baseline before the work starts.\nThe post How do you track ROI on marketing? appeared first on Seafoam.",
+      "tags": [
+        "Lens",
+        "Analytics & Reporting",
+        "RevOps"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
     },
@@ -143,7 +203,7 @@
       "duration": 66,
       "summary": "Manny Medina, Co-Founder and CEO of Paid, the monetization platform for AI agents, and the founder who took Outreach from nothing, joins Sam Jacobs, AJ Bruno, and Asad Zaman in person on how to price AI agents once seats stop making sense. Topics include why every SaaS company needs its own agents before someone else's run on its MCP layer, why a token is the wrong unit of value, and the itemized phone bill every agent builder owes its buyers. Plus, why fixed-price deals win logos but stall expansion, the case for 40% to 60% gross margins in the agent era, and what Satya Nadella told Manny in a green room.\n  Key Takeaways:\n  - Price the work your agent does, not the seats it fills. In SaaS you sell 100 seats, procurement sees 20 in heavy use, and the renewal shrinks to 50. With agents, \"if you've sold 100 seats and only 2 were hyper-users, you don't care because you're charging for all the uses and all the value those 2 seats were getting.\" For now that pricing lives between effort and output, because true outcome pricing needs attribution, and as Manny put it, \"Attribution is really hard.\"\n  - Make the bill readable before you argue about ROI. Manny compares it to the old itemized phone bill, where you went straight to the biggest line and asked, \"Did I really call Pakistan from New York?\" Tokens can't play that role: \"A token should not be a unit of value for charging because a token is really kind of like the inside secret.\" Show the buyer the research, deck, or analysis the agent produced, because \"explainability is like the first rung in the ladder.\"\n  - Fixed pricing is easy money that boxes you in at renewal. Enterprises are buying one of each right now, so \"new logo is not hard. Expansion is hard.\" Teams that land logos on fixed price hit the first renewal with nowhere to go, which is why Paid opens with a monetization consultant and takes a percentage of revenue: \"You grow, I grow.\" - Plan for thinner margins and narrower markets. Manny learned Amazon's margins cold (books 20%, electronics 7%, jewelry 3%) and calls SaaS's 70 to 80% an anomaly of cheap money: \"I feel like a normal, you know, software business will be running on 40% margins, 60% tops.\"\n \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Manny Medina, Co-Founder & CEO at Paid - https://www.linkedin.com/in/medinism/\n   \n  Topline is more than a podcast:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n   \n  Chapters:\n  00:00 Introducing Manny Medina\n  01:37 What Paid Is Building\n  04:38 Will All Software Go Agentic?\n  06:35 The 100-Seat Renewal Problem\n  10:02 An Itemized Phone Bill for Agents\n  13:33 Why Outcome Pricing Takes Time\n  19:04 Open Source vs. Frontier Models\n  26:41 Pricing Agents Is an NRR Problem\n  33:11 Why Manny Won't Build Workflows\n  35:39 Fundraising Lessons From Outreach\n  41:10 Life Is Path Dependent\n  45:46 Culture Is the Exhaust of Winning\n  47:50 Is AI Spend Still Experimental?\n  58:22 The End of 80% Software Margins",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -305,23 +365,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-ugs2k6",
-      "type": "article",
-      "title": "Founder-led Sales Strategies: The Startups and Small Business Edition",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/founder-led-sales-strategies/",
-      "author": "Erin Hueffner",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "What’s the fastest path to product-market fit? Try these sales strategies.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Relevant to Founders & Fundraising — funding dynamics and founder execution."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-oysh4m",
       "type": "article",
       "title": "October 2026 CX News: Trends & Insights",
@@ -407,6 +450,26 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-9y5fgy",
+      "type": "article",
+      "title": "Why your next revenue tool  should be harder to buy",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/why-your-next-revenue-tool-should-be-harder-to-buy/",
+      "author": "Marisa Garanhel",
+      "publishedAt": "2026-09-29T13:37:00.000Z",
+      "readTime": 1,
+      "summary": "Sprawl gets built at the point of purchase. One signed order form at a time, each backed by a business case that looked fine on its own.",
+      "tags": [
+        "Tech & tools",
+        "Articles"
+      ],
+      "relevanceScore": 50,
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
       "saved": false
     },
@@ -934,53 +997,6 @@
       "saved": false
     },
     {
-      "id": "feed-revops-alliance-mjdvvz",
-      "type": "article",
-      "title": "Chief Revenue Officer Summit Boston, August 2026 | OnDemand",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/chief-revenue-officer-summit-boston-august-2026-ondemand/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-09-07T16:28:46.000Z",
-      "readTime": 1,
-      "summary": "Catch up on every summit from CRO Summit Boston, including sessions from Tupperware, S&P Global, SoftServe and more.",
-      "tags": [
-        "Ondemand",
-        "Live session",
-        "Chief Revenue Officer",
-        "Revenue Growth",
-        "Events"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-p772tg",
-      "type": "article",
-      "title": "How revenue intelligence  is moving into the real world",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/how-revenue-intelligence-is-moving-into-the-real-world/",
-      "author": "Al Simpson",
-      "publishedAt": "2026-09-07T09:16:00.000Z",
-      "readTime": 1,
-      "summary": "From three data points to AI-driven account research: how revenue intelligence is evolving, and what it means for the B2B SaaS pipeline.",
-      "tags": [
-        "revenue intelligence",
-        "Articles"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-20vc-podcast-7ol59f",
       "type": "podcast",
       "title": "20VC: The $100 Billion AI Assistant Race: Town vs Instinct vs GrokBot | We Spend $75K Per Engineer on AI Tools | Why the AI Assistant Market Is Not a Bubble & AI Assistants Will Replace Every App on Your Phone with JD, Founder of Town",
@@ -1345,32 +1361,6 @@
       "saved": false
     },
     {
-      "id": "feed-seafoam-media-ypdn03",
-      "type": "article",
-      "title": "August 2026 Marketing News: Trends & Insights",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/brief/august-2026-marketing-news/",
-      "author": "Allie Wolf",
-      "publishedAt": "2026-08-03T20:09:22.000Z",
-      "readTime": 1,
-      "summary": "Google Will Now Tell Everyone Your Ad Was Made by a Robot Google is rolling out AI disclosures on ads across Search, YouTube, and Discover. A new “How this ad was made” panel is appearing in My Ad Center, and it tells users whether an ad’s creative was created or modified with AI. Google will […]\nThe post August 2026 Marketing News: Trends & Insights appeared first on Seafoam.",
-      "tags": [
-        "Brief",
-        "AI SEO",
-        "Analytics & Reporting",
-        "Brand Strategy",
-        "Content Development",
-        "PPC / Google Ads"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-crm-switch-sk0ty4",
       "type": "article",
       "title": "Should You Vibe Code Your Own CRM?",
@@ -1524,7 +1514,7 @@
       "author": "Steve Chipman",
       "publishedAt": "2026-01-14T16:48:29.000Z",
       "readTime": 1,
-      "summary": "The CRM industry has been undergoing its most significant shift since the move from on-premises servers to the cloud.  While traditional CRM platform vendors have been ‘bolting on’ AI assistants and sidebar chatbots, a new breed of AI-native CRMs has been rapidly rolling out. These platforms aren’t just adding AI; they are built from the ... Read more",
+      "summary": "The CRM industry is undergoing its biggest shift since the move from on-premises servers to the cloud. While traditional CRM platform vendors have been ‘bolting on’ AI assistants and sidebar chatbots, a new breed of AI-native CRMs has been rapidly rolling out. These platforms aren’t just adding AI. An AI-native CRM is built from the ... Read more",
       "tags": [
         "Buying CRM",
         "no-sidebar"
@@ -2026,35 +2016,35 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 71,
+      "count": 70,
       "recent3": 5,
       "change": -16,
       "direction": "down",
-      "articles": 34,
+      "articles": 33,
       "podcasts": 37,
-      "topItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
-      "secondItem": "Winter ’27 Release Architect Highlights: Security, Agentic Architecture, and Governance"
+      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
+      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 55,
-      "recent3": 5,
-      "change": -26,
+      "recent3": 6,
+      "change": -16,
       "direction": "down",
       "articles": 27,
       "podcasts": 28,
-      "topItem": "Building Your Slack-First Communication Policy: A Guide for Growing Teams",
-      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
+      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
+      "secondItem": "Sales success culture:  The CRO's ultimate leverage point"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 45,
-      "recent3": 1,
-      "change": -63,
+      "count": 44,
+      "recent3": 0,
+      "change": -67,
       "direction": "down",
-      "articles": 27,
+      "articles": 26,
       "podcasts": 18,
       "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
       "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
@@ -2062,23 +2052,23 @@
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 44,
-      "recent3": 1,
-      "change": -62,
+      "count": 43,
+      "recent3": 2,
+      "change": -56,
       "direction": "down",
-      "articles": 27,
+      "articles": 26,
       "podcasts": 17,
-      "topItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
-      "secondItem": "Why simplifying your revenue stack  comes before everything else"
+      "topItem": "How do you track ROI on marketing?",
+      "secondItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 36,
-      "recent3": 2,
-      "change": -39,
+      "count": 35,
+      "recent3": 1,
+      "change": -57,
       "direction": "down",
-      "articles": 3,
+      "articles": 2,
       "podcasts": 33,
       "topItem": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
       "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
@@ -2086,23 +2076,23 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 30,
+      "count": 31,
       "recent3": 2,
-      "change": -42,
+      "change": -36,
       "direction": "down",
-      "articles": 16,
+      "articles": 17,
       "podcasts": 14,
-      "topItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
-      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
+      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
+      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 19,
-      "recent3": 2,
-      "change": -56,
+      "count": 18,
+      "recent3": 1,
+      "change": -58,
       "direction": "down",
-      "articles": 6,
+      "articles": 5,
       "podcasts": 13,
       "topItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
       "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
@@ -2120,5 +2110,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-06T13:03:29.535Z"
+  "fetchedAt": "2026-10-07T12:58:05.793Z"
 }
