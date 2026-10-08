@@ -1,6 +1,117 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-oe5y7r",
+      "type": "article",
+      "title": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/paid-search-tips-for-startups/",
+      "author": "Caylin White, Mahvish Khan",
+      "publishedAt": "2026-10-08T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "If you’re considering paid ads, consider these tips.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-vpk02q",
+      "type": "podcast",
+      "title": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-08T07:07:00.000Z",
+      "duration": 73,
+      "summary": "Joinin the trio today we have Dev Ittycheria, CEO @ MongoDB. \n AGENDA: \n 04:00 OpenAI Nears $70B Run Rate—Anthropic's Lead Under Threat\n 12:00 Factory vs Cognition: Silicon Valley's Talent War Turns Ugly\n 23:00 Vinod Khosla Blasts His Own Portfolio Company\n 25:00 Reflection Launches Beam: America Strikes Back in Open-Source AI\n 34:00 ElevenLabs Doubles Its Valuation to $22B\n 37:00 Salesforce Buys Listen Labs for $2B—Sequoia Cashes In\n 46:00 Vercel Hits $600M ARR as Agents Drive Half Its New Business\n 55:00 Former Groq Engineers Sue Over Nvidia's $17B Deal\n 01:01:00 Meta's Muse Steals the Show as OpenAI's Dots Underwhelms\n 01:05:00 Oura Pulls Its IPO Despite 74% Growth—A Warning for VC",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-crm-switch-um7bjx",
+      "type": "article",
+      "title": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
+      "source": "CRM Switch",
+      "sourceUrl": "https://crmswitch.com/business-technology/revenue-intelligence-platforms/",
+      "author": "Steve Chipman",
+      "publishedAt": "2026-10-07T16:45:38.000Z",
+      "readTime": 1,
+      "summary": "A CRM colleague once said, “The world’s greatest work of fiction is a sales pipeline.” He was only half kidding. And he was only talking about a symptom of a deeper problem with no solution at the time: a lack of Revenue Intelligence to supplement human effort. There are only so many hours in a ... Read more",
+      "tags": [
+        "Business Technology"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-lpe6tm",
+      "type": "article",
+      "title": "Bot Mitigation in the Age of AI Crawlers: How to Strategize Your Defense",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/bot-mitigation-strategy/",
+      "author": "Caila Schwartz",
+      "publishedAt": "2026-10-07T15:28:51.000Z",
+      "readTime": 1,
+      "summary": "Not all bot traffic is bad. For years, bots were synonymous with risk: scrapers, scalpers, and credential stuffers trying to steal inventory, stuff stolen credentials into your login page, or scrape pricing and…",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-p6ytig",
+      "type": "article",
+      "title": "Financial Institutions Don’t Need Another Product, They Need a Trusted Partner",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/financial-institutions-need-a-trusted-partner/",
+      "author": "Aaron Kelly",
+      "publishedAt": "2026-10-07T15:08:54.000Z",
+      "readTime": 1,
+      "summary": "The Real Problem Isn’t AI. It’s Fragmentation. Every financial institution’s technology team is carrying the same quiet weight: a sprawling stack of point solutions where each solution promises to solve one specific problem…",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-cotz5k",
+      "type": "article",
+      "title": "Direct Vs Indirect Competitors: Spot the Differences",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/direct-vs-indirect-competitors/",
+      "author": "Jessica Williams, Caylin White",
+      "publishedAt": "2026-10-07T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Every business has competitors — but not all of them look the way you'd expect.",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Highlights go-to-market themes that shape day-to-day RevOps work."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-5o8ty4",
       "type": "article",
       "title": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
@@ -167,7 +278,7 @@
       "readTime": 1,
       "summary": "Put these no-code AI tools in your entrepreneurial toolbox and get growing on day one.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -184,7 +295,7 @@
       "duration": 67,
       "summary": "Venky Ganesan is a Partner at Menlo Ventures, whose portfolio includes Anthropic, Lovable, Legora and Higgsfield, alongside earlier hits Uber and Roku. Venky's own investment track record includes Palo Alto Networks, Upwork, Poshmark and Rover. He is a three-time Forbes Midas List investor and former Chair of the National Venture Capital Association.\n AGENDA:\n 07:00 Can You Still Do Seed Without a $1 Billion Fund?\n 11:00 How Much of AI's Revenue Growth Is Actually Real?\n 19:00 When Is \"Overpaying\" the Smartest Investment You Can Make?\n 25:00 Does Ownership Still Matter in a World of Trillion-Dollar Outcomes?\n 31:00 Is \"Big Tech Will Buy Us\" a Dangerous Investment Thesis?\n 36:00 Why Invest in Venture When You Can Just Buy the Magnificent Seven?\n 45:00 When Should You Sell a 40x Winner—and When Should You Double Down?\n 54:00 Can a $50 Million Fund Still Compete With the Venture Giants?\n 58:00 Quickfire: Is Benchmark Harder to Beat Than Sequoia?",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
@@ -231,23 +342,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-sg848r",
-      "type": "article",
-      "title": "Unpacking Dreamforce: Why Your AI Needs Trusted Context",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/why-your-ai-needs-trusted-context-data-360/",
-      "author": "Mala Ravi",
-      "publishedAt": "2026-10-02T20:08:36.000Z",
-      "readTime": 1,
-      "summary": "Imagine asking an AI agent to prepare an offer for a loyal customer. It finds their purchase history, spots an opportunity, and recommends the next product. But it misses the service case they’ve…",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-h2onco",
       "type": "article",
       "title": "Why simplifying your revenue stack  comes before everything else",
@@ -267,59 +361,6 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-dp3xcw",
-      "type": "article",
-      "title": "Where’s the Party? Zero-Party Data Basics for Small and Growing Businesses",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/zero-party-data-basics/",
-      "author": "Kavea S. Abhishek",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Ask and you shall receive — zero-party data is the fastest way to build a business your customers actually trust.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-5j5g2n",
-      "type": "article",
-      "title": "Agents Can Mimic Good Design. Ours Know Why It Works",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/coding-agents-product-design/",
-      "author": "Alan Weibel",
-      "publishedAt": "2026-10-01T21:25:37.000Z",
-      "readTime": 1,
-      "summary": "We give coding agents the knowledge to make sound decisions and turn ideas into accessible, production-ready experiences.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-egq5fx",
-      "type": "article",
-      "title": "What’s New in B2C Commerce: The September 2026 Release",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/b2c-commerce-september-26-release/",
-      "author": "Miryam Meir",
-      "publishedAt": "2026-10-01T19:43:53.000Z",
-      "readTime": 1,
-      "summary": "Summer is officially over and the holiday season is closing in fast for retailers. Ecommerce teams have their hands full: Merchandisers are optimizing catalogs, marketers are racing to capture compliant customer consent without…",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Forward-looking — frames where the practice is heading this cycle."
       ],
       "saved": false
     },
@@ -1073,25 +1114,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-lgxhwi",
-      "type": "podcast",
-      "title": "20VC: NVIDIA Crushes Quarter and Buys Hugging Face | OpenAI Cuts Off Cursor | Instinct Hits $2.5BN Valuation and The Race for AI Assistants | Cognition Raises at $46BN, Linear $2.5BN and Clay $7BN",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-09-03T07:07:00.000Z",
-      "duration": 78,
-      "summary": "AGENDA: \n 00:00 Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal\n 13:52 OpenAI cuts off Cursor as the Altman–Musk feud escalates\n 17:40 OpenAI's 1,000-agent cyberattack triggers an industry wake-up call\n 22:58 Instinct hits $2.5B valuation as AI assistants gain spending power\n 36:39 Cognition targets $1.6B ARR as the coding-agent market explodes\n 40:31 AI forces every startup to become a compound company—or get left behind\n 52:42 Salesforce embraces Claude and outcome-based pricing in major AI reset\n 1:00:52 Stripe–PayPal deal collapses as both sides clash over price\n 1:02:31 Clay hits $7B and Linear reaches $100M ARR as agents choose their tools\n 1:11:52 Texas pauses Flock cameras as police-surveillance backlash grows",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-h8eotb",
       "type": "article",
       "title": "September 2026 RevOps News: Trends & Insights",
@@ -1569,20 +1591,20 @@
     {
       "id": "feed-crm-switch-549dpc",
       "type": "article",
-      "title": "15 ‘Best CRM’ Rating & Review Sites To Check Out in 2026",
+      "title": "16 ‘Best CRM’ Rating & Review Sites To Check Out in 2026",
       "source": "CRM Switch",
       "sourceUrl": "https://crmswitch.com/buying-crm/crm-review-sites/",
       "author": "Steve Chipman",
       "publishedAt": "2025-12-05T22:48:04.000Z",
       "readTime": 1,
-      "summary": "We compiled a list of ‘Best CRM’ review & rating sites for teams considering an investment in CRM (Customer Relationship Management) software in 2026. This guide walks through where CRM software reviews come from, how each site ranks vendors, and how to use them well. In today’s ratings-and-reviews-driven marketplace, many buyers start by looking for ... Read more",
+      "summary": "We compiled a list of ‘Best CRM’ review & rating sites for teams considering an investment in CRM (Customer Relationship Management) software in 2026. This guide explains where CRM software reviews come from, how each site ranks vendors, and how to use them effectively. In today’s ratings-and-reviews-driven marketplace, many buyers start by looking for a ... Read more",
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 68,
+      "relevanceScore": 74,
       "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
@@ -1748,26 +1770,6 @@
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-crm-switch-oyrsvo",
-      "type": "article",
-      "title": "B2B Sales Enablement – 9 Ways CRM Can Better Power Selling Efforts",
-      "source": "CRM Switch",
-      "sourceUrl": "https://crmswitch.com/crm-value/b2b-sales-enablement/",
-      "author": "Steve Chipman",
-      "publishedAt": "2025-06-30T14:13:11.000Z",
-      "readTime": 1,
-      "summary": "B2B sales enablement is the practice of equipping sales teams with the tools, content, data, and training they need to close deals more effectively and efficiently. When properly implemented, sales enablement functionality inside a CRM platform bridges the gap between marketing and sales teams, ensuring that reps have access to relevant, timely information throughout the ... Read more",
-      "tags": [
-        "CRM Value"
-      ],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
       ],
       "saved": false
     },
@@ -2016,47 +2018,47 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 70,
-      "recent3": 5,
+      "count": 71,
+      "recent3": 8,
       "change": -16,
       "direction": "down",
-      "articles": 33,
+      "articles": 34,
       "podcasts": 37,
-      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
-      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
+      "topItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
+      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 55,
-      "recent3": 6,
-      "change": -16,
-      "direction": "down",
-      "articles": 27,
-      "podcasts": 28,
-      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
-      "secondItem": "Sales success culture:  The CRO's ultimate leverage point"
+      "recent3": 8,
+      "change": -6,
+      "direction": "flat",
+      "articles": 26,
+      "podcasts": 29,
+      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
+      "secondItem": "Financial Institutions Don’t Need Another Product, They Need a Trusted Partner"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 44,
-      "recent3": 0,
-      "change": -67,
+      "count": 43,
+      "recent3": 1,
+      "change": -61,
       "direction": "down",
-      "articles": 26,
+      "articles": 25,
       "podcasts": 18,
-      "topItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "secondItem": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller"
+      "topItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
+      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 43,
+      "count": 42,
       "recent3": 2,
-      "change": -56,
+      "change": -60,
       "direction": "down",
-      "articles": 26,
+      "articles": 25,
       "podcasts": 17,
       "topItem": "How do you track ROI on marketing?",
       "secondItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand"
@@ -2064,38 +2066,38 @@
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 35,
-      "recent3": 1,
-      "change": -57,
+      "count": 36,
+      "recent3": 2,
+      "change": -39,
       "direction": "down",
-      "articles": 2,
+      "articles": 3,
       "podcasts": 33,
-      "topItem": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
-      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
+      "topItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
+      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 31,
-      "recent3": 2,
-      "change": -36,
+      "recent3": 4,
+      "change": -28,
       "direction": "down",
       "articles": 17,
       "podcasts": 14,
-      "topItem": "A Seller Pain Point, Small Squad, and a Solution That Shipped in Weeks",
-      "secondItem": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership"
+      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
+      "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 18,
-      "recent3": 1,
-      "change": -58,
-      "direction": "down",
-      "articles": 5,
+      "count": 20,
+      "recent3": 4,
+      "change": 25,
+      "direction": "up",
+      "articles": 7,
       "podcasts": 13,
-      "topItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
-      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
+      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
+      "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
     },
     {
       "rank": 8,
@@ -2110,5 +2112,5 @@
       "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
     }
   ],
-  "fetchedAt": "2026-10-07T12:58:05.793Z"
+  "fetchedAt": "2026-10-08T13:06:11.872Z"
 }
