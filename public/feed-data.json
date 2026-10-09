@@ -1,6 +1,68 @@
 {
   "items": [
     {
+      "id": "feed-seafoam-media-rg444o",
+      "type": "article",
+      "title": "Why Top Organic Rankings Get Zero Clicks",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/lens/why-top-organic-rankings-get-zero-clicks/",
+      "author": "Allie Wolf",
+      "publishedAt": "2026-10-09T09:00:00.000Z",
+      "readTime": 1,
+      "summary": "A #1 ranking can still mean zero clicks. Here's what sits above and around your listing on Google, and why rank trackers can't be trusted right now.\nThe post Why Top Organic Rankings Get Zero Clicks appeared first on Seafoam.",
+      "tags": [
+        "Lens",
+        "AI SEO",
+        "Analytics & Reporting",
+        "SEO Services"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-ee83zu",
+      "type": "article",
+      "title": "Six Principles of Voice Design: Designing for the Ear and Encoding it into Agent Script",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/voice-design-principles/",
+      "author": "Philipp Hänggi",
+      "publishedAt": "2026-10-08T20:38:48.000Z",
+      "readTime": 1,
+      "summary": "Play before-and-after audio examples of six voice design principles, then see how to encode each one in Agent Script.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
+        "Grounded in real examples you can adapt to your own setup."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-topline-podcast-wjpfna",
+      "type": "podcast",
+      "title": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-ceo-sam-jacobs-is-redefining-pavilions-identity-sam-jacobs-founder-ceo-pavilion",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-08T16:30:00.000Z",
+      "duration": 21,
+      "summary": "When Sam Jacobs founded Pavilion, formerly Revenue Collective, he set out to build a private community for operators in a startup world that traditionally celebrated founders and overlooked the people running the business. But as Pavilion grew to 10,000+ members, the very thing that made the community valuable began to get diluted.\n  In this special Topline Spotlight episode, Sam joins co-hosts AJ Bruno and Asad Zaman to talk about what happened, why removing the qualification barrier was a mistake, and what it took to bring Pavilion back to its original vision.\n Sam talks about:\n  - Why rapid growth can dilute what makes a community valuable\n - How LinkedIn and Slack helped Pavilion scale faster than expected\n - What happened when exclusivity gave way to openness\n - Why reversing course became harder once the community had grown\n - The importance of having a long-term vision instead of chasing immediate growth\n - Why building something great requires patience and restraint\n  Chapters:\n  00:00 Introduction\n 00:42 Business Challenge of the Last 24 Months\n 01:29 What Is Pavilion?\n 02:43 Launching Pavilion Gold\n 04:01 Why the Community Scaled So Quickly\n 06:51 LinkedIn and Slack as Growth Drivers\n 07:02 Shifting Culture of Openness Among GTM Leaders\n 08:04 The Consequences of Losing Focus\n 10:54 The Biggest Mistake: Removing the Qualification Barrier\n 11:32 The Challenge of Reversing Course\n 13:46 Continued Opportunity for Operator Advocacy\n 15:00 Solving the Challenge: Long-Term Vision\n 15:54 Building a 3-Year Vision for Pavilion\n 16:08 Importance of Patience in Building Exclusive Communities\n Try Pavilion: joinpavilion.com",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-oe5y7r",
       "type": "article",
       "title": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
@@ -182,7 +244,7 @@
         "Analytics & Reporting",
         "RevOps"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
@@ -200,7 +262,7 @@
       "readTime": 1,
       "summary": "Here are 4 ways to show your hard-working customer service reps that you’re invested in their success and well-being every single day.",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
@@ -217,7 +279,7 @@
       "readTime": 1,
       "summary": "In the past three months, 27% of consumers have reported making a purchase on a social shopping platform. This is led by 48% of Gen Z consumers and 37% of Millennial consumers, according…",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -236,7 +298,7 @@
       "readTime": 1,
       "summary": "Focus on the Winter ’27 changes that require architectural attention and turn them into informed decisions across security, scale, agentic architecture, and governance.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -259,28 +321,11 @@
         "Events",
         "Chief Revenue Officer"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-rcu5yv",
-      "type": "article",
-      "title": "The No-Code AI Toolbox For Entrepreneurs: All the AI Tools",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/no-code-ai-tools-for-entrepreneurs/",
-      "author": "Christian Sabogal",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Put these no-code AI tools in your entrepreneurial toolbox and get growing on day one.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
       "saved": false
     },
@@ -1278,25 +1323,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-z7cw30",
-      "type": "podcast",
-      "title": "SPOTLIGHT: He Said No to Bad-Fit Customers. Growth Got Better. | Snehal Nimje, CEO & Co-Founder @ Outdoo",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-he-said-no-to-bad-fit-customers-growth-got-better-snehal-nimje-ceo-co-founder-outdoo",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-08-13T16:30:00.000Z",
-      "duration": 21,
-      "summary": "In this episode of Topline Spotlight, Sam Jacobs sits down with Snehal Nimje, co-founder and CEO of Outdoo, to talk about one of the hardest calls an early-stage founder can make: narrowing focus when leads are coming in.\n Snehal breaks down how Outdoo went from trying to serve every mid-market and enterprise buyer to getting much more specific about where the product was truly essential. They get into why usage dropped, what customer conversations revealed, how the team handled the internal shift, and what changed once they focused on insurance and finance use cases where compliance and ramp speed mattered most.\n They also talk about:\n  - Why enterprise readiness starts with architecture, compliance, and security\n - How to tell the difference between interest and real traction\n - What founders miss when they chase every lead\n - Where defensibility really comes from in AI\n Chapters:\n 00:00 Intro\n 00:46 Meet Snehal Nimje and Outdoo\n 04:55 Why selling to everyone nearly derailed the business\n 06:51 Finding the customers who truly need your product\n 08:54 The hard decision to narrow their ICP\n 11:00 How focus accelerated enterprise growth\n 13:09 Advice for founders struggling to find product-market fit\n 15:36 What creates a moat in the AI era?\n 17:13 Why workflow—not AI models—is the real competitive advantage\n 18:51 Snehal's biggest business inspiration\n 19:38 Where to find Snehal and Outdoo\n Try Outdoo: outdoo.ai\n If you're building an early-stage company and trying to find traction without turning your product into a Frankenstein, this one's worth your time.\n Subscribe for more founder stories, operator lessons, and go-to-market conversations from Topline.",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-q0609h",
       "type": "article",
       "title": "Seafoam Named to the 2026 Future100 by St. Louis Small Business Monthly",
@@ -1356,29 +1382,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-seafoam-media-k4trxi",
-      "type": "article",
-      "title": "August 2026 RevOps News: Trends & Insights",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/brief/august-2026-revops-news/",
-      "author": "Jared Lender",
-      "publishedAt": "2026-08-05T20:13:43.000Z",
-      "readTime": 1,
-      "summary": "HubSpot Quietly Renames Its Way Into Quote-to-Cash In its June-into-July release wave, HubSpot rebranded Commerce Hub as “Revenue Hub” and pushed a batch of quote-to-cash features into the CRM: real-time automated sales tax on quotes, buy-now-pay-later options through Klarna and Affirm, locked quote templates, and HubSpot Capital financing in the US and UK. It also […]\nThe post August 2026 RevOps News: Trends & Insights appeared first on Seafoam.",
-      "tags": [
-        "Brief",
-        "Analytics & Reporting",
-        "RevOps"
-      ],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -2018,35 +2021,35 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 71,
-      "recent3": 8,
-      "change": -16,
+      "count": 72,
+      "recent3": 9,
+      "change": -9,
       "direction": "down",
-      "articles": 34,
+      "articles": 35,
       "podcasts": 37,
-      "topItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
-      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
+      "topItem": "Why Top Organic Rankings Get Zero Clicks",
+      "secondItem": "Six Principles of Voice Design: Designing for the Ear and Encoding it into Agent Script"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 55,
-      "recent3": 8,
-      "change": -6,
+      "count": 56,
+      "recent3": 7,
+      "change": 3,
       "direction": "flat",
-      "articles": 26,
+      "articles": 27,
       "podcasts": 29,
-      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
-      "secondItem": "Financial Institutions Don’t Need Another Product, They Need a Trusted Partner"
+      "topItem": "Why Top Organic Rankings Get Zero Clicks",
+      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     },
     {
       "rank": 3,
       "topic": "Data & Attribution",
-      "count": 43,
+      "count": 42,
       "recent3": 1,
-      "change": -61,
+      "change": -71,
       "direction": "down",
-      "articles": 25,
+      "articles": 24,
       "podcasts": 18,
       "topItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
       "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
@@ -2055,34 +2058,34 @@
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 42,
-      "recent3": 2,
+      "recent3": 1,
       "change": -60,
       "direction": "down",
       "articles": 25,
       "podcasts": 17,
-      "topItem": "How do you track ROI on marketing?",
-      "secondItem": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand"
+      "topItem": "Why Top Organic Rankings Get Zero Clicks",
+      "secondItem": "How do you track ROI on marketing?"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 36,
-      "recent3": 2,
-      "change": -39,
+      "recent3": 3,
+      "change": -25,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
-      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
+      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
+      "secondItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips "
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 31,
-      "recent3": 4,
-      "change": -28,
+      "count": 30,
+      "recent3": 3,
+      "change": -25,
       "direction": "down",
-      "articles": 17,
+      "articles": 16,
       "podcasts": 14,
       "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
       "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
@@ -2092,25 +2095,25 @@
       "topic": "Revenue Forecasting",
       "count": 20,
       "recent3": 4,
-      "change": 25,
+      "change": 61,
       "direction": "up",
       "articles": 7,
       "podcasts": 13,
-      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
-      "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
+      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
+      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 17,
-      "recent3": 0,
-      "change": -100,
+      "recent3": 1,
+      "change": -76,
       "direction": "down",
       "articles": 2,
       "podcasts": 15,
-      "topItem": "Building a Company Brain for AI - Jacob Dietle",
-      "secondItem": "CRM As A Business World Model: The Future For GTM Teams? | Keith Peiris, CEO @ Lightfield"
+      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
+      "secondItem": "Building a Company Brain for AI - Jacob Dietle"
     }
   ],
-  "fetchedAt": "2026-10-08T13:06:11.872Z"
+  "fetchedAt": "2026-10-09T12:52:43.097Z"
 }
