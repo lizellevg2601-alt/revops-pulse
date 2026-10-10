@@ -1,6 +1,59 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-v6r1no",
+      "type": "podcast",
+      "title": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-10T07:07:00.000Z",
+      "duration": 68,
+      "summary": "Max Freeman is SVP of Sales at Ramp. He joined the company as its first sales hire. By 2025, he was leading more than 300 salespeople, helping build Ramp's sales organisation from the ground up. Ramp's latest reported revenue exceeds $1.7BN, with a valuation of over $40BN. \n AGENDA:\n 00:00 Inside Ramp's Sales Playbook\n 05:00 How Do You Find Exceptional Sellers—and Why Bankers Make the Best?\n 18:00 How Do You Build an Outbound Machine That Scales Beyond Your SDR Team?\n 24:00 How Do You Shorten Sales Cycles Without Slashing Your Price?\n 27:00 How Should You Pay Your First Reps—and Incentivise New Products?\n 34:00 How Do You Onboard Reps Who Can Actually Sell?\n 40:00 How High Should Quotas Be—and How Long Should Reps Get to Ramp?\n 44:00 How Do You Drive Customer Expansion and Forecast Revenue Accurately?\n 54:00 How Do You Grow as a Sales Leader Without Taking Over Every Important Deal?",
+      "tags": [],
+      "relevanceScore": 90,
+      "whyItMatters": [
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-gfyl3q",
+      "type": "article",
+      "title": "AI Agents Don’t Live with Disabilities. People Do",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/accessible-ai-experiences/",
+      "author": "Adam Rodenbeck, Patrick Hermiller, Shyanne Fullerton",
+      "publishedAt": "2026-10-09T15:25:53.000Z",
+      "readTime": 1,
+      "summary": "Learn how disability research, intentional requirements, and layered testing can create more accessible AI experiences that benefit everyone.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-hs57rp",
+      "type": "article",
+      "title": "8 AI Use Cases: Budgeting, Money, and All Things Revenue",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-use-cases-for-revenue-management/",
+      "author": "Allen Aguilar",
+      "publishedAt": "2026-10-09T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Make every dollar count with these AI use cases for all things revenue.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-seafoam-media-rg444o",
       "type": "article",
       "title": "Why Top Organic Rankings Get Zero Clicks",
@@ -27,7 +80,7 @@
     {
       "id": "feed-salesforce-blog-ee83zu",
       "type": "article",
-      "title": "Six Principles of Voice Design: Designing for the Ear and Encoding it into Agent Script",
+      "title": "Six Principles of Voice Design: Designing for the Ear and Encoding It into Agent Script",
       "source": "Salesforce Blog",
       "sourceUrl": "https://www.salesforce.com/blog/voice-design-principles/",
       "author": "Philipp Hänggi",
@@ -184,7 +237,7 @@
       "readTime": 1,
       "summary": "Salesforce used AI coding agents, Slack, and a small cross-functional squad to turn customer signals into seller action. Here’s how Customer Zero built a seller experience in weeks, not quarters.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -205,7 +258,7 @@
         "Sales Ops",
         "Articles"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
       ],
@@ -222,7 +275,7 @@
       "readTime": 1,
       "summary": "Communication with Slack gives your growing team alignment, so they can move faster, and actually enjoy working together.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
@@ -265,43 +318,6 @@
       "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ih8idi",
-      "type": "article",
-      "title": "Turn TikTok Scrolls into Sales: Inside Our New Agentic Commerce Partnership",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/commerce-cloud-tiktok-integration/",
-      "author": "Jon Stahl",
-      "publishedAt": "2026-10-05T22:05:49.000Z",
-      "readTime": 1,
-      "summary": "In the past three months, 27% of consumers have reported making a purchase on a social shopping platform. This is led by 48% of Gen Z consumers and 37% of Millennial consumers, according…",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-y3fi2s",
-      "type": "article",
-      "title": "Winter ’27 Release Architect Highlights: Security, Agentic Architecture, and Governance",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/winter-27-release-architect-highlights/",
-      "author": "Marlene Guerra-Reeve",
-      "publishedAt": "2026-10-05T17:31:18.000Z",
-      "readTime": 1,
-      "summary": "Focus on the Winter ’27 changes that require architectural attention and turn them into informed decisions across security, scale, agentic architecture, and governance.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
       ],
       "saved": false
     },
@@ -1116,25 +1132,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-1drtd",
-      "type": "podcast",
-      "title": "20VC: How to Build Your Own Data Center & Why Every Startup Should Do It | How ElevenLabs Leapfrogged Us: What I Learned | The AI Talent War: How Your Hiring Process Needs to Change with Cliff Weitzman, Speechify",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-how-to-build-your-own-data-center-why-every-startup-should-do-it-how-elevenlabs-leapfrogged-us-what-i-learned-the-ai-talent-war-how-your-hiring-process-needs-to-change-with-cliff-weitzman-speechify",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-09-05T07:07:00.000Z",
-      "duration": 65,
-      "summary": "Cliff Weitzman is the co-founder and CEO of Speechify, the world's leading AI voice and text-to-speech platform, used by more than 60 million people globally. Diagnosed with dyslexia as a child, Cliff first built Speechify at Brown University to help him consume written material through audio. \n AGENDA: \n 00:00 Cliff Weitzman Reveals His Biggest-Ever Strategic Mistake\n 03:08 Why Speechify Is Paying Millions to Build Their Own Data Centres\n 09:59 What No One Knows About Buying Chips That Everyone Should Know?\n 20:19 The AI Data Gold Rush Has a Brutal Business-Model Problem\n 23:42 How ElevenLabs Leapfrogged Speechify—and Why It Was Cliff's Fault\n 31:00 The $15M AI Talent War: Can Startups Still Compete for the Best Talent?\n 36:57 The New 10X Engineer: Ten Killer Decisions Every Day\n 46:12 The Voice-AI Bloodbath: Who Survives Commoditisation?\n 53:21 The Screen Is Dying—and Voice Will Replace It\n 57:58 How Cliff Plans to Use AI to Cure His Brother's Disease",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
@@ -2021,45 +2018,33 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 72,
-      "recent3": 9,
-      "change": -9,
+      "count": 71,
+      "recent3": 10,
+      "change": -10,
       "direction": "down",
       "articles": 35,
-      "podcasts": 37,
-      "topItem": "Why Top Organic Rankings Get Zero Clicks",
-      "secondItem": "Six Principles of Voice Design: Designing for the Ear and Encoding it into Agent Script"
+      "podcasts": 36,
+      "topItem": "AI Agents Don’t Live with Disabilities. People Do",
+      "secondItem": "8 AI Use Cases: Budgeting, Money, and All Things Revenue"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 56,
-      "recent3": 7,
-      "change": 3,
-      "direction": "flat",
-      "articles": 27,
+      "count": 54,
+      "recent3": 5,
+      "change": -9,
+      "direction": "down",
+      "articles": 25,
       "podcasts": 29,
-      "topItem": "Why Top Organic Rankings Get Zero Clicks",
-      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "secondItem": "Why Top Organic Rankings Get Zero Clicks"
     },
     {
       "rank": 3,
-      "topic": "Data & Attribution",
-      "count": 42,
-      "recent3": 1,
-      "change": -71,
-      "direction": "down",
-      "articles": 24,
-      "podcasts": 18,
-      "topItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
-      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
-    },
-    {
-      "rank": 4,
       "topic": "Marketing & Brand",
       "count": 42,
       "recent3": 1,
-      "change": -60,
+      "change": -69,
       "direction": "down",
       "articles": 25,
       "podcasts": 17,
@@ -2067,53 +2052,65 @@
       "secondItem": "How do you track ROI on marketing?"
     },
     {
+      "rank": 4,
+      "topic": "Data & Attribution",
+      "count": 41,
+      "recent3": 1,
+      "change": -79,
+      "direction": "down",
+      "articles": 24,
+      "podcasts": 17,
+      "topItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
+      "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
+    },
+    {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 36,
-      "recent3": 3,
-      "change": -25,
+      "recent3": 4,
+      "change": -20,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
-      "secondItem": "Thinking of Paid Search For Your Startup? We’ve Got Tips "
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 30,
-      "recent3": 3,
-      "change": -25,
+      "count": 28,
+      "recent3": 2,
+      "change": -33,
       "direction": "down",
-      "articles": 16,
-      "podcasts": 14,
+      "articles": 15,
+      "podcasts": 13,
       "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
       "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 20,
-      "recent3": 4,
-      "change": 61,
+      "count": 21,
+      "recent3": 5,
+      "change": 100,
       "direction": "up",
       "articles": 7,
-      "podcasts": 13,
-      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
-      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
+      "podcasts": 14,
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 17,
-      "recent3": 1,
-      "change": -76,
+      "count": 18,
+      "recent3": 2,
+      "change": -50,
       "direction": "down",
       "articles": 2,
-      "podcasts": 15,
-      "topItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
-      "secondItem": "Building a Company Brain for AI - Jacob Dietle"
+      "podcasts": 16,
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-09T12:52:43.097Z"
+  "fetchedAt": "2026-10-10T12:10:42.130Z"
 }
