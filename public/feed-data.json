@@ -1,13 +1,32 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-47ezv1",
+      "type": "podcast",
+      "title": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/ai-revenue-is-real-but-will-it-last-amy-konary-founder-chair-subscribed-institute-zuora",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-11T04:01:00.000Z",
+      "duration": 53,
+      "summary": "Amy Konary, Founder & Chair of The Subscribed Institute at Zuora, coined the term SaaS as an IDC analyst around 2000, when her first forecast sized the whole market at $40 million. She joins Sam Jacobs, AJ Bruno, and Asad Zaman for the first in-person Topline to ask whether AI company economics are a house of cards, and whether circular financing and double counting are real problems. Plus, why POCs have stopped being a pipeline signal, experimental revenue versus true ARR, a new leverage index for sticky revenue, tokens versus credits, and how close outcome pricing can really get.\n Key Takeaways:\n - Treat POCs as a weak pipeline signal. As Amy put it, \"it used to be that hands-on product was a really good signal from a pipeline perspective, but everyone's doing POCs just to kick the tires, but actually has no mandate to buy.\" Many are free, production-ready builds, and very few convert.\n - Usage alone won't tell you which revenue will last. Amy scores customers on scope and workflows, trust in the system's outputs, and how much of their own context they upload, because \"you can have 2 customers with the exact same usage, but very different leverage.\" Low leverage means \"That revenue is less durable.\"\n - Pure usage pricing can leave you as exposed as seats did. \"If you're just tracking usage, and usage is highly experimental, and usage decreases over time as people optimize the tools, you're in the same vulnerable position you were in with seats,\" said Amy, who expects hybrid models with a smaller, trackable outcome piece.\n - Build for durability without rigidity. \"So I think there's a difference between durability and rigidity,\" Amy said, and her metaphor is bamboo: one of the strongest construction materials, yet flexible, anchored by a clear focus on the customer's progress.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Amy Konary, Founder & Chair, The Subscribed Institute at Zuora - https://www.linkedin.com/in/amykonary/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Amy Konary\n 01:43 From ERP Sales to Industry Analyst\n 03:33 How Amy Konary Named SaaS\n 08:03 How Salesforce Taught the Street SaaS\n 10:31 Building Durable Companies for AI\n 11:52 Does Gross Margin Still Matter?\n 15:10 Who Is Checking AI Company Math?\n 17:03 Circular Financing and Double Counting\n 18:30 Is AI a House of Cards?\n 21:49 Durability Versus Rigidity\n 29:19 Be Careful About Your POCs\n 33:40 The Leverage Index for Sticky Revenue\n 39:12 SaaS Companies Moving Into Services\n 41:59 Tokens, Credits and Outcome Pricing\n 48:32 P(doom) and Raising Kids With AI",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-v6r1no",
       "type": "podcast",
-      "title": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "title": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
       "source": "20VC",
       "sourceUrl": "https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
       "author": "Harry Stebbings",
-      "publishedAt": "2026-10-10T07:07:00.000Z",
+      "publishedAt": "2026-10-10T13:33:00.000Z",
       "duration": 68,
       "summary": "Max Freeman is SVP of Sales at Ramp. He joined the company as its first sales hire. By 2025, he was leading more than 300 salespeople, helping build Ramp's sales organisation from the ground up. Ramp's latest reported revenue exceeds $1.7BN, with a valuation of over $40BN. \n AGENDA:\n 00:00 Inside Ramp's Sales Playbook\n 05:00 How Do You Find Exceptional Sellers—and Why Bankers Make the Best?\n 18:00 How Do You Build an Outbound Machine That Scales Beyond Your SDR Team?\n 24:00 How Do You Shorten Sales Cycles Without Slashing Your Price?\n 27:00 How Should You Pay Your First Reps—and Incentivise New Products?\n 34:00 How Do You Onboard Reps Who Can Actually Sell?\n 40:00 How High Should Quotas Be—and How Long Should Reps Get to Ramp?\n 44:00 How Do You Drive Customer Expansion and Forecast Revenue Accurately?\n 54:00 How Do You Grow as a Sales Leader Without Taking Over Every Important Deal?",
       "tags": [],
@@ -145,7 +164,7 @@
       "duration": 73,
       "summary": "Joinin the trio today we have Dev Ittycheria, CEO @ MongoDB. \n AGENDA: \n 04:00 OpenAI Nears $70B Run Rate—Anthropic's Lead Under Threat\n 12:00 Factory vs Cognition: Silicon Valley's Talent War Turns Ugly\n 23:00 Vinod Khosla Blasts His Own Portfolio Company\n 25:00 Reflection Launches Beam: America Strikes Back in Open-Source AI\n 34:00 ElevenLabs Doubles Its Valuation to $22B\n 37:00 Salesforce Buys Listen Labs for $2B—Sequoia Cashes In\n 46:00 Vercel Hits $600M ARR as Agents Drive Half Its New Business\n 55:00 Former Groq Engineers Sue Over Nvidia's $17B Deal\n 01:01:00 Meta's Muse Steals the Show as OpenAI's Dots Underwhelms\n 01:05:00 Oura Pulls Its IPO Despite 74% Growth—A Warning for VC",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -166,7 +185,7 @@
       "tags": [
         "Business Technology"
       ],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
@@ -184,7 +203,7 @@
       "readTime": 1,
       "summary": "Not all bot traffic is bad. For years, bots were synonymous with risk: scrapers, scalpers, and credential stuffers trying to steal inventory, stuff stolen credentials into your login page, or scrape pricing and…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
@@ -202,7 +221,7 @@
       "readTime": 1,
       "summary": "The Real Problem Isn’t AI. It’s Fragmentation. Every financial institution’s technology team is carrying the same quiet weight: a sprawling stack of point solutions where each solution promises to solve one specific problem…",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
@@ -220,7 +239,7 @@
       "readTime": 1,
       "summary": "Every business has competitors — but not all of them look the way you'd expect.",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
@@ -1301,25 +1320,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-ezxmnb",
-      "type": "podcast",
-      "title": "Sales Millionaires Are Back… Wasn't AI Supposed to Destroy This Job?!",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/sales-millionaires-are-back-wasnt-ai-supposed-to-destroy-this-job",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-08-16T07:03:00.000Z",
-      "duration": 71,
-      "summary": "Enterprise account executives are now signing for $200,000 salaries, $200,000 variable comp plans, and up to half a million dollars in equity at sign-on. Meanwhile, offer acceptance at the top AI companies sits at 45% and half of the 38,000 startup sales reps in San Francisco and New York have taken a new job in the last two years. In this episode, Sam Jacobs, AJ Bruno, and Asad Zaman go hosts-only on why the sales talent market broke, what QuotaPath's compensation data across more than 1,400 companies says about quota attainment splitting into a barbell, and why Paul Graham calling go-to-market bogus says more about Silicon Valley's blind spot than it does about sales. Plus, where young sellers still get their start, whether a CRO can be great without ever carrying a bag, why go-to-market cannot rescue a company that has lost product-market fit, and what HubSpot's 20% stock drop signals for every SaaS business trying to make the AI transition.\n Key Takeaways:\n - The AI buildout has drained the two talent pools it depends on, and compensation is repricing in real time. As Asad Zaman, CEO of STA, described the enterprise AE market: \"Enterprise account executives now get paid $200,000 salaries, $200,000 variable comp plans, up to half a million dollars in equity at sign-on. That used to be $150,000 to $175,000 at the top end, just like a year and a bit ago.\" With 38,000 startup software sellers in San Francisco and New York and a quarter of them changing jobs in the last twelve months, the constraint on AI companies hitting escape velocity is no longer capital, it is people.\n - The jobs data cuts against the automation narrative. Sam Jacobs, CEO of Pavilion, pointed to the Philippines outsourcing sector, 8% of that country's GDP, where employment in IT and business outsourcing is up 20% to 1.9 million workers and industry revenue is up 30% to $42 billion since the launch of ChatGPT: \"I just think, you know, it's Jevons' paradox. It is what happens with every new piece of technology. Everybody thinks the technology is going to wipe everybody out, and instead the economy adapts.\" Companies are leaner per dollar of revenue and still cannot hire fast enough.\n - Quota attainment is no longer distributed the way comp plans assume. QuotaPath's first-half numbers put 58% of AEs on track against annual quota versus 55% a year ago, but as AJ Bruno, CEO of QuotaPath, explained, the shape underneath moved: \"the standard deviation is way higher this year. Meaning that the winners are going to be winning more … So it's more like a barbell than it is a bell curve.\" At some AI companies two reps out of ten are closing half the entire number, which breaks the capacity math most sales leaders use to set targets.\n - For individual sellers, the window matters more than the title. Asad Zaman's advice to reps weighing a step up into leadership: \"this is the moment where you can make millions of dollars right now … So don't make silly choices … Become a leader later. Go make money right now.\" He now benchmarks offers on whether 300% of plan clears a million dollars, and warns that private equity portfolio companies that never gave equity to individual contributors are losing these candidates outright.\n Connect with the Hosts:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Three Hosts, Three Topics\n 02:19 The Talent Market Has Gone Crazy\n 05:42 $200K Base, $200K Variable\n 09:00 AI Was Supposed To Kill Sales\n 15:16 Go Make A Million Right Now\n 16:53 Where Young Sellers Get Their Start\n 23:20 Build A University Inside The Company\n 31:58 Paul Graham Versus Go-To-Market\n 36:22 Why YC Misses Enterprise Software\n 40:55 Can A Non-Seller Be A Great CRO?\n 44:42 GTM Cannot Fix Product-Market Fit\n 49:30 One To Ten To A Hundred\n 53:38 Quota Attainment Is A Barbell\n 1:02:41 The HubSpot Nightmare\n 1:06:05 Falling Back In Love With The Business",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-q0609h",
       "type": "article",
       "title": "Seafoam Named to the 2026 Future100 by St. Louis Small Business Monthly",
@@ -2019,24 +2019,24 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 71,
-      "recent3": 10,
+      "recent3": 7,
       "change": -10,
       "direction": "down",
       "articles": 35,
       "podcasts": 36,
-      "topItem": "AI Agents Don’t Live with Disabilities. People Do",
-      "secondItem": "8 AI Use Cases: Budgeting, Money, and All Things Revenue"
+      "topItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
+      "secondItem": "AI Agents Don’t Live with Disabilities. People Do"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 54,
-      "recent3": 5,
-      "change": -9,
+      "count": 53,
+      "recent3": 3,
+      "change": -18,
       "direction": "down",
       "articles": 25,
-      "podcasts": 29,
-      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "podcasts": 28,
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
       "secondItem": "Why Top Organic Rankings Get Zero Clicks"
     },
     {
@@ -2054,12 +2054,12 @@
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 41,
-      "recent3": 1,
-      "change": -79,
+      "count": 40,
+      "recent3": 0,
+      "change": -90,
       "direction": "down",
       "articles": 24,
-      "podcasts": 17,
+      "podcasts": 16,
       "topItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)",
       "secondItem": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina"
     },
@@ -2072,45 +2072,45 @@
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
-      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
-      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
+      "topItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
+      "secondItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 28,
-      "recent3": 2,
+      "recent3": 1,
       "change": -33,
       "direction": "down",
       "articles": 15,
       "podcasts": 13,
-      "topItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
-      "secondItem": "What Is Revenue Intelligence? How RI Platforms Connect With Your CRM (5 Use Cases)"
+      "topItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
+      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 21,
-      "recent3": 5,
+      "recent3": 3,
       "change": 100,
       "direction": "up",
       "articles": 7,
       "podcasts": 14,
-      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
-      "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
+      "topItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
+      "secondItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 18,
+      "count": 17,
       "recent3": 2,
-      "change": -50,
+      "change": -47,
       "direction": "down",
       "articles": 2,
-      "podcasts": 16,
-      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a $1.7BN ARR Sales Machine with Max Freeman, SVP Sales @ Ramp",
+      "podcasts": 15,
+      "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
       "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-10T12:10:42.130Z"
+  "fetchedAt": "2026-10-11T12:24:37.208Z"
 }
