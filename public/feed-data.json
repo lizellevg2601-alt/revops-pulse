@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-jllcf",
+      "type": "article",
+      "title": "What is White Label All About? Benefits, and Examples",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/white-label-benefits-and-examples/",
+      "author": "Hannah Freeman, Caylin White",
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Here's how to make a white-label model‌ work for your brand.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
+        "Grounded in real examples you can adapt to your own setup."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-seafoam-media-p9tr84",
+      "type": "article",
+      "title": "Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/news/seafoam-named-a-2026-best-in-marketing-firm-by-st-louis-small-business-monthly-r/",
+      "author": "Nikki Bisel",
+      "publishedAt": "2026-10-12T19:56:08.000Z",
+      "readTime": 1,
+      "summary": "Seafoam made the 2026 BEST in Marketing Firm list, voted by readers of St. Louis Small Business Monthly. Here's how to use a list like this when you're hiring.\nThe post Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers appeared first on Seafoam.",
+      "tags": [
+        "Seafoam News"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-kl5gny",
+      "type": "article",
+      "title": "How Tableau Built Agentic Analytics at Salesforce: A Four-Part Framework",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/tableau-agentic-analytics-at-salesforce-customer-zero/",
+      "author": "Southard Jones",
+      "publishedAt": "2026-10-12T16:07:44.000Z",
+      "readTime": 1,
+      "summary": "How Slackbot skills, semantic governance, AI content controls, cost management, and operational visibility power trustworthy agentic analytics at scale.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-urfhj0",
       "type": "article",
       "title": "How Sensitive Data Discovery on Data 360 Prepares You for AI",
@@ -104,7 +162,7 @@
       "duration": 68,
       "summary": "Max Freeman is SVP of Sales at Ramp. He joined the company as its first sales hire. By 2025, he was leading more than 300 salespeople, helping build Ramp's sales organisation from the ground up. Ramp's latest reported revenue exceeds $1.7BN, with a valuation of over $40BN. \n AGENDA:\n 00:00 Inside Ramp's Sales Playbook\n 05:00 How Do You Find Exceptional Sellers—and Why Bankers Make the Best?\n 18:00 How Do You Build an Outbound Machine That Scales Beyond Your SDR Team?\n 24:00 How Do You Shorten Sales Cycles Without Slashing Your Price?\n 27:00 How Should You Pay Your First Reps—and Incentivise New Products?\n 34:00 How Do You Onboard Reps Who Can Actually Sell?\n 40:00 How High Should Quotas Be—and How Long Should Reps Get to Ramp?\n 44:00 How Do You Drive Customer Expansion and Forecast Revenue Accurately?\n 54:00 How Do You Grow as a Sales Leader Without Taking Over Every Important Deal?",
       "tags": [],
-      "relevanceScore": 90,
+      "relevanceScore": 86,
       "whyItMatters": [
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
@@ -123,7 +181,7 @@
       "readTime": 1,
       "summary": "Learn how disability research, intentional requirements, and layered testing can create more accessible AI experiences that benefit everyone.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -281,41 +339,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-p6ytig",
-      "type": "article",
-      "title": "Financial Institutions Don’t Need Another Product, They Need a Trusted Partner",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/financial-institutions-need-a-trusted-partner/",
-      "author": "Aaron Kelly",
-      "publishedAt": "2026-10-07T15:08:54.000Z",
-      "readTime": 1,
-      "summary": "The Real Problem Isn’t AI. It’s Fragmentation. Every financial institution’s technology team is carrying the same quiet weight: a sprawling stack of point solutions where each solution promises to solve one specific problem…",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-cotz5k",
-      "type": "article",
-      "title": "Direct Vs Indirect Competitors: Spot the Differences",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/direct-vs-indirect-competitors/",
-      "author": "Jessica Williams, Caylin White",
-      "publishedAt": "2026-10-07T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Every business has competitors — but not all of them look the way you'd expect.",
-      "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [
-        "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
       "saved": false
     },
@@ -1363,28 +1386,6 @@
       "saved": false
     },
     {
-      "id": "feed-seafoam-media-oa9xf0",
-      "type": "article",
-      "title": "August 2026 CX News: Trends & Insights",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/brief/august-2026-cx-news/",
-      "author": "Ryan Foizey",
-      "publishedAt": "2026-08-07T20:15:54.000Z",
-      "readTime": 1,
-      "summary": "Salesforce Buys the Best Independent AI Support Agent on the Market Salesforce signed a definitive agreement in mid-June to acquire Fin, the renamed Intercom, for roughly $3.6 billion, folding it into Agentforce. Fin, rebranded from Intercom in May, runs an AI service agent on its proprietary model and resolves queries across live chat, email, WhatsApp, […]\nThe post August 2026 CX News: Trends & Insights appeared first on Seafoam.",
-      "tags": [
-        "Brief",
-        "CX"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-crm-switch-sk0ty4",
       "type": "article",
       "title": "Should You Vibe Code Your Own CRM?",
@@ -2020,57 +2021,57 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 72,
+      "count": 71,
       "recent3": 5,
-      "change": -3,
+      "change": 5,
       "direction": "flat",
-      "articles": 36,
+      "articles": 35,
       "podcasts": 36,
-      "topItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI",
-      "secondItem": "A Guide To AI Sales Coaching For Small Business Success"
+      "topItem": "How Tableau Built Agentic Analytics at Salesforce: A Four-Part Framework",
+      "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 54,
+      "count": 53,
       "recent3": 5,
-      "change": 2,
+      "change": -1,
       "direction": "flat",
-      "articles": 26,
+      "articles": 25,
       "podcasts": 28,
-      "topItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI",
-      "secondItem": "Close the Gap: Encrypt Every Stage of Your Data Lifecycle"
+      "topItem": "Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers",
+      "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
     },
     {
       "rank": 3,
+      "topic": "Marketing & Brand",
+      "count": 44,
+      "recent3": 3,
+      "change": -57,
+      "direction": "down",
+      "articles": 27,
+      "podcasts": 17,
+      "topItem": "What is White Label All About? Benefits, and Examples",
+      "secondItem": "Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers"
+    },
+    {
+      "rank": 4,
       "topic": "Data & Attribution",
       "count": 43,
       "recent3": 3,
-      "change": -59,
+      "change": -56,
       "direction": "down",
       "articles": 26,
       "podcasts": 17,
       "topItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI",
       "secondItem": "Close the Gap: Encrypt Every Stage of Your Data Lifecycle"
-    },
-    {
-      "rank": 4,
-      "topic": "Marketing & Brand",
-      "count": 42,
-      "recent3": 0,
-      "change": -69,
-      "direction": "down",
-      "articles": 25,
-      "podcasts": 17,
-      "topItem": "Why Top Organic Rankings Get Zero Clicks",
-      "secondItem": "How do you track ROI on marketing?"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 36,
-      "recent3": 3,
-      "change": -20,
+      "recent3": 2,
+      "change": -15,
       "direction": "down",
       "articles": 3,
       "podcasts": 33,
@@ -2081,22 +2082,22 @@
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 27,
-      "recent3": 1,
-      "change": -50,
+      "recent3": 2,
+      "change": -26,
       "direction": "down",
       "articles": 14,
       "podcasts": 13,
-      "topItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
-      "secondItem": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B"
+      "topItem": "How Tableau Built Agentic Analytics at Salesforce: A Four-Part Framework",
+      "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 22,
-      "recent3": 3,
-      "change": 129,
+      "count": 21,
+      "recent3": 2,
+      "change": 71,
       "direction": "up",
-      "articles": 7,
+      "articles": 6,
       "podcasts": 15,
       "topItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes",
       "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
@@ -2105,8 +2106,8 @@
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 17,
-      "recent3": 1,
-      "change": -47,
+      "recent3": 0,
+      "change": -43,
       "direction": "down",
       "articles": 2,
       "podcasts": 15,
@@ -2114,5 +2115,5 @@
       "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-12T14:53:42.032Z"
+  "fetchedAt": "2026-10-13T13:52:22.289Z"
 }
