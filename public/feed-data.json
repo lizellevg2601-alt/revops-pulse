@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-68a62s",
+      "type": "article",
+      "title": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/service-cloud-fall-2026-releases/",
+      "author": "Annie Weinberger",
+      "publishedAt": "2026-10-13T23:38:16.000Z",
+      "readTime": 1,
+      "summary": "New capabilities across the contact center, Casey your help agent, Service Rep Assistant, and workforce engagement management help teams serve customers better and faster.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-revops-alliance-auriss",
+      "type": "article",
+      "title": "Account scoring should explain  not just rank",
+      "source": "Revenue Operations Alliance",
+      "sourceUrl": "https://www.revenueoperationsalliance.com/account-scores-reps-actually-use/",
+      "author": "Anthony Goldbloom",
+      "publishedAt": "2026-10-13T17:06:57.000Z",
+      "readTime": 1,
+      "summary": "How to build an account score reps can read and act on, calibrated against your closed-won deals and reused to find strong-fit accounts outside your CRM.",
+      "tags": [
+        "RevOps strategy",
+        "Account-based marketing",
+        "Lead scoring",
+        "Articles"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-j81fd4",
+      "type": "article",
+      "title": "Drive User Adoption Through Architecture Decisions",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/drive-user-adoption-through-architecture/",
+      "author": "Victoria Khanchevska",
+      "publishedAt": "2026-10-13T16:29:01.000Z",
+      "readTime": 1,
+      "summary": "Learn how to design for user adoption from day one, across four architectural decisions you make long before go-live.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-5g8dw4",
+      "type": "article",
+      "title": "Winter ‘27 Release: Top Development & Security Features",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/platform-winter-27-release/",
+      "author": "Mike Melone",
+      "publishedAt": "2026-10-13T15:34:04.000Z",
+      "readTime": 1,
+      "summary": "Build, secure, and scale your org with the Winter '27 release's most impactful dev and security features.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-jllcf",
       "type": "article",
       "title": "What is White Label All About? Benefits, and Examples",
@@ -143,7 +220,7 @@
       "duration": 53,
       "summary": "Amy Konary, Founder & Chair of The Subscribed Institute at Zuora, coined the term SaaS as an IDC analyst around 2000, when her first forecast sized the whole market at $40 million. She joins Sam Jacobs, AJ Bruno, and Asad Zaman for the first in-person Topline to ask whether AI company economics are a house of cards, and whether circular financing and double counting are real problems. Plus, why POCs have stopped being a pipeline signal, experimental revenue versus true ARR, a new leverage index for sticky revenue, tokens versus credits, and how close outcome pricing can really get.\n Key Takeaways:\n - Treat POCs as a weak pipeline signal. As Amy put it, \"it used to be that hands-on product was a really good signal from a pipeline perspective, but everyone's doing POCs just to kick the tires, but actually has no mandate to buy.\" Many are free, production-ready builds, and very few convert.\n - Usage alone won't tell you which revenue will last. Amy scores customers on scope and workflows, trust in the system's outputs, and how much of their own context they upload, because \"you can have 2 customers with the exact same usage, but very different leverage.\" Low leverage means \"That revenue is less durable.\"\n - Pure usage pricing can leave you as exposed as seats did. \"If you're just tracking usage, and usage is highly experimental, and usage decreases over time as people optimize the tools, you're in the same vulnerable position you were in with seats,\" said Amy, who expects hybrid models with a smaller, trackable outcome piece.\n - Build for durability without rigidity. \"So I think there's a difference between durability and rigidity,\" Amy said, and her metaphor is bamboo: one of the strongest construction materials, yet flexible, anchored by a clear focus on the customer's progress.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Amy Konary, Founder & Chair, The Subscribed Institute at Zuora - https://www.linkedin.com/in/amykonary/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Amy Konary\n 01:43 From ERP Sales to Industry Analyst\n 03:33 How Amy Konary Named SaaS\n 08:03 How Salesforce Taught the Street SaaS\n 10:31 Building Durable Companies for AI\n 11:52 Does Gross Margin Still Matter?\n 15:10 Who Is Checking AI Company Math?\n 17:03 Circular Financing and Double Counting\n 18:30 Is AI a House of Cards?\n 21:49 Durability Versus Rigidity\n 29:19 Be Careful About Your POCs\n 33:40 The Leverage Index for Sticky Revenue\n 39:12 SaaS Companies Moving Into Services\n 41:59 Tokens, Credits and Outcome Pricing\n 48:32 P(doom) and Raising Kids With AI",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -229,25 +306,6 @@
       "saved": false
     },
     {
-      "id": "feed-salesforce-blog-ee83zu",
-      "type": "article",
-      "title": "Six Principles of Voice Design: Designing for the Ear and Encoding It into Agent Script",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/voice-design-principles/",
-      "author": "Philipp Hänggi",
-      "publishedAt": "2026-10-08T20:38:48.000Z",
-      "readTime": 1,
-      "summary": "Play before-and-after audio examples of six voice design principles, then see how to encode each one in Agent Script.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs.",
-        "Grounded in real examples you can adapt to your own setup."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-wjpfna",
       "type": "podcast",
       "title": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
@@ -263,25 +321,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Forward-looking — frames where the practice is heading this cycle."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-oe5y7r",
-      "type": "article",
-      "title": "Thinking of Paid Search For Your Startup? We’ve Got Tips ",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/paid-search-tips-for-startups/",
-      "author": "Caylin White, Mahvish Khan",
-      "publishedAt": "2026-10-08T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "If you’re considering paid ads, consider these tips.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -321,24 +360,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-lpe6tm",
-      "type": "article",
-      "title": "Bot Mitigation in the Age of AI Crawlers: How to Strategize Your Defense",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/bot-mitigation-strategy/",
-      "author": "Caila Schwartz",
-      "publishedAt": "2026-10-07T15:28:51.000Z",
-      "readTime": 1,
-      "summary": "Not all bot traffic is bad. For years, bots were synonymous with risk: scrapers, scalpers, and credential stuffers trying to steal inventory, stuff stolen credentials into your login page, or scrape pricing and…",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -390,7 +411,7 @@
       "title": "Chief Revenue Officer Summit San Francisco, September 2026 | OnDemand",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/chief-revenue-officer-summit-san-francisco-september-2026-ondemand-2/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-10-05T15:08:01.000Z",
       "readTime": 1,
       "summary": "Catch up on every session from CRO Summit San Francisco, including talks from Google, TD Synnex, Quarrio and more.",
@@ -513,7 +534,7 @@
       "title": "Revenue Operations Summit San Francisco, September 22 & 23 2026 | OnDemand",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/revenue-operations-summit-san-francisco-september-22-23-2026/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-10-01T14:10:24.000Z",
       "readTime": 1,
       "summary": "Catch up on all the sessions from Revenue Operations Summit San Francisco 2026 with speakers from Pilot, Aerospike, Meta and more",
@@ -720,7 +741,7 @@
       "title": "The 2027 SPM Readiness Guide",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/the-2027-spm-readiness-guide-ebook/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-09-25T16:27:48.000Z",
       "readTime": 1,
       "summary": "Diagnose the gaps between your current state and the connected, AI-enabled revenue system your competitors are already building.",
@@ -941,7 +962,7 @@
       "title": "Revenue Intelligence Summit, September 2026 | OnDemand",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/revenue-intelligence-summit-september-2026-ondemand/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-09-16T10:26:31.000Z",
       "readTime": 1,
       "summary": "Catch up on every session from Revenue Intelligence Summit, including talks from Uber, ServiceNow, Xero and more.",
@@ -965,7 +986,7 @@
       "title": "Making partner revenue as reliable as direct sales",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/making-partner-revenue-as-reliable-as-direct-sales/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-09-15T18:51:29.000Z",
       "readTime": 1,
       "summary": "Partner-led growth September 30,  6am PT / 9am ET / 2pm BST|",
@@ -985,7 +1006,7 @@
       "title": "AI Beliefs, reconsidered: A RevOps panel",
       "source": "Revenue Operations Alliance",
       "sourceUrl": "https://www.revenueoperationsalliance.com/ai-beliefs-reconsidered-a-revops-panel/",
-      "author": "Revenue Operations Alliance",
+      "author": "Bryony Pearce",
       "publishedAt": "2026-09-15T15:37:34.000Z",
       "readTime": 1,
       "summary": "The AI advice you accepted eighteen months ago is due for a review.",
@@ -1136,27 +1157,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-revops-alliance-30pd5y",
-      "type": "article",
-      "title": "The Future of RevOps & GTM Survey 2026",
-      "source": "Revenue Operations Alliance",
-      "sourceUrl": "https://www.revenueoperationsalliance.com/the-future-of-revops-gtm-survey-2026/",
-      "author": "Revenue Operations Alliance",
-      "publishedAt": "2026-09-08T08:51:14.000Z",
-      "readTime": 1,
-      "summary": "We're asking RevOps leaders where the function is headed on AI, headcount, budgets, and GTM ownership over the next five years. Add your view and get the full report before anyone else.",
-      "tags": [
-        "Reports"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -2021,59 +2021,59 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 71,
-      "recent3": 5,
-      "change": 5,
+      "count": 69,
+      "recent3": 6,
+      "change": -1,
       "direction": "flat",
-      "articles": 35,
+      "articles": 33,
       "podcasts": 36,
-      "topItem": "How Tableau Built Agentic Analytics at Salesforce: A Four-Part Framework",
-      "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
+      "topItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
+      "secondItem": "Account scoring should explain  not just rank"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 53,
-      "recent3": 5,
-      "change": -1,
-      "direction": "flat",
-      "articles": 25,
+      "count": 56,
+      "recent3": 8,
+      "change": 16,
+      "direction": "up",
+      "articles": 28,
       "podcasts": 28,
-      "topItem": "Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers",
-      "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
+      "topItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
+      "secondItem": "Drive User Adoption Through Architecture Decisions"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 44,
-      "recent3": 3,
-      "change": -57,
+      "count": 45,
+      "recent3": 4,
+      "change": -47,
       "direction": "down",
-      "articles": 27,
+      "articles": 28,
       "podcasts": 17,
-      "topItem": "What is White Label All About? Benefits, and Examples",
-      "secondItem": "Seafoam Named a 2026 Best in Marketing Firm by St. Louis Small Business Monthly Readers"
+      "topItem": "Account scoring should explain  not just rank",
+      "secondItem": "What is White Label All About? Benefits, and Examples"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 43,
-      "recent3": 3,
-      "change": -56,
+      "count": 44,
+      "recent3": 4,
+      "change": -45,
       "direction": "down",
-      "articles": 26,
+      "articles": 27,
       "podcasts": 17,
-      "topItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI",
-      "secondItem": "Close the Gap: Encrypt Every Stage of Your Data Lifecycle"
+      "topItem": "Account scoring should explain  not just rank",
+      "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 36,
-      "recent3": 2,
-      "change": -15,
+      "count": 35,
+      "recent3": 1,
+      "change": -29,
       "direction": "down",
-      "articles": 3,
+      "articles": 2,
       "podcasts": 33,
       "topItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes",
       "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
@@ -2082,7 +2082,7 @@
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 27,
-      "recent3": 2,
+      "recent3": 1,
       "change": -26,
       "direction": "down",
       "articles": 14,
@@ -2094,7 +2094,7 @@
       "rank": 7,
       "topic": "Revenue Forecasting",
       "count": 21,
-      "recent3": 2,
+      "recent3": 1,
       "change": 71,
       "direction": "up",
       "articles": 6,
@@ -2105,15 +2105,15 @@
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 17,
+      "count": 16,
       "recent3": 0,
-      "change": -43,
+      "change": -39,
       "direction": "down",
-      "articles": 2,
+      "articles": 1,
       "podcasts": 15,
       "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
       "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-13T13:52:22.289Z"
+  "fetchedAt": "2026-10-14T11:29:51.833Z"
 }
