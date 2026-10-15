@@ -1,6 +1,60 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-ae9d31",
+      "type": "podcast",
+      "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-pro-rata-battle-valar-atomics-sues-day-one-ventures-meta-returns-to-the-ai-frontier-with-muse-wonder-nvidia-eyes-30b-reflection-deal-jev-raises-870m-at-a-75b-valuation",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-15T07:07:00.000Z",
+      "duration": 73,
+      "summary": "AGENDA:\n 04:00 Valar Atomics Sues Seed Investor Day One Ventures Over Pro Rata\n 17:00 Meta Returns to the AI Frontier With Muse Wonder\n 20:00 NVIDIA Eyes $30B Reflection Deal as Amazon Circles Decart\n 26:00 Jev Raises $870M at a $7.5B Valuation—Weeks After Launch\n 31:00 42 New Decacorns: The AI Boom Overtakes 2021's Record\n 36:00 Isomorphic Labs Eyes $50B Valuation in New Funding Talks\n 46:00 Anthropic Slashes Haiku Prices by 90% as AI Price War Intensifies\n 52:00 Bending Spoons Slashes Airtable's Team: What Do Founders Owe Employees?\n 57:00 Bumble to Go Private in $1.3B Deal: Can AI Transform Dating?\n 01:01:00 The SaaSpocalypse Deepens: Why $500M ARR May No Longer Be Enough\n 01:06:00 Flock Safety Cuts 270 Jobs Amid Privacy and Security Backlash",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-k9lvhx",
+      "type": "article",
+      "title": "Managing Agentic Security at Scale",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/managing-agentic-security-at-scale/",
+      "author": "Abhay Kshirsagar, Koen Buyens, Jeremy Brooks",
+      "publishedAt": "2026-10-14T20:32:14.000Z",
+      "readTime": 1,
+      "summary": "On the code we scan at depth, the volume of findings is now the constraint: frontier models plus an agentic harness surface more real, exploitable findings than engineering can absorb. We can find…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-9kt7yh",
+      "type": "article",
+      "title": "5 Tips To Train Your AI Tools: Get Rid of Those Hallucinations",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/train-your-ai-tools/",
+      "author": "Christian Sabogal",
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Put your AI tools in the ring with these tips on training against hallucinations.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-salesforce-blog-68a62s",
       "type": "article",
       "title": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
@@ -201,7 +255,7 @@
       "duration": 55,
       "summary": "Mike Cannon-Brookes is the Co-Founder and CEO of Atlassian, the company behind Jira, Confluence, Trello and Loom.\n Atlassian generated $6.5BN in ARR in 2026, and serves more than 350,000 customers, including over 85% of the Fortune 500. Today, Mike is leading its expansion into enterprise AI through Rovo and the Teamwork Graph, connecting company knowledge with AI agents.\n AGENDA: \n 03:00 Do AI Agents Turn Traditional Software Into Just Databases?\n 16:00 Will Enterprises Ever Trust Chinese AI Models?\n 20:00 Is Building Your Own AI Model a Losing Bet?\n 24:00 Can AI Startups Survive When They Finally Have to Care About Costs?\n 30:00 What Happens When AI Gets Cheaper Than Anyone Expects?\n 35:00 Is Company Context the Real Moat in Enterprise AI?\n 41:00 What Happens When OpenAI and Anthropic Come for Your Customers?\n 44:00 Why Are Young Founders Cashing Out More Than Ever?\n 49:00 What Does Nobody Tell You About Getting Rich?",
       "tags": [],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -244,40 +298,6 @@
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-gfyl3q",
-      "type": "article",
-      "title": "AI Agents Don’t Live with Disabilities. People Do",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/accessible-ai-experiences/",
-      "author": "Adam Rodenbeck, Patrick Hermiller, Shyanne Fullerton",
-      "publishedAt": "2026-10-09T15:25:53.000Z",
-      "readTime": 1,
-      "summary": "Learn how disability research, intentional requirements, and layered testing can create more accessible AI experiences that benefit everyone.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-hs57rp",
-      "type": "article",
-      "title": "8 AI Use Cases: Budgeting, Money, and All Things Revenue",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-use-cases-for-revenue-management/",
-      "author": "Allen Aguilar",
-      "publishedAt": "2026-10-09T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Make every dollar count with these AI use cases for all things revenue.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
       "saved": false
     },
@@ -1009,7 +1029,7 @@
       "author": "Bryony Pearce",
       "publishedAt": "2026-09-15T15:37:34.000Z",
       "readTime": 1,
-      "summary": "The AI advice you accepted eighteen months ago is due for a review.",
+      "summary": "How calibrated is your go-to-market to the North Star ICP attribute that actually determines deal size and pipeline?",
       "tags": [
         "AI",
         "AI & automation",
@@ -1017,9 +1037,10 @@
         "Revenue Operations Alliance",
         "RevOps strategy"
       ],
-      "relevanceScore": 56,
+      "relevanceScore": 68,
       "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals."
       ],
       "saved": false
     },
@@ -1138,25 +1159,6 @@
       "relevanceScore": 56,
       "whyItMatters": [
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-1i0zdm",
-      "type": "podcast",
-      "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-09-10T07:07:00.000Z",
-      "duration": 78,
-      "summary": "AGENDA: \n 00:00 Jensen Huang Declares AGI Has Arrived\n 04:05 Instinct and GrokBot Ignite the AI Assistant War\n 13:32 OpenAI's GPT Astra Redefines What AGI Means\n 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race\n 30:38 OpenAI's Chief Scientist Calls for Enforced AI Safety Limits\n 40:50 Tesla Launches Cybercabs as Travis Kalanick Returns to Robotaxis\n 45:55 Index Pulls Out of Town Deal Following Instinct Conflict\n 49:45 Anthropic Abandons $6BN Descartes Acquisition After Due Diligence\n 56:18 Robinhood Earns First Underwriting Role in Oura IPO\n 01:00:28 Wonderful Doubles to $5BN and Approves $170M in Secondaries\n 01:09:02 Thinking Machines Targets $40BN Valuation in $6BN Funding Round",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -2022,32 +2024,32 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 69,
-      "recent3": 6,
-      "change": -1,
+      "recent3": 8,
+      "change": -4,
       "direction": "flat",
       "articles": 33,
       "podcasts": 36,
-      "topItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
-      "secondItem": "Account scoring should explain  not just rank"
+      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "secondItem": "Managing Agentic Security at Scale"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 56,
+      "count": 57,
       "recent3": 8,
-      "change": 16,
+      "change": 21,
       "direction": "up",
       "articles": 28,
-      "podcasts": 28,
-      "topItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
-      "secondItem": "Drive User Adoption Through Architecture Decisions"
+      "podcasts": 29,
+      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "secondItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 45,
       "recent3": 4,
-      "change": -47,
+      "change": -43,
       "direction": "down",
       "articles": 28,
       "podcasts": 17,
@@ -2058,8 +2060,8 @@
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 44,
-      "recent3": 4,
-      "change": -45,
+      "recent3": 3,
+      "change": -54,
       "direction": "down",
       "articles": 27,
       "podcasts": 17,
@@ -2071,19 +2073,19 @@
       "topic": "Founders & Fundraising",
       "count": 35,
       "recent3": 1,
-      "change": -29,
+      "change": -24,
       "direction": "down",
       "articles": 2,
       "podcasts": 33,
-      "topItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes",
-      "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
+      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "secondItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 27,
       "recent3": 1,
-      "change": -26,
+      "change": -64,
       "direction": "down",
       "articles": 14,
       "podcasts": 13,
@@ -2093,27 +2095,27 @@
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 21,
+      "count": 22,
       "recent3": 1,
-      "change": 71,
+      "change": 34,
       "direction": "up",
-      "articles": 6,
+      "articles": 7,
       "podcasts": 15,
-      "topItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes",
-      "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
+      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "secondItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 16,
+      "count": 17,
       "recent3": 0,
       "change": -39,
       "direction": "down",
-      "articles": 1,
+      "articles": 2,
       "podcasts": 15,
       "topItem": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
       "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-14T11:29:51.833Z"
+  "fetchedAt": "2026-10-15T11:06:50.611Z"
 }
