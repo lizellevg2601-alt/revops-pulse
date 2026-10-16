@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-kpu3pl",
+      "type": "podcast",
+      "title": "SPOTLIGHT: How Rick Smolen Built Confidence Leading Outside of Sales | Rick Smolen, CRO @ ShipHero",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-rick-smolen-built-confidence-leading-outside-of-sales-rick-smolen-cro-shiphero",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-15T16:30:00.000Z",
+      "duration": 26,
+      "summary": "When Rick Smolen stepped into the CRO role at ShipHero, he took on responsibility for the entire customer lifecycle, from marketing and partnerships to customer success and support. \n With a background primarily in sales, he had to learn how to lead functions outside his expertise without needing to have all the answers.\n In this episode, Rick joins Sam Jacobs to discuss the leadership lessons that came with that transition, from asking better questions to building trust with his team. He also explains how to learn from failure, navigate setbacks, and focus on what you can control as a leader.\n Rick talks about:\n - Why curiosity makes you a stronger cross-functional leader\n - How to challenge your team without micromanaging\n - Why experimentation requires accepting failure\n - What leaders should focus on when business results fall short\n - How to prioritize important work that rarely feels urgent\n Chapters\n 00:00 Introduction to Rick Smolen and ShipHero\n 01:10 What ShipHero Does\n 05:14 Rick's Career Journey\n 07:50 From Sales Leader to CRO: The Biggest Shift\n 10:49 Why Curiosity Makes You a Better Leader\n 16:23 Building a Leadership Team That Learns and Experiments\n 17:54 Evaluating Leadership Beyond Revenue\n 22:50 Rick's Book Recommendation: The 7 Habits of Highly Effective People\n 24:53 Where to Find Rick Smolen\n Try ShipHero: shiphero.com",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-2vk4z5",
+      "type": "article",
+      "title": "Influencer Marketing Strategies For Small and Midsize Enterprises",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/influencer-marketing-for-startups/",
+      "author": "Erin DeMarois",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Influencer marketing can turn a handful of trusted voices into a fun growth engine.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-ae9d31",
       "type": "podcast",
       "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
@@ -163,7 +199,7 @@
       "tags": [
         "Seafoam News"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
@@ -182,7 +218,7 @@
       "readTime": 1,
       "summary": "How Slackbot skills, semantic governance, AI content controls, cost management, and operational visibility power trustworthy agentic analytics at scale.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
@@ -200,7 +236,7 @@
       "readTime": 1,
       "summary": "Identify sensitive records across your organization before they reach your AI models, not after.",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -218,29 +254,10 @@
       "readTime": 1,
       "summary": "Encrypting your live data is essential, but don't forget about data that lives in your backups and archives too.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-fgtzsf",
-      "type": "article",
-      "title": "A Guide To AI Sales Coaching For Small Business Success",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-sales-coach-tips/",
-      "author": "Erin Hueffner",
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "Selling is now agentic. Find out how these AI sales coaches are helping small teams win big.",
-      "tags": [],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
       ],
       "saved": false
     },
@@ -1329,24 +1346,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-psf82z",
-      "type": "podcast",
-      "title": "SPOTLIGHT: He Missed Quota 5 Times in 25 Years. Here's the System Behind That.| Mike Carpenter, CEO & Co-Founder @ Xfactor",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-he-missed-quota-5-times-in-25-years-heres-the-system-behind-that-mike-carpenter-ceo-co-founder-xfactor",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-08-20T16:30:00.000Z",
-      "duration": 30,
-      "summary": "Mike Carpenter — CEO of Xfactor.io, former President of Global Sales at CrowdStrike — didn't win VP of the Year seven out of eight times by outworking everyone. He did it by finding cheat codes in the data everyone else was ignoring.\n In this episode, he walks through the X-Factor methodology: how he staffed ops teams that were abnormally large by industry standards, how he cut rep ramp time from 18 months to 90 days by warming territories before a new hire ever showed up, and why he thinks most companies running AI on their CRM are getting confident, wrong answers and won't know it until the numbers drop.\n Mike also shared:\n - Why working harder isn't the same as finding an X-Factor\n - How he used data to uncover the hidden patterns that drive revenue\n - Why static operating plans break down as businesses scale\n - How he cut sales ramp time by warming territories before reps entered them\n - Why causal AI matters more than simply putting an LLM on your data\n - What it takes to build AI that leaders can actually trust\n Chapters\n 00:00 Intro\n 00:33 Meet Mike Carpenter and Xfactor\n 04:11 The \"X-Factor\" mindset that drove 25 years of sales success\n 08:18 Why working harder isn't a sustainable competitive advantage\n 10:56 The planning problem that inspired Xfactor\n 14:57 How AI uncovers hidden revenue opportunities\n 18:20 Why MQLs are the wrong metric to optimize\n 23:12 The biggest mistake companies make with AI today\n 25:52 Where to find Mike and Xfactor\n Try Xfactor: xfactor.io/",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-q0609h",
       "type": "article",
       "title": "Seafoam Named to the 2026 Future100 by St. Louis Small Business Monthly",
@@ -2023,60 +2022,60 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 69,
-      "recent3": 8,
-      "change": -4,
-      "direction": "flat",
-      "articles": 33,
+      "count": 68,
+      "recent3": 6,
+      "change": -16,
+      "direction": "down",
+      "articles": 32,
       "podcasts": 36,
-      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
-      "secondItem": "Managing Agentic Security at Scale"
+      "topItem": "SPOTLIGHT: How Rick Smolen Built Confidence Leading Outside of Sales | Rick Smolen, CRO @ ShipHero",
+      "secondItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 57,
-      "recent3": 8,
-      "change": 21,
-      "direction": "up",
-      "articles": 28,
+      "count": 56,
+      "recent3": 5,
+      "change": 6,
+      "direction": "flat",
+      "articles": 27,
       "podcasts": 29,
-      "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
-      "secondItem": "What’s New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster"
+      "topItem": "SPOTLIGHT: How Rick Smolen Built Confidence Leading Outside of Sales | Rick Smolen, CRO @ ShipHero",
+      "secondItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 45,
+      "count": 47,
       "recent3": 4,
-      "change": -43,
+      "change": -29,
       "direction": "down",
-      "articles": 28,
-      "podcasts": 17,
-      "topItem": "Account scoring should explain  not just rank",
-      "secondItem": "What is White Label All About? Benefits, and Examples"
+      "articles": 29,
+      "podcasts": 18,
+      "topItem": "SPOTLIGHT: How Rick Smolen Built Confidence Leading Outside of Sales | Rick Smolen, CRO @ ShipHero",
+      "secondItem": "Influencer Marketing Strategies For Small and Midsize Enterprises"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 44,
-      "recent3": 3,
-      "change": -54,
+      "count": 43,
+      "recent3": 1,
+      "change": -50,
       "direction": "down",
       "articles": 27,
-      "podcasts": 17,
+      "podcasts": 16,
       "topItem": "Account scoring should explain  not just rank",
       "secondItem": "How Sensitive Data Discovery on Data 360 Prepares You for AI"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 35,
+      "count": 34,
       "recent3": 1,
-      "change": -24,
+      "change": -35,
       "direction": "down",
       "articles": 2,
-      "podcasts": 33,
+      "podcasts": 32,
       "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
       "secondItem": "20VC: Atlassian CEO on Why Agents Won't Replace Interfaces | Why Enterprises Won't Trust Chinese Models | Why The Jury Is Still Out On The Benefits of Specialised Models with Mike Cannon-Brookes"
     },
@@ -2084,8 +2083,8 @@
       "rank": 6,
       "topic": "Tech Stack & CPQ",
       "count": 27,
-      "recent3": 1,
-      "change": -64,
+      "recent3": 0,
+      "change": -61,
       "direction": "down",
       "articles": 14,
       "podcasts": 13,
@@ -2097,8 +2096,8 @@
       "topic": "Revenue Forecasting",
       "count": 22,
       "recent3": 1,
-      "change": 34,
-      "direction": "up",
+      "change": 8,
+      "direction": "flat",
       "articles": 7,
       "podcasts": 15,
       "topItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
@@ -2109,7 +2108,7 @@
       "topic": "GTM Strategy",
       "count": 17,
       "recent3": 0,
-      "change": -39,
+      "change": -69,
       "direction": "down",
       "articles": 2,
       "podcasts": 15,
@@ -2117,5 +2116,5 @@
       "secondItem": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion"
     }
   ],
-  "fetchedAt": "2026-10-15T11:06:50.611Z"
+  "fetchedAt": "2026-10-16T11:01:53.098Z"
 }
