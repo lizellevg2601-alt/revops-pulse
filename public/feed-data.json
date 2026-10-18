@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-av4203",
+      "type": "podcast",
+      "title": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/682m-public-ceo-the-magic-of-80-gross-margin-ceo-yext-michael-walrath",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-18T04:01:00.000Z",
+      "duration": 68,
+      "summary": "Michael Walrath, CEO of Yext, is back on Topline to explain how Yext went from breakeven to 31% EBITDA margins on an 80% gross margin business, after halving its headcount and using its balance sheet to buy back roughly 35% of every share it ever issued. He joins Sam Jacobs, AJ Bruno, and Asad Zaman to argue that the old rules of business still apply: why VC math and founder math are different games, why employees lose the most when an overvalued startup like Airtable lands far below its peak valuation, and why this market feels like 2004. Plus, why Yext stopped doing earnings calls and replaced most stock comp with cash, why cutting the bottom half of a sales team can raise bookings, and how Yext is blurring the lines between AEs, account managers, CSMs and sales engineers.\n Key Takeaways:\n - Real profitability turns any growth into fuel. As Michael put it, \"when you're actually profitable, like really profitable, then any growth becomes hugely accretive.\" With 80% gross margins and 31% EBITDA margins, \"Every incremental dollar, I can spend 45 cents of it and not affect my margins in any way,\" so a left-for-dead software company can fund its own growth whatever the market says it's worth.\n - Chase growth only where it actually exists. \"Nothing's more powerful than growth at creating value. Nothing is more destructive to value than chasing growth when the growth isn't there,\" said Michael. Airtable avoided the trap by leaving its cash on the balance sheet, while Yext once spent 74% of revenue on sales and marketing into a declining growth rate.\n - Cutting your weakest sellers can grow bookings. When 20% of reps make quota and the bottom half brings in 20% of bookings, the spreadsheet says cutting them costs you that 20%. \"It's not even close to true. It's the opposite,\" said Michael (his numbers were illustrative). Yext now has fewer, better sellers, and is \"effectively eliminating all distinction between go-to-market roles\" in favor of teams that own books of customers.\n - Stock comp can turn your own employees into sellers of your stock. Most people sold their RSUs the day they vested, and every quarterly issuance meant the company sold shares to cover taxes too. \"The last thing you need are more sellers of your stock every quarter,\" said Michael, so Yext now pays most employees more cash and points long-term believers to its employee stock purchase plan.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Michael Walrath, CEO at Yext - https://www.linkedin.com/in/michael-walrath-b63166/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Mike Walrath\n 03:13 VC Math vs Founder Math\n 04:46 Why Employees Lose the Most\n 09:05 Why This Market Feels Like 2004\n 12:04 31% EBITDA Makes Growth Accretive\n 16:12 Why Mike Is a Jobs Bull\n 19:48 What Airtable Got Right\n 28:19 Hot Startup Equity Is a Lottery\n 41:37 Yes, You Can Attract Talent\n 44:16 The Road to 30% EBITDA Margins\n 47:45 No Earnings Calls, No IR Team\n 51:52 Replacing Stock Comp With Cash\n 54:41 Cut the Bottom 50% of Sellers\n 57:19 Collapsing Go-to-Market Roles\n 01:01:22 From PE Guy Back to Growth",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-w12i7t",
       "type": "podcast",
       "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
@@ -208,7 +227,7 @@
       "duration": 73,
       "summary": "AGENDA:\n 04:00 Valar Atomics Sues Seed Investor Day One Ventures Over Pro Rata\n 17:00 Meta Returns to the AI Frontier With Muse Wonder\n 20:00 NVIDIA Eyes $30B Reflection Deal as Amazon Circles Decart\n 26:00 Jev Raises $870M at a $7.5B Valuation—Weeks After Launch\n 31:00 42 New Decacorns: The AI Boom Overtakes 2021's Record\n 36:00 Isomorphic Labs Eyes $50B Valuation in New Funding Talks\n 46:00 Anthropic Slashes Haiku Prices by 90% as AI Price War Intensifies\n 52:00 Bending Spoons Slashes Airtable's Team: What Do Founders Owe Employees?\n 57:00 Bumble to Go Private in $1.3B Deal: Can AI Transform Dating?\n 01:01:00 The SaaSpocalypse Deepens: Why $500M ARR May No Longer Be Enough\n 01:06:00 Flock Safety Cuts 270 Jobs Amid Privacy and Security Backlash",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
@@ -227,7 +246,7 @@
       "readTime": 1,
       "summary": "On the code we scan at depth, the volume of findings is now the constraint: frontier models plus an agentic harness surface more real, exploitable findings than engineering can absorb. We can find…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows."
       ],
@@ -244,7 +263,7 @@
       "readTime": 1,
       "summary": "Put your AI tools in the ring with these tips on training against hallucinations.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
@@ -1329,25 +1348,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-lizzbn",
-      "type": "podcast",
-      "title": "The Unwritten Rules of CRO Survival | Rick Smolen, CRO @ ShipHero",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-unwritten-rules-of-cro-survival-rick-smolen-cro-shiphero",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-08-23T04:01:00.000Z",
-      "duration": 74,
-      "summary": "The Unwritten Rules of CRO Survival | Rick Smolen, CRO @ ShipHero\n Rick Smolen, CRO of ShipHero and sales advisor to Riverwood Capital's portfolio of more than 2 dozen enterprise software companies, joins Sam Jacobs, AJ Bruno, and Asad Zaman to argue that AI is leverage rather than a shortcut. Topics include why AI note-takers quietly degrade seller performance, why ShipHero has not raised a single quota despite real AI investment, and why the leading AI companies keep hiring classic enterprise CROs. Plus Rick's scorecard for judging revenue leadership beyond the number, an honest conversation about getting fired, and a bull case for HubSpot. In short... big episode!\n Key Takeaways:\n - AI widens the gap between the best and worst sellers instead of lifting everyone, and Rick Smolen, CRO at ShipHero, frames it in financial terms: \"It's like debt... debt is leverage. It can make performance exceptionally good, or it can bankrupt you.\" His prediction is that the strongest performers get 10x better while the weakest become \"unmistakable and hard to hide.\"\n - Outsourcing note-taking to an AI tool costs sellers the exact signal that closes enterprise deals. As Rick put it: \"the computer can't capture the tone, can't capture the nuance, can't capture the content.\" His warning to any rep who treats it as time saved: \"when a seller is going to say, oh cool, I don't have to do note-taking anymore, like their performance is going to go backwards.\"\n - The 3-to-5x rep productivity story does not survive contact with an enterprise sales cycle. Despite meaningful AI investment and measurable conversion-rate gains, Rick reports that at ShipHero \"we have not raised quotas on anybody on the team,\" adding that \"I don't believe that if I was to double somebody's quota that I give them any chance to be successful.\"\n - The AI-native companies scaling fastest are staffing go-to-market with the most traditional enterprise leaders available. Asad Zaman, CEO at STA, walks through the CRO hires at OpenAI, Cursor, Factory, and Anthropic and lands on the pattern: \"we're back to like, let's just hire John McMahon's disciples and let them run at the market.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Rick Smolen, CRO at ShipHero - https://www.linkedin.com/in/ricksmolen/\n Topline is more than a YouTube Channel:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 Introducing Rick Smolen\n 02:37 AI Is Not Good Or Bad\n 05:19 The AI Slop Email Mystery\n 08:25 AI Note-Takers And Lost Nuance\n 12:01 The Best Get Better, The Rest Worse\n 15:24 The Soft Part Of Enterprise Sales\n 18:24 Can Reps Be 5x More Productive?\n 23:09 Have Quotas Gone Up At ShipHero?\n 26:48 Why AI Firms Hire Classic CROs\n 30:48 What Is Driving Pipeline Now\n 49:37 Leadership In A Confused World\n 56:44 Should A CRO Jump Ship?\n 59:35 Have A Plan, Not Excuses\n 1:06:08 Bulls And Bears: HubSpot\n 1:09:32 Vibe-Coded Demos And FDE Teams",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-q0609h",
       "type": "article",
       "title": "Seafoam Named to the 2026 Future100 by St. Louis Small Business Monthly",
@@ -2025,44 +2025,44 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 66,
-      "recent3": 7,
-      "change": -25,
+      "recent3": 5,
+      "change": -20,
       "direction": "down",
       "articles": 30,
       "podcasts": 36,
-      "topItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
-      "secondItem": "For Early Career Talent, AI Gets Noticed; Humans Get Hired."
+      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 57,
       "recent3": 6,
-      "change": 0,
+      "change": 7,
       "direction": "flat",
       "articles": 28,
       "podcasts": 29,
-      "topItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce",
-      "secondItem": "For Early Career Talent, AI Gets Noticed; Humans Get Hired."
+      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 46,
-      "recent3": 4,
-      "change": -44,
+      "recent3": 5,
+      "change": -28,
       "direction": "down",
       "articles": 29,
       "podcasts": 17,
-      "topItem": "Why your partner channel isn't performing  (and what to actually do about it)",
-      "secondItem": "How to stay ahead while the CRO seat keeps changing"
+      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "secondItem": "Why your partner channel isn't performing  (and what to actually do about it)"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 43,
       "recent3": 2,
-      "change": -61,
+      "change": -59,
       "direction": "down",
       "articles": 27,
       "podcasts": 16,
@@ -2074,34 +2074,34 @@
       "topic": "Founders & Fundraising",
       "count": 34,
       "recent3": 2,
-      "change": -35,
+      "change": -47,
       "direction": "down",
       "articles": 2,
       "podcasts": 32,
-      "topItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
-      "secondItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation"
+      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 26,
+      "count": 25,
       "recent3": 1,
-      "change": -69,
+      "change": -83,
       "direction": "down",
       "articles": 13,
-      "podcasts": 13,
+      "podcasts": 12,
       "topItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce",
       "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 22,
-      "recent3": 2,
-      "change": 11,
-      "direction": "up",
+      "count": 21,
+      "recent3": 1,
+      "change": -33,
+      "direction": "down",
       "articles": 6,
-      "podcasts": 16,
+      "podcasts": 15,
       "topItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
       "secondItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation"
     },
@@ -2109,14 +2109,14 @@
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 18,
-      "recent3": 2,
-      "change": -25,
+      "recent3": 3,
+      "change": -20,
       "direction": "down",
       "articles": 3,
       "podcasts": 15,
-      "topItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce",
-      "secondItem": "Building your P0 metrics"
+      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
     }
   ],
-  "fetchedAt": "2026-10-17T10:22:50.922Z"
+  "fetchedAt": "2026-10-18T10:40:20.720Z"
 }
