@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-4hs7yf",
+      "type": "podcast",
+      "title": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-you-need-1bn-to-do-seed-today-the-untold-truths-of-venture-who-wins-and-who-loses-in-the-next-decade-of-vc-why-margin-and-price-matter-less-in-a-world-of-ai-with-sameer-dholakia-bessemer",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-19T07:07:00.000Z",
+      "duration": 75,
+      "summary": "Sameer Dholakia is a Partner @ Bessemer, the first that has just raised $5.75BN across a $1.75BN seed fund and $4BN growth fund. Sameer has led investments into the likes of Anthropic, Fireworks and Legora to name a few. Prior to venture, Sameer was the CEO of SendGrid, taking it from $30M in ARR to over $200M. \n AGENDA: \n 04:55 Why This Is a Supercycle Like Never Before\n 07:40 Why We Backed Anthropic to Compete With the Hyperscalers\n 10:05 Why Anthropic Was One of Bessemer's Most Contentious Deals\n 11:05 Why Open Models Don't Destroy the Market for Closed Models\n 16:45 Does Price Matter in AI—and Which Metric Really Determines Value?\n 19:45 How Much Should Consumer Businesses Be Discounted for Their Revenue Quality?\n 20:20 Why Today's Gross Margins Matter Less Than You Think\n 23:00 Competition Hasn't Changed—but the Capital Behind It Has\n 24:00 Why Capital Is a Moat Today\n 25:55 Is \"Triple, Triple, Double, Double\" Dead?\n 28:00 Can You Still Succeed With a Small Seed Fund?\n 29:45 Who Wins and Who Loses in the Future of Venture Capital?\n 32:15 Why Founders Shouldn't Hate Being an \"Option Bet\"\n 34:35 Why Signalling Risk Doesn't Worry Me\n 51:55 Why Companies Will Stay Private Longer—and Why the IPO Window Could Reopen by 2028\n 56:00 How Should Retail Investors Participate in Venture Capital?\n 57:25 How Fireworks Could Become a $250 Billion Business\n 01:02:35 Why Bessemer Is Confident It Can Deliver 5x Returns on $5.75 Billion",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-20vc-podcast-w12i7t",
+      "type": "podcast",
+      "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-horizontal-vs-vertical-agents-who-wins-model-routing-commodity-or-increasing-in-value-the-future-of-the-inference-market-why-founders-should-take-discounts-for-tier-1-firms-with-harrison-chase-langchain",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-18T22:37:00.000Z",
+      "duration": 62,
+      "summary": "Harrison Chase is the co-founder and CEO of LangChain, which helps developers build, test and deploy AI agents.\n Backed by Sequoia Capital, Benchmark and IVP, LangChain has announced approximately $160 million in funding with the last round at a $1.25BN valuation. The company works with 35% of the Fortune 500, has surpassed one billion open-source downloads and processes over one billion events daily through LangSmith.\n AGENDA:\n 04:10 Why Is It Still So Hard to Build AI Agents?\n 08:50 Will the Model Labs Eat the Agent Stack?\n 16:25 Is Model Routing a Real Business or a Commodity?\n 25:45 Why Has No One Solved AI Memory?\n 35:45 Why Are AI Bills Exploding as Tokens Get Cheaper?\n 43:25 Should Companies Be Afraid of Chinese AI Models?\n 46:20 Where Would Harrison Not Be Investing Today?\n 53:05 Should Founders Take a Discount for Benchmark and Sequoia?\n 57:35 OpenAI at $1.5T or Anthropic at $2T: Which Would You Buy?",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
+        "Backed by data or benchmarks you can calibrate your own numbers against."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-av4203",
       "type": "podcast",
       "title": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
@@ -15,25 +53,6 @@
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-        "Backed by data or benchmarks you can calibrate your own numbers against."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-w12i7t",
-      "type": "podcast",
-      "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-horizontal-vs-vertical-agents-who-wins-model-routing-commodity-or-increasing-in-value-the-future-of-the-inference-market-why-founders-should-take-discounts-for-tier-1-firms-with-harrison-chase-langchain",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-10-17T07:07:00.000Z",
-      "duration": 62,
-      "summary": "Harrison Chase is the co-founder and CEO of LangChain, which helps developers build, test and deploy AI agents.\n Backed by Sequoia Capital, Benchmark and IVP, LangChain has announced approximately $160 million in funding with the last round at a $1.25BN valuation. The company works with 35% of the Fortune 500, has surpassed one billion open-source downloads and processes over one billion events daily through LangSmith.\n AGENDA:\n 04:10 Why Is It Still So Hard to Build AI Agents?\n 08:50 Will the Model Labs Eat the Agent Stack?\n 16:25 Is Model Routing a Real Business or a Commodity?\n 25:45 Why Has No One Solved AI Memory?\n 35:45 Why Are AI Bills Exploding as Tokens Get Cheaper?\n 43:25 Should Companies Be Afraid of Chinese AI Models?\n 46:20 Where Would Harrison Not Be Investing Today?\n 53:05 Should Founders Take a Discount for Benchmark and Sequoia?\n 57:35 OpenAI at $1.5T or Anthropic at $2T: Which Would You Buy?",
-      "tags": [],
-      "relevanceScore": 78,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
         "Backed by data or benchmarks you can calibrate your own numbers against."
       ],
       "saved": false
@@ -173,7 +192,7 @@
         "ICP",
         "RevOps strategy"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
@@ -191,7 +210,7 @@
       "duration": 26,
       "summary": "When Rick Smolen stepped into the CRO role at ShipHero, he took on responsibility for the entire customer lifecycle, from marketing and partnerships to customer success and support. \n With a background primarily in sales, he had to learn how to lead functions outside his expertise without needing to have all the answers.\n In this episode, Rick joins Sam Jacobs to discuss the leadership lessons that came with that transition, from asking better questions to building trust with his team. He also explains how to learn from failure, navigate setbacks, and focus on what you can control as a leader.\n Rick talks about:\n - Why curiosity makes you a stronger cross-functional leader\n - How to challenge your team without micromanaging\n - Why experimentation requires accepting failure\n - What leaders should focus on when business results fall short\n - How to prioritize important work that rarely feels urgent\n Chapters\n 00:00 Introduction to Rick Smolen and ShipHero\n 01:10 What ShipHero Does\n 05:14 Rick's Career Journey\n 07:50 From Sales Leader to CRO: The Biggest Shift\n 10:49 Why Curiosity Makes You a Better Leader\n 16:23 Building a Leadership Team That Learns and Experiments\n 17:54 Evaluating Leadership Beyond Revenue\n 22:50 Rick's Book Recommendation: The 7 Habits of Highly Effective People\n 24:53 Where to Find Rick Smolen\n Try ShipHero: shiphero.com",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -210,7 +229,7 @@
       "readTime": 1,
       "summary": "Influencer marketing can turn a handful of trusted voices into a fun growth engine.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Adds context to Marketing & Brand — how content and demand feed the funnel."
       ],
@@ -1145,25 +1164,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-snwn3g",
-      "type": "podcast",
-      "title": "20VC: How LPs Allocate to Venture in 2026: What They Want, What They Do Not Want | Why Fund Multiple Does Not Matter Without a Timeline | Why Velocity of Cashback is the Most Important Thing with David Morehead, CIO @ Baylor",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-how-lps-allocate-to-venture-in-2026-what-they-want-what-they-do-not-want-why-fund-multiple-does-not-matter-without-a-timeline-why-velocity-of-cashback-is-the-most-important-thing-with-david-morehead-cio-baylor",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-09-14T07:07:00.000Z",
-      "duration": 69,
-      "summary": "David Morehead is one of the most respected CIOs in the endowment fund world as Chief Investment Officer at Baylor University, overseeing its $2.6BN endowment. Before joining Baylor in 2011, he was a senior portfolio manager at several Chicago hedge funds, investing across corporate securities, distressed debt and public and private energy.\n AGENDA:\n 04:00 The Portfolio Construction of a $2.6 Billion University Endowment?\n 09:00 Why We Spend More Time on Porfolio Construction Than Manager Selection?\n 14:00 Should LPs Back VC's Biggest Names or Find the Next Breakout Manager?\n 21:00 How Baylor Made Millions in the SaaSpocalypse?\n 26:00 Are Public Markets a Casino or Are Private Valuations the Real Fiction?\n 34:00 How Do You Buy a Market Crash Without Catching a Falling Knife?\n 49:00 Would You Fire a Fund Manager Who's Making You Money?\n 57:00 Could the Backlash Against Data Centres Derail the AI Boom?\n 01:02:00 Which Asset Class Is Overhyped—and Where Is the Next Big Opportunity?",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-topline-podcast-pock2g",
       "type": "podcast",
       "title": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
@@ -2030,55 +2030,55 @@
       "direction": "down",
       "articles": 30,
       "podcasts": 36,
-      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
       "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 57,
-      "recent3": 6,
+      "recent3": 5,
       "change": 7,
       "direction": "flat",
       "articles": 28,
       "podcasts": 29,
-      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
-      "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+      "secondItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
-      "count": 46,
-      "recent3": 5,
-      "change": -28,
+      "count": 47,
+      "recent3": 4,
+      "change": -18,
       "direction": "down",
       "articles": 29,
-      "podcasts": 17,
-      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
-      "secondItem": "Why your partner channel isn't performing  (and what to actually do about it)"
+      "podcasts": 18,
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+      "secondItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 43,
-      "recent3": 2,
+      "recent3": 3,
       "change": -59,
       "direction": "down",
       "articles": 27,
       "podcasts": 16,
-      "topItem": "Why your partner channel isn't performing  (and what to actually do about it)",
-      "secondItem": "CRM for Non-Techies"
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+      "secondItem": "Why your partner channel isn't performing  (and what to actually do about it)"
     },
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
       "count": 34,
-      "recent3": 2,
+      "recent3": 3,
       "change": -47,
       "direction": "down",
       "articles": 2,
       "podcasts": 32,
-      "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
       "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
     },
     {
@@ -2096,20 +2096,20 @@
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 21,
-      "recent3": 1,
-      "change": -33,
+      "count": 22,
+      "recent3": 2,
+      "change": -37,
       "direction": "down",
       "articles": 6,
-      "podcasts": 15,
-      "topItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
-      "secondItem": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation"
+      "podcasts": 16,
+      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+      "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 18,
-      "recent3": 3,
+      "recent3": 2,
       "change": -20,
       "direction": "down",
       "articles": 3,
@@ -2118,5 +2118,5 @@
       "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
     }
   ],
-  "fetchedAt": "2026-10-18T10:40:20.720Z"
+  "fetchedAt": "2026-10-19T12:38:29.995Z"
 }
