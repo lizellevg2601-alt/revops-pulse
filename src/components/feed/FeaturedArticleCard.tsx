@@ -12,6 +12,7 @@ type Props = {
 };
 
 export function FeaturedArticleCard({ item, onSave }: Props) {
+  const publishedDate = Number.isFinite(Date.parse(item.publishedAt)) ? new Date(item.publishedAt).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"}) : "";
   return (
     <motion.article
       initial={{ opacity: 0, y: 16 }}
@@ -27,8 +28,8 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
           className="md:w-1/2 h-56 md:h-auto relative block"
         >
           <img
-            src={item.imageUrl || placeholderArt(item.source)}
-            alt="Editorial feature"
+            src={item.imageUrl || placeholderArt(item.title)}
+            alt="Abstract editorial illustration"
             className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => {
               (e.currentTarget as HTMLImageElement).style.display = "none";
@@ -41,7 +42,8 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
               Article
             </span>
             <Clock className="w-3 h-3" />
-            <span>{item.readTime} min read</span>
+            <span>{publishedDate}</span>
+            {item.readTime ? <span>· {item.readTime} min read</span> : null}
             <button
               onClick={() => onSave(item.id)}
               className="ml-auto w-7 h-7 flex items-center justify-center rounded-md hover:bg-[var(--coral-50)] transition-colors"
@@ -66,7 +68,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
             {item.title}
           </a>
 
-          <p className="text-sm text-[var(--slate-700)] leading-relaxed mb-3">
+          <p className="text-sm text-[var(--slate-700)] leading-relaxed mb-3 line-clamp-3">
             {item.summary}
           </p>
 
