@@ -1,10 +1,10 @@
 "use client";
 
 import { Settings } from "lucide-react";
-import { mockProfile } from "@/data/mockProfile";
+import type { RelevanceProfile } from "@/lib/types";
 
-export function PersonalisationBar() {
-  const p = mockProfile;
+export function PersonalisationBar({profile, onEdit}: {profile: RelevanceProfile; onEdit: ()=>void}) {
+  const p = profile;
 
   return (
     <div className="bg-white border-b border-[var(--border)]">
@@ -16,6 +16,7 @@ export function PersonalisationBar() {
             </span>
           </div>
           <button
+            onClick={onEdit}
             className="text-xs text-[var(--slate-500)] hover:text-[var(--navy-900)] flex items-center gap-1 transition-colors"
             aria-label="Edit settings"
           >
