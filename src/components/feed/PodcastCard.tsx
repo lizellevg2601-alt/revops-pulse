@@ -31,7 +31,7 @@ export function PodcastCard({ item, onSave }: Props) {
       <div className="flex items-start gap-4">
         <div className="w-14 h-14 rounded-xl shrink-0 shadow-sm overflow-hidden bg-gradient-to-br from-[var(--navy-800)] to-[var(--navy-950)] flex items-center justify-center">
           <img
-            src={item.imageUrl || placeholderArt(item.source)}
+            src={item.imageUrl || placeholderArt(item.title)}
             alt={item.title}
             className="w-full h-full object-cover"
           />
