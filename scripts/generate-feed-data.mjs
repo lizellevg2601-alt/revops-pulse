@@ -246,6 +246,17 @@ async function main() {
           relevanceScore: relevanceScoreFor(baseItem, matched),
           whyItMatters: buildWhyItMatters(matched, baseItem),
           intelligence: intelligenceFor(baseItem),
+          analysis: (() => {
+            const lens = intelligenceFor(baseItem);
+            return {
+              whatChanged: "The source published a story concerning " + (matched[0] || "a GTM or technology development") + ". Open the original source to confirm the full details.",
+              whyItMatters: lens.impact,
+              strategicImplication: "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+              whatToWatch: "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+              recommendedAction: lens.action,
+              confidence: "low", evidenceType: "rss_metadata", sourceUrl: link,
+            };
+          })(),
           saved: false,
         };
       });
