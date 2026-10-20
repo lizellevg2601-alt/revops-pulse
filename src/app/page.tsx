@@ -32,6 +32,7 @@ export default function Dashboard() {
   const [category,setCategory] = useState("all");
   useEffect(()=>{try{const value=JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]");setSavedIds(Array.isArray(value)?value:[])}catch{setSavedIds([])}},[]);
   const [trends, setTrends] = useState<TrendingTheme[]>([]);
+  const [fetchedAt,setFetchedAt] = useState<string | undefined>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<FeedFiltersState>({
@@ -49,6 +50,7 @@ export default function Dashboard() {
         const data: FeedPayload = await res.json();
         setFeed(data.items);
         setTrends(data.trends || []);
+        setFetchedAt(data.fetchedAt);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Unknown error");
       } finally {
@@ -92,6 +94,7 @@ export default function Dashboard() {
 
                 <div className="flex flex-wrap gap-2" aria-label="Industry categories">{[["all","All news"],["crm","CRM & Tech"],["ai","Frontier AI"],["revops","RevOps"],["gtm","GTM Trends"]].map(([value,label])=><button key={value} type="button" aria-pressed={category===value} onClick={()=>setCategory(value)} className={`rounded-full border px-3 py-2 text-xs font-semibold transition-colors ${category===value?"border-[var(--coral-500)] bg-[var(--coral-500)] text-white":"border-[var(--border)] bg-white text-[var(--slate-700)] hover:bg-[var(--coral-50)]"}`}>{label}</button>)}</div>
                 <FeedFilters filters={filters} onChange={setFilters} />
+                {fetchedAt && <p className="text-xs text-[var(--slate-500)]">Feed last generated {new Date(fetchedAt).toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"})} · <span className="font-medium">{filtered.length} stories in this view</span></p>}
 
                 {loading && (
                   <div className="text-center py-12 text-[var(--slate-500)]">
@@ -140,7 +143,7 @@ export default function Dashboard() {
               {/* Intelligence rail */}
               <aside className="xl:w-[320px] shrink-0 space-y-4">
                 <ThemeOfWeekCard />
-                <AIOverviewCard />
+                <AIOverviewCard items={feed} fetchedAt={fetchedAt} />
                 <TrendingThemes trends={trends} />
               </aside>
             </div>
