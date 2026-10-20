@@ -10,7 +10,7 @@ export function ThemeOfWeekCard() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: 0.1 }}
-      className="rounded-xl overflow-hidden border border-[var(--border)]"
+      className="rounded-2xl overflow-hidden border border-[var(--border)]"
     >
       <div className="h-40 relative">
         <img
@@ -26,7 +26,7 @@ export function ThemeOfWeekCard() {
         </div>
       </div>
       <div className="p-4 bg-white">
-        <h3 className="font-editorial text-lg font-bold text-[var(--navy-950)] leading-tight mb-1">
+        <h3 className="font-editorial text-lg font-semibold text-[var(--navy-950)] leading-tight mb-1">
           AI Copilots for Revenue Teams
         </h3>
         <p className="text-xs text-[var(--slate-700)] leading-relaxed mb-3">
