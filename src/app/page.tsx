@@ -29,6 +29,7 @@ function filterAndSort(items: FeedItem[], filters: FeedFiltersState): FeedItem[]
 export default function Dashboard() {
   const [feed, setFeed] = useState<FeedItem[]>([]);
   const [savedIds,setSavedIds] = useState<string[]>([]);
+  const [category,setCategory] = useState("all");
   useEffect(()=>{try{const value=JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]");setSavedIds(Array.isArray(value)?value:[])}catch{setSavedIds([])}},[]);
   const [trends, setTrends] = useState<TrendingTheme[]>([]);
   const [loading, setLoading] = useState(true);
@@ -57,7 +58,7 @@ export default function Dashboard() {
     loadFeed();
   }, []);
 
-  const filtered = filterAndSort(feed,filters).map(i=>({...i,saved:savedIds.includes(i.id)}));
+  const filtered = filterAndSort(feed.filter(i=>category==="all" || i.category===category),filters).map(i=>({...i,saved:savedIds.includes(i.id)}));
   const featured = filters.contentType==="podcast" ? undefined : filtered.find(i=>i.type==="article");
   const rest = filtered.filter(i=>i.id!==featured?.id);
 
@@ -89,6 +90,7 @@ export default function Dashboard() {
 
                 </div>
 
+                <div className="flex flex-wrap gap-2" aria-label="Industry categories">{[["all","All news"],["crm","CRM & Tech"],["ai","Frontier AI"],["revops","RevOps"],["gtm","GTM Trends"]].map(([value,label])=><button key={value} type="button" aria-pressed={category===value} onClick={()=>setCategory(value)} className={`rounded-full border px-3 py-2 text-xs font-semibold transition-colors ${category===value?"border-[var(--coral-500)] bg-[var(--coral-500)] text-white":"border-[var(--border)] bg-white text-[var(--slate-700)] hover:bg-[var(--coral-50)]"}`}>{label}</button>)}</div>
                 <FeedFilters filters={filters} onChange={setFilters} />
 
                 {loading && (
@@ -109,7 +111,7 @@ export default function Dashboard() {
                   </div>
                 )}
 
-                {!loading && !error && filtered.length===0 && feed.length>0 && <p className="rounded-xl bg-white p-8 text-center text-sm text-[var(--slate-500)]">No stories match this filter. Try another content type.</p>}
+                {!loading && !error && filtered.length===0 && feed.length>0 && <p className="rounded-xl bg-white p-8 text-center text-sm text-[var(--slate-500)]">No stories match these filters yet. Try All news or another category.</p>}
                 {!loading && featured && (
                   <FeaturedArticleCard item={featured} onSave={handleSave} />
                 )}
