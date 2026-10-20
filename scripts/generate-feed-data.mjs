@@ -293,7 +293,7 @@ async function main() {
     .filter(item => item.title && item.sourceUrl && Number.isFinite(Date.parse(item.publishedAt)))
     .sort((a,b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
     .filter(item => {
-      const url = item.sourceUrl.replace(/[?#].*$/, "").replace(/\\/$/, "").toLowerCase();
+      const url = item.sourceUrl.replace(/[?#].*$/, "").replace(/\/$/, "").toLowerCase();
       const title = item.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
       if (seenUrls.has(url) || seenTitles.has(title)) return false;
       seenUrls.add(url); seenTitles.add(title); return true;
