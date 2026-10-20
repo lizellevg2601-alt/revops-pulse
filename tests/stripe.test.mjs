@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import Stripe from "stripe";
 import { applyStripeTransition, asyncPaymentFailureStatements, deriveEntitlementState, fulfillmentStatements, revocationStatements } from "../functions/lib/payment-state.mjs";
-import { verifyStripeEvent } from "../functions/lib/stripe.mjs";
+import { requireSandboxEnvironment, validatePrice, verifyStripeEvent } from "../functions/lib/stripe.mjs";
 
 function recordingDb() {
   const batches = [];
@@ -23,6 +23,15 @@ test("Stripe verification accepts the exact signed raw body and rejects tamperin
   const event = await verifyStripeEvent(stripe, payload, signature, secret);
   assert.equal(event.id, "evt_test");
   await assert.rejects(() => verifyStripeEvent(stripe, `${payload} `, signature, secret), /Invalid webhook signature/);
+});
+
+test("historical sandbox prices remain fulfillable after checkout is disabled or rotated", () => {
+  const expected = { priceId: "price_old", productId: "prod_old", amount: 500, currency: "eur" };
+  const retiredPrice = { id: "price_old", product: "prod_old", unit_amount: 500, currency: "eur", type: "one_time", livemode: false, active: false };
+  assert.doesNotThrow(() => requireSandboxEnvironment({ DEPLOYMENT_ENV: "staging", STRIPE_ENVIRONMENT: "sandbox", CHECKOUT_ENABLED: "false" }));
+  assert.equal(validatePrice(retiredPrice, expected), false);
+  assert.equal(validatePrice(retiredPrice, expected, false), true);
+  assert.throws(() => requireSandboxEnvironment({ DEPLOYMENT_ENV: "production", STRIPE_ENVIRONMENT: "sandbox" }), /Checkout is not configured/);
 });
 
 test("event ledger and state transitions share one atomic batch", async () => {

@@ -29,12 +29,18 @@ export function checkoutConfig(env) {
   return { amount, currency, priceId: env.STRIPE_PRICE_ID, productId: env.STRIPE_PRODUCT_ID };
 }
 
+export function requireSandboxEnvironment(env) {
+  if (env.DEPLOYMENT_ENV !== "staging" || env.STRIPE_ENVIRONMENT !== "sandbox") {
+    throw new HttpError(503, "checkout_disabled", "Checkout is not configured");
+  }
+}
+
 export function productId(price) {
   return typeof price.product === "string" ? price.product : price.product?.id;
 }
 
-export function validatePrice(price, config) {
-  return price && price.livemode === false && price.active === true && price.type === "one_time" &&
+export function validatePrice(price, config, requireActive = true) {
+  return price && price.livemode === false && (!requireActive || price.active === true) && price.type === "one_time" &&
     price.id === config.priceId && productId(price) === config.productId &&
     price.currency === config.currency && price.unit_amount === config.amount;
 }

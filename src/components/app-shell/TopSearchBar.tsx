@@ -1,15 +1,17 @@
 "use client";
 
 import { Search, Bell, Command, LogOut } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { BookmarkSiteButton } from "./BookmarkSiteButton";
 
 export function TopSearchBar() {
+  const router = useRouter();
   const [query, setQuery] = useState("");
 
   async function logout() {
     const response = await fetch("/api/auth/logout", { method: "POST" });
-    if (response.ok) window.location.assign("/login/");
+    if (response.ok) router.replace("/login/");
   }
 
   return (

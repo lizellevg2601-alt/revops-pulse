@@ -4,6 +4,7 @@ export const GENERIC_MAGIC_LINK_RESPONSE = { message: "If that email has access,
 export const MAGIC_LINK_TTL_SECONDS = 900;
 
 export async function throttleMagicLink(db, email, nowSeconds = Math.floor(Date.now() / 1000)) {
+  await db.prepare("DELETE FROM login_throttles WHERE window_started_at <= ?1").bind(nowSeconds - MAGIC_LINK_TTL_SECONDS).run();
   const throttle = await db.prepare(`
     INSERT INTO login_throttles (email, window_started_at, request_count)
     VALUES (?1, ?2, 1)

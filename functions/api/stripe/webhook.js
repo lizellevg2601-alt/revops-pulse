@@ -1,13 +1,12 @@
 import { handleError, json, methodNotAllowed, readBoundedText } from "../../lib/http.mjs";
 import { applyStripeTransition, asyncPaymentFailureStatements, fulfillmentStatements, revocationStatements } from "../../lib/payment-state.mjs";
-import { checkoutConfig, productId, stripeClient, validatePrice, verifyStripeEvent } from "../../lib/stripe.mjs";
+import { productId, requireSandboxEnvironment, stripeClient, validatePrice, verifyStripeEvent } from "../../lib/stripe.mjs";
 
 const FULFILLMENT_EVENTS = new Set(["checkout.session.completed", "checkout.session.async_payment_succeeded"]);
 const DISPUTE_EVENTS = new Set(["charge.dispute.created", "charge.dispute.funds_withdrawn", "charge.dispute.closed"]);
 const SUPPORTED_EVENTS = new Set([...FULFILLMENT_EVENTS, "checkout.session.async_payment_failed", "charge.refunded", ...DISPUTE_EVENTS]);
 
 async function checkoutPayment(env, stripe, eventSession) {
-  const config = checkoutConfig(env);
   const session = await stripe.checkout.sessions.retrieve(eventSession.id, {
     expand: ["line_items.data.price.product", "payment_intent.latest_charge"],
   });
@@ -17,10 +16,16 @@ async function checkoutPayment(env, stripe, eventSession) {
   const attempt = attemptId
     ? await env.REVOPS_DB.prepare("SELECT * FROM checkout_attempts WHERE id = ?1 AND stripe_session_id = ?2").bind(attemptId, session.id).first()
     : null;
+  const expected = attempt && {
+    priceId: attempt.expected_price_id,
+    productId: attempt.expected_product_id,
+    amount: attempt.expected_amount,
+    currency: attempt.expected_currency,
+  };
   if (
     session.livemode || session.payment_status !== "paid" || lineItems.length !== 1 || lineItems[0].quantity !== 1 ||
-    !validatePrice(price, config) || session.amount_total !== config.amount || session.currency !== config.currency ||
-    !attempt || attempt.expected_product_id !== productId(price) || attempt.expected_price_id !== price.id ||
+    !attempt || !validatePrice(price, expected, false) || session.amount_total !== expected.amount || session.currency !== expected.currency ||
+    attempt.expected_product_id !== productId(price) || attempt.expected_price_id !== price.id ||
     attempt.expected_amount !== session.amount_total || attempt.expected_currency !== session.currency
   ) throw new Error("Checkout Session did not match the server-owned offer");
 
@@ -39,8 +44,8 @@ async function checkoutPayment(env, stripe, eventSession) {
     sessionId: session.id,
     paymentIntentId: paymentIntent,
     chargeId: latestCharge,
-    amount: config.amount,
-    currency: config.currency,
+    amount: expected.amount,
+    currency: expected.currency,
     revocationReason: latestChargeObject?.disputed ? "dispute" : latestChargeObject?.refunded ? "refund" : null,
   };
 }
@@ -51,6 +56,7 @@ export async function onRequest(context) {
   let event;
   try {
     const rawBody = await readBoundedText(request, 1_048_576);
+    requireSandboxEnvironment(env);
     const stripe = stripeClient(env);
     event = await verifyStripeEvent(stripe, rawBody, request.headers.get("Stripe-Signature"), env.STRIPE_WEBHOOK_SECRET);
     if (event.livemode || !SUPPORTED_EVENTS.has(event.type)) {

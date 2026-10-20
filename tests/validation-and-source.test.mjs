@@ -46,10 +46,9 @@ test("malformed stored profiles are returned as defaults rather than reaching th
   assert.deepEqual(await response.json(), { preferences: null });
 });
 
-test("dashboard source uses the private feed and server persistence, not browser storage", async () => {
+test("dashboard source uses the private feed and server-saved items, not browser storage", async () => {
   const source = await readFile(new URL("../src/app/page.tsx", import.meta.url), "utf8");
   assert.match(source, /fetch\("\/feed-data\.json"/);
-  assert.match(source, /fetch\("\/api\/preferences"/);
   assert.match(source, /fetch\("\/api\/saved-items"/);
   assert.doesNotMatch(source, /localStorage/);
 });

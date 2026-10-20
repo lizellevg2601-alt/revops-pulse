@@ -56,7 +56,7 @@ Set these non-secret Pages variables:
 
 Set these as encrypted Pages secrets, never repository values:
 
-- `STRIPE_RESTRICTED_KEY`: a least-privilege sandbox restricted key with the required Price read, Checkout Session create/read, and Charge read permissions; code requires the `rk_test_` prefix
+- `STRIPE_RESTRICTED_KEY`: a least-privilege sandbox restricted key with Product read, Price read, Checkout Sessions write (including read), Payment Intent read, and Charge read permissions; code requires the `rk_test_` prefix
 - `STRIPE_WEBHOOK_SECRET`: signing secret for this endpoint/environment only
 - `RESEND_API_KEY`: dedicated least-privilege key for RevOps Pulse magic links
 
@@ -78,11 +78,11 @@ Use a separate Stripe sandbox, not shared test mode and never live mode. Registe
 - `charge.dispute.funds_withdrawn`
 - `charge.dispute.closed`
 
-Verify the webhook endpoint in the sandbox before enabling checkout. Fulfillment requires a paid non-live session whose single line item, Product, Price, amount, and currency match server configuration and the stored checkout attempt. Refund and dispute events create durable PaymentIntent tombstones in the same atomic D1 batch as their event ledger transition. Entitlement reconciliation considers every qualifying non-revoked order, so out-of-order events cannot reactivate a revoked payment and refunding one purchase preserves access backed by another valid purchase.
+Verify the webhook endpoint in the sandbox before enabling checkout. Fulfillment requires a paid non-live session whose single line item, Product, Price, amount, and currency match the stored checkout attempt. Historical attempts remain fulfillable if checkout is disabled or the current Price changes. Refund and dispute events create durable PaymentIntent tombstones in the same atomic D1 batch as their event ledger transition. Entitlement reconciliation considers every qualifying non-revoked order, so out-of-order events cannot reactivate a revoked payment and refunding one purchase preserves access backed by another valid purchase.
 
 ## Authentication And Operations
 
-Magic-link requests always return the same public response. Eligible users receive a 15-minute, one-time fragment token; per-email requests are limited to three per 15-minute D1 window. Checkout completion claims its request key before throttle accounting, suppresses concurrent/immediate duplicates, and allows a fresh token after the 15-minute token window. Sessions expire after 30 days and can be deleted through logout. Lifetime entitlements have no expiry but are revoked for refunds or disputes.
+Magic-link requests always return the same public response. Eligible users receive a 15-minute, one-time fragment token; per-email requests are limited to three per 15-minute D1 window. Login and checkout creation also have hashed-client-address D1 limits with expired-row cleanup. Checkout completion claims its request key before throttle accounting, suppresses concurrent/immediate duplicates, and allows a fresh token after the 15-minute token window. Sessions expire after 30 days and can be deleted through logout. Lifetime entitlements have no expiry but are revoked for refunds or disputes.
 
 Before production, add Cloudflare Turnstile to public login and checkout requests under a separately approved Cloudflare resource change. It is deliberately not included here. Also establish support, refund, privacy, data-retention, Resend-domain, and incident-response procedures.
 

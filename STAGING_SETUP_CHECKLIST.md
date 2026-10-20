@@ -15,7 +15,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 - Create Product `RevOps Pulse`; do not reuse an Assessment Product.
 - Create a one-time Price for **EUR 5.00** (`unit_amount=500`, `currency=eur`, `type=one_time`). No subscription, recurring Price, bundle, automatic tax, or post-payment invoice.
 - Record the new sandbox `product_...` and `price_...` IDs as staging variables only.
-- Create a dedicated restricted sandbox key with only required Price read, Checkout Session create/read, and Charge read permissions.
+- Create a dedicated restricted sandbox key with only Product read, Price read, Checkout Sessions write (including read), Payment Intent read, and Charge read permissions.
 - Register the staging webhook at `https://<staging-origin>/api/stripe/webhook` for the events listed in `README.md` and store its dedicated signing secret.
 - Future price changes require a new Stripe Price and coordinated updates to `STRIPE_PRICE_ID`, `STRIPE_PRICE_AMOUNT`, and `STRIPE_PRICE_CURRENCY`. Existing orders and lifetime entitlements remain unchanged.
 

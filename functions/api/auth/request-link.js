@@ -1,5 +1,6 @@
 import { handleError, json, methodNotAllowed, readJson, requireSameOrigin } from "../../lib/http.mjs";
 import { GENERIC_MAGIC_LINK_RESPONSE, issueMagicLink, throttleMagicLink } from "../../lib/magic-link.mjs";
+import { throttleRequest } from "../../lib/security.mjs";
 import { validEmail } from "../../lib/validation.mjs";
 
 export async function onRequest(context) {
@@ -14,6 +15,7 @@ export async function onRequest(context) {
   try {
     const body = await readJson(request, 2_048);
     if (!validEmail(body.email)) return json(GENERIC_MAGIC_LINK_RESPONSE, 202);
+    if (!await throttleRequest(env.REVOPS_DB, request, "login", 20)) return json(GENERIC_MAGIC_LINK_RESPONSE, 202);
     const email = body.email.trim().toLowerCase();
     const allowed = await throttleMagicLink(env.REVOPS_DB, email);
 

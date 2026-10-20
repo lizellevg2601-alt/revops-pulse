@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { clearSessionCookie, consumeLoginToken, parseCookies, randomToken, sessionCookie, sha256 } from "../functions/lib/security.mjs";
+import { clearSessionCookie, consumeLoginToken, parseCookies, randomToken, sessionCookie, sha256, throttleRequest } from "../functions/lib/security.mjs";
 
 test("tokens hash deterministically and random tokens differ", async () => {
   assert.equal((await sha256("token")).length, 64);
@@ -32,4 +32,29 @@ test("login token consumption delegates to one atomic UPDATE RETURNING", async (
   assert.equal(await consumeLoginToken(db, randomToken()), null);
   assert.match(sql, /consumed_at IS NULL/);
   assert.match(sql, /RETURNING user_id/);
+});
+
+test("public request throttles store a hashed client address and enforce the limit", async () => {
+  let count = 0;
+  const boundValues = [];
+  const db = {
+    prepare(sql) {
+      return {
+        bind(...values) {
+          boundValues.push({ sql, values });
+          return {
+            run: async () => ({}),
+            first: async () => ({ request_count: ++count }),
+          };
+        },
+      };
+    },
+  };
+  const request = new Request("https://pulse.example/login", { headers: { "CF-Connecting-IP": "203.0.113.8" } });
+  assert.equal(await throttleRequest(db, request, "login", 1, 900, 1_000), true);
+  assert.equal(await throttleRequest(db, request, "login", 1, 900, 1_000), false);
+  const insert = boundValues.find(({ sql }) => /INSERT INTO request_throttles/.test(sql));
+  assert.equal(insert.values[1].length, 64);
+  assert.notEqual(insert.values[1], "203.0.113.8");
+  assert.ok(boundValues.some(({ sql }) => /DELETE FROM request_throttles/.test(sql)));
 });

@@ -1,5 +1,5 @@
 import { error, handleError, json, methodNotAllowed, readJson, requireSameOrigin } from "../../lib/http.mjs";
-import { randomLowercase } from "../../lib/security.mjs";
+import { randomLowercase, throttleRequest } from "../../lib/security.mjs";
 import { checkoutConfig, productId, stripeClient, validatePrice } from "../../lib/stripe.mjs";
 import { validEmail, validUuid } from "../../lib/validation.mjs";
 
@@ -10,6 +10,7 @@ export async function onRequest(context) {
     const origin = requireSameOrigin(request, env);
     const body = await readJson(request, 2_048);
     if (!validEmail(body.email) || !validUuid(body.attemptId)) return error("invalid_checkout", "Email or checkout attempt is invalid", 400);
+    if (!await throttleRequest(env.REVOPS_DB, request, "checkout", 10)) return error("rate_limited", "Too many checkout attempts", 429);
     const email = body.email.trim().toLowerCase();
     const config = checkoutConfig(env);
     const stripe = stripeClient(env);

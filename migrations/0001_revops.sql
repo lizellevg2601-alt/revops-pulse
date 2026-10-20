@@ -89,6 +89,14 @@ CREATE TABLE login_throttles (
   request_count INTEGER NOT NULL CHECK (request_count >= 0)
 ) STRICT;
 
+CREATE TABLE request_throttles (
+  scope TEXT NOT NULL,
+  key_hash TEXT NOT NULL CHECK (length(key_hash) = 64),
+  window_started_at INTEGER NOT NULL,
+  request_count INTEGER NOT NULL CHECK (request_count >= 0),
+  PRIMARY KEY (scope, key_hash)
+) STRICT;
+
 CREATE TABLE sessions (
   token_hash TEXT PRIMARY KEY CHECK (length(token_hash) = 64),
   user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -112,6 +120,7 @@ CREATE TABLE saved_items (
 CREATE INDEX sessions_user_expiry ON sessions(user_id, expires_at);
 CREATE INDEX login_tokens_user_expiry ON login_tokens(user_id, expires_at);
 CREATE INDEX login_tokens_request_key ON login_tokens(request_key, expires_at);
+CREATE INDEX request_throttles_window ON request_throttles(window_started_at);
 CREATE INDEX checkout_attempts_user ON checkout_attempts(user_id, created_at);
 CREATE INDEX orders_user_status ON orders(user_id, status);
 CREATE INDEX orders_payment_lookup ON orders(stripe_payment_intent_id, stripe_charge_id);
