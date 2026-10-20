@@ -12,7 +12,7 @@ export function AIOverviewCard() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: 0.2 }}
-      className="bg-white border border-[var(--border)] rounded-xl overflow-hidden"
+      className="bg-white border border-[var(--border)] rounded-2xl overflow-hidden"
     >
       <div className="p-4">
         <div className="flex items-center gap-2 mb-3">

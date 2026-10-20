@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --page: #fbfaf8;
+  --page: #faf7f2;
   --surface: #ffffff;
-  --navy-950: #0f1b3d;
-  --navy-900: #18243f;
-  --navy-800: #1e3a8a;
-  --navy-700: #274690;
-  --coral-500: #ff6b63;
-  --coral-300: #ffaaa3;
-  --coral-200: #ffd7d2;
-  --coral-100: #ffe9e1;
-  --coral-50: #fff2f2;
-  --blue-grey-300: #cfe0f4;
-  --blue-grey-200: #dde6f3;
-  --blue-grey-100: #e8eef7;
-  --slate-700: #475569;
-  --slate-500: #64748b;
-  --border: #dde3ec;
-  --font-editorial: "DM Serif Display", Georgia, serif;
+  --navy-950: #121315;
+  --navy-900: #121315;
+  --navy-800: #2e2c2a;
+  --navy-700: #2e2c2a;
+  --coral-500: #f26d5c;
+  --coral-300: #e9a69a;
+  --coral-200: #f8ded5;
+  --coral-100: #f8ded5;
+  --coral-50: #fff4ef;
+  --blue-grey-300: #e8dfd7;
+  --blue-grey-200: #ede5de;
+  --blue-grey-100: #f7f1eb;
+  --slate-700: #2e2c2a;
+  --slate-500: #6b6660;
+  --border: #e8dfd7;
+  --font-editorial: "Poppins", system-ui, sans-serif;
   --font-ui: "Inter", system-ui, sans-serif;
 }
 

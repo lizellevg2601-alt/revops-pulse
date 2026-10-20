@@ -25,7 +25,7 @@ export function TrendingThemes({ trends }: Props) {
   const maxCount = Math.max(...trends.map((t) => t.count), 1);
 
   return (
-    <div className="bg-white border border-[var(--border)] rounded-xl p-4">
+    <div className="bg-white border border-[var(--border)] rounded-2xl p-5">
       <h3 className="font-semibold text-sm text-[var(--navy-950)]">
         Trending Themes
       </h3>

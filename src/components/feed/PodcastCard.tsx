@@ -26,7 +26,7 @@ export function PodcastCard({ item, onSave }: Props) {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.35 }}
-      className="bg-[var(--surface)] border border-[var(--border)] rounded-xl p-4"
+      className="bg-[var(--surface)] border border-[var(--border)] rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow"
     >
       <div className="flex items-start gap-4">
         <div className="w-14 h-14 rounded-xl shrink-0 shadow-sm overflow-hidden bg-gradient-to-br from-[var(--navy-800)] to-[var(--navy-950)] flex items-center justify-center">
