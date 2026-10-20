@@ -120,7 +120,7 @@ export function PodcastCard({ item, onSave }: Props) {
               ))}
             </div>
             <span className="text-[10px] font-semibold text-[var(--coral-500)] bg-[var(--coral-50)] px-2 py-0.5 rounded-full border border-[var(--coral-200)]">
-              AI relevance: {item.relevanceScore}%
+              Topic score: {item.relevanceScore}
             </span>
           </div>
         </div>

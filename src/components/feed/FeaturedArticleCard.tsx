@@ -70,7 +70,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
             {item.summary}
           </p>
 
-          <WhyItMatters items={item.whyItMatters} />
+          <WhyItMatters items={item.whyItMatters} intelligence={item.intelligence} />
 
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-center gap-2 text-xs text-[var(--slate-500)]">
@@ -85,7 +85,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
               <span>·</span>
               <span>{item.author}</span>
             </div>
-            <RelevanceBadge score={item.relevanceScore} />
+
           </div>
 
           <div className="flex flex-wrap gap-1.5 mt-3">
@@ -99,16 +99,17 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
   );
 }
 
-function WhyItMatters({ items }: { items: string[] }) {
+function WhyItMatters({ items, intelligence }: { items: string[]; intelligence?: FeedItem["intelligence"] }) {
   return (
     <div className="bg-[var(--coral-50)] rounded-lg p-3 border border-[var(--coral-200)]">
       <div className="flex items-center gap-1.5 mb-1.5">
         <Sparkles className="w-3 h-3 text-[var(--coral-500)]" />
         <span className="text-[10px] font-semibold uppercase tracking-wider text-[var(--coral-500)]">
-          Why this matters to you
+          Business intelligence
         </span>
       </div>
-      <ul className="space-y-0.5">
+      {intelligence && <p className="mb-2 text-xs font-medium text-[var(--slate-700)]">{intelligence.signal}</p>}
+      {intelligence ? <div className="space-y-2 text-xs text-[var(--slate-700)]"><p><strong>Why it matters:</strong> {intelligence.impact}</p><p><strong>What to consider:</strong> {intelligence.action}</p></div> : <ul className="space-y-0.5">
         {items.map((point, i) => (
           <li
             key={i}
@@ -118,7 +119,8 @@ function WhyItMatters({ items }: { items: string[] }) {
             {point}
           </li>
         ))}
-      </ul>
+      </ul>}
+      <p className="mt-2 text-[10px] text-[var(--slate-500)]">Editorial perspective based on feed metadata. Verify details with the original publisher.</p>
     </div>
   );
 }

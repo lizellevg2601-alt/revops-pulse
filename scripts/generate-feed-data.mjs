@@ -49,49 +49,28 @@ function textOf(item) {
   return `${item.title} ${item.tags?.join(" ") || ""} ${item.summary || ""}`.toLowerCase();
 }
 
-const reasonTemplates = {
-  "AI & Agents": "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-  "Revenue Forecasting": "Feeds the Revenue Forecasting thread in your profile with pipeline and prediction signals.",
-  "GTM Strategy": "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
-  "Org Design & Leadership": "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-  "Data & Attribution": "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
-  "Tech Stack & CPQ": "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack.",
-  "Composable & Headless": "Advances the Composable & Headless thread — the modern, API-first architecture you follow.",
-  "Marketing & Brand": "Adds context to Marketing & Brand — how content and demand feed the funnel.",
-  "Founders & Fundraising": "Relevant to Founders & Fundraising — funding dynamics and founder execution.",
-};
-
-function signalBullets(item) {
-  const t = textOf(item);
-  const bullets = [];
-  if (/playbook|checklist|how to|template|tips?|guide|step-?by-?step|actionable|best practice/.test(t))
-    bullets.push("Actionable — offers concrete steps or a playbook you can lift into your own programs.");
-  if (/benchmark|survey|\d+%|\$\d|report|study|data on/.test(t))
-    bullets.push("Backed by data or benchmarks you can calibrate your own numbers against.");
-  if (/case stud|example|real-world|walkthrough|story of/.test(t))
-    bullets.push("Grounded in real examples you can adapt to your own setup.");
-  if (/trend|emerging|2026|roadmap|wave|shift|evolv/.test(t))
-    bullets.push("Forward-looking — frames where the practice is heading this cycle.");
-  return bullets;
+// These are editorial prompts based on source metadata, not AI-generated claims.
+// A source summary is insufficient to verify specific effects or product capabilities.
+const editorialLenses = [
+  { match: /\b(agent|agentic|copilot|llm|generative ai|artificial intelligence)\b/i, topic: "AI adoption", impact: "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.", action: "Identify one use case and assess data quality, approval steps and measurable outcomes." },
+  { match: /\b(salesforce|hubspot|dynamics|crm|platform|integration|api)\b/i, topic: "CRM architecture", impact: "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.", action: "Check whether the development changes any systems, vendor commitments or integration dependencies you use." },
+  { match: /\b(forecast|pipeline|revenue intelligence|deal|quota)\b/i, topic: "Revenue predictability", impact: "Forecasting and pipeline practices influence how confidently revenue teams plan and prioritise resources.", action: "Compare the underlying assumptions with your own pipeline definitions and reporting quality." },
+  { match: /\b(attribution|data quality|analytics|reporting|measurement)\b/i, topic: "Data and measurement", impact: "The value of new measurement approaches depends on reliable definitions and consistent underlying data.", action: "Review current data completeness and ownership before changing dashboards or attribution models." },
+  { match: /\b(marketing|demand|sales motion|gtm|go.to.market|buyer)\b/i, topic: "GTM execution", impact: "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.", action: "Discuss whether the development warrants a small, measurable experiment within your current GTM motion." },
+];
+function intelligenceFor(item) {
+  const text = textOf(item);
+  const lens = editorialLenses.find(entry => entry.match.test(text));
+  if (!lens) return {
+    signal: "An industry development worth monitoring",
+    impact: "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+    action: "Read the original source, then decide whether this development affects your near-term priorities.",
+  };
+  return { signal: "This story touches on " + lens.topic.toLowerCase() + ".", impact: lens.impact, action: lens.action };
 }
-
-function buildWhyItMatters(matched, item) {
-  const bullets = [];
-  for (const topic of matched) {
-    const line = reasonTemplates[topic];
-    if (line && !bullets.includes(line)) {
-      bullets.push(line);
-      if (bullets.length >= 2) break;
-    }
-  }
-  for (const line of signalBullets(item)) {
-    if (bullets.length >= 3) break;
-    bullets.push(line);
-  }
-  if (bullets.length === 0) {
-    bullets.push("Highlights go-to-market themes that shape day-to-day RevOps work.");
-  }
-  return bullets;
+function buildWhyItMatters(_matched, item) {
+  const lens = intelligenceFor(item);
+  return [lens.impact, lens.action];
 }
 
 function relevanceScoreFor(item, matched) {
@@ -266,6 +245,7 @@ async function main() {
           tags,
           relevanceScore: relevanceScoreFor(baseItem, matched),
           whyItMatters: buildWhyItMatters(matched, baseItem),
+          intelligence: intelligenceFor(baseItem),
           saved: false,
         };
       });
