@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "feed-seafoam-media-lyzjos",
+      "type": "article",
+      "title": "How Seafoam Taught MRH Business Students to Build a Brand, Start to Finish",
+      "source": "Seafoam Media",
+      "sourceUrl": "https://seafoammedia.com/thinking/news/how-seafoam-taught-mrh-business-students-to-build-a-brand-start-to-finish/",
+      "author": "Ryan Foizey",
+      "publishedAt": "2026-10-19T20:13:34.000Z",
+      "readTime": 1,
+      "summary": "Seafoam ran its full client brand workshop for MRH High School business students in spring 2026. Here's what they built and why we keep showing up.\nThe post How Seafoam Taught MRH Business Students to Build a Brand, Start to Finish appeared first on Seafoam.",
+      "tags": [
+        "Seafoam News",
+        "Brand Strategy"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Adds context to Marketing & Brand — how content and demand feed the funnel.",
+        "Forward-looking — frames where the practice is heading this cycle."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-66ch8a",
+      "type": "article",
+      "title": "Meet Launa-Omni, Salesforce’s Voice Model for Real-Time Conversation",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/launa-omni/",
+      "author": "Silvio Savarese, John Emmons",
+      "publishedAt": "2026-10-19T18:34:47.000Z",
+      "readTime": 1,
+      "summary": "Salesforce AI Research has been building Launa-Omni, a voice model that holds real-time, two-way conversations. The latest evaluation results came in this week, and this post covers what we built and how it…",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Touches Tech Stack & CPQ — the tooling and configuration decisions behind the stack."
+      ],
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-dglcbz",
+      "type": "article",
+      "title": "5 Help Agent Tips For New Care Teams",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/help-agent-tips-for-small-service-teams/",
+      "author": "Allison Williams",
+      "publishedAt": "2026-10-19T13:00:00.000Z",
+      "readTime": 1,
+      "summary": "Give your service team an AI teammate that knows your customers — here's how to set your help agent up on day one.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
+        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
+      ],
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-4hs7yf",
       "type": "podcast",
       "title": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
@@ -68,7 +126,7 @@
       "readTime": 1,
       "summary": "Everything says it’s business as usual. Your calendar says you have a presentation at 10 a.m. It doesn’t say you’ve been wide awake since 3 a.m. Your Slack status shows you as active.…",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Highlights go-to-market themes that shape day-to-day RevOps work."
       ],
@@ -85,7 +143,7 @@
       "readTime": 1,
       "summary": "If you manage complex dealer networks, you know that legacy technologies can limit both your team and your buyers. As a leading manufacturer of engines and parts for lawn, landscape, and other commercial…",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Plugs into your GTM Strategy interest — motion, positioning, and go-to-market execution.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -108,7 +166,7 @@
         "Members-only articles",
         "Articles"
       ],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
@@ -127,7 +185,7 @@
       "readTime": 1,
       "summary": "When it comes to early career talent, AI fluency is no longer a differentiator—it’s the baseline. Generative AI and autonomous agents are reshaping how we work, meaning that today’s emerging professionals intuitively know…",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
@@ -149,7 +207,7 @@
         "Live session",
         "Chief Revenue Officer"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Adds context to Marketing & Brand — how content and demand feed the funnel.",
@@ -168,7 +226,7 @@
       "readTime": 1,
       "summary": "No coding, no jargon, no headache — here's CRM for non-techies, explained.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed."
@@ -328,41 +386,6 @@
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
         "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
         "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-j81fd4",
-      "type": "article",
-      "title": "Drive User Adoption Through Architecture Decisions",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/drive-user-adoption-through-architecture/",
-      "author": "Victoria Khanchevska",
-      "publishedAt": "2026-10-13T16:29:01.000Z",
-      "readTime": 1,
-      "summary": "Learn how to design for user adoption from day one, across four architectural decisions you make long before go-live.",
-      "tags": [],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Actionable — offers concrete steps or a playbook you can lift into your own programs."
-      ],
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-5g8dw4",
-      "type": "article",
-      "title": "Winter ‘27 Release: Top Development & Security Features",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/platform-winter-27-release/",
-      "author": "Mike Melone",
-      "publishedAt": "2026-10-13T15:34:04.000Z",
-      "readTime": 1,
-      "summary": "Build, secure, and scale your org with the Winter '27 release's most impactful dev and security features.",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate."
       ],
       "saved": false
     },
@@ -1368,27 +1391,6 @@
       "saved": false
     },
     {
-      "id": "feed-seafoam-media-gytsab",
-      "type": "article",
-      "title": "You’ve Been Hiring the Wrong Kind of Agency",
-      "source": "Seafoam Media",
-      "sourceUrl": "https://seafoammedia.com/thinking/worldview/youve-been-hiring-the-wrong-kind-of-agency/",
-      "author": "Nikki Bisel",
-      "publishedAt": "2026-08-10T19:08:11.000Z",
-      "readTime": 1,
-      "summary": "You’ve been solving the wrong problem For years you’ve been told your growth problem is a marketing problem. So you’ve been solving it the way the market told you to: by hiring, firing, and re-hiring agencies. A new one every couple of years. A better website. Sharper ads. A brand refresh. Each time, the promise […]\nThe post You’ve Been Hiring the Wrong Kind of Agency appeared first on Seafoam.",
-      "tags": [
-        "Worldview",
-        "Featured"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
-        "Adds context to Marketing & Brand — how content and demand feed the funnel."
-      ],
-      "saved": false
-    },
-    {
       "id": "feed-crm-switch-sk0ty4",
       "type": "article",
       "title": "Should You Vibe Code Your Own CRM?",
@@ -1438,14 +1440,14 @@
       "author": "Steve Chipman",
       "publishedAt": "2026-04-16T17:59:49.000Z",
       "readTime": 1,
-      "summary": "Thinking about adopting a new CRM platform? As with SaaS apps in general, the CRM playing field has been shifting under everyone’s feet. Before creating a CRM vendor shortlist, consider which high-level system path best suits your business. You may pull your shortlist from more than one path. Here are three high-level CRM paths to ... Read more",
+      "summary": "Thinking about adopting a new CRM platform? As with SaaS apps in general, the CRM playing field has been shifting under everyone’s feet. To see how fast it’s moving, our roundup of CRM vendor product updates tracks weekly releases from Salesforce, HubSpot, Microsoft Dynamics, and AI-native challengers. Before creating a CRM vendor shortlist, consider which ... Read more",
       "tags": [
         "Buying CRM"
       ],
-      "relevanceScore": 68,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Connects directly to your AI & agents focus — how teams are applying automation and model-based workflows.",
-        "Supports your Data & Attribution tracking — how revenue work is measured and attributed.",
+        "Bears on Org Design & Leadership — team build-outs and how RevOps leaders operate.",
         "Forward-looking — frames where the practice is heading this cycle."
       ],
       "saved": false
@@ -2024,44 +2026,44 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 66,
+      "count": 68,
       "recent3": 5,
-      "change": -20,
-      "direction": "down",
-      "articles": 30,
+      "change": -5,
+      "direction": "flat",
+      "articles": 32,
       "podcasts": 36,
-      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
-      "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
+      "topItem": "Meet Launa-Omni, Salesforce’s Voice Model for Real-Time Conversation",
+      "secondItem": "5 Help Agent Tips For New Care Teams"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 57,
-      "recent3": 5,
-      "change": 7,
-      "direction": "flat",
-      "articles": 28,
+      "count": 56,
+      "recent3": 3,
+      "change": -13,
+      "direction": "down",
+      "articles": 27,
       "podcasts": 29,
-      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
-      "secondItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath"
+      "topItem": "5 Help Agent Tips For New Care Teams",
+      "secondItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer"
     },
     {
       "rank": 3,
       "topic": "Marketing & Brand",
       "count": 47,
-      "recent3": 4,
+      "recent3": 3,
       "change": -18,
       "direction": "down",
       "articles": 29,
       "podcasts": 18,
-      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
-      "secondItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath"
+      "topItem": "How Seafoam Taught MRH Business Students to Build a Brand, Start to Finish",
+      "secondItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
       "count": 43,
-      "recent3": 3,
+      "recent3": 1,
       "change": -59,
       "direction": "down",
       "articles": 27,
@@ -2072,26 +2074,26 @@
     {
       "rank": 5,
       "topic": "Founders & Fundraising",
-      "count": 34,
-      "recent3": 3,
-      "change": -47,
+      "count": 35,
+      "recent3": 4,
+      "change": -33,
       "direction": "down",
-      "articles": 2,
+      "articles": 3,
       "podcasts": 32,
-      "topItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
-      "secondItem": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain"
+      "topItem": "Meet Launa-Omni, Salesforce’s Voice Model for Real-Time Conversation",
+      "secondItem": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer"
     },
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 25,
+      "count": 26,
       "recent3": 1,
-      "change": -83,
+      "change": -67,
       "direction": "down",
-      "articles": 13,
+      "articles": 14,
       "podcasts": 12,
-      "topItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce",
-      "secondItem": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora"
+      "topItem": "Meet Launa-Omni, Salesforce’s Voice Model for Real-Time Conversation",
+      "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
     },
     {
       "rank": 7,
@@ -2109,7 +2111,7 @@
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 18,
-      "recent3": 2,
+      "recent3": 1,
       "change": -20,
       "direction": "down",
       "articles": 3,
@@ -2118,5 +2120,5 @@
       "secondItem": "How Kawasaki Engines Drove $6.5M in 90 Days With ForeFront and Salesforce"
     }
   ],
-  "fetchedAt": "2026-10-19T12:38:29.995Z"
+  "fetchedAt": "2026-10-20T11:11:12.361Z"
 }
