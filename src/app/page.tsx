@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { mockProfile } from "@/data/mockProfile";
+import { PROFILE_KEY, loadProfile, personalisedScore, isBlocked } from "@/lib/personalisation";
+import type { RelevanceProfile } from "@/lib/types";
 import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
 import { PersonalisationBar } from "@/components/personalisation/PersonalisationBar";
 import { RelevanceProfileDrawer } from "@/components/personalisation/RelevanceProfileDrawer";
@@ -14,12 +17,10 @@ import type { FeedFiltersState, FeedItem, FeedPayload, TrendingTheme } from "@/l
 
 function filterAndSort(
   items: FeedItem[],
-  filters: FeedFiltersState
+  filters: FeedFiltersState,
+  profile: RelevanceProfile
 ): FeedItem[] {
-  const filtered =
-    filters.contentType === "all"
-      ? items
-      : items.filter((i) => i.type === filters.contentType);
+  const filtered = items.filter(i => (filters.contentType === "all" || i.type === filters.contentType) && !isBlocked(i,profile));
 
   switch (filters.sort) {
     case "recent":
@@ -30,7 +31,7 @@ function filterAndSort(
       );
       break;
     case "score":
-      filtered.sort((a, b) => b.relevanceScore - a.relevanceScore);
+      filtered.sort((a, b) => personalisedScore(b,profile) - personalisedScore(a,profile));
       break;
     case "discussed":
       filtered.sort(
@@ -41,6 +42,7 @@ function filterAndSort(
       break;
     case "relevant":
     default:
+      filtered.sort((a,b)=>personalisedScore(b,profile)-personalisedScore(a,profile));
       break;
   }
 
@@ -49,6 +51,11 @@ function filterAndSort(
 
 export default function Dashboard() {
   const [feed, setFeed] = useState<FeedItem[]>([]);
+  const [profile,setProfile] = useState<RelevanceProfile>(mockProfile);
+  const [settingsOpen,setSettingsOpen] = useState(false);
+  const [savedIds,setSavedIds] = useState<string[]>([]);
+  useEffect(()=>{setProfile(loadProfile());try{setSavedIds(JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]"))}catch{setSavedIds([])}},[]);
+  function saveProfile(next:RelevanceProfile){setProfile(next);try{localStorage.setItem(PROFILE_KEY,JSON.stringify(next))}catch{}setSettingsOpen(false)}
   const [trends, setTrends] = useState<TrendingTheme[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -76,26 +83,19 @@ export default function Dashboard() {
     loadFeed();
   }, []);
 
-  const featured =
-    filters.contentType === "podcast"
-      ? undefined
-      : feed.find((i) => i.type === "article") || feed[0];
-  const rest = feed.filter((i) => i.id !== featured?.id);
-  const filtered = filterAndSort(rest, filters);
+  const filtered = filterAndSort(feed,filters,profile).map(i=>({...i,saved:savedIds.includes(i.id)}));
+  const featured = filters.contentType==="podcast" ? undefined : filtered.find(i=>i.type==="article");
+  const rest = filtered.filter(i=>i.id!==featured?.id);
 
   function handleSave(id: string) {
-    setFeed((prev) =>
-      prev.map((item) =>
-        item.id === id ? { ...item, saved: !item.saved } : item
-      )
-    );
+    setSavedIds(prev=>{const next=prev.includes(id)?prev.filter(x=>x!==id):[...prev,id];try{localStorage.setItem("revops-pulse-saved-v1",JSON.stringify(next))}catch{}return next});
   }
 
   return (
     <div className="min-h-screen bg-[var(--page)]">
       <div>
         <TopSearchBar />
-          <PersonalisationBar />
+          <PersonalisationBar profile={profile} onEdit={()=>setSettingsOpen(true)}/>
 
           <main className="mx-auto max-w-[1440px] flex-1 p-4 lg:px-8 lg:py-8">
             <section className="mb-8 rounded-[28px] bg-[var(--navy-950)] px-6 py-8 text-white md:px-10 md:py-10 overflow-hidden relative">
@@ -113,7 +113,7 @@ export default function Dashboard() {
                   <h1 className="font-editorial text-xl font-bold text-[var(--navy-950)]">
                     Latest intelligence
                   </h1>
-                  <RelevanceProfileDrawer />
+                  <RelevanceProfileDrawer profile={profile} open={settingsOpen} onOpen={()=>setSettingsOpen(true)} onClose={()=>setSettingsOpen(false)} onSave={saveProfile} />
                 </div>
 
                 <FeedFilters filters={filters} onChange={setFilters} />
@@ -136,13 +136,14 @@ export default function Dashboard() {
                   </div>
                 )}
 
+                {!loading && !error && filtered.length===0 && feed.length>0 && <p className="rounded-xl bg-white p-8 text-center text-sm text-[var(--slate-500)]">No stories match your preferences. Try broadening your interests or removing blocked topics.</p>}
                 {!loading && featured && (
                   <FeaturedArticleCard item={featured} onSave={handleSave} />
                 )}
 
                 {!loading && (
                   <div className="space-y-3">
-                    {filtered.map((item) =>
+                    {rest.map((item) =>
                       item.type === "podcast" ? (
                         <PodcastCard
                           key={item.id}
