@@ -5,7 +5,6 @@ import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
 import { FeedFilters } from "@/components/feed/FeedFilters";
 import { FeaturedArticleCard } from "@/components/feed/FeaturedArticleCard";
 import { PodcastCard } from "@/components/feed/PodcastCard";
-import { ThemeOfWeekCard } from "@/components/intelligence/ThemeOfWeekCard";
 import { AIOverviewCard } from "@/components/intelligence/AIOverviewCard";
 import { TrendingThemes } from "@/components/intelligence/TrendingThemes";
 import type { FeedFiltersState, FeedItem, FeedPayload, TrendingTheme } from "@/lib/types";
@@ -142,7 +141,6 @@ export default function Dashboard() {
 
               {/* Intelligence rail */}
               <aside className="xl:w-[320px] shrink-0 space-y-4">
-                <ThemeOfWeekCard />
                 <AIOverviewCard items={feed} fetchedAt={fetchedAt} />
                 <TrendingThemes trends={trends} />
               </aside>
