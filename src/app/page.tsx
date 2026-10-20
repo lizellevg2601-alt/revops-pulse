@@ -81,6 +81,21 @@ export default function Dashboard() {
                 <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#e9ded8] md:text-base">Industry news, trends and practical perspectives from across RevOps, AI and GTM systems.</p>
               </div>
             </section>
+            <section className="mb-8">
+              <div className="mb-4 flex items-baseline justify-between gap-4"><h2 className="font-editorial text-2xl font-semibold text-[var(--navy-950)]">Explore the signals</h2><p className="text-xs text-[var(--slate-500)]">Curated from monitored publications</p></div>
+              <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                {[
+                  {id:"crm",title:"CRM & Tech",description:"Platforms, ecosystems and enterprise software",bg:"from-[#162c3e] via-[#3f6570] to-[#e39b80]",accent:"●"},
+                  {id:"ai",title:"Frontier AI",description:"Models, agents and emerging intelligence",bg:"from-[#17122a] via-[#4d376e] to-[#ef947a]",accent:"✦"},
+                  {id:"revops",title:"Revenue Operations",description:"Revenue systems and execution",bg:"from-[#263b38] via-[#657d69] to-[#e9b990]",accent:"◈"},
+                  {id:"gtm",title:"GTM Trends",description:"Growth strategies and market shifts",bg:"from-[#43302c] via-[#a66360] to-[#efbb83]",accent:"↗"}
+                ].map(tile=><button key={tile.id} type="button" onClick={()=>setCategory(tile.id)} className={`group relative min-h-44 overflow-hidden rounded-2xl bg-gradient-to-br ${tile.bg} p-4 text-left text-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl ${category===tile.id?"ring-2 ring-[var(--coral-500)] ring-offset-2":""}`}>
+                  <span aria-hidden="true" className="absolute -right-8 -top-10 text-[160px] leading-none text-white/10 transition-transform group-hover:scale-110">{tile.accent}</span>
+                  <span className="relative text-[10px] font-semibold uppercase tracking-[0.16em] text-white/80">Industry intelligence</span>
+                  <div className="relative mt-9"><h3 className="font-editorial text-lg font-semibold">{tile.title}</h3><p className="mt-1 max-w-48 text-xs leading-relaxed text-white/85">{tile.description}</p><span className="mt-3 inline-block text-[10px] font-semibold">{feed.filter(i=>i.category===tile.id).length} stories in feed →</span></div>
+                </button>)}
+              </div>
+            </section>
             <div className="flex flex-col xl:flex-row gap-7">
               {/* Main feed */}
               <div className="flex-1 min-w-0 space-y-4">
