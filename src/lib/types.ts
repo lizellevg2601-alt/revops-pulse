@@ -3,6 +3,7 @@ export type ContentType = "article" | "podcast";
 export interface FeedItem {
   id: string;
   type: ContentType;
+  category?: "crm" | "ai" | "revops" | "gtm";
   title: string;
   source: string;
   sourceUrl?: string;
