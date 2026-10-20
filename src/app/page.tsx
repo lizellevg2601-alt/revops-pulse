@@ -1,12 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { mockProfile } from "@/data/mockProfile";
-import { PROFILE_KEY, loadProfile, personalisedScore, isBlocked } from "@/lib/personalisation";
-import type { RelevanceProfile } from "@/lib/types";
 import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
-import { PersonalisationBar } from "@/components/personalisation/PersonalisationBar";
-import { RelevanceProfileDrawer } from "@/components/personalisation/RelevanceProfileDrawer";
 import { FeedFilters } from "@/components/feed/FeedFilters";
 import { FeaturedArticleCard } from "@/components/feed/FeaturedArticleCard";
 import { PodcastCard } from "@/components/feed/PodcastCard";
@@ -15,47 +10,26 @@ import { AIOverviewCard } from "@/components/intelligence/AIOverviewCard";
 import { TrendingThemes } from "@/components/intelligence/TrendingThemes";
 import type { FeedFiltersState, FeedItem, FeedPayload, TrendingTheme } from "@/lib/types";
 
-function filterAndSort(
-  items: FeedItem[],
-  filters: FeedFiltersState,
-  profile: RelevanceProfile
-): FeedItem[] {
-  const filtered = items.filter(i => (filters.contentType === "all" || i.type === filters.contentType) && !isBlocked(i,profile));
-
+function filterAndSort(items: FeedItem[], filters: FeedFiltersState): FeedItem[] {
+  const filtered = items.filter(item =>
+    filters.contentType === "all" || item.type === filters.contentType
+  );
   switch (filters.sort) {
     case "recent":
-      filtered.sort(
-        (a, b) =>
-          new Date(b.publishedAt).getTime() -
-          new Date(a.publishedAt).getTime()
-      );
-      break;
-    case "score":
-      filtered.sort((a, b) => personalisedScore(b,profile) - personalisedScore(a,profile));
-      break;
+      return filtered.sort((a,b)=>new Date(b.publishedAt).getTime()-new Date(a.publishedAt).getTime());
     case "discussed":
-      filtered.sort(
-        (a, b) =>
-          ((b.likes || 0) + (b.comments || 0)) -
-          ((a.likes || 0) + (a.comments || 0))
-      );
-      break;
+      return filtered.sort((a,b)=>((b.likes||0)+(b.comments||0))-((a.likes||0)+(a.comments||0)));
+    case "score":
     case "relevant":
     default:
-      filtered.sort((a,b)=>personalisedScore(b,profile)-personalisedScore(a,profile));
-      break;
+      return filtered.sort((a,b)=>b.relevanceScore-a.relevanceScore);
   }
-
-  return filtered;
 }
 
 export default function Dashboard() {
   const [feed, setFeed] = useState<FeedItem[]>([]);
-  const [profile,setProfile] = useState<RelevanceProfile>(mockProfile);
-  const [settingsOpen,setSettingsOpen] = useState(false);
   const [savedIds,setSavedIds] = useState<string[]>([]);
-  useEffect(()=>{setProfile(loadProfile());try{setSavedIds(JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]"))}catch{setSavedIds([])}},[]);
-  function saveProfile(next:RelevanceProfile){setProfile(next);try{localStorage.setItem(PROFILE_KEY,JSON.stringify(next))}catch{}setSettingsOpen(false)}
+  useEffect(()=>{try{const value=JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]");setSavedIds(Array.isArray(value)?value:[])}catch{setSavedIds([])}},[]);
   const [trends, setTrends] = useState<TrendingTheme[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -83,7 +57,7 @@ export default function Dashboard() {
     loadFeed();
   }, []);
 
-  const filtered = filterAndSort(feed,filters,profile).map(i=>({...i,saved:savedIds.includes(i.id)}));
+  const filtered = filterAndSort(feed,filters).map(i=>({...i,saved:savedIds.includes(i.id)}));
   const featured = filters.contentType==="podcast" ? undefined : filtered.find(i=>i.type==="article");
   const rest = filtered.filter(i=>i.id!==featured?.id);
 
@@ -95,15 +69,14 @@ export default function Dashboard() {
     <div className="min-h-screen bg-[var(--page)]">
       <div>
         <TopSearchBar />
-          <PersonalisationBar profile={profile} onEdit={()=>setSettingsOpen(true)}/>
 
           <main className="mx-auto max-w-[1440px] flex-1 p-4 lg:px-8 lg:py-8">
             <section className="mb-8 rounded-[28px] bg-[var(--navy-950)] px-6 py-8 text-white md:px-10 md:py-10 overflow-hidden relative">
               <div className="pointer-events-none absolute -right-20 -top-36 h-80 w-80 rounded-full border-[65px] border-[var(--coral-500)] opacity-80" />
               <div className="relative max-w-2xl">
-                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ffb9a9]">Your industry intelligence, made relevant</p>
+                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ffb9a9]">Your GTM and RevOps news</p>
                 <h1 className="font-editorial text-3xl font-semibold tracking-tight md:text-5xl md:leading-tight">Stay ahead of what matters<span className="text-[var(--coral-500)]">.</span></h1>
-                <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#e9ded8] md:text-base">The latest in RevOps, AI and GTM systems — curated to help you turn industry change into practical decisions.</p>
+                <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#e9ded8] md:text-base">Industry news, trends and practical perspectives from across RevOps, AI and GTM systems.</p>
               </div>
             </section>
             <div className="flex flex-col xl:flex-row gap-7">
@@ -113,7 +86,7 @@ export default function Dashboard() {
                   <h1 className="font-editorial text-xl font-bold text-[var(--navy-950)]">
                     Latest intelligence
                   </h1>
-                  <RelevanceProfileDrawer profile={profile} open={settingsOpen} onOpen={()=>setSettingsOpen(true)} onClose={()=>setSettingsOpen(false)} onSave={saveProfile} />
+
                 </div>
 
                 <FeedFilters filters={filters} onChange={setFilters} />
@@ -136,7 +109,7 @@ export default function Dashboard() {
                   </div>
                 )}
 
-                {!loading && !error && filtered.length===0 && feed.length>0 && <p className="rounded-xl bg-white p-8 text-center text-sm text-[var(--slate-500)]">No stories match your preferences. Try broadening your interests or removing blocked topics.</p>}
+                {!loading && !error && filtered.length===0 && feed.length>0 && <p className="rounded-xl bg-white p-8 text-center text-sm text-[var(--slate-500)]">No stories match this filter. Try another content type.</p>}
                 {!loading && featured && (
                   <FeaturedArticleCard item={featured} onSave={handleSave} />
                 )}
