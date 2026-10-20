@@ -2,6 +2,7 @@
 
 import { Search, Bell, Command } from "lucide-react";
 import { useState } from "react";
+import { BookmarkSiteButton } from "./BookmarkSiteButton";
 
 export function TopSearchBar() {
   const [query, setQuery] = useState("");
@@ -24,6 +25,7 @@ export function TopSearchBar() {
           </div>
         </div>
 
+        <BookmarkSiteButton />
         <button
           className="relative w-9 h-9 flex items-center justify-center rounded-lg hover:bg-[var(--coral-50)] transition-colors"
           aria-label="Notifications"
