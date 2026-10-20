@@ -3,6 +3,19 @@ import { randomLowercase, throttleRequest } from "../../lib/security.mjs";
 import { checkoutConfig, productId, stripeClient, validatePrice } from "../../lib/stripe.mjs";
 import { validEmail, validUuid } from "../../lib/validation.mjs";
 
+export function checkoutSessionParams(config, { email, origin, attemptId, integrationIdentifier }) {
+  return {
+    mode: "payment",
+    ...(config.managedPayments ? { managed_payments: { enabled: true } } : {}),
+    customer_email: email,
+    line_items: [{ price: config.priceId, quantity: 1 }],
+    success_url: `${origin}/checkout/success/?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${origin}/buy/`,
+    metadata: { checkout_attempt_id: attemptId },
+    integration_identifier: integrationIdentifier,
+  };
+}
+
 export async function onRequest(context) {
   const { request, env } = context;
   if (request.method !== "POST") return methodNotAllowed(["POST"]);
@@ -32,15 +45,12 @@ export async function onRequest(context) {
       return error("attempt_conflict", "Checkout attempt cannot be reused", 409);
     }
 
-    const session = await stripe.checkout.sessions.create({
-      mode: "payment",
-      customer_email: email,
-      line_items: [{ price: config.priceId, quantity: 1 }],
-      success_url: `${origin}/checkout/success/?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${origin}/buy/`,
-      metadata: { checkout_attempt_id: body.attemptId },
-      integration_identifier: `revops_pulse_${randomLowercase(8)}`,
-    }, { idempotencyKey: body.attemptId });
+    const session = await stripe.checkout.sessions.create(checkoutSessionParams(config, {
+      email,
+      origin,
+      attemptId: body.attemptId,
+      integrationIdentifier: `revops_pulse_${randomLowercase(8)}`,
+    }), { idempotencyKey: body.attemptId });
     if (session.livemode || !session.url || !session.id.startsWith("cs_test_")) throw new Error("Stripe returned an invalid sandbox Checkout Session");
     await env.REVOPS_DB.prepare(`
       UPDATE checkout_attempts SET stripe_session_id = ?1, status = 'checkout_open', updated_at = unixepoch() WHERE id = ?2

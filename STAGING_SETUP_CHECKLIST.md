@@ -14,7 +14,8 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 - Use the existing GTM Academy Stripe business account, but create a separate general sandbox for RevOps Pulse.
 - Create Product `RevOps Pulse`; do not reuse an Assessment Product.
 - Create a one-time Price for **EUR 5.00** (`unit_amount=500`, `currency=eur`, `type=one_time`). No subscription, recurring Price, bundle, automatic tax, or post-payment invoice.
-- Record the new sandbox `product_...` and `price_...` IDs as staging variables only.
+- Record the new sandbox `prod_...` and `price_...` IDs as staging variables only.
+- Keep Stripe Managed Payments **Enable by default** off. Confirm the RevOps Pulse Product is still eligible and its SaaS tax category is approved before setting the session-level `MANAGED_PAYMENTS_ENABLED=true` gate.
 - Create a dedicated restricted sandbox key with only Product read, Price read, Checkout Sessions write (including read), Payment Intent read, Charge read, and Dispute read permissions.
 - Register the staging webhook at `https://<staging-origin>/api/stripe/webhook` for the events listed in `README.md` and store its dedicated signing secret.
 - Future price changes require a new Stripe Price and coordinated updates to `STRIPE_PRICE_ID`, `STRIPE_PRICE_AMOUNT`, and `STRIPE_PRICE_CURRENCY`. Existing orders and lifetime entitlements remain unchanged.
@@ -42,6 +43,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
   - `APP_ORIGIN=https://<exact-staging-origin>`
   - `DEPLOYMENT_ENV=staging`
   - `CHECKOUT_ENABLED=true` only after all checks pass
+  - `MANAGED_PAYMENTS_ENABLED=false` until its separate sandbox checklist passes
   - `STRIPE_ENVIRONMENT=sandbox`
   - `STRIPE_PRODUCT_ID=<dedicated sandbox Product ID>`
   - `STRIPE_PRICE_ID=<EUR 5.00 sandbox Price ID>`
@@ -53,6 +55,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
   - `STRIPE_WEBHOOK_SECRET`
   - `RESEND_API_KEY`
 - Keep `CHECKOUT_ENABLED=false` until D1 migration, webhook verification, email delivery, direct-access rejection, and rollback checks pass.
+- Before a Managed Payments sandbox trial, verify a paid and delayed-payment flow, Stripe-issued invoice/receipt and any credit note, full and partial refund behavior, dispute behavior, webhook idempotency, and entitlement revocation/restoration. Roll back by setting `MANAGED_PAYMENTS_ENABLED=false`; disable all Checkout if reconciliation is uncertain.
 - Verify direct requests to `/index.html`, `/index.txt`, `/__next.__PAGE__.txt`, and `/__next._full.txt` cannot bypass authentication.
 - Add Turnstile to public login and checkout before production under a separately approved Cloudflare change.
 
@@ -61,6 +64,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 - Current RSS ingestion and application AI cost: **EUR/USD 0**; no AI provider is called.
 - Stripe sandbox: **0**; test payments do not move money or incur processing fees.
 - Production Stripe, indicative Portugal standard pricing only: EEA cards are publicly listed at 1.5% + EUR 0.25, approximately EUR 0.33 on a EUR 5.00 purchase. The actual GTM Academy contract, card origin, disputes, currency conversion, tax, and optional services can change this.
+- Managed Payments, if separately approved for production, adds Stripe's published 3.5% per successful transaction to normal processing fees.
 - Cloudflare Pages Functions and D1: potentially **USD 0** at low volume within account-wide Free limits. Workers Paid, if required, has a **USD 5/month account minimum**; shared account usage determines actual headroom and overages.
 - Resend: **USD 0/month** up to 3,000 transactional emails/month and 100/day on the published Free plan; Pro starts at **USD 20/month**.
 - Turnstile: **USD 0** under its standard free offering. No Turnstile resource is authorized yet.

@@ -3,7 +3,8 @@ import test from "node:test";
 import Stripe from "stripe";
 import { applyStripeTransition, asyncPaymentFailureStatements, deriveEntitlementState, fulfillmentStatements, paymentRestrictionStatements } from "../functions/lib/payment-state.mjs";
 import { restrictionFromEvent } from "../functions/api/stripe/webhook.js";
-import { requireSandboxEnvironment, validatePrice, verifyStripeEvent } from "../functions/lib/stripe.mjs";
+import { checkoutSessionParams } from "../functions/api/checkout/create.js";
+import { checkoutConfig, requireSandboxEnvironment, validatePrice, verifyStripeEvent } from "../functions/lib/stripe.mjs";
 
 function recordingDb() {
   const batches = [];
@@ -15,6 +16,49 @@ function recordingDb() {
     async batch(statements) { batches.push(statements); },
   };
 }
+
+const checkoutEnv = {
+  CHECKOUT_ENABLED: "true",
+  DEPLOYMENT_ENV: "staging",
+  STRIPE_ENVIRONMENT: "sandbox",
+  STRIPE_PRICE_ID: "price_test",
+  STRIPE_PRODUCT_ID: "prod_test",
+  STRIPE_PRICE_AMOUNT: "500",
+  STRIPE_PRICE_CURRENCY: "eur",
+};
+
+test("Managed Payments requires an exact opt-in inside the existing sandbox gate", () => {
+  assert.equal(checkoutConfig(checkoutEnv).managedPayments, false);
+  assert.equal(checkoutConfig({ ...checkoutEnv, MANAGED_PAYMENTS_ENABLED: "false" }).managedPayments, false);
+  assert.equal(checkoutConfig({ ...checkoutEnv, MANAGED_PAYMENTS_ENABLED: "TRUE" }).managedPayments, false);
+  assert.equal(checkoutConfig({ ...checkoutEnv, MANAGED_PAYMENTS_ENABLED: "true" }).managedPayments, true);
+  assert.throws(
+    () => checkoutConfig({ ...checkoutEnv, DEPLOYMENT_ENV: "production", MANAGED_PAYMENTS_ENABLED: "true" }),
+    /Checkout is not configured/,
+  );
+  assert.throws(
+    () => checkoutConfig({ ...checkoutEnv, STRIPE_ENVIRONMENT: "live", MANAGED_PAYMENTS_ENABLED: "true" }),
+    /Checkout is not configured/,
+  );
+});
+
+test("Checkout payload preserves standard mode and adds only the Managed Payments opt-in", () => {
+  const input = { email: "buyer@example.com", origin: "https://pulse.example", attemptId: "attempt_1", integrationIdentifier: "revops_pulse_test" };
+  const standard = checkoutSessionParams(checkoutConfig(checkoutEnv), input);
+  assert.deepEqual(standard, {
+    mode: "payment",
+    customer_email: input.email,
+    line_items: [{ price: "price_test", quantity: 1 }],
+    success_url: "https://pulse.example/checkout/success/?session_id={CHECKOUT_SESSION_ID}",
+    cancel_url: "https://pulse.example/buy/",
+    metadata: { checkout_attempt_id: "attempt_1" },
+    integration_identifier: "revops_pulse_test",
+  });
+  assert.equal(Object.hasOwn(standard, "automatic_tax"), false);
+
+  const managed = checkoutSessionParams(checkoutConfig({ ...checkoutEnv, MANAGED_PAYMENTS_ENABLED: "true" }), input);
+  assert.deepEqual(managed, { ...standard, managed_payments: { enabled: true } });
+});
 
 test("Stripe verification accepts the exact signed raw body and rejects tampering", async () => {
   const stripe = new Stripe("rk_test_placeholder", { apiVersion: "2026-08-26.dahlia" });

@@ -48,6 +48,7 @@ Set these non-secret Pages variables:
 - `APP_ORIGIN`: exact canonical HTTPS origin, with no path, query, or fragment
 - `DEPLOYMENT_ENV=staging`
 - `CHECKOUT_ENABLED=true`
+- `MANAGED_PAYMENTS_ENABLED=false`: session-level opt-in; set to exact `true` only for an approved staging sandbox test
 - `STRIPE_ENVIRONMENT=sandbox`
 - `STRIPE_PRICE_ID`: sandbox one-time Price ID
 - `STRIPE_PRODUCT_ID`: expected sandbox Product ID
@@ -62,6 +63,8 @@ Set these as encrypted Pages secrets, never repository values:
 - `RESEND_API_KEY`: dedicated least-privilege key for RevOps Pulse magic links
 
 The initial approved sandbox price is a EUR 5.00 one-time purchase, configured as `STRIPE_PRICE_AMOUNT=500` and `STRIPE_PRICE_CURRENCY=eur`. Product and Price IDs remain unset until their dedicated sandbox objects are approved and created. Checkout remains disabled unless all exact staging/sandbox flags, IDs, amount, currency, and a restricted test key are configured. The server re-reads the Price and requires `active=true`, `type=one_time`, `livemode=false`, and exact product/currency/amount matches. The integration does not set `payment_method_types`, automatic tax, or post-payment invoices.
+
+Managed Payments is additionally fail-closed. The Stripe account-level **Enable by default** setting must remain off. `MANAGED_PAYMENTS_ENABLED=true` adds `managed_payments[enabled]=true` only to this product's new staging sandbox Checkout Sessions; missing, differently cased, live, or production configuration leaves standard Checkout unchanged or disabled. Before enabling it, record the eligible RevOps Pulse Product and Price IDs, confirm that the Product remains marked eligible and categorized as SaaS (expected tax code `txcd_10103001`), and validate Stripe's sandbox invoice/receipt, tax, refund, credit-note, delayed-payment, webhook, entitlement, and dispute behavior. Do not treat the likely tax code as approved tax advice. Managed Payments adds Stripe's published 3.5% fee per successful transaction on top of standard processing fees; sandbox transactions do not move money.
 
 Price changes apply only to future Checkout Sessions. Create a new Stripe Price and update the environment's expected Price ID, amount, and currency together; do not mutate historical orders or entitlements. Existing valid purchases retain lifetime access regardless of which retired Price granted them.
 
@@ -90,7 +93,7 @@ Before production, add Cloudflare Turnstile to public login and checkout request
 
 ## Rollback
 
-1. Set `CHECKOUT_ENABLED=false` first to stop new purchases.
+1. Set `MANAGED_PAYMENTS_ENABLED=false` to return new sessions to standard Checkout, or set `CHECKOUT_ENABLED=false` first if all new purchases must stop.
 2. Roll Pages back to the prior known-good deployment, while keeping the dedicated D1 database and webhook endpoint available.
 3. Do not roll back or delete D1 rows blindly. Reconcile Stripe events/orders and active entitlements before any schema or data restoration.
 4. If webhook processing is impaired, restore it before checkout; success-page visits never grant entitlements.

@@ -26,7 +26,13 @@ export function checkoutConfig(env) {
     amount <= 0 ||
     !/^[a-z]{3}$/.test(currency)
   ) throw new HttpError(503, "checkout_disabled", "Checkout is not configured");
-  return { amount, currency, priceId: env.STRIPE_PRICE_ID, productId: env.STRIPE_PRODUCT_ID };
+  return {
+    amount,
+    currency,
+    priceId: env.STRIPE_PRICE_ID,
+    productId: env.STRIPE_PRODUCT_ID,
+    managedPayments: env.MANAGED_PAYMENTS_ENABLED === "true",
+  };
 }
 
 export function requireSandboxEnvironment(env) {
