@@ -16,6 +16,7 @@ export interface FeedItem {
   tags: string[];
   relevanceScore: number;
   whyItMatters: string[];
+  intelligence?: { signal: string; impact: string; action: string };
   saved: boolean;
   likes?: number;
   comments?: number;
