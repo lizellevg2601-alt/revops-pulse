@@ -92,6 +92,26 @@ test("a paid Checkout Session only emails mailbox proof and never creates a sess
   }
 });
 
+test("checkout completion ignores inactive historical restrictions", async () => {
+  let eligibilitySql = "";
+  const db = {
+    prepare(sql) {
+      eligibilitySql = sql;
+      return { bind: () => ({ first: async () => null }) };
+    },
+  };
+  const response = await onRequest({
+    request: new Request("https://pulse.example/api/checkout/complete", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Origin: "https://pulse.example" },
+      body: JSON.stringify({ sessionId: "cs_test_valid_session" }),
+    }),
+    env: { APP_ORIGIN: "https://pulse.example", REVOPS_DB: db },
+  });
+  assert.equal(response.status, 202);
+  assert.match(eligibilitySql, /payment_revocations\.active = 1/);
+});
+
 test("checkout link retries are immediate no-ops before throttle and resend after expiry", async () => {
   const originalFetch = globalThis.fetch;
   let emailCount = 0;

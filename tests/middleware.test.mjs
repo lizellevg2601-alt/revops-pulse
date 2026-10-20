@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { onRequest } from "../functions/_middleware.js";
 
@@ -32,4 +33,15 @@ test("middleware returns no-store JSON for an unauthenticated feed", async () =>
 test("middleware fails closed when its database binding is missing", async () => {
   const response = await onRequest({ request: new Request("https://pulse.example/"), env: {}, data: {} });
   assert.equal(response.status, 503);
+});
+
+test("Pages routes send every generated private dashboard representation through middleware", async () => {
+  const routes = JSON.parse(await readFile(new URL("../public/_routes.json", import.meta.url), "utf8"));
+  assert.deepEqual(routes.include.slice(0, 4), ["/", "/index.html", "/index.txt", "/__next.*"]);
+  assert.ok(routes.include.includes("/feed-data.json"));
+  assert.ok(routes.include.includes("/api/*"));
+  assert.ok(routes.exclude.includes("/_next/*"));
+  assert.ok(routes.exclude.includes("/login/*"));
+  assert.ok(routes.exclude.includes("/buy/*"));
+  assert.ok(routes.exclude.includes("/checkout/success/*"));
 });

@@ -19,6 +19,7 @@ export async function onRequest(context) {
         AND NOT EXISTS (
           SELECT 1 FROM payment_revocations
           WHERE payment_revocations.stripe_payment_intent_id = orders.stripe_payment_intent_id
+            AND payment_revocations.active = 1
         )
         AND lifetime_entitlements.status = 'active'
       LIMIT 1

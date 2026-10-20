@@ -1,9 +1,11 @@
 import { handleError, json, methodNotAllowed, readBoundedText } from "../../lib/http.mjs";
-import { applyStripeTransition, asyncPaymentFailureStatements, fulfillmentStatements, revocationStatements } from "../../lib/payment-state.mjs";
+import { applyStripeTransition, asyncPaymentFailureStatements, fulfillmentStatements, paymentRestrictionStatements } from "../../lib/payment-state.mjs";
 import { productId, requireSandboxEnvironment, stripeClient, validatePrice, verifyStripeEvent } from "../../lib/stripe.mjs";
 
 const FULFILLMENT_EVENTS = new Set(["checkout.session.completed", "checkout.session.async_payment_succeeded"]);
-const DISPUTE_EVENTS = new Set(["charge.dispute.created", "charge.dispute.funds_withdrawn", "charge.dispute.closed"]);
+const DISPUTE_EVENTS = new Set(["charge.dispute.created", "charge.dispute.funds_withdrawn", "charge.dispute.funds_reinstated", "charge.dispute.closed"]);
+const FAVORABLE_DISPUTE_STATUSES = new Set(["won", "prevented", "warning_closed"]);
+const TERMINAL_DISPUTE_STATUSES = new Set([...FAVORABLE_DISPUTE_STATUSES, "lost"]);
 const SUPPORTED_EVENTS = new Set([...FULFILLMENT_EVENTS, "checkout.session.async_payment_failed", "charge.refunded", ...DISPUTE_EVENTS]);
 
 async function checkoutPayment(env, stripe, eventSession) {
@@ -46,7 +48,46 @@ async function checkoutPayment(env, stripe, eventSession) {
     chargeId: latestCharge,
     amount: expected.amount,
     currency: expected.currency,
-    revocationReason: latestChargeObject?.disputed ? "dispute" : latestChargeObject?.refunded ? "refund" : null,
+    restrictions: [
+      ...(latestChargeObject?.amount_refunded >= latestChargeObject?.amount ? ["refund"] : []),
+      ...(latestChargeObject?.disputed ? ["dispute"] : []),
+    ],
+  };
+}
+
+export async function restrictionFromEvent(stripe, event) {
+  const object = event.data.object;
+  if (event.type === "charge.refunded") {
+    const charge = await stripe.charges.retrieve(object.id);
+    const paymentIntentId = typeof charge.payment_intent === "string" ? charge.payment_intent : charge.payment_intent?.id;
+    if (!paymentIntentId) throw new Error("Refund event is missing a PaymentIntent");
+    return {
+      paymentIntentId,
+      chargeId: charge.id,
+      reason: "refund",
+      active: charge.refunded === true && charge.amount_refunded >= charge.amount,
+      stateRank: charge.refunded === true && charge.amount_refunded >= charge.amount ? 2 : 1,
+      eventId: event.id,
+      eventCreated: event.created,
+    };
+  }
+
+  const dispute = await stripe.disputes.retrieve(object.id);
+  const chargeId = typeof dispute.charge === "string" ? dispute.charge : dispute.charge?.id;
+  let paymentIntentId = typeof dispute.payment_intent === "string" ? dispute.payment_intent : dispute.payment_intent?.id;
+  if (!paymentIntentId && chargeId) {
+    const charge = await stripe.charges.retrieve(chargeId);
+    paymentIntentId = typeof charge.payment_intent === "string" ? charge.payment_intent : charge.payment_intent?.id;
+  }
+  if (!paymentIntentId || !chargeId) throw new Error("Dispute event is missing payment identifiers");
+  return {
+    paymentIntentId,
+    chargeId,
+    reason: "dispute",
+    active: !FAVORABLE_DISPUTE_STATUSES.has(dispute.status),
+    stateRank: TERMINAL_DISPUTE_STATUSES.has(dispute.status) ? 2 : 1,
+    eventId: event.id,
+    eventCreated: event.created,
   };
 }
 
@@ -68,36 +109,28 @@ export async function onRequest(context) {
       if (event.data.object.payment_status === "paid") {
         const payment = await checkoutPayment(env, stripe, event.data.object);
         const statements = [];
-        if (payment.revocationReason) {
-          statements.push(...revocationStatements(env.REVOPS_DB, {
+        for (const reason of payment.restrictions) {
+          statements.push(...paymentRestrictionStatements(env.REVOPS_DB, {
             paymentIntentId: payment.paymentIntentId,
             chargeId: payment.chargeId,
-            reason: payment.revocationReason,
+            reason,
+            active: true,
+            stateRank: reason === "refund" ? 2 : 1,
             eventId: event.id,
+            eventCreated: event.created,
           }));
         }
+        payment.eventId = event.id;
         statements.push(...fulfillmentStatements(env.REVOPS_DB, payment));
         await applyStripeTransition(env.REVOPS_DB, event, statements);
       } else {
         await applyStripeTransition(env.REVOPS_DB, event, []);
       }
     } else if (event.type === "checkout.session.async_payment_failed") {
-      await applyStripeTransition(env.REVOPS_DB, event, asyncPaymentFailureStatements(env.REVOPS_DB, event.data.object.id));
+      await applyStripeTransition(env.REVOPS_DB, event, asyncPaymentFailureStatements(env.REVOPS_DB, event.data.object.id, event.id));
     } else {
-      const object = event.data.object;
-      const chargeId = event.type === "charge.refunded" ? object.id : (typeof object.charge === "string" ? object.charge : object.charge?.id);
-      let paymentIntentId = typeof object.payment_intent === "string" ? object.payment_intent : object.payment_intent?.id;
-      if (!paymentIntentId && chargeId) {
-        const charge = await stripe.charges.retrieve(chargeId);
-        paymentIntentId = typeof charge.payment_intent === "string" ? charge.payment_intent : charge.payment_intent?.id;
-      }
-      if (!paymentIntentId || !chargeId) throw new Error("Revocation event is missing payment identifiers");
-      await applyStripeTransition(env.REVOPS_DB, event, revocationStatements(env.REVOPS_DB, {
-        paymentIntentId,
-        chargeId,
-        reason: event.type === "charge.refunded" ? "refund" : "dispute",
-        eventId: event.id,
-      }));
+      const restriction = await restrictionFromEvent(stripe, event);
+      await applyStripeTransition(env.REVOPS_DB, event, paymentRestrictionStatements(env.REVOPS_DB, restriction));
     }
     return json({ received: true });
   } catch (caught) {

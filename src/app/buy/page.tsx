@@ -27,7 +27,7 @@ export default function BuyPage() {
     <div className="w-full max-w-md">
       <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--coral-500)]">One-time hosted checkout</p>
       <h2 className="mt-2 font-editorial text-2xl font-semibold">RevOps Pulse lifetime access</h2>
-      <p className="mt-3 text-sm leading-6 text-[var(--slate-500)]">Your final price and currency will be shown in secure Stripe Checkout. No subscription and no recurring invoice.</p>
+      <p className="mt-3 text-sm leading-6 text-[var(--slate-500)]">Pay €5 EUR once in secure Stripe Checkout for lifetime access. No subscription and no recurring invoice.</p>
       <form onSubmit={checkout} className="mt-7 space-y-4">
         <label className="block text-sm font-semibold">Access email<input required type="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} className="mt-2 w-full rounded-xl border px-4 py-3 font-normal outline-none focus:ring-2 focus:ring-[var(--coral-300)]" /></label>
         <button disabled={busy} className="w-full rounded-full bg-[var(--coral-500)] px-5 py-3 text-sm font-semibold text-white disabled:opacity-60">{busy ? "Opening checkout..." : "Continue to secure checkout"}</button>

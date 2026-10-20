@@ -70,7 +70,8 @@ Keep `CHECKOUT_ENABLED=false` through initial deployment and verification. Enabl
 - [ ] Pages Functions bundle succeeds with the reviewed compatibility date
 - [ ] `git diff --check` succeeds
 - [ ] Secret and paid-content exposure scans succeed
-- [ ] D1 migration applies to an empty local database
+- [ ] D1 migrations apply in filename order to both an empty local database and the prior schema
+- [ ] D1 integration and concurrency tests pass in a supported local Workers runtime (macOS 13.5+ or Linux with glibc 2.35+)
 - [ ] `PRAGMA integrity_check` returns `ok`
 - [ ] The final branch contains no tracked `public/feed-data.json`
 - [ ] Dependency audit findings are reviewed and accepted or remediated
@@ -81,7 +82,7 @@ Before any remote command is run, the final authorization record must enumerate 
 
 1. Pushing only `feature/paid-lifetime-access` to GitHub.
 2. Creating the dedicated staging D1 database, if it does not already exist.
-3. Applying `migrations/0001_revops.sql` to that database.
+3. Applying all unapplied files in `migrations/` in filename order to that database.
 4. Adding the preview-only `REVOPS_DB` binding, variables, and encrypted secrets.
 5. Setting or verifying Pages Functions failure mode as **Fail closed / block requests**.
 6. Creating the dedicated Stripe sandbox Product, Price, restricted key, and webhook endpoint.
@@ -97,13 +98,14 @@ Do not use `--remote`, `pages deploy`, `deploy`, `secret put`, dashboard mutatio
 - [ ] Unauthenticated `/` redirects to `/login/`.
 - [ ] Unauthenticated `/feed-data.json` and `/api/*` return no-store authentication errors.
 - [ ] A missing or failed `REVOPS_DB` binding returns `503` and never exposes the paid feed.
-- [ ] Direct static access cannot bypass middleware for `/` or `/feed-data.json`.
+- [ ] Direct static access cannot bypass middleware for `/`, `/index.html`, `/index.txt`, `/__next.__PAGE__.txt`, `/__next._full.txt`, or `/feed-data.json`.
 - [ ] Stripe Product and Price validation confirms sandbox mode, one-time EUR 5.00, and `livemode=false`.
 - [ ] Webhook signature verification rejects tampered payloads and handles every required event idempotently.
 - [ ] A successful sandbox purchase sends mailbox proof but does not authenticate from a Checkout Session ID alone.
 - [ ] The magic link creates a secure session and grants the purchased account access.
 - [ ] Saved items persist through the dedicated D1 database.
-- [ ] Refund and dispute events revoke only the affected payment grant.
+- [ ] Partial refunds preserve access; only full refunds restrict the affected payment grant.
+- [ ] `won`, `prevented`, and `warning_closed` dispute outcomes restore that payment grant unless another active restriction remains; open or lost disputes restrict it.
 - [ ] Another valid purchase preserves lifetime access.
 - [ ] `CHECKOUT_ENABLED` remains `false` until all checks pass and enablement is separately authorized.
 

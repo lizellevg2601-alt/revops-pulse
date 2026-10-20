@@ -15,7 +15,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 - Create Product `RevOps Pulse`; do not reuse an Assessment Product.
 - Create a one-time Price for **EUR 5.00** (`unit_amount=500`, `currency=eur`, `type=one_time`). No subscription, recurring Price, bundle, automatic tax, or post-payment invoice.
 - Record the new sandbox `product_...` and `price_...` IDs as staging variables only.
-- Create a dedicated restricted sandbox key with only Product read, Price read, Checkout Sessions write (including read), Payment Intent read, and Charge read permissions.
+- Create a dedicated restricted sandbox key with only Product read, Price read, Checkout Sessions write (including read), Payment Intent read, Charge read, and Dispute read permissions.
 - Register the staging webhook at `https://<staging-origin>/api/stripe/webhook` for the events listed in `README.md` and store its dedicated signing secret.
 - Future price changes require a new Stripe Price and coordinated updates to `STRIPE_PRICE_ID`, `STRIPE_PRICE_AMOUNT`, and `STRIPE_PRICE_CURRENCY`. Existing orders and lifetime entitlements remain unchanged.
 
@@ -23,7 +23,8 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 
 - In the partner-owned Cloudflare account `c3974c9f555d3c107ece3f4f48defb23`, create a staging-only D1 database such as `revops-pulse-staging`.
 - Do not bind the Academy orders, analytics, signup, assessment, or personalised-content databases.
-- Apply `migrations/0001_revops.sql` once to the new database and verify `PRAGMA integrity_check` before deployment.
+- Apply every file in `migrations/` once, in filename order, and verify `PRAGMA integrity_check` before deployment.
+- Run the D1 integration tests against a supported local Workers runtime before deployment; this host's macOS 12.6 cannot start current `workerd`, which requires macOS 13.5 or newer.
 - Bind it to the Pages staging/preview environment with the exact binding name `REVOPS_DB`.
 
 ## 4. Resend
@@ -52,6 +53,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
   - `STRIPE_WEBHOOK_SECRET`
   - `RESEND_API_KEY`
 - Keep `CHECKOUT_ENABLED=false` until D1 migration, webhook verification, email delivery, direct-access rejection, and rollback checks pass.
+- Verify direct requests to `/index.html`, `/index.txt`, `/__next.__PAGE__.txt`, and `/__next._full.txt` cannot bypass authentication.
 - Add Turnstile to public login and checkout before production under a separately approved Cloudflare change.
 
 ## 6. Estimated Ongoing Costs

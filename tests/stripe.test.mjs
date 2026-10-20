@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import Stripe from "stripe";
-import { applyStripeTransition, asyncPaymentFailureStatements, deriveEntitlementState, fulfillmentStatements, revocationStatements } from "../functions/lib/payment-state.mjs";
+import { applyStripeTransition, asyncPaymentFailureStatements, deriveEntitlementState, fulfillmentStatements, paymentRestrictionStatements } from "../functions/lib/payment-state.mjs";
+import { restrictionFromEvent } from "../functions/api/stripe/webhook.js";
 import { requireSandboxEnvironment, validatePrice, verifyStripeEvent } from "../functions/lib/stripe.mjs";
 
 function recordingDb() {
@@ -38,16 +39,16 @@ test("event ledger and state transitions share one atomic batch", async () => {
   const db = recordingDb();
   await applyStripeTransition(db, { id: "evt_once", type: "charge.refunded" }, [{ sql: "transition", values: [] }]);
   assert.equal(db.batches.length, 1);
-  assert.match(db.batches[0][0].sql, /INSERT INTO stripe_events/);
-  assert.equal(db.batches[0][1].sql, "transition");
-  assert.match(db.batches[0].at(-1).sql, /UPDATE stripe_events SET status/);
+  assert.equal(db.batches[0][0].sql, "transition");
+  assert.match(db.batches[0].at(-1).sql, /INSERT INTO stripe_events/);
+  assert.match(db.batches[0].at(-1).sql, /ON CONFLICT\(event_id\) DO NOTHING/);
 });
 
 test("fulfillment checks durable tombstones during insert and conflict update", () => {
   const db = recordingDb();
   const statements = fulfillmentStatements(db, {
     orderId: "order_1", attemptId: "attempt_1", userId: "user_1", sessionId: "cs_test_1",
-    paymentIntentId: "pi_1", chargeId: "ch_1", amount: 1000, currency: "usd",
+    paymentIntentId: "pi_1", chargeId: "ch_1", amount: 500, currency: "eur", eventId: "evt_paid",
   });
   assert.match(statements[1].sql, /payment_revocations/);
   assert.match(statements[1].sql, /ON CONFLICT\(stripe_session_id\) DO UPDATE/);
@@ -68,12 +69,47 @@ test("refund-before-fulfillment remains revoked in either event ordering", () =>
   assert.deepEqual(run(["fulfill", "refund"]), { active: false, sourceOrderId: "order_1" });
 });
 
-test("revocation transition creates a durable tombstone before reconciliation", () => {
+test("payment restriction transition stores ordered active state before reconciliation", () => {
   const db = recordingDb();
-  const statements = revocationStatements(db, { paymentIntentId: "pi_1", chargeId: "ch_1", reason: "refund", eventId: "evt_1" });
+  const statements = paymentRestrictionStatements(db, {
+    paymentIntentId: "pi_1", chargeId: "ch_1", reason: "refund", active: true, eventId: "evt_1", eventCreated: 100, stateRank: 2,
+  });
   assert.match(statements[1].sql, /INSERT INTO payment_revocations/);
-  assert.match(statements[1].sql, /ON CONFLICT\(stripe_payment_intent_id\)/);
+  assert.match(statements[1].sql, /ON CONFLICT\(stripe_payment_intent_id, reason\)/);
+  assert.match(statements[1].sql, /excluded\.stripe_state_rank >= payment_revocations\.stripe_state_rank/);
   assert.match(statements.at(-1).sql, /UPDATE lifetime_entitlements/);
+});
+
+test("refund reconciliation revokes only a fully refunded charge", async () => {
+  const partial = await restrictionFromEvent({
+    charges: { retrieve: async () => ({ id: "ch_1", payment_intent: "pi_1", amount: 500, amount_refunded: 100, refunded: false }) },
+  }, { id: "evt_partial", type: "charge.refunded", created: 100, data: { object: { id: "ch_1" } } });
+  const full = await restrictionFromEvent({
+    charges: { retrieve: async () => ({ id: "ch_1", payment_intent: "pi_1", amount: 500, amount_refunded: 500, refunded: true }) },
+  }, { id: "evt_full", type: "charge.refunded", created: 200, data: { object: { id: "ch_1" } } });
+  assert.equal(partial.active, false);
+  assert.equal(full.active, true);
+  assert.equal(partial.stateRank, 1);
+  assert.equal(full.stateRank, 2);
+});
+
+test("favorable dispute outcomes restore eligibility and lost disputes remain restricted", async () => {
+  const stripe = {
+    disputes: { retrieve: async (id) => ({ id, charge: "ch_1", payment_intent: "pi_1", status: id.replace("dp_", "") }) },
+    charges: { retrieve: async () => { throw new Error("PaymentIntent is already present"); } },
+  };
+  const won = await restrictionFromEvent(stripe, { id: "evt_won", type: "charge.dispute.closed", created: 200, data: { object: { id: "dp_won" } } });
+  const prevented = await restrictionFromEvent(stripe, { id: "evt_prevented", type: "charge.dispute.closed", created: 250, data: { object: { id: "dp_prevented" } } });
+  const warningClosed = await restrictionFromEvent(stripe, { id: "evt_warning_closed", type: "charge.dispute.closed", created: 275, data: { object: { id: "dp_warning_closed" } } });
+  const lost = await restrictionFromEvent(stripe, { id: "evt_lost", type: "charge.dispute.closed", created: 300, data: { object: { id: "dp_lost" } } });
+  assert.equal(won.active, false);
+  assert.equal(prevented.active, false);
+  assert.equal(warningClosed.active, false);
+  assert.equal(lost.active, true);
+  assert.equal(won.stateRank, 2);
+  assert.equal(prevented.stateRank, 2);
+  assert.equal(warningClosed.stateRank, 2);
+  assert.equal(lost.stateRank, 2);
 });
 
 test("refunding a newer order preserves an older qualifying purchase", () => {
@@ -94,7 +130,7 @@ test("refunding an older order preserves a newer qualifying purchase", () => {
 
 test("async payment failure preserves every terminal checkout state", () => {
   const db = recordingDb();
-  const statement = asyncPaymentFailureStatements(db, "cs_test_delayed")[0];
+  const statement = asyncPaymentFailureStatements(db, "cs_test_delayed", "evt_failed")[0];
   assert.match(statement.sql, /status IN \('created', 'checkout_open'\)/);
   assert.doesNotMatch(statement.sql, /status\s*!=\s*'paid'/);
   for (const terminal of ["paid", "refunded", "disputed", "failed"]) {
