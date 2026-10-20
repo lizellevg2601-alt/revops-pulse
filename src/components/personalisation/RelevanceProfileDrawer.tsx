@@ -1,206 +1,33 @@
 "use client";
-
-import { X, Sliders } from "lucide-react";
-import { useState } from "react";
-import { mockProfile } from "@/data/mockProfile";
+import { useEffect, useState } from "react";
+import { X, SlidersHorizontal } from "lucide-react";
 import type { RelevanceProfile } from "@/lib/types";
 
-export function RelevanceProfileDrawer() {
-  const [open, setOpen] = useState(false);
-  const [profile, setProfile] = useState<RelevanceProfile>(mockProfile);
-
-  return (
-    <>
-      <button
-        onClick={() => setOpen(true)}
-        className="flex items-center gap-2 text-sm text-[var(--slate-500)] hover:text-[var(--navy-900)] transition-colors"
-        aria-label="Open relevance profile"
-      >
-        <Sliders className="w-4 h-4" />
-        My Relevance Profile
-      </button>
-
-      {open && (
-        <>
-          <div
-            className="fixed inset-0 bg-black/20 z-40"
-            onClick={() => setOpen(false)}
-          />
-          <div className="fixed top-0 right-0 bottom-0 w-full max-w-md bg-white border-l border-[var(--border)] z-50 overflow-y-auto shadow-xl">
-            <div className="sticky top-0 bg-white border-b border-[var(--border)] px-6 py-4 flex items-center justify-between">
-              <div>
-                <h2 className="text-lg font-editorial font-bold text-[var(--navy-950)]">
-                  My Relevance Profile
-                </h2>
-                <p className="text-xs text-[var(--slate-500)] mt-0.5">
-                  These preferences shape the insights we surface for you.
-                </p>
-              </div>
-              <button
-                onClick={() => setOpen(false)}
-                className="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-[var(--coral-50)]"
-                aria-label="Close"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-
-            <div className="p-6 space-y-8">
-              <Section title="Profile">
-                <Field label="Role" value={profile.role} />
-                <Field label="Seniority" value={profile.seniority} />
-                <Field label="Org size" value={profile.orgSize} />
-                <Field label="Company stage" value={profile.companyStage} />
-                <Field
-                  label="Function / focus"
-                  value={profile.functionFocus.join(", ")}
-                />
-                <Field label="Region" value={profile.region.join(", ")} />
-              </Section>
-
-              <Section title="Content preferences">
-                <div className="space-y-3">
-                  <Toggle
-                    label="More strategic"
-                    checked={profile.strategicWeight > 50}
-                    onChange={(v) =>
-                      setProfile({ ...profile, strategicWeight: v ? 70 : 30 })
-                    }
-                  />
-                  <Toggle
-                    label="More tactical"
-                    checked={profile.tacticalWeight > 50}
-                    onChange={(v) =>
-                      setProfile({ ...profile, tacticalWeight: v ? 70 : 30 })
-                    }
-                  />
-                  <Toggle
-                    label="Podcast-heavy"
-                    checked={profile.podcastWeight > 50}
-                    onChange={(v) =>
-                      setProfile({ ...profile, podcastWeight: v ? 70 : 30 })
-                    }
-                  />
-                  <Toggle
-                    label="Prefer brief summaries"
-                    checked={profile.preferredDepth === "brief"}
-                    onChange={(v) =>
-                      setProfile({
-                        ...profile,
-                        preferredDepth: v ? "brief" : "balanced",
-                      })
-                    }
-                  />
-                  <Toggle
-                    label="Prefer deep analysis"
-                    checked={profile.preferredDepth === "deep"}
-                    onChange={(v) =>
-                      setProfile({
-                        ...profile,
-                        preferredDepth: v ? "deep" : "balanced",
-                      })
-                    }
-                  />
-                  <Toggle
-                    label="Prioritise practitioner content"
-                    checked={false}
-                    onChange={() => {}}
-                  />
-                  <Toggle
-                    label="Prioritise executive content"
-                    checked={false}
-                    onChange={() => {}}
-                  />
-                </div>
-              </Section>
-
-              <Section title="Topic interests">
-                <div className="flex flex-wrap gap-2">
-                  {profile.boostedKeywords.map((kw) => (
-                    <span
-                      key={kw}
-                      className="text-xs px-2.5 py-1 rounded-full bg-[var(--coral-50)] text-[var(--coral-500)] font-medium"
-                    >
-                      {kw}
-                    </span>
-                  ))}
-                </div>
-              </Section>
-
-              <Section title="Blocked topics">
-                <div className="flex flex-wrap gap-2">
-                  {profile.blockedTopics.map((t) => (
-                    <span
-                      key={t}
-                      className="text-xs px-2.5 py-1 rounded-full bg-[var(--blue-grey-100)] text-[var(--slate-500)]"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </Section>
-            </div>
-          </div>
-        </>
-      )}
-    </>
-  );
-}
-
-function Section({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div>
-      <h3 className="text-xs font-semibold uppercase tracking-wider text-[var(--slate-500)] mb-3">
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
-}
-
-function Field({ label, value }: { label: string; value?: string }) {
-  return (
-    <div className="flex items-center justify-between py-1.5">
-      <span className="text-sm text-[var(--slate-500)]">{label}</span>
-      <span className="text-sm font-medium text-[var(--navy-950)]">
-        {value || "—"}
-      </span>
-    </div>
-  );
-}
-
-function Toggle({
-  label,
-  checked,
-  onChange,
-}: {
-  label: string;
-  checked: boolean;
-  onChange: (v: boolean) => void;
-}) {
-  return (
-    <label className="flex items-center justify-between cursor-pointer">
-      <span className="text-sm text-[var(--slate-500)]">{label}</span>
-      <button
-        role="switch"
-        aria-checked={checked}
-        onClick={() => onChange(!checked)}
-        className={`relative w-9 h-5 rounded-full transition-colors ${
-          checked ? "bg-[var(--coral-500)]" : "bg-[var(--border)]"
-        }`}
-      >
-        <span
-          className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform ${
-            checked ? "translate-x-4" : ""
-          }`}
-        />
-      </button>
-    </label>
-  );
+const roles = ["RevOps Leader", "Revenue Operations", "Sales Operations", "Marketing Operations", "Customer Success", "GTM Leader", "Founder / Operator", "AI & Automation"];
+const regions = ["Global", "North America", "United Kingdom", "Europe", "Latin America", "Middle East & Africa", "Asia Pacific"];
+const interests = ["AI agents", "AI & Automation", "Revenue Operations", "GTM Strategy", "Sales Operations", "Marketing Operations", "Customer Success", "Salesforce", "HubSpot", "data quality", "forecasting", "customer retention", "analytics", "workflows"];
+export function RelevanceProfileDrawer({profile,open,onOpen,onClose,onSave}: {profile:RelevanceProfile;open:boolean;onOpen:()=>void;onClose:()=>void;onSave:(profile:RelevanceProfile)=>void}) {
+  const [draft,setDraft]=useState(profile);
+  useEffect(()=>{if(open)setDraft(profile)},[open,profile]);
+  const toggle=(key:"functionFocus"|"region"|"boostedKeywords",item:string)=>setDraft(prev=>({...prev,[key]:prev[key].includes(item)?prev[key].filter(x=>x!==item):[...prev[key],item]}));
+  return <>
+    <button onClick={onOpen} className="flex items-center gap-2 text-sm text-[var(--slate-500)] hover:text-[var(--coral-500)]"><SlidersHorizontal className="h-4 w-4"/> My Relevance Profile</button>
+    {open && <div className="fixed inset-0 z-50 flex justify-end bg-black/40" onMouseDown={e=>{if(e.target===e.currentTarget)onClose()}}>
+      <section role="dialog" aria-modal="true" aria-label="Edit relevance profile" className="flex h-full w-full max-w-lg flex-col bg-white shadow-2xl">
+        <header className="flex items-start justify-between border-b px-6 py-5"><div><h2 className="font-editorial text-xl font-semibold">Make this feed yours</h2><p className="mt-1 text-xs text-[var(--slate-500)]">Choose what matters to you. Preferences are saved on this device.</p></div><button aria-label="Close settings" onClick={onClose}><X className="h-5 w-5"/></button></header>
+        <div className="flex-1 space-y-6 overflow-y-auto px-6 py-5">
+          <label className="block text-sm font-semibold">Your role<select className="mt-2 w-full rounded-xl border bg-white p-3 text-sm" value={draft.role} onChange={e=>setDraft({...draft,role:e.target.value})}>{roles.map(x=><option key={x}>{x}</option>)}</select></label>
+          <label className="block text-sm font-semibold">Organisation size<select className="mt-2 w-full rounded-xl border bg-white p-3 text-sm" value={draft.orgSize} onChange={e=>setDraft({...draft,orgSize:e.target.value})}>{["Startup","SMB","Mid-market","Enterprise"].map(x=><option key={x}>{x}</option>)}</select></label>
+          <fieldset><legend className="mb-2 text-sm font-semibold">Region(s)</legend><div className="flex flex-wrap gap-2">{regions.map(x=><button type="button" key={x} aria-pressed={draft.region.includes(x)} onClick={()=>toggle("region",x)} className={`rounded-full border px-3 py-2 text-xs ${draft.region.includes(x)?"border-[var(--coral-500)] bg-[var(--coral-50)] text-[var(--coral-500)]":"bg-white"}`}>{x}</button>)}</div></fieldset>
+          <fieldset><legend className="mb-2 text-sm font-semibold">Functional focus</legend><div className="flex flex-wrap gap-2">{roles.slice(1).map(x=><button type="button" key={x} aria-pressed={draft.functionFocus.includes(x)} onClick={()=>toggle("functionFocus",x)} className={`rounded-full border px-3 py-2 text-xs ${draft.functionFocus.includes(x)?"border-[var(--coral-500)] bg-[var(--coral-50)] text-[var(--coral-500)]":"bg-white"}`}>{x}</button>)}</div></fieldset>
+          <fieldset><legend className="mb-2 text-sm font-semibold">Topics of interest</legend><div className="flex flex-wrap gap-2">{interests.map(x=><button type="button" key={x} aria-pressed={draft.boostedKeywords.includes(x)} onClick={()=>toggle("boostedKeywords",x)} className={`rounded-full border px-3 py-2 text-xs ${draft.boostedKeywords.includes(x)?"border-[var(--coral-500)] bg-[var(--coral-50)] text-[var(--coral-500)]":"bg-white"}`}>{x}</button>)}</div></fieldset>
+          <label className="block text-sm font-semibold">Content depth<select className="mt-2 w-full rounded-xl border bg-white p-3 text-sm" value={draft.preferredDepth} onChange={e=>setDraft({...draft,preferredDepth:e.target.value as RelevanceProfile["preferredDepth"]})}><option value="brief">Brief</option><option value="balanced">Balanced</option><option value="deep">Deep analysis</option></select></label>
+          <label className="block text-sm font-semibold">Content emphasis<select className="mt-2 w-full rounded-xl border bg-white p-3 text-sm" value={draft.strategicWeight>draft.tacticalWeight?"strategic":"tactical"} onChange={e=>setDraft({...draft,strategicWeight:e.target.value==="strategic"?70:30,tacticalWeight:e.target.value==="strategic"?30:70})}><option value="strategic">Strategic insights</option><option value="tactical">Practical how-tos</option></select></label>
+          <label className="flex items-center justify-between gap-4 text-sm font-semibold">Prioritise podcasts<input type="checkbox" checked={draft.podcastWeight>50} onChange={e=>setDraft({...draft,podcastWeight:e.target.checked?80:50})} className="accent-[#F26D5C]"/></label>
+          <label className="block text-sm font-semibold">Hide topics (comma separated)<textarea className="mt-2 w-full rounded-xl border p-3 text-sm" rows={2} value={draft.blockedTopics.join(", ")} onChange={e=>setDraft({...draft,blockedTopics:e.target.value.split(",").map(x=>x.trim()).filter(Boolean)})}/></label>
+        </div>
+        <footer className="flex justify-end gap-3 border-t bg-white p-5"><button onClick={onClose} className="rounded-full border px-5 py-2 text-sm">Cancel</button><button onClick={()=>onSave(draft)} className="rounded-full bg-[var(--coral-500)] px-5 py-2 text-sm font-semibold text-white">Save preferences</button></footer>
+      </section>
+    </div>}
+  </>;
 }
