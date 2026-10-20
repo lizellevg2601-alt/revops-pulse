@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Bookmark, Clock, Sparkles } from "lucide-react";
+import { useState } from "react";
+import { Bookmark, Clock, Sparkles, ChevronDown, ExternalLink } from "lucide-react";
 import { TopicTag } from "../shared/TopicTag";
 import { placeholderArt } from "@/lib/placeholder";
 import type { FeedItem } from "@/lib/types";
@@ -12,6 +13,8 @@ type Props = {
 };
 
 export function FeaturedArticleCard({ item, onSave }: Props) {
+  const [expanded,setExpanded] = useState(false);
+  const publishedRecently = Date.now()-Date.parse(item.publishedAt) < 2*86400000 && Date.now()>=Date.parse(item.publishedAt);
   const publishedDate = Number.isFinite(Date.parse(item.publishedAt)) ? new Date(item.publishedAt).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"}) : "";
   return (
     <motion.article
@@ -39,8 +42,9 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
         <div className="p-5 md:p-6 md:w-1/2 flex flex-col justify-center">
           <div className="flex items-center gap-2 text-xs text-[var(--slate-500)] mb-2">
             <span className="bg-[var(--coral-500)] text-white px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider">
-              Article
+              {item.category==="ai"?"Frontier AI":item.category==="crm"?"CRM & Tech":item.category==="gtm"?"GTM Trends":"RevOps"}
             </span>
+            {publishedRecently && <span className="text-[10px] font-semibold text-[var(--coral-500)]">NEW</span>}
             <Clock className="w-3 h-3" />
             <span>{publishedDate}</span>
             {item.readTime ? <span>· {item.readTime} min read</span> : null}
@@ -72,7 +76,19 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
             {item.summary}
           </p>
 
-          <WhyItMatters items={item.whyItMatters} intelligence={item.intelligence} />
+          {item.analysis ? <section className="rounded-xl border border-[var(--coral-200)] bg-[var(--coral-50)] p-4">
+  <div className="flex items-center justify-between gap-2"><span className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-[var(--coral-500)]"><Sparkles className="h-4 w-4"/> RevOps Pulse perspective</span><span className="text-[10px] text-[var(--slate-500)]">RSS-based · Low confidence</span></div>
+  <p className="mt-3 text-sm text-[var(--slate-700)]"><strong>Why it matters:</strong> {item.analysis.whyItMatters}</p>
+  <p className="mt-2 text-sm text-[var(--slate-700)]"><strong>What to consider:</strong> {item.analysis.recommendedAction}</p>
+  <button type="button" aria-expanded={expanded} onClick={()=>setExpanded(!expanded)} className="mt-3 flex items-center gap-1 text-xs font-semibold text-[var(--coral-500)]">{expanded?"Less analysis":"Explore intelligence"}<ChevronDown className={`h-4 w-4 transition-transform ${expanded?"rotate-180":""}`}/></button>
+  {expanded && <div className="mt-3 space-y-3 border-t border-[var(--coral-200)] pt-3 text-xs leading-relaxed text-[var(--slate-700)]">
+    <p><strong>What changed:</strong> {item.analysis.whatChanged}</p>
+    <p><strong>Strategic implication:</strong> {item.analysis.strategicImplication}</p>
+    <p><strong>What to watch:</strong> {item.analysis.whatToWatch}</p>
+    <p><strong>Evidence:</strong> {item.analysis.evidenceType==="rss_metadata"?"Publisher RSS metadata only; verify specifics with the source.":"Source-supported review"}</p>
+    {item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-semibold text-[var(--coral-500)]">Read original source<ExternalLink className="h-3 w-3"/></a>}
+  </div>}
+</section> : <WhyItMatters items={item.whyItMatters} intelligence={item.intelligence} />}
 
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-center gap-2 text-xs text-[var(--slate-500)]">

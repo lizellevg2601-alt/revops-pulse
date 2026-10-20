@@ -17,6 +17,7 @@ export interface FeedItem {
   relevanceScore: number;
   whyItMatters: string[];
   intelligence?: { signal: string; impact: string; action: string };
+  analysis?: { whatChanged: string; whyItMatters: string; strategicImplication: string; whatToWatch: string; recommendedAction: string; confidence: "low" | "medium" | "high"; evidenceType: "rss_metadata" | "licensed_source" | "editor_reviewed"; sourceUrl: string };
   saved: boolean;
   likes?: number;
   comments?: number;
