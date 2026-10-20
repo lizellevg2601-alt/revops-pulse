@@ -16,6 +16,20 @@ const feedSources = [
   { id: "crm-switch", name: "CRM Switch", type: "article", feedUrl: "https://crmswitch.com/feed/", siteUrl: "https://crmswitch.com", author: "CRM Switch" },
   { id: "salesforce-blog", name: "Salesforce Blog", type: "article", feedUrl: "https://www.salesforce.com/blog/feed/", siteUrl: "https://www.salesforce.com/blog", author: "Salesforce" },
   { id: "outfunnel", name: "Outfunnel", type: "article", feedUrl: "https://outfunnel.com/feed/", siteUrl: "https://outfunnel.com", author: "Outfunnel" },
+
+  // Candidate industry feeds. Individual failures are logged; no feed is required for a successful build.
+  { id: "hubspot", name: "HubSpot", type: "article", category: "crm", feedUrl: "https://blog.hubspot.com/marketing/rss.xml", siteUrl: "https://blog.hubspot.com", author: "HubSpot" },
+  { id: "dynamics365", name: "Microsoft Dynamics 365", type: "article", category: "crm", feedUrl: "https://www.microsoft.com/en-us/dynamics-365/blog/feed/", siteUrl: "https://www.microsoft.com/en-us/dynamics-365/blog" },
+  { id: "pipedrive", name: "Pipedrive", type: "article", category: "crm", feedUrl: "https://www.pipedrive.com/en/blog/feed", siteUrl: "https://www.pipedrive.com/en/blog" },
+  { id: "openai", name: "OpenAI", type: "article", category: "ai", feedUrl: "https://openai.com/news/rss.xml", siteUrl: "https://openai.com/news" },
+  { id: "google-ai", name: "Google AI", type: "article", category: "ai", feedUrl: "https://blog.google/technology/ai/rss/", siteUrl: "https://blog.google/technology/ai" },
+  { id: "huggingface", name: "Hugging Face", type: "article", category: "ai", feedUrl: "https://huggingface.co/blog/feed.xml", siteUrl: "https://huggingface.co/blog" },
+  { id: "revops-coop", name: "RevOps Co-op", type: "article", category: "revops", feedUrl: "https://www.revopscoop.com/blog/rss.xml", siteUrl: "https://www.revopscoop.com" },
+  { id: "gtmnow", name: "GTMnow", type: "article", category: "gtm", feedUrl: "https://gtmnow.com/feed/", siteUrl: "https://gtmnow.com" },
+  { id: "clari", name: "Clari", type: "article", category: "revops", feedUrl: "https://www.clari.com/blog/feed/", siteUrl: "https://www.clari.com/blog" },
+  { id: "gong", name: "Gong", type: "article", category: "revops", feedUrl: "https://www.gong.io/blog/feed/", siteUrl: "https://www.gong.io/blog" },
+  { id: "techcrunch-ai", name: "TechCrunch AI", type: "article", category: "ai", feedUrl: "https://techcrunch.com/category/artificial-intelligence/feed/", siteUrl: "https://techcrunch.com/category/artificial-intelligence/" },
+  { id: "venturebeat-ai", name: "VentureBeat AI", type: "article", category: "ai", feedUrl: "https://venturebeat.com/category/ai/feed/", siteUrl: "https://venturebeat.com/category/ai/" },
 ];
 
 function estimateReadTime(content) {
@@ -216,7 +230,7 @@ async function main() {
   const results = await Promise.allSettled(
     feedSources.map(async (source) => {
       const feed = await fetchFeed(source.feedUrl);
-      return (feed.items || []).slice(0, 15).map((item) => {
+      return (feed.items || []).slice(0, 20).map((item) => {
         const link = item.link || source.siteUrl;
         const content = item.content || item.contentSnippet || "";
         const isArticle = source.type === "article";
@@ -240,6 +254,7 @@ async function main() {
         return {
           id: `feed-${source.id}-${hashId(link)}`,
           type: source.type,
+          category: source.category || (/salesforce|crm-switch|outfunnel/.test(source.id) ? "crm" : /revops|seafoam/.test(source.id) ? "revops" : /20vc|sam-jacobs|topline/.test(source.id) ? "gtm" : "revops"),
           title: baseItem.title,
           source: source.name,
           sourceUrl: link,
@@ -258,27 +273,55 @@ async function main() {
   );
 
   const items = [];
-  for (const result of results) {
+  const health = [];
+  for (let i = 0; i < results.length; i++) {
+    const result = results[i];
+    const source = feedSources[i];
     if (result.status === "fulfilled") {
       items.push(...result.value);
+      health.push({ source: source.name, status: "ok", count: result.value.length });
     } else {
-      console.warn("Feed fetch failed:", result.reason?.message || result.reason);
+      console.warn("Feed fetch failed for " + source.name + ":", result.reason?.message || result.reason);
+      health.push({ source: source.name, status: "failed", count: 0 });
     }
   }
 
-  items.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  // Remove repeated URLs and syndicated titles; prefer the most recently published story.
+  const seenUrls = new Set();
+  const seenTitles = new Set();
+  const unique = items
+    .filter(item => item.title && item.sourceUrl && Number.isFinite(Date.parse(item.publishedAt)))
+    .sort((a,b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+    .filter(item => {
+      const url = item.sourceUrl.replace(/[?#].*$/, "").replace(/\\/$/, "").toLowerCase();
+      const title = item.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      if (seenUrls.has(url) || seenTitles.has(title)) return false;
+      seenUrls.add(url); seenTitles.add(title); return true;
+    });
 
+  // Round-robin across categories so a high-volume general publication cannot
+  // crowd out smaller CRM and RevOps publishers.
+  const categories = ["crm", "ai", "revops", "gtm"];
+  const buckets = Object.fromEntries(categories.map(c=>[c,unique.filter(item=>item.category===c)]));
+  const selected = [];
+  while (selected.length < 120 && categories.some(c=>buckets[c].length)) {
+    for (const category of categories) {
+      if (selected.length >= 120) break;
+      if (buckets[category].length) selected.push(buckets[category].shift());
+    }
+  }
+  selected.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt));
   const output = {
-    items: items.slice(0, 100),
-    trends: computeTrends(items.slice(0, 100)),
+    items: selected,
+    trends: computeTrends(selected),
     fetchedAt: new Date().toISOString(),
+    sources: health,
   };
   const outPath = resolve(__dirname, "..", "public", "feed-data.json");
-
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, JSON.stringify(output, null, 2));
+  console.log(`Generated ${selected.length} unique feed items from ${health.filter(x=>x.status==="ok").length}/${health.length} sources`);
 
-  console.log(`Generated feed-data.json with ${output.items.length} items and ${output.trends.length} trends`);
 }
 
 main().then(() => process.exit(0)).catch((err) => {
