@@ -17,7 +17,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="bg-[var(--surface)] border border-[var(--border)] rounded-xl overflow-hidden"
+      className="bg-[var(--surface)] border border-[var(--border)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
     >
       <div className="flex flex-col md:flex-row">
         <a
@@ -37,7 +37,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
         </a>
         <div className="p-5 md:p-6 md:w-1/2 flex flex-col justify-center">
           <div className="flex items-center gap-2 text-xs text-[var(--slate-500)] mb-2">
-            <span className="bg-[var(--navy-900)] text-white px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider">
+            <span className="bg-[var(--coral-500)] text-white px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider">
               Article
             </span>
             <Clock className="w-3 h-3" />
@@ -61,7 +61,7 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
             href={item.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-editorial text-xl md:text-2xl font-bold text-[var(--navy-950)] leading-tight mb-2 hover:text-[var(--coral-500)] transition-colors block"
+            className="font-editorial text-xl md:text-2xl font-semibold text-[var(--navy-950)] leading-tight mb-2 hover:text-[var(--coral-500)] transition-colors block"
           >
             {item.title}
           </a>
