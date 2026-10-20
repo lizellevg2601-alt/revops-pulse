@@ -2,6 +2,7 @@ import Parser from "rss-parser";
 import { writeFileSync, mkdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { validateFeedItems } from "./feed-validation.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -311,16 +312,17 @@ async function main() {
     }
   }
   selected.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt));
+  const validItems = validateFeedItems(selected);
   const output = {
-    items: selected,
-    trends: computeTrends(selected),
+    items: validItems,
+    trends: computeTrends(validItems),
     fetchedAt: new Date().toISOString(),
     sources: health,
   };
   const outPath = resolve(__dirname, "..", "public", "feed-data.json");
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, JSON.stringify(output, null, 2));
-  console.log(`Generated ${selected.length} unique feed items from ${health.filter(x=>x.status==="ok").length}/${health.length} sources`);
+  console.log(`Generated ${validItems.length} unique feed items from ${health.filter(x=>x.status==="ok").length}/${health.length} sources`);
 
 }
 

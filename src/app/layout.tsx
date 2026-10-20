@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "RevOps Pulse | GTM Automation Academy",
+  title: "RevOps Pulse",
   description:
-    "Your practical GTM and RevOps intelligence hub. Relevant news, trends, articles and podcasts from GTM Automation Academy.",
+    "Your practical RevOps intelligence hub for relevant news, trends, articles and podcasts.",
 };
 
 export default function RootLayout({

@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/", "/feed-data.json", "/api/*"],
+  "exclude": ["/_next/*", "/login/*", "/buy/*", "/checkout/success/*"]
+}

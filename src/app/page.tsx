@@ -30,7 +30,6 @@ export default function Dashboard() {
   const [feed, setFeed] = useState<FeedItem[]>([]);
   const [savedIds,setSavedIds] = useState<string[]>([]);
   const [category,setCategory] = useState("all");
-  useEffect(()=>{try{const value=JSON.parse(localStorage.getItem("revops-pulse-saved-v1")||"[]");setSavedIds(Array.isArray(value)?value:[])}catch{setSavedIds([])}},[]);
   const [trends, setTrends] = useState<TrendingTheme[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -44,11 +43,16 @@ export default function Dashboard() {
       try {
         setLoading(true);
         setError(null);
-        const res = await fetch("/feed-data.json");
-        if (!res.ok) throw new Error("Failed to load feed");
-        const data: FeedPayload = await res.json();
+        const [feedResponse, savedResponse] = await Promise.all([
+          fetch("/feed-data.json", { cache: "no-store" }),
+          fetch("/api/saved-items", { cache: "no-store" }),
+        ]);
+        if (!feedResponse.ok || !savedResponse.ok) throw new Error("Could not load your feed");
+        const data: FeedPayload = await feedResponse.json();
+        const savedData: { savedIds: string[] } = await savedResponse.json();
         setFeed(data.items);
         setTrends(data.trends || []);
+        setSavedIds(savedData.savedIds);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Unknown error");
       } finally {
@@ -62,8 +66,17 @@ export default function Dashboard() {
   const featured = filters.contentType==="podcast" ? undefined : filtered.find(i=>i.type==="article");
   const rest = filtered.filter(i=>i.id!==featured?.id);
 
-  function handleSave(id: string) {
-    setSavedIds(prev=>{const next=prev.includes(id)?prev.filter(x=>x!==id):[...prev,id];try{localStorage.setItem("revops-pulse-saved-v1",JSON.stringify(next))}catch{}return next});
+  async function handleSave(id: string) {
+    const wasSaved = savedIds.includes(id);
+    setSavedIds((current) => wasSaved ? current.filter((itemId) => itemId !== id) : [...current, id]);
+    try {
+      const response = await fetch(`/api/saved-items/${encodeURIComponent(id)}`, { method: wasSaved ? "DELETE" : "POST" });
+      if (!response.ok) throw new Error("Could not update saved items");
+      setError(null);
+    } catch (caught) {
+      setSavedIds((current) => wasSaved ? [...current, id] : current.filter((itemId) => itemId !== id));
+      setError(caught instanceof Error ? caught.message : "Could not update saved items");
+    }
   }
 
   return (
@@ -87,7 +100,6 @@ export default function Dashboard() {
                   <h1 className="font-editorial text-xl font-bold text-[var(--navy-950)]">
                     Latest intelligence
                   </h1>
-
                 </div>
 
                 <div className="flex flex-wrap gap-2" aria-label="Industry categories">{[["all","All news"],["crm","CRM & Tech"],["ai","Frontier AI"],["revops","RevOps"],["gtm","GTM Trends"]].map(([value,label])=><button key={value} type="button" aria-pressed={category===value} onClick={()=>setCategory(value)} className={`rounded-full border px-3 py-2 text-xs font-semibold transition-colors ${category===value?"border-[var(--coral-500)] bg-[var(--coral-500)] text-white":"border-[var(--border)] bg-white text-[var(--slate-700)] hover:bg-[var(--coral-50)]"}`}>{label}</button>)}</div>

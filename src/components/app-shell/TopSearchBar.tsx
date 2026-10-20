@@ -1,11 +1,16 @@
 "use client";
 
-import { Search, Bell, Command } from "lucide-react";
+import { Search, Bell, Command, LogOut } from "lucide-react";
 import { useState } from "react";
 import { BookmarkSiteButton } from "./BookmarkSiteButton";
 
 export function TopSearchBar() {
   const [query, setQuery] = useState("");
+
+  async function logout() {
+    const response = await fetch("/api/auth/logout", { method: "POST" });
+    if (response.ok) window.location.assign("/login/");
+  }
 
   return (
     <header className="bg-white border-b border-[var(--border)]">
@@ -26,6 +31,9 @@ export function TopSearchBar() {
         </div>
 
         <BookmarkSiteButton />
+        <button onClick={logout} className="hidden items-center gap-1 text-xs text-[var(--slate-500)] hover:text-[var(--coral-500)] sm:flex" aria-label="Sign out">
+          <LogOut className="h-4 w-4" /> Sign out
+        </button>
         <button
           className="relative w-9 h-9 flex items-center justify-center rounded-lg hover:bg-[var(--coral-50)] transition-colors"
           aria-label="Notifications"

@@ -8,22 +8,29 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-feed-refresh
+  cancel-in-progress: false
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v7
-        with:
-          node-version: 20
-          cache: npm
-
-      - run: npm ci
-
-      - run: npm run generate:feed
-
-      - uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: daily feed data update"
-          file_pattern: public/feed-data.json
+      # An empty commit triggers the connected Pages build without mutable feed
+      # content or a file-level conflict with concurrent repository changes.
+      - name: Trigger Pages rebuild
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: trigger daily feed refresh"
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase --keep-empty "origin/$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          exit 1
