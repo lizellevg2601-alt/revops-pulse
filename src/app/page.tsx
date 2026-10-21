@@ -5,6 +5,7 @@ import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
 import { FeedFilters } from "@/components/feed/FeedFilters";
 import { FeaturedArticleCard } from "@/components/feed/FeaturedArticleCard";
 import { PodcastCard } from "@/components/feed/PodcastCard";
+import { ApprovedIntelligence } from "@/components/intelligence/ApprovedIntelligence";
 import { AIOverviewCard } from "@/components/intelligence/AIOverviewCard";
 import { TrendingThemes } from "@/components/intelligence/TrendingThemes";
 import type { FeedFiltersState, FeedItem, FeedPayload, TrendingTheme } from "@/lib/types";
@@ -96,6 +97,7 @@ export default function Dashboard() {
                 </button>)}
               </div>
             </section>
+            <ApprovedIntelligence category={category} />
             <div className="flex flex-col xl:flex-row gap-7">
               {/* Main feed */}
               <div className="flex-1 min-w-0 space-y-4">
