@@ -78,7 +78,7 @@ export default function Dashboard() {
               <div className="relative max-w-2xl">
                 <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ffb9a9]">Your GTM and RevOps news</p>
                 <h1 className="font-editorial text-3xl font-semibold tracking-tight md:text-5xl md:leading-tight">Stay ahead of what matters<span className="text-[var(--coral-500)]">.</span></h1>
-                <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#e9ded8] md:text-base">Industry news, trends and practical perspectives from across RevOps, AI and GTM systems.</p>
+                <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#e9ded8] md:text-base">Industry news, trends and practical perspectives from across RevOps, AI and GTM systems.</p><p className="mt-5 max-w-xl border-l-2 border-[var(--coral-500)] pl-3 text-xs font-medium tracking-wide leading-relaxed text-[#ffdfd6]">AI-assisted research. Human-led intelligence. Independently reviewed perspectives.</p>
               </div>
             </section>
             <section className="mb-8">
