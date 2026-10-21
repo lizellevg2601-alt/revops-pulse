@@ -1,0 +1,25 @@
+name: Generate Editorial Drafts (Manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  generate-drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Generate unverified drafts from metadata
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/generate-editorial-drafts.mjs
+      - name: Download drafts for local editorial review
+        uses: actions/upload-artifact@v4
+        with:
+          name: unverified-editorial-drafts
+          path: editorial-output/*.json
+          retention-days: 1
+          if-no-files-found: error
