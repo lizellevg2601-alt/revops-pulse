@@ -32,6 +32,14 @@ const feedSources = [
   { id: "venturebeat-ai", name: "VentureBeat AI", type: "article", category: "ai", feedUrl: "https://venturebeat.com/category/ai/feed/", siteUrl: "https://venturebeat.com/category/ai/" },
 ];
 
+function displayText(value) {
+  if (typeof value === "string") return value;
+  if (typeof value === "number") return String(value);
+  if (Array.isArray(value)) return value.map(displayText).filter(Boolean).join(", ");
+  if (value && typeof value === "object") return displayText(value.name || value._ || value["#text"] || value.title || "");
+  return "";
+}
+
 function estimateReadTime(content) {
   const words = (content || "").replace(/<[^>]*>/g, "").split(/\s+/).length;
   return Math.max(1, Math.round(words / 200));
@@ -217,10 +225,10 @@ async function main() {
           item.contentSnippet?.trim() ||
           item.content?.replace(/<[^>]*>/g, "").trim().slice(0, 400) ||
           "";
-        const tags = (item.categories || []).slice(0, 6);
+        const tags = (item.categories || []).map(displayText).filter(Boolean).slice(0, 6);
         const publishedAt = item.isoDate || item.pubDate || new Date().toISOString();
         const baseItem = {
-          title: item.title || "Untitled",
+          title: displayText(item.title) || "Untitled",
           summary,
           tags,
           type: source.type,
@@ -237,7 +245,7 @@ async function main() {
           title: baseItem.title,
           source: source.name,
           sourceUrl: link,
-          author: item.creator || source.author,
+          author: displayText(item.creator || item.author || source.author),
           publishedAt,
           readTime: isArticle ? estimateReadTime(content) : undefined,
           duration: !isArticle ? parseDuration(item["itunes:duration"]) : undefined,

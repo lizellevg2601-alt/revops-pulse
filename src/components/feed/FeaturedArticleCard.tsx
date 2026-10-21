@@ -101,13 +101,13 @@ export function FeaturedArticleCard({ item, onSave }: Props) {
                 {item.source}
               </a>
               <span>·</span>
-              <span>{item.author}</span>
+              <span>{typeof item.author === "string" ? item.author : ""}</span>
             </div>
 
           </div>
 
           <div className="flex flex-wrap gap-1.5 mt-3">
-            {item.tags.map((tag) => (
+            {(Array.isArray(item.tags) ? item.tags.filter((tag): tag is string => typeof tag === "string") : []).map((tag) => (
               <TopicTag key={tag} label={tag} />
             ))}
           </div>
