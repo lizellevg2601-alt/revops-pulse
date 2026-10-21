@@ -115,7 +115,7 @@ export function PodcastCard({ item, onSave }: Props) {
 
           <div className="flex items-center justify-between">
             <div className="flex flex-wrap gap-1">
-              {item.tags.slice(0, 3).map((tag) => (
+              {(Array.isArray(item.tags) ? item.tags.filter((tag): tag is string => typeof tag === "string").slice(0, 3) : []).map((tag) => (
                 <TopicTag key={tag} label={tag} />
               ))}
             </div>
