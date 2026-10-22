@@ -1,4 +1,4 @@
-import { error, handleError, json, methodNotAllowed, readJson, requireSameOrigin } from "../../lib/http.mjs";
+import { corsHeaders, error, handleError, json, methodNotAllowed, readJson, requireAllowedCheckoutOrigin } from "../../lib/http.mjs";
 import { randomLowercase, throttleRequest } from "../../lib/security.mjs";
 import { checkoutConfig, productId, stripeClient, validatePrice } from "../../lib/stripe.mjs";
 import { validEmail, validUuid } from "../../lib/validation.mjs";
@@ -18,9 +18,21 @@ export function checkoutSessionParams(config, { email, origin, attemptId, integr
 
 export async function onRequest(context) {
   const { request, env } = context;
+  if (request.method === "OPTIONS") {
+    const preflightOrigin = request.headers.get("Origin");
+    try {
+      const { requestOrigin } = requireAllowedCheckoutOrigin({ headers: new Headers({ Origin: preflightOrigin || "" }) }, env);
+      return new Response(null, { status: 204, headers: corsHeaders(requestOrigin) });
+    } catch {
+      return new Response(null, { status: 204 });
+    }
+  }
   if (request.method !== "POST") return methodNotAllowed(["POST"]);
+  let requestOrigin;
   try {
-    const origin = requireSameOrigin(request, env);
+    const originResult = requireAllowedCheckoutOrigin(request, env);
+    requestOrigin = originResult.requestOrigin;
+    const origin = originResult.appOrigin;
     const body = await readJson(request, 2_048);
     if (!validEmail(body.email) || !validUuid(body.attemptId)) return error("invalid_checkout", "Email or checkout attempt is invalid", 400);
     if (!await throttleRequest(env.REVOPS_DB, request, "checkout", 10)) return error("rate_limited", "Too many checkout attempts", 429);
@@ -55,8 +67,12 @@ export async function onRequest(context) {
     await env.REVOPS_DB.prepare(`
       UPDATE checkout_attempts SET stripe_session_id = ?1, status = 'checkout_open', updated_at = unixepoch() WHERE id = ?2
     `).bind(session.id, body.attemptId).run();
-    return json({ checkoutUrl: session.url });
+    return json({ checkoutUrl: session.url }, 200, corsHeaders(requestOrigin));
   } catch (caught) {
-    return handleError(caught, "/api/checkout/create");
+    const response = handleError(caught, "/api/checkout/create");
+    if (!requestOrigin) return response;
+    const headers = new Headers(response.headers);
+    for (const [key, value] of Object.entries(corsHeaders(requestOrigin))) headers.set(key, value);
+    return new Response(response.body, { status: response.status, headers });
   }
 }

@@ -2,11 +2,18 @@ APP_ORIGIN=
 DEPLOYMENT_ENV=
 CHECKOUT_ENABLED=
 MANAGED_PAYMENTS_ENABLED=false
+# Comma-separated partner origins additionally allowed to call /api/checkout/create
+# on this app's behalf (e.g. the Academy homepage, which hosts a "buy" entry point
+# for this product). Does not affect any other endpoint, and never changes where
+# success_url/cancel_url point — those always resolve against APP_ORIGIN.
+CHECKOUT_ALLOWED_ORIGINS=https://draft.gtmautomationacademy.com
 STRIPE_ENVIRONMENT=
 STRIPE_RESTRICTED_KEY=
 STRIPE_WEBHOOK_SECRET=
-STRIPE_PRICE_ID=
-STRIPE_PRODUCT_ID=
+# Sandbox Product/Price created 2026-10-22 in the GTM Automation Academy Stripe
+# sandbox (acct_1UFZ8tQKnJboXlSy): "RevOps Pulse — Lifetime Access (test)".
+STRIPE_PRICE_ID=price_1UTJntQKnJboXlSy1agxpKyO
+STRIPE_PRODUCT_ID=prod_VUIOt1SFU62H0o
 STRIPE_PRICE_AMOUNT=500
 STRIPE_PRICE_CURRENCY=eur
 RESEND_API_KEY=

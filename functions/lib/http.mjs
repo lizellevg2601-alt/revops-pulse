@@ -68,6 +68,37 @@ export function requireSameOrigin(request, env) {
   return configured.origin;
 }
 
+// Like requireSameOrigin, but additionally accepts requests from a small, explicit
+// allowlist of partner origins (configured via CHECKOUT_ALLOWED_ORIGINS) that are
+// permitted to start a Checkout Session on this app's behalf — e.g. the GTM
+// Automation Academy homepage, which hosts a "buy" entry point for this product.
+// success_url/cancel_url always resolve against this app's own APP_ORIGIN
+// regardless of which allowed origin made the request.
+export function requireAllowedCheckoutOrigin(request, env) {
+  let configured;
+  try {
+    configured = new URL(env.APP_ORIGIN);
+  } catch {
+    throw new HttpError(503, "configuration_error", "Application origin is not configured");
+  }
+  if (configured.pathname !== "/") throw new HttpError(503, "configuration_error", "Application origin is not configured");
+  const extra = String(env.CHECKOUT_ALLOWED_ORIGINS || "").split(",").map(value => value.trim()).filter(Boolean);
+  const allowed = new Set([configured.origin, ...extra]);
+  const origin = request.headers.get("Origin");
+  if (!origin || !allowed.has(origin)) throw new HttpError(403, "invalid_origin", "Request origin is not allowed");
+  return { requestOrigin: origin, appOrigin: configured.origin };
+}
+
+export function corsHeaders(requestOrigin) {
+  return {
+    "Access-Control-Allow-Origin": requestOrigin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "600",
+    Vary: "Origin",
+  };
+}
+
 export class HttpError extends Error {
   constructor(status, code, message) {
     super(message);

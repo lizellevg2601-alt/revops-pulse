@@ -5,6 +5,7 @@ import { applyStripeTransition, asyncPaymentFailureStatements, deriveEntitlement
 import { restrictionFromEvent } from "../functions/api/stripe/webhook.js";
 import { checkoutSessionParams } from "../functions/api/checkout/create.js";
 import { checkoutConfig, requireSandboxEnvironment, validatePrice, verifyStripeEvent } from "../functions/lib/stripe.mjs";
+import { corsHeaders, requireAllowedCheckoutOrigin } from "../functions/lib/http.mjs";
 
 function recordingDb() {
   const batches = [];
@@ -40,6 +41,39 @@ test("Managed Payments requires an exact opt-in inside the existing sandbox gate
     () => checkoutConfig({ ...checkoutEnv, STRIPE_ENVIRONMENT: "live", MANAGED_PAYMENTS_ENABLED: "true" }),
     /Checkout is not configured/,
   );
+});
+
+test("checkout origin allowlist accepts the app's own origin and configured partner origins, rejects everything else", () => {
+  const env = { APP_ORIGIN: "https://pulse.example", CHECKOUT_ALLOWED_ORIGINS: "https://draft.gtmautomationacademy.com, https://other.example" };
+  const request = (origin) => ({ headers: new Headers(origin ? { Origin: origin } : {}) });
+
+  assert.deepEqual(requireAllowedCheckoutOrigin(request("https://pulse.example"), env), {
+    requestOrigin: "https://pulse.example", appOrigin: "https://pulse.example",
+  });
+  assert.deepEqual(requireAllowedCheckoutOrigin(request("https://draft.gtmautomationacademy.com"), env), {
+    requestOrigin: "https://draft.gtmautomationacademy.com", appOrigin: "https://pulse.example",
+  });
+  assert.deepEqual(requireAllowedCheckoutOrigin(request("https://other.example"), env), {
+    requestOrigin: "https://other.example", appOrigin: "https://pulse.example",
+  });
+  assert.throws(() => requireAllowedCheckoutOrigin(request("https://not-allowed.example"), env), /Request origin is not allowed/);
+  assert.throws(() => requireAllowedCheckoutOrigin(request(null), env), /Request origin is not allowed/);
+});
+
+test("checkout origin allowlist works with no partner origins configured", () => {
+  const env = { APP_ORIGIN: "https://pulse.example" };
+  const request = (origin) => ({ headers: new Headers(origin ? { Origin: origin } : {}) });
+  assert.deepEqual(requireAllowedCheckoutOrigin(request("https://pulse.example"), env), {
+    requestOrigin: "https://pulse.example", appOrigin: "https://pulse.example",
+  });
+  assert.throws(() => requireAllowedCheckoutOrigin(request("https://draft.gtmautomationacademy.com"), env), /Request origin is not allowed/);
+});
+
+test("checkout CORS headers echo only the validated request origin, never a wildcard", () => {
+  const headers = corsHeaders("https://draft.gtmautomationacademy.com");
+  assert.equal(headers["Access-Control-Allow-Origin"], "https://draft.gtmautomationacademy.com");
+  assert.equal(headers["Access-Control-Allow-Methods"], "POST, OPTIONS");
+  assert.equal(headers.Vary, "Origin");
 });
 
 test("Checkout payload preserves standard mode and adds only the Managed Payments opt-in", () => {
