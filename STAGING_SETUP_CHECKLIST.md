@@ -64,7 +64,7 @@ This checklist prepares the standalone RevOps Pulse staging environment. It does
 - Current RSS ingestion and application AI cost: **EUR/USD 0**; no AI provider is called.
 - Stripe sandbox: **0**; test payments do not move money or incur processing fees.
 - Production Stripe, indicative Portugal standard pricing only: EEA cards are publicly listed at 1.5% + EUR 0.25, approximately EUR 0.33 on a EUR 5.00 purchase. The actual GTM Academy contract, card origin, disputes, currency conversion, tax, and optional services can change this.
-- Managed Payments, if separately approved for production, adds Stripe's published 3.5% per successful transaction to normal processing fees.
+- Managed Payments, if separately approved for production, has account-, country-, payment-method-, and contract-dependent fees. Confirm the current fee schedule shown for the actual account before live approval.
 - Cloudflare Pages Functions and D1: potentially **USD 0** at low volume within account-wide Free limits. Workers Paid, if required, has a **USD 5/month account minimum**; shared account usage determines actual headroom and overages.
 - Resend: **USD 0/month** up to 3,000 transactional emails/month and 100/day on the published Free plan; Pro starts at **USD 20/month**.
 - Turnstile: **USD 0** under its standard free offering. No Turnstile resource is authorized yet.
