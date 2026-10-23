@@ -18,8 +18,11 @@ export async function onRequestPost({request,env}){
  if(!env.REVOPS_DB||!env.REVOPS_EVENT_SECRET)return asJson({error:"not_configured"},503);
  const contentType=request.headers.get("content-type")||"";
  if(!contentType.startsWith("application/json"))return asJson({error:"invalid_type"},415);
- const body=await request.text();
- if(asBytes(body).byteLength>8192)return asJson({error:"too_large"},413);
+ const length=Number(request.headers.get("Content-Length")||0);
+ if(length>8192)return asJson({error:"too_large"},413);
+ const reader=request.body?.getReader();let size=0;const chunks=[];
+ if(reader){while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>8192){await reader.cancel();return asJson({error:"too_large"},413)}chunks.push(value)}}
+ const body=new TextDecoder().decode(chunks.length===1?chunks[0]:Uint8Array.from(chunks.flatMap(chunk=>Array.from(chunk))));
  if(!await verifyRequest(request,env.REVOPS_EVENT_SECRET,body))return asJson({error:"unauthorized"},401);
  let event;
  try{event=validateRevopsPurchaseEvent(JSON.parse(body))}catch{return asJson({error:"invalid_event"},400)}
@@ -27,7 +30,7 @@ export async function onRequestPost({request,env}){
  // Atomic D1 batch provides event deduplication and projection updates.
  const states={"payment.paid":"active","payment.refunded":"refunded","payment.disputed":"disputed","payment.restored":"active"};
  const email=event.email;
- const memberId=await crypto.randomUUID();
+ const memberId=crypto.randomUUID();
  const db=env.REVOPS_DB;
  try{
   const existing=await db.prepare("SELECT event_id FROM member_payment_events WHERE event_id=?").bind(event.eventId).first();
