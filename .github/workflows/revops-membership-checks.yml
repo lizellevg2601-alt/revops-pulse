@@ -1,0 +1,24 @@
+name: RevOps Membership Integration Checks
+on:
+  pull_request:
+    paths:
+      - "functions/**"
+      - "migrations/**"
+      - "tests/**"
+      - "scripts/revops-purchase-contract*"
+      - ".github/workflows/revops-membership-checks.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: node --test tests/paywall.test.mjs scripts/revops-purchase-contract.test.mjs
+      - run: npm run build
