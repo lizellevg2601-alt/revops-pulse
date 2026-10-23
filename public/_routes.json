@@ -1,5 +1,5 @@
 {
   "version": 1,
   "include": ["/", "/index.html", "/index.txt", "/__next.*", "/feed-data.json", "/approved-intelligence.json", "/api/*"],
-  "exclude": ["/_next/*", "/login/*", "/api/auth/*", "/api/integrations/academy"]
+  "exclude": ["/_next/*", "/login/*"]
 }
