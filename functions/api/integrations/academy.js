@@ -28,25 +28,31 @@ export async function onRequestPost({request,env}){
  try{event=validateRevopsPurchaseEvent(JSON.parse(body))}catch{return asJson({error:"invalid_event"},400)}
  // This is a staging foundation, not a substitute for a complete paid-entitlement system.
  // Atomic D1 batch provides event deduplication and projection updates.
+ // Deliberate (confirmed 2026-10-23): "disputed" is excluded from entitledMember()'s active-grant
+ // check, so a dispute revokes membership access immediately, unlike the Academy's own flag-only
+ // dispute policy for its digital products. Do not change this to match Academy without a fresh
+ // decision — see docs/ACADEMY_USD5_MEMBERSHIP_INTEGRATION.md.
  const states={"payment.paid":"active","payment.refunded":"refunded","payment.disputed":"disputed","payment.restored":"active"};
  const email=event.email;
  const memberId=crypto.randomUUID();
  const db=env.REVOPS_DB;
  try{
-  const existing=await db.prepare("SELECT event_id FROM member_payment_events WHERE event_id=?").bind(event.eventId).first();
-  if(existing)return asJson({received:true,duplicate:true});
   // A different buyer email for an existing Stripe payment must not transfer ownership.
   const samePayment=await db.prepare("SELECT m.email FROM member_payment_grants p JOIN member_accounts m ON p.member_id=m.id WHERE p.payment_intent_id=?").bind(event.paymentIntentId).first();
   if(samePayment && samePayment.email!==email)return asJson({error:"payment_owner_conflict"},409);
-  await db.batch([
+  // Dedup via the INSERT's own result, not a preceding SELECT: two concurrent deliveries of the
+  // same event must not both pass a check-then-act race. INSERT OR IGNORE + checking its own
+  // row-count is atomic within this one D1 batch; only the delivery that actually inserts applies the grant.
+  const [, eventInsert]=await db.batch([
    db.prepare("INSERT INTO member_accounts(id,email) VALUES(?,?) ON CONFLICT(email) DO NOTHING").bind(memberId,email),
-   db.prepare("INSERT INTO member_payment_events(event_id,payment_intent_id,checkout_session_id,type,occurred_at) VALUES(?,?,?,?,?)").bind(event.eventId,event.paymentIntentId,event.checkoutSessionId,event.type,event.occurredAt),
+   db.prepare("INSERT OR IGNORE INTO member_payment_events(event_id,payment_intent_id,checkout_session_id,type,occurred_at) VALUES(?,?,?,?,?)").bind(event.eventId,event.paymentIntentId,event.checkoutSessionId,event.type,event.occurredAt),
    db.prepare(`INSERT INTO member_payment_grants(payment_intent_id,checkout_session_id,member_id,last_event_at,state)
    SELECT ?,?,id,?,? FROM member_accounts WHERE email=?
    ON CONFLICT(payment_intent_id) DO UPDATE SET
    last_event_at=excluded.last_event_at,state=excluded.state,updated_at=unixepoch()
-   WHERE excluded.last_event_at > member_payment_grants.last_event_at`).bind(event.paymentIntentId,event.checkoutSessionId,event.occurredAt,states[event.type],email)
+   WHERE excluded.last_event_at >= member_payment_grants.last_event_at`).bind(event.paymentIntentId,event.checkoutSessionId,event.occurredAt,states[event.type],email)
   ]);
+  if(!eventInsert?.meta?.changes)return asJson({received:true,duplicate:true});
   return asJson({received:true});
  }catch{
   return asJson({error:"storage_error"},503);

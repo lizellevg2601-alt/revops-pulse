@@ -20,5 +20,5 @@ jobs:
           node-version: "22"
           cache: npm
       - run: npm ci
-      - run: node --test tests/paywall.test.mjs scripts/revops-purchase-contract.test.mjs
+      - run: node --test tests/paywall.test.mjs tests/academy-integration.test.mjs tests/member-auth-flow.test.mjs scripts/revops-purchase-contract.test.mjs
       - run: npm run build

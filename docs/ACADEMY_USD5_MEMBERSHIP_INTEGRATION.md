@@ -14,6 +14,7 @@ STATUS: DEVELOPMENT ONLY. Do not deploy or configure Stripe from this document.
 3. Academy backend sends a server-authenticated, versioned event with minimum necessary payer email, Stripe payment identifiers, offer id, amount/currency, event id/type and timestamp.
 4. RevOps checks authentication, offer validity, amount/currency, idempotency, environment and event ordering, then updates dedicated D1 and sends a secure one-time sign-in email.
 5. Verified refunds/disputes update the associated payment grant. A second valid payment can maintain the account entitlement.
+   - **Confirmed 2026-10-23**: a `payment.disputed` event sets the grant to `state='disputed'`, which `entitledMember()` excludes from active access — membership access is revoked immediately on dispute, before any outcome is known. This is a **deliberate decision**, and intentionally different from the Academy's own digital products, which use a flag-only policy (support is notified, access stays on) for disputes — see `MANAGED_PAYMENTS_READINESS.md` / `DISPUTE_POLICY_2026-10-22_draft.md` in the Academy repo. The two products carry different risk profiles (ongoing content access vs. a one-time downloadable file); do not "fix" this into matching Academy's policy without a fresh decision.
 6. Browser traffic must never call a cross-origin RevOps checkout API, and no client supplied email/session ID constitutes proof of purchase.
 
 ## Dependencies and deployment gates
