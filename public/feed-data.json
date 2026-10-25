@@ -1,6 +1,198 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-sstezj",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-man-who-led-100-cros-even-openais-john-mcmahon-5x-post-ipo-cro-the-goat",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-10-25T04:01:00.000Z",
+      "duration": 74,
+      "summary": "John McMahon, a five-time public company CRO whose team at PTC created MEDDIC, joins Sam Jacobs, AJ Bruno, and Asad Zaman on building enterprise sales teams that last. Topics include the PTC lineage that has produced over 100 CROs, including OpenAI's Dali Rajic, why he hires on characteristics over resumes, whether a CRO who never carried a bag can lead, and how first-time CROs should work with their CEO. Plus, capped commissions at Anthropic, why AI makes lazy reps lazier, what conversational intelligence tools miss in deal qualification, and quick takes on Dali, Carlos at Harness, Dev Ittycheria, and Chris at Cognition.\n Key Takeaways:\n - Hire on characteristics, not resumes. John sorts candidates by skills, knowledge, experience and characteristics, and the last one is the hardest to teach: \"I've always hired on characteristics. So I'll take someone with less experience but great characteristics.\" He looks for intelligence, drive, coachability, adaptability and integrity, because when a hire fails, \"it's always a character flaw.\"\n - Don't take the CRO seat before you're ready. John once refused a promotion Dali pushed him for: \"I told him, I'm not gonna do that to you because you're not ready… you're gonna fail. Your ego's not gonna be able to take it.\" For John, readiness comes down to whether you can recruit, coach, and lead people who actually want to follow you.\n - Talk to the CEO as a partner. Plenty of first-time CROs hold the C-level title without acting like the CEO's peer, and John coaches them to speak up: \"You're the CRO. You have a fiduciary responsibility. Tell the CEO specifically what you think is wrong with the business.\" Blaming revenue problems on the product \"is a non-starter,\" so come with a solution and talk like a business owner.\n - AI hasn't changed the methodology. John sees AI mostly as a research tool, and \"it makes the really good sales reps better, and it makes the lazy sales reps lazier.\" He is just as blunt about conversational intelligence: \"All they're doing is verifying that something was said, but there's no true qualification.\" Qualifying still means knowing whether you're talking to a champion, a coach, or the enemy.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: John McMahon, 5x Public Company CRO - https://www.linkedin.com/in/johnmcmahon1/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing John McMahon\n 02:18 The PTC Sales Leadership Tree\n 07:20 Hiring on Characteristics, Not Resumes\n 12:10 Should a CRO Have Carried a Bag?\n 16:50 Capped Commissions vs. Equity Upside\n 19:05 When Are You Ready to Be CRO?\n 22:56 How CROs Should Evaluate the CEO\n 34:52 AI and Sales Methodology\n 38:10 AI Call Tools Don't Qualify Deals\n 40:52 MEDDIC and Bigger Buying Groups\n 42:51 The Art and Science of Selling\n 48:47 Coaching Mark Roberge at HubSpot\n 59:31 Managing Heads Like a Bond Portfolio\n 01:03:42 Hiring Batting Average and Ramp Time\n 01:09:40 Rapid Fire: Dali, Carlos, Dev, Chris",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-man-who-led-100-cros-even-openais-john-mcmahon-5x-post-ipo-cro-the-goat"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-5lngod",
+      "type": "article",
+      "category": "ai",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-10-24T19:00:00.000Z",
+      "readTime": 1,
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "tags": [
+        "AI",
+        "evergreens",
+        "Microsoft",
+        "OpenAI",
+        "siri ai"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-dbl2wl",
+      "type": "article",
+      "category": "ai",
+      "title": "Block’s new voice model sounds eerily human",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-10-24T16:00:00.000Z",
+      "readTime": 1,
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "tags": [
+        "AI",
+        "block",
+        "jack dorsey",
+        "voice AI"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-r6ui22",
+      "type": "article",
+      "category": "ai",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "readTime": 1,
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "Elon Musk",
+        "SpaceX",
+        "vote",
+        "Exclusive"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-b2ya3v",
+      "type": "article",
+      "category": "ai",
+      "title": "Here are the top AI agents that can live in your text messages ",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-10-24T14:00:00.000Z",
+      "readTime": 1,
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "tags": [
+        "AI",
+        "instinct",
+        "AI agents"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-g1s5qn",
       "type": "podcast",
       "category": "gtm",
@@ -603,6 +795,40 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://blog.hubspot.com/marketing/llm-visibility-tools"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-dynamics365-egm49w",
+      "type": "article",
+      "category": "crm",
+      "title": "Helping contact center admins discover what matters, where they work",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/23/dynamics-365-contact-center-whats-new-admins/",
+      "author": "Lily Shelke",
+      "publishedAt": "2026-10-23T15:30:00.000Z",
+      "readTime": 1,
+      "summary": "Discover how the new What’s New experience in Dynamics 365 Contact Center helps admins find AI-powered capabilities, guidance, and updates where they already work.\nThe post Helping contact center admins discover what matters, where they work appeared first on Microsoft Dynamics 365 Blog.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/23/dynamics-365-contact-center-whats-new-admins/"
       },
       "saved": false
     },
@@ -1656,7 +1882,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1690,7 +1916,7 @@
       "duration": 61,
       "summary": "AGENDA: \n 04:20 Billion-Dollar Bets or Nothing: Why VCs Are Rejecting Fast-Growing Startups\n 13:20 CoreWeave Sell-Off Sparks Fears of Cracks in AI Boom\n 18:50 Anthropic's IPO Valuation Could Fall From $2 TRN to $1.5 TRN\n 32:10 Modal Raises $750M at a $15.75B Valuation as Inference Booms\n 35:50 Town at $1B, Anduril at $90B: Have Startup Valuations Lost Touch?\n 42:15 Berkshire Hathaway Doubles Down on Bending Spoons\n 45:05 37signals' Profit Machine Challenges the Venture Capital Model\n 49:20 General Atlantic Eyes an IPO; Harvard's Endowment Hits $68B\n 54:15 Elon's Flying Roadster and $10B SpaceX Share Giveaway",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1726,7 +1952,7 @@
       "tags": [
         "AI Adoption"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1762,7 +1988,7 @@
       "tags": [
         "Company"
       ],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1785,168 +2011,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-l7zkeb",
-      "type": "article",
-      "category": "ai",
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-10-21T22:51:22.000Z",
-      "readTime": 1,
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-      "tags": [
-        "AI",
-        "Hardware",
-        "Blackstone",
-        "CoreWeave",
-        "data centers",
-        "GPU"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-ri8tt2",
-      "type": "article",
-      "category": "ai",
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-10-21T22:45:34.000Z",
-      "readTime": 1,
-      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
-      "tags": [
-        "AI",
-        "Social",
-        "Facebook",
-        "Mark Zuckerberg",
-        "Meta",
-        "muse"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-d1r4f",
-      "type": "article",
-      "category": "ai",
-      "title": "TechCrunch Founder Summit 2026: Everything you need to know ",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-10-21T21:16:20.000Z",
-      "readTime": 1,
-      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
-      "tags": [
-        "AI",
-        "Startups",
-        "Venture",
-        "TechCrunch Founder Summit"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-9pvift",
-      "type": "article",
-      "category": "ai",
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-10-21T21:14:19.000Z",
-      "readTime": 1,
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
-      "tags": [
-        "AI",
-        "Apps",
-        "Social",
-        "agentic commerce",
-        "e-commerce",
-        "Meta"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-dynamics365-61y54t",
       "type": "article",
       "category": "crm",
@@ -1961,7 +2025,7 @@
         "AI governance",
         "AI in contact centers"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -2882,42 +2946,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://seafoammedia.com/thinking/lens/why-top-organic-rankings-get-zero-clicks/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-hubspot-sjxuzd",
-      "type": "article",
-      "category": "crm",
-      "title": "AEO for digital PR: How to build earned media presence that shows up in AI results",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/aeo-guide-for-digital-pr",
-      "author": "HubSpot Staff",
-      "publishedAt": "2026-10-08T20:09:15.000Z",
-      "readTime": 1,
-      "summary": "Digital PR has always been about earning coverage that influences the audience you can’t reach through paid channels. While the value proposition of digital PR hasn’t changed, the definition of “showing up” has.",
-      "tags": [
-        "AEO"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/aeo-guide-for-digital-pr"
       },
       "saved": false
     },
@@ -4100,40 +4128,6 @@
       "saved": false
     },
     {
-      "id": "feed-20vc-podcast-e9lkwg",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-09-12T07:07:00.000Z",
-      "duration": 76,
-      "summary": "AGENDA: \n 04:30 How Do You Hire Exceptional People in the AI Era?\n 08:00 What Actually Works in Growth—and Why Can't You Trust Meta's Numbers?\n 17:00 How to Run Hundreds of Millions in Marketing with Zero Employees \n 19:30 \"Our Engineers Stopped Coding\": What Stack Does Eight Sleep Use?\n 24:00 Is China Leaving the Rest of the World Behind?\n 35:00 How Do You Turn Superstar Athletes into Investors and Brand Ambassadors?\n 43:00 What Happens When Your Co-Founder Is Also Your Wife?\n 51:30 Should You Match Anthropic's Salaries—or Let Your Best People Leave?\n 59:30 Will Children Born Today Ever Need to Work?\n 01:05:00 What Drives You to Succeed—and Why Can't You Ever Switch Off?",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      ],
-      "intelligence": {
-        "signal": "This story touches on gtm execution.",
-        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-h8eotb",
       "type": "article",
       "category": "revops",
@@ -4358,58 +4352,58 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 91,
-      "recent3": 45,
-      "change": 21,
+      "recent3": 43,
+      "change": 22,
       "direction": "up",
       "articles": 60,
       "podcasts": 31,
-      "topItem": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
-      "secondItem": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”"
+      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 55,
+      "count": 57,
       "recent3": 19,
-      "change": -25,
+      "change": -27,
       "direction": "down",
-      "articles": 34,
-      "podcasts": 21,
-      "topItem": "Revenue Operations Awards 2026:  Your shortlist",
-      "secondItem": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell"
+      "articles": 35,
+      "podcasts": 22,
+      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
     },
     {
       "rank": 3,
       "topic": "Founders & Fundraising",
       "count": 33,
       "recent3": 7,
-      "change": -61,
+      "change": -62,
       "direction": "down",
       "articles": 5,
       "podcasts": 28,
-      "topItem": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
-      "secondItem": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026 "
+      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 32,
+      "count": 31,
       "recent3": 7,
-      "change": -53,
+      "change": -58,
       "direction": "down",
       "articles": 23,
-      "podcasts": 9,
+      "podcasts": 8,
       "topItem": "Profound vs. Bluefish AI for AEO: Which tool wins for marketers?",
       "secondItem": "How to identify content gaps for AI visibility"
     },
     {
       "rank": 5,
       "topic": "Data & Attribution",
-      "count": 25,
-      "recent3": 9,
-      "change": -40,
+      "count": 24,
+      "recent3": 7,
+      "change": -47,
       "direction": "down",
-      "articles": 13,
+      "articles": 12,
       "podcasts": 12,
       "topItem": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
       "secondItem": "Profound vs. Bluefish AI for AEO: Which tool wins for marketers?"
@@ -4417,33 +4411,33 @@
     {
       "rank": 6,
       "topic": "Revenue Forecasting",
-      "count": 20,
+      "count": 21,
       "recent3": 3,
-      "change": -70,
+      "change": -65,
       "direction": "down",
       "articles": 6,
-      "podcasts": 14,
-      "topItem": "What You Need to Know About the Critical PHP Vulnerabilities (PHP2Shell)",
-      "secondItem": "SPOTLIGHT: Untangling Tech Debt and Finding Product-Market Fit with Russ Mikowski of SurePeople | Russel Mikowski, CEO @ SurePeople"
+      "podcasts": 15,
+      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "secondItem": "What You Need to Know About the Critical PHP Vulnerabilities (PHP2Shell)"
     },
     {
       "rank": 7,
       "topic": "Tech Stack & CPQ",
-      "count": 12,
-      "recent3": 3,
-      "change": -70,
+      "count": 13,
+      "recent3": 4,
+      "change": -61,
       "direction": "down",
       "articles": 7,
-      "podcasts": 5,
-      "topItem": "4 Ways Salesforce is Going Headless Internally (and How You Can Too)",
-      "secondItem": "Unlock Tiered Monetization with AgentExchange Commerce and 2GP Permission Set Licenses"
+      "podcasts": 6,
+      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
+      "secondItem": "4 Ways Salesforce is Going Headless Internally (and How You Can Too)"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
       "count": 10,
       "recent3": 0,
-      "change": -90,
+      "change": -100,
       "direction": "down",
       "articles": 2,
       "podcasts": 8,
@@ -4451,7 +4445,7 @@
       "secondItem": "Building your P0 metrics"
     }
   ],
-  "fetchedAt": "2026-10-24T10:35:58.551Z",
+  "fetchedAt": "2026-10-25T11:00:23.342Z",
   "sources": [
     {
       "source": "RevOps FM",
