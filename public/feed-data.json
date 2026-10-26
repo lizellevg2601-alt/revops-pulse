@@ -1,6 +1,158 @@
 {
   "items": [
     {
+      "id": "feed-20vc-podcast-t7xlc5",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+      "source": "20VC",
+      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-satya-nadella-on-open-vs-closed-models-who-wins-whether-to-trust-frontier-model-providers-why-companies-need-to-own-their-own-intelligence-the-importance-of-verticalisation-from-chips-to-models-and-more",
+      "author": "Harry Stebbings",
+      "publishedAt": "2026-10-26T07:07:00.000Z",
+      "duration": 26,
+      "summary": "Satya Nadella is the CEO of Microsoft and one of the greatest CEOs of our time. Satya has been at the company for an astonishing 34 years. When he joined, Microsoft had a market cap of $23.5BN. 22 years later, the company was worth $300BN. At this point, Satya took the reins as CEO. Under his leadership, he has taken it from $300BN to $3.9TRN. \n AGENDA: \n 03:08 Should We Assume Every AI Model Is Compromised?\n 04:13 How Do We Stop AI Agents From Causing Harm?\n 06:15 Can We Trust an AI Model's Chain of Thought?\n 07:05 Is China's Lead in Open-Source AI a Safety Risk?\n 08:28 Will Open or Closed Models Win the Next Two Years?\n 10:08 Why Should Every Company Own Its Intelligence?\n 12:12 Will Every Company Become AI Native?\n 13:22 Are We Entering an AI Implementation Economy?\n 15:10 Do You Need to Own the Entire AI Stack to Win?\n 16:49 Can the World Support $100 Billion AI Training Runs?\n 18:34 Can AI Radically Accelerate Global Economic Growth?\n 19:39 Will AI Transform Sales, Finance and Marketing Like Coding?\n Quickfire round \n  \n What have you changed your mind on most in the last 12 months?\n  \n What looks crazy today but will be incredibly common in 5 years?\n  \n What's the exercise routine given the travel schedule?\n  \n Favorite cheat meal on a rest day?\n  \n What are you most excited for in the next 10 years?",
+      "tags": [],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
+        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
+      ],
+      "intelligence": {
+        "signal": "This story touches on gtm execution.",
+        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
+        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-satya-nadella-on-open-vs-closed-models-who-wins-whether-to-trust-frontier-model-providers-why-companies-need-to-own-their-own-intelligence-the-importance-of-verticalisation-from-chips-to-models-and-more"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-3lvaf4",
+      "type": "article",
+      "category": "ai",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-10-25T21:31:16.000Z",
+      "readTime": 1,
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "tags": [
+        "AI",
+        "Media & Entertainment",
+        "Elon Musk",
+        "SpaceX",
+        "xAI"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-gn9yq1",
+      "type": "article",
+      "category": "ai",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-10-25T16:57:32.000Z",
+      "readTime": 1,
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "tags": [
+        "AI",
+        "Apollo Global Management"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-3qxe77",
+      "type": "article",
+      "category": "ai",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-10-25T14:10:00.000Z",
+      "readTime": 1,
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "tags": [
+        "Hardware",
+        "AI",
+        "Gadgets",
+        "wearables",
+        "evergreens",
+        "AI wearables"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-sstezj",
       "type": "podcast",
       "category": "gtm",
@@ -914,7 +1066,7 @@
       "tags": [
         "Security"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -955,7 +1107,7 @@
         "Pony.ai",
         "ride-hailing"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -992,7 +1144,7 @@
         "AI",
         "AI agents"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1028,7 +1180,7 @@
       "tags": [
         "Global Affairs"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1062,7 +1214,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1098,7 +1250,7 @@
       "tags": [
         "AEO"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1134,7 +1286,7 @@
       "tags": [
         "Artificial Intelligence"
       ],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -1168,7 +1320,7 @@
       "readTime": 1,
       "summary": "Dreamforce 2026 marked a shift for Life Sciences: from promise to proof. We spent the last several quarters building and selling the vision. Now, we’re helping our customers move from early adoption to…",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1202,7 +1354,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1242,7 +1394,7 @@
         "In Brief",
         "OpenAI"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1283,7 +1435,7 @@
         "OpenAI",
         "agents"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1319,7 +1471,7 @@
       "tags": [
         "Product"
       ],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1342,46 +1494,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-pxumcm",
-      "type": "article",
-      "category": "ai",
-      "title": "Canva releases its first image generation model",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "readTime": 1,
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "tags": [
-        "AI",
-        "Apps",
-        "TC",
-        "canva",
-        "image generation"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-techcrunch-ai-ugte7u",
       "type": "article",
       "category": "ai",
@@ -1396,7 +1508,7 @@
         "AI",
         "Exclusive"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1419,6 +1531,46 @@
       "saved": false
     },
     {
+      "id": "feed-techcrunch-ai-pxumcm",
+      "type": "article",
+      "category": "ai",
+      "title": "Canva releases its first image generation model",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "readTime": 1,
+      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "tags": [
+        "AI",
+        "Apps",
+        "TC",
+        "canva",
+        "image generation"
+      ],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-techcrunch-ai-jwqmuk",
       "type": "article",
       "category": "ai",
@@ -1435,7 +1587,7 @@
         "microsoft AI",
         "Mustafa Suleyman"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1469,7 +1621,7 @@
       "readTime": 1,
       "summary": "Marketing Cloud Winter '27 has 60+ releases, including agentic campaigns, Personalized Paths in Flow, and flash sending to 5M app users in 90 seconds. Dig a little deeper.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -1503,7 +1655,7 @@
       "readTime": 1,
       "summary": "Contact centers are where customer loyalty is won or lost, and they're changing fast.\nThe post Microsoft is named a Visionary in the 2026 Gartner® Magic Quadrant™ for Contact Center as a Service  appeared first on Microsoft Dynamics 365 Blog.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1544,7 +1696,7 @@
         "data breach",
         "In Brief"
       ],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1578,7 +1730,7 @@
       "duration": 27,
       "summary": "Russ Mikowski, CEO of SurePeople and longtime revenue leader in tech, never planned to become a CEO. Recruited to lead a 10-year-old company into its next stage of growth, he faced technical debt, an unfocused ideal customer profile (ICP), and the challenge of turning the company's potential into a scalable business.\n In this episode of Topline Spotlight, Russ joins Sam Jacobs and AJ Bruno to discuss the decisions behind SurePeople's transformation, including rebuilding parts of its product, narrowing its target market, and resisting custom requests that could pull the business off course.\n Russ talks about:\n - How to identify and focus on the customers your product serves best\n - When rebuilding is a better option than refactoring\n - Why saying no to the wrong opportunities can protect long-term growth\n - How to keep a team aligned through organizational change\n - Why great leaders attract and retain talent by removing obstacles\n Chapters\n 00:00 Introduction to Topline Spotlight\n 01:54 Meet Russ Mikowski, CEO of SurePeople\n 03:00 SurePeople and the PRISM Assessment\n 05:51 Russ's Journey to CEO\n 08:55 Tackling Technical Debt and Rebuilding the Product\n 12:01 Narrowing the ICP and Finding Market Focus\n 14:50 Communicating Change and Aligning the Team\n 17:53 Leadership Lessons from a Mentor\n 24:00 Where to Find Russ Mikowski and SurePeople\n Try SurePeople: surepeople.com",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1612,7 +1764,7 @@
       "readTime": 1,
       "summary": "Move beyond static spreadsheets and ticket queues. Discover how autonomous AI agents are transforming hardware asset management into a conversational, lifecycle-orchestrated experience.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -1651,7 +1803,7 @@
         "OpenAI",
         "Uber"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -1692,7 +1844,7 @@
         "Spotify",
         "streaming"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1726,7 +1878,7 @@
       "readTime": 1,
       "summary": "Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP Finance.¹ We believe this recognition reflects something finance leaders are seeing as AI moves into their work: the financial system of record matters more than ever.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP Finance  appeared first on Microsoft Dynamics 365 Blog.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1745,128 +1897,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-finance/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-8qpjuq",
-      "type": "article",
-      "category": "ai",
-      "title": "Claude Duet app is Anthropic’s bet on agents",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-10-22T13:53:26.000Z",
-      "readTime": 1,
-      "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
-      "tags": [
-        "AI",
-        "Apps",
-        "ai agent",
-        "Anthropic",
-        "Claude"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-bghb90",
-      "type": "article",
-      "category": "ai",
-      "title": "Nirva raises $33M for a pendant that only listens to you",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-10-22T13:26:52.000Z",
-      "readTime": 1,
-      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
-      "tags": [
-        "AI",
-        "Gadgets",
-        "Lightspeed Venture Capital",
-        "wearables",
-        "South Park Commons",
-        "Ambient AI"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-y6kp1t",
-      "type": "article",
-      "category": "ai",
-      "title": "DeepSeek reportedly raises $15B days after US restrictions",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-      "author": "Kate Park",
-      "publishedAt": "2026-10-22T13:11:13.000Z",
-      "readTime": 1,
-      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
-      "tags": [
-        "AI",
-        "Fundraising",
-        "artificial intellignce",
-        "deepseek",
-        "Funding",
-        "In Brief"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
       },
       "saved": false
     },
@@ -4094,40 +4124,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-pock2g",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "RevOps for Hypergrowth (Fireworks AI, Perplexity, Exa & More) | CEO @ Go Nimbly, Jen Igartua",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/revops-for-hypergrowth-fireworks-ai-perplexity-exa-more-ceo-go-nimbly-jen-igartua",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-09-13T04:01:00.000Z",
-      "duration": 61,
-      "summary": "Jen Igartua, CEO at Go Nimbly, joins Sam Jacobs, AJ Bruno, and Asad Zaman. Her client roster is wild: Fireworks AI, Perplexity, Exa, and Wispr Flow, plus some of the biggest names in SaaS. Topics in today's episode include how the fastest-growing AI-native companies are growing in spite of their revenue operations (not because of them), the first project she runs when she wants to show ROI fast, and how she makes the case that RevOps is a support function and always was. Plus, whether the GTM engineer is anything more than RevOps with better marketing (and more)!\n Key Takeaways:\n - Operational debt at the fastest-growing AI companies tracks demand, not management quality. Go Nimbly's second customer was Zendesk in 2016, where the head of IT told her \"oh, we've grown in spite of our operations.\" Jen shares what it takes to make a difference at the breakneck pace these environments demand.\n - RevOps spent a decade insisting it was strategic, and Jen thinks that cost the function credibility with the sellers it exists to serve. As she says in the episode: \"I think that operators have been doing an injustice to sellers for a long time. And we are starting to really take onus of the fact that revenue operations needs to be a support function to the sales team. And we've been fighting it forever. We are not a support function. And I'm like, we actually are.\" Asad, who has argued the same line for years, put the failure mode in football terms: \"if a goalkeeper starts trying to play like a striker, you don't let in a lot of goals, right?\"\n - In a people business, staffing is the product, and Jen only learned that after COVID took Go Nimbly down to 20 people. The rule she rebuilt around is \"I should only take projects of skills that I want to nurture,\" then staff someone who is 80% of the way there so the last 20% is stretch. \"Our whole job is playing Tetris with resources.\" She is equally direct about what did not work: \"I poured a bunch of money in being tech enabled... I burned millions of dollars trying to do it,\" because at her clients' scale \"everything's custom.\" The payoff line is the one to keep: \"if you nail staffing, you grow a really great services organization.\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Jen Igartua, CEO at Go Nimbly - https://www.linkedin.com/in/jen-igartua/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Tune into Topline Podcast, the #1 podcast for founders, operators, and investors in B2B tech: https://www.joinpavilion.com/topline-podcast\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n  \n  00:00 Introducing Jen Igartua\n 02:15 Growing In Spite Of Their Operations\n 05:46 Top Of Funnel Is The First Fix\n 06:39 What AI-Native Ops Teams Actually Have\n 10:50 The Twenty-Rep Qualification Bar\n 11:37 Is Sales More Broken Than Before\n 15:00 RevOps Is A Support Function\n 16:29 Do Great Products Make Great Sellers\n 22:51 Caesars, COVID, And Twenty People\n 24:56 Lessons From A Services Business\n 28:21 Staffing Is The Whole Game\n 31:10 Why Contractors Do Not Work\n 40:09 What Is A GTM Engineer Really\n 49:26 What Scares Jen About 2027\n 54:40 Bulls and Bears",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      ],
-      "intelligence": {
-        "signal": "This story touches on gtm execution.",
-        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/revops-for-hypergrowth-fireworks-ai-perplexity-exa-more-ceo-go-nimbly-jen-igartua"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-h8eotb",
       "type": "article",
       "category": "revops",
@@ -4352,59 +4348,59 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 91,
-      "recent3": 43,
-      "change": 22,
+      "recent3": 24,
+      "change": 21,
       "direction": "up",
       "articles": 60,
       "podcasts": 31,
-      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
-      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
+      "topItem": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+      "secondItem": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
       "count": 57,
-      "recent3": 19,
-      "change": -27,
+      "recent3": 12,
+      "change": -24,
       "direction": "down",
       "articles": 35,
       "podcasts": 22,
-      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
-      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
+      "topItem": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+      "secondItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT"
     },
     {
       "rank": 3,
       "topic": "Founders & Fundraising",
-      "count": 33,
-      "recent3": 7,
-      "change": -62,
+      "count": 32,
+      "recent3": 5,
+      "change": -70,
       "direction": "down",
-      "articles": 5,
+      "articles": 4,
       "podcasts": 28,
-      "topItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT",
-      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
+      "topItem": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+      "secondItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 31,
-      "recent3": 7,
-      "change": -58,
+      "recent3": 6,
+      "change": -57,
       "direction": "down",
       "articles": 23,
       "podcasts": 8,
-      "topItem": "Profound vs. Bluefish AI for AEO: Which tool wins for marketers?",
-      "secondItem": "How to identify content gaps for AI visibility"
+      "topItem": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+      "secondItem": "Profound vs. Bluefish AI for AEO: Which tool wins for marketers?"
     },
     {
       "rank": 5,
       "topic": "Data & Attribution",
-      "count": 24,
-      "recent3": 7,
-      "change": -47,
+      "count": 23,
+      "recent3": 4,
+      "change": -52,
       "direction": "down",
       "articles": 12,
-      "podcasts": 12,
+      "podcasts": 11,
       "topItem": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
       "secondItem": "Profound vs. Bluefish AI for AEO: Which tool wins for marketers?"
     },
@@ -4412,8 +4408,8 @@
       "rank": 6,
       "topic": "Revenue Forecasting",
       "count": 21,
-      "recent3": 3,
-      "change": -65,
+      "recent3": 2,
+      "change": -79,
       "direction": "down",
       "articles": 6,
       "podcasts": 15,
@@ -4425,7 +4421,7 @@
       "topic": "Tech Stack & CPQ",
       "count": 13,
       "recent3": 4,
-      "change": -61,
+      "change": -60,
       "direction": "down",
       "articles": 7,
       "podcasts": 6,
@@ -4435,17 +4431,17 @@
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 10,
+      "count": 9,
       "recent3": 0,
       "change": -100,
       "direction": "down",
       "articles": 2,
-      "podcasts": 8,
+      "podcasts": 7,
       "topItem": "$682M Public CEO: \"The Magic of 80% Gross Margin\" | CEO @ Yext, Michael Walrath",
       "secondItem": "Building your P0 metrics"
     }
   ],
-  "fetchedAt": "2026-10-25T11:00:23.342Z",
+  "fetchedAt": "2026-10-26T12:33:10.104Z",
   "sources": [
     {
       "source": "RevOps FM",
