@@ -1,8 +1,18 @@
 import {entitledMember} from "./lib/member-auth.mjs";
-const protectedPaths=new Set(["/","/index.html","/index.txt","/__next.__PAGE__.txt","/__next._full.txt","/feed-data.json","/approved-intelligence.json"]);
+// Deny-by-default: anything not explicitly listed here requires an active member session,
+// including any new page, API route, or Next.js static-export representation added later.
+// Previously this was the reverse (an allowlist of things TO protect), which missed real build
+// output (__next._head.txt, __next._index.txt, __next._tree.txt) simply because nobody thought to
+// add them - the inverse (public-by-exception) can't have that class of gap, since a path nobody
+// has reasoned about yet defaults to protected, not public. Keep public/_routes.json's exclude
+// list and this list describing the same public surface - see paywall.test.mjs's cross-check.
+const PUBLIC_EXACT=new Set(["/_routes.json","/favicon.ico","/file.svg","/globe.svg","/next.svg","/vercel.svg","/window.svg","/404.html"]);
+const PUBLIC_PREFIXES=["/_next/","/login","/api/auth/","/api/integrations/"];
 export function isProtectedPath(path){
  const p=path.replace(/\/$/,"")||"/";
- return protectedPaths.has(p)||p.startsWith("/api/me")||p.startsWith("/api/member/");
+ if(PUBLIC_EXACT.has(p))return false;
+ if(PUBLIC_PREFIXES.some(prefix=>p.startsWith(prefix)))return false;
+ return true;
 }
 const fail=(status)=>new Response("Membership access unavailable",{status,headers:{"Cache-Control":"no-store"}});
 export async function onRequest(context){
