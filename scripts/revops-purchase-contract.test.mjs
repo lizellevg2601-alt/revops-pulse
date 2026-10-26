@@ -7,3 +7,11 @@ test("rejects €5 EUR event",()=>assert.throws(()=>validateRevopsPurchaseEvent(
 test("rejects incorrect amount",()=>assert.throws(()=>validateRevopsPurchaseEvent({...valid,amount:499})));
 test("rejects unknown offer",()=>assert.throws(()=>validateRevopsPurchaseEvent({...valid,offer:"academy_skills_report"})));
 test("rejects unsupported event",()=>assert.throws(()=>validateRevopsPurchaseEvent({...valid,type:"unknown"})));
+test("refund/dispute/restore events never carry a buyer email",()=>{
+  for(const type of ["payment.refunded","payment.disputed","payment.restored"]){
+    assert.throws(()=>validateRevopsPurchaseEvent({...valid,type}),/must not carry a buyer email/);
+    const {email,...withoutEmail}=valid;
+    assert.equal(validateRevopsPurchaseEvent({...withoutEmail,type}).email,null);
+  }
+});
+test("a fresh purchase still requires a valid buyer email",()=>assert.throws(()=>validateRevopsPurchaseEvent({...valid,email:undefined})));

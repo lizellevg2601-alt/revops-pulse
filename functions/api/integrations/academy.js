@@ -14,6 +14,25 @@ async function verifyRequest(request,secret,body){
  const signed=await crypto.subtle.sign("HMAC",key,asBytes(String(timestamp)+"."+body));
  return fixedTimeEqual(signature.toLowerCase(),hex(signed));
 }
+
+// Deliberate (confirmed 2026-10-23): "disputed" is excluded from entitledMember()'s active-grant
+// check, so a dispute revokes membership access immediately, unlike the Academy's own flag-only
+// dispute policy for its digital products. Do not change this to match Academy without a fresh
+// decision — see docs/ACADEMY_USD5_MEMBERSHIP_INTEGRATION.md.
+//
+// Conflict resolution below is a type-and-current-state transition check, NOT a timestamp
+// comparison — Stripe event timestamps have second resolution and can't reliably order same-second
+// events, and a stale replayed/delayed "payment.paid" must never be able to reactivate a grant that
+// has since moved to refunded/disputed, no matter its timestamp. Only these transitions apply:
+//   payment.refunded  -> refunded, from any current state (a refund is terminal)
+//   payment.disputed  -> disputed, only from 'active'
+//   payment.restored  -> active,   only from 'disputed' (explicitly reverses a dispute - never
+//                                  applies to an already-refunded or already-active grant)
+//   payment.paid      -> active,   only while still 'active' (idempotent refresh of a duplicate
+//                                  completion event; never reapplies once moved on to
+//                                  refunded/disputed)
+const REVOPS_STATES={"payment.paid":"active","payment.refunded":"refunded","payment.disputed":"disputed","payment.restored":"active"};
+
 export async function onRequestPost({request,env}){
  if(!env.REVOPS_DB||!env.REVOPS_EVENT_SECRET)return asJson({error:"not_configured"},503);
  const contentType=request.headers.get("content-type")||"";
@@ -26,33 +45,60 @@ export async function onRequestPost({request,env}){
  if(!await verifyRequest(request,env.REVOPS_EVENT_SECRET,body))return asJson({error:"unauthorized"},401);
  let event;
  try{event=validateRevopsPurchaseEvent(JSON.parse(body))}catch{return asJson({error:"invalid_event"},400)}
- // This is a staging foundation, not a substitute for a complete paid-entitlement system.
- // Atomic D1 batch provides event deduplication and projection updates.
- // Deliberate (confirmed 2026-10-23): "disputed" is excluded from entitledMember()'s active-grant
- // check, so a dispute revokes membership access immediately, unlike the Academy's own flag-only
- // dispute policy for its digital products. Do not change this to match Academy without a fresh
- // decision — see docs/ACADEMY_USD5_MEMBERSHIP_INTEGRATION.md.
- const states={"payment.paid":"active","payment.refunded":"refunded","payment.disputed":"disputed","payment.restored":"active"};
- const email=event.email;
- const memberId=crypto.randomUUID();
  const db=env.REVOPS_DB;
  try{
-  // A different buyer email for an existing Stripe payment must not transfer ownership.
-  const samePayment=await db.prepare("SELECT m.email FROM member_payment_grants p JOIN member_accounts m ON p.member_id=m.id WHERE p.payment_intent_id=?").bind(event.paymentIntentId).first();
-  if(samePayment && samePayment.email!==email)return asJson({error:"payment_owner_conflict"},409);
-  // Dedup via the INSERT's own result, not a preceding SELECT: two concurrent deliveries of the
-  // same event must not both pass a check-then-act race. INSERT OR IGNORE + checking its own
-  // row-count is atomic within this one D1 batch; only the delivery that actually inserts applies the grant.
-  const [, eventInsert]=await db.batch([
-   db.prepare("INSERT INTO member_accounts(id,email) VALUES(?,?) ON CONFLICT(email) DO NOTHING").bind(memberId,email),
-   db.prepare("INSERT OR IGNORE INTO member_payment_events(event_id,payment_intent_id,checkout_session_id,type,occurred_at) VALUES(?,?,?,?,?)").bind(event.eventId,event.paymentIntentId,event.checkoutSessionId,event.type,event.occurredAt),
-   db.prepare(`INSERT INTO member_payment_grants(payment_intent_id,checkout_session_id,member_id,last_event_at,state)
-   SELECT ?,?,id,?,? FROM member_accounts WHERE email=?
-   ON CONFLICT(payment_intent_id) DO UPDATE SET
-   last_event_at=excluded.last_event_at,state=excluded.state,updated_at=unixepoch()
-   WHERE excluded.last_event_at >= member_payment_grants.last_event_at`).bind(event.paymentIntentId,event.checkoutSessionId,event.occurredAt,states[event.type],email)
-  ]);
+  const existingGrant=await db.prepare("SELECT m.email FROM member_payment_grants p JOIN member_accounts m ON p.member_id=m.id WHERE p.payment_intent_id=?").bind(event.paymentIntentId).first();
+  if(event.type==="payment.paid"){
+   // Only a fresh purchase asserts an identity; a different email for an existing payment must
+   // never transfer ownership of the grant. (Also re-checked atomically inside the batch below -
+   // this is the fast-path rejection, not the only guard.)
+   if(existingGrant && existingGrant.email!==event.email)return asJson({error:"payment_owner_conflict"},409);
+  }else if(!existingGrant){
+   // Refund/dispute/restore for a payment this receiver has never recorded a payment.paid for -
+   // most likely Academy's own payment.paid delivery for this payment just hasn't landed here
+   // yet (webhook delivery order isn't guaranteed). Ask Academy to retry rather than silently
+   // dropping a real entitlement change it will never redeliver once acknowledged.
+   return asJson({error:"payment_not_yet_recorded"},503);
+  }
+  const memberId=crypto.randomUUID();
+  const statements=[];
+  if(event.email){
+   statements.push(db.prepare("INSERT INTO member_accounts(id,email) VALUES(?,?) ON CONFLICT(email) DO NOTHING").bind(memberId,event.email));
+  }
+  const eventStatementIndex=statements.length;
+  statements.push(db.prepare("INSERT OR IGNORE INTO member_payment_events(event_id,payment_intent_id,checkout_session_id,type,occurred_at) VALUES(?,?,?,?,?)")
+   .bind(event.eventId,event.paymentIntentId,event.checkoutSessionId,event.type,event.occurredAt));
+  const grantStatementIndex=statements.length;
+  if(event.email){
+   // payment.paid only: creates the grant on first purchase, or (re)applies it while the
+   // ownership check above still holds true atomically (closes the race where a concurrent,
+   // differently-claimed payment.paid for the same payment_intent_id could otherwise land
+   // between the pre-check above and this write).
+   statements.push(db.prepare(`
+    INSERT INTO member_payment_grants(payment_intent_id,checkout_session_id,member_id,last_event_at,state)
+    SELECT ?,?,id,?,'active' FROM member_accounts WHERE email=?
+    ON CONFLICT(payment_intent_id) DO UPDATE SET last_event_at=excluded.last_event_at,state=excluded.state,updated_at=unixepoch()
+    WHERE member_payment_grants.state='active'
+      AND EXISTS (SELECT 1 FROM member_accounts a WHERE a.id=member_payment_grants.member_id AND a.email=?)
+   `).bind(event.paymentIntentId,event.checkoutSessionId,event.occurredAt,event.email,event.email));
+  }else{
+   statements.push(db.prepare(`
+    UPDATE member_payment_grants SET last_event_at=?,state=?,updated_at=unixepoch()
+    WHERE payment_intent_id=?
+      AND ((?='payment.refunded') OR (?='payment.disputed' AND state='active') OR (?='payment.restored' AND state='disputed'))
+   `).bind(event.occurredAt,REVOPS_STATES[event.type],event.paymentIntentId,event.type,event.type,event.type));
+  }
+  const results=await db.batch(statements);
+  const eventInsert=results[eventStatementIndex];
   if(!eventInsert?.meta?.changes)return asJson({received:true,duplicate:true});
+  const grantResult=results[grantStatementIndex];
+  if(!grantResult?.meta?.changes){
+   // The event itself was new and is durably recorded (so Academy will never redeliver it), but
+   // its transition did not apply - either the ownership race above, or the transition isn't
+   // valid from the grant's current state (e.g. a stale/duplicate payment.paid after a dispute).
+   // Not a failure Academy should retry; nothing further to apply.
+   return asJson({received:true,applied:false});
+  }
   return asJson({received:true});
  }catch{
   return asJson({error:"storage_error"},503);
