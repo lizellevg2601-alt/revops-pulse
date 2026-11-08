@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-556ps1",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-great-tech-selloff-silicon-valley-investor-explains-rajeev-dham-md-sapphire-ventures",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-11-08T05:32:00.000Z",
+      "duration": 65,
+      "summary": "Before today's conversation, Sam, AJ and Asad share a few words in memory of Adam Robinson.\n Rajeev Dham, Managing Director at Sapphire Ventures (a $10 billion venture firm), joins Sam Jacobs, AJ Bruno, and Asad Zaman to make sense of the recent tech selloff and what it means for AI investing. Topics include why Rajeev sees a \"duration mismatch\" as a core challenge, how the funding bar has changed after months of $50 to $100 million decisions made in days, and why AI application companies are growing from $15 to $100 million in revenue even as steady-state gross margins may settle closer to 30%. Plus, advice for pre-AI SaaS companies, why private equity is still frozen, a data company that went from zero to a $900 million run rate, whether the models will eat the harness, what the Anthropic IPO means for everyone else, and whether go-to-market AI can ever be more than a spam cannon.\n Key Takeaways:\n - The selloff is about timing, not the technology. The AI buildout is expensive, and Wall Street now wants to see it in S&P 500 earnings, not just in Anthropic's run rate. \"I'm a believer. I think there's just a duration mismatch,\" said Rajeev, who compares it to Amazon's AWS buildout rather than the dot-com crash: \"I think it could be a 6-month, 9-month period… when this mismatch needs to be reconciled.\"\n - AI margins may never look like SaaS, and that can be fine. \"I don't know if we're going to have the 78% margin businesses. It could very well be you have a 30% gross margin business,\" said Rajeev. What matters is gross profit dollars: \"if you could charge 30 to 40% of $10,000 per person per year versus $1,000 versus 80% of $1,000, your gross profit dollars are a lot bigger.\" His bet: \"I think ASPs will grow by 10x.\"\n - When everything grows fast, growth stops being the signal. \"I don't even look at growth rates,\" said Rajeev. The founder used to be maybe a 30 to 50% weight in a growth-stage decision; \"Now it's an 80, 90% weight, even at sometimes a billion of run rate.\" He looks for founders who rebuilt their product \"after the Opus 4.5 moment in December\" to keep winning share.\n - For pre-AI SaaS companies, the advice is to burn the boats. Rajeev told one founder running a cash flow breakeven $300 million business that \"whether you grow 24% or 18%, it doesn't matter,\" and to \"hire a COO, a private equity-like COO just to run that business\" while the founder builds the AI products and eventually merges the two.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Rajeev Dham, Managing Director at Sapphire Ventures - https://www.linkedin.com/in/rajeev-dham-79332812/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Rajeev Dham\n 01:04 In memory of Adam Robinson\n 05:51 The Great Tech Selloff\n 10:35 How the Funding Bar Has Changed\n 12:46 Why AI Apps Grow So Fast\n 15:47 The 30% Gross Margin Future\n 21:28 When Does the AI Land Grab End?\n 24:38 Advice for Pre-AI SaaS Companies\n 26:53 Why Private Equity Is Still Frozen\n 35:11 What Gets a VC Excited Now\n 39:12 The Unfundable $9M to $38M Company\n 45:17 Founders Who Pivot at Warp Speed\n 49:43 Will the Models Eat the Harness?\n 57:50 Anthropic and the New IPO Bar\n 59:44 Is Go-to-Market AI a Spam Cannon?\n Sources & Attribution:\n Clip: https://youtu.be/TNq79c8QNlg\n Clip: https://youtu.be/lgMTA5GU7TE\n Article: https://www.axios.com/2026/10/26/anthropic-ipo",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "Review current data completeness and ownership before changing dashboards or attribution models."
+      ],
+      "intelligence": {
+        "signal": "This story touches on data and measurement.",
+        "impact": "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "action": "Review current data completeness and ownership before changing dashboards or attribution models."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Review current data completeness and ownership before changing dashboards or attribution models.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-great-tech-selloff-silicon-valley-investor-explains-rajeev-dham-md-sapphire-ventures"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-m8thkl",
+      "type": "article",
+      "category": "ai",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "readTime": 1,
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "Elon Musk",
+        "OpenAI"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-z1euf2",
+      "type": "article",
+      "category": "ai",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "readTime": 1,
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "tags": [
+        "AI",
+        "Government & Policy"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-fix3he",
       "type": "podcast",
       "category": "gtm",
@@ -111,6 +221,42 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-dynamics365-j9seo5",
+      "type": "article",
+      "category": "crm",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/",
+      "author": "Georg Glantschnig",
+      "publishedAt": "2026-11-06T19:00:00.000Z",
+      "readTime": 1,
+      "summary": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises. Explore how Dynamics 365 helps manufacturers and distributors adapt operations with connected ERP, Copilot, and agents.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises appeared first on Microsoft Dynamics 365 Blog.",
+      "tags": [
+        "ERP"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/"
       },
       "saved": false
     },
@@ -1416,88 +1562,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-97qw1m",
-      "type": "article",
-      "category": "ai",
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-11-05T15:19:05.000Z",
-      "readTime": 1,
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "tags": [
-        "AI",
-        "Enterprise",
-        "cloud storage",
-        "Dropbox",
-        "Mergers and Acquisitions",
-        "Tigris Data"
-      ],
-      "relevanceScore": 84,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-2bjduw",
-      "type": "article",
-      "category": "ai",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-11-05T14:42:00.000Z",
-      "readTime": 1,
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "tags": [
-        "AI",
-        "Gadgets",
-        "Hardware",
-        "Startups",
-        "AI agents",
-        "smart ring"
-      ],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-salesforce-blog-bmv99n",
       "type": "article",
       "category": "crm",
@@ -1579,7 +1643,7 @@
       "tags": [
         "Product"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1613,7 +1677,7 @@
       "readTime": 1,
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "tags": [],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
         "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
@@ -1647,7 +1711,7 @@
       "duration": 69,
       "summary": "AGENDA: \n 04:00 OpenAI Cuts Valuation to $1.25 Trillion as Fundraise Shrinks\n 08:00 Google Loses $500 Billion as AI Stocks Sell Off\n 10:00 Anthropic's Growth Slows as AI Price War Intensifies\n 27:00 DoorDash Buys Instacart for $17 Billion\n 33:00 Kalshi Raises $1 Billion at $40 Billion Despite Legal Threats\n 41:00 Cognition Eyes $80 Billion as Baseten Hits $30 Billion and Serval $3 Billion\n 51:00 AI Law Firm Crosby Bids for Collapsed Legal Giant Weil\n 57:00 Physical Intelligence Targets $20 Billion Valuation\n 01:00:00 Hugging Face Deal Faces Scrutiny as Salesforce Buys Cresta for $2.7 Billion",
       "tags": [],
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1681,7 +1745,7 @@
       "readTime": 1,
       "summary": "Learn how Salesforce uses Data 360 to ground its Help Agent in trusted content and how to assess, test, and measure your own agent's content and answers.",
       "tags": [],
-      "relevanceScore": 90,
+      "relevanceScore": 86,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "Identify one use case and assess data quality, approval steps and measurable outcomes."
@@ -1715,7 +1779,7 @@
       "readTime": 1,
       "summary": "Data 360 gave our lead scoring models the full customer picture and changed how we route about 50,000 responses a day. Here's what broke, what we changed, and what you can borrow.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1749,7 +1813,7 @@
       "readTime": 1,
       "summary": "Gmail Promotions, Yahoo Offers, and Outlook Other may feel like second-class placement. They are still part of the inbox and reaching the inbox is only the beginning.",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1785,7 +1849,7 @@
       "tags": [
         "AEO"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1821,7 +1885,7 @@
       "tags": [
         "AEO"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -2847,42 +2911,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://blog.hubspot.com/marketing/profound-vs-semrush"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-hubspot-amgz07",
-      "type": "article",
-      "category": "crm",
-      "title": "AEO analysis tools reviewed: What actually works in 2026",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/aeo-analysis-tools",
-      "author": "Zoe Ashbridge",
-      "publishedAt": "2026-10-27T17:55:04.000Z",
-      "readTime": 1,
-      "summary": "The way people search for information is changing. Instead of scrolling through a list of blue links, more users are turning to AI-powered tools like ChatGPT, Google’s AI Overviews, and Perplexity that deliver direct answers to questions.",
-      "tags": [
-        "AEO"
-      ],
-      "relevanceScore": 62,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/aeo-analysis-tools"
       },
       "saved": false
     },
@@ -4204,40 +4232,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-bpxoq8",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "If the AI Money Dries Up, Which Companies Burn?",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/if-the-ai-money-dries-up-these-companies-burn-these-survive",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-09-27T04:01:00.000Z",
-      "duration": 69,
-      "summary": "Harvey's gross margin fell from roughly positive 50% at the start of 2026 to negative 50% by June, so every $1 of revenue cost $1.50 to deliver. Sam Jacobs, CEO of Pavilion, AJ Bruno, CEO of QuotaPath, and Asad Zaman, CEO of STA, go hosts-only on when AI growth justifies margins like that, why open weight models are no substitute for frontier intelligence, and what happens to the application layer if the exuberant market funding it goes away. Plus, AJ's 100x raise from 2021, a 68% jump in tech M&A and what it means for employee equity, and a Bulls and Bears round on AI catastrophe before 2031.\n Key Takeaways:\n - Negative gross margins can be a phase if there's a way out. Sam's straw man: \"Above 200% growth, I can tolerate bad margins temporarily if you can show me you have a path to a good business.\" Between 100% and 200% he wants \"a clear improving trajectory,\" and below 50% the margins have to be good.\n - Cheaper models fix the margin line but can break the product. Asad likened the switch to open weight models to \"going from hiring people only from Harvard to then going and hiring people from the worst university you can find or some mid-tier university and saying it's the same thing.\" That leaves application companies \"completely at the behest of these model companies.\"\n - The 2021 hangover is still on cap tables. AJ raised QuotaPath's Series B \"at a 100x valuation in '21,\" but with SaaS multiples at \"1x or less than 1x,\" he said, \"If I wanted to go sell QuotaPath today, I really couldn't find a buyer.\" Asad countered that secondaries changed the math: \"The founders are making a lot of money along the way.\"\n Connect with the Hosts:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters: \n 00:00 The Math Of AI, Deals, And Equity\n 02:03 SaaS Margins Were A Law Of Nature\n 03:24 Harvey's Margins Went To Negative 50%\n 04:18 Sam's 200% Growth Straw Man\n 05:46 Open Weight Models Aren't Harvard\n 14:13 Open Models Vs. Frontier Lab Economics\n 19:01 What Would You Spend $1M On?\n 30:08 Bullish Or Bearish On The AI Trade?\n 34:15 Walrath's Warning And A 100x Round\n 36:37 Secondaries Changed The Founder Math\n 42:35 Most Companies Never Get The Choice\n 47:32 Corporate M&A Is Surging\n 52:04 Should Equity Vest Monthly?\n 57:40 AJ's Case For Performance Equity\n 1:02:49 Bulls And Bears: AI Catastrophe",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      ],
-      "intelligence": {
-        "signal": "This story touches on gtm execution.",
-        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/if-the-ai-money-dries-up-these-companies-burn-these-survive"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-b1yxiv",
       "type": "article",
       "category": "revops",
@@ -4350,23 +4344,23 @@
       "rank": 1,
       "topic": "AI & Agents",
       "count": 92,
-      "recent3": 41,
-      "change": 14,
+      "recent3": 36,
+      "change": 11,
       "direction": "up",
       "articles": 61,
       "podcasts": 31,
-      "topItem": "20VC: From $8BN to $19BN: Inside WashU's Endowment Fund | SpaceX Made Up 20% of Our AUM | Why Europe and China Has So Much Opportunity | The Reckoning That is Coming for AI Companies with Scott Wilson",
-      "secondItem": "Crusoe sells troubled Wyoming data center project to Google"
+      "topItem": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures",
+      "secondItem": "After the midterms, things are looking rocky for Elon Musk and data centers"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 56,
-      "recent3": 17,
-      "change": -38,
+      "count": 54,
+      "recent3": 15,
+      "change": -39,
       "direction": "down",
-      "articles": 31,
-      "podcasts": 25,
+      "articles": 30,
+      "podcasts": 24,
       "topItem": "20VC: From $8BN to $19BN: Inside WashU's Endowment Fund | SpaceX Made Up 20% of Our AUM | Why Europe and China Has So Much Opportunity | The Reckoning That is Coming for AI Companies with Scott Wilson",
       "secondItem": "Crusoe sells troubled Wyoming data center project to Google"
     },
@@ -4375,31 +4369,31 @@
       "topic": "Founders & Fundraising",
       "count": 36,
       "recent3": 11,
-      "change": -57,
+      "change": -54,
       "direction": "down",
       "articles": 8,
       "podcasts": 28,
-      "topItem": "20VC: From $8BN to $19BN: Inside WashU's Endowment Fund | SpaceX Made Up 20% of Our AUM | Why Europe and China Has So Much Opportunity | The Reckoning That is Coming for AI Companies with Scott Wilson",
-      "secondItem": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
+      "topItem": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures",
+      "secondItem": "After the midterms, things are looking rocky for Elon Musk and data centers"
     },
     {
       "rank": 4,
       "topic": "Data & Attribution",
-      "count": 30,
-      "recent3": 9,
-      "change": -24,
+      "count": 31,
+      "recent3": 8,
+      "change": -33,
       "direction": "down",
       "articles": 20,
-      "podcasts": 10,
-      "topItem": "Crusoe sells troubled Wyoming data center project to Google",
-      "secondItem": "How a Blue Wave midterm might reshape the AI industry"
+      "podcasts": 11,
+      "topItem": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures",
+      "secondItem": "After the midterms, things are looking rocky for Elon Musk and data centers"
     },
     {
       "rank": 5,
       "topic": "Marketing & Brand",
       "count": 30,
-      "recent3": 8,
-      "change": -56,
+      "recent3": 5,
+      "change": -59,
       "direction": "down",
       "articles": 21,
       "podcasts": 9,
@@ -4409,11 +4403,11 @@
     {
       "rank": 6,
       "topic": "Tech Stack & CPQ",
-      "count": 27,
-      "recent3": 11,
-      "change": 53,
+      "count": 26,
+      "recent3": 7,
+      "change": 12,
       "direction": "up",
-      "articles": 17,
+      "articles": 16,
       "podcasts": 10,
       "topItem": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
       "secondItem": "Obstacles in marketing automation and how to fix them [2026]"
@@ -4423,7 +4417,7 @@
       "topic": "Revenue Forecasting",
       "count": 14,
       "recent3": 1,
-      "change": -87,
+      "change": -86,
       "direction": "down",
       "articles": 1,
       "podcasts": 13,
@@ -4433,17 +4427,17 @@
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 8,
-      "recent3": 1,
-      "change": -75,
+      "count": 9,
+      "recent3": 2,
+      "change": -59,
       "direction": "down",
       "articles": 2,
-      "podcasts": 6,
-      "topItem": "SPOTLIGHT: AI Is Rewriting Sales. Are Your GTM Teams Ready? with Dan Lee of Nooks | Dan Lee, Co-Founder and CEO @ Nooks",
-      "secondItem": "Claude integrations worth adding to your GTM stack"
+      "podcasts": 7,
+      "topItem": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures",
+      "secondItem": "SPOTLIGHT: AI Is Rewriting Sales. Are Your GTM Teams Ready? with Dan Lee of Nooks | Dan Lee, Co-Founder and CEO @ Nooks"
     }
   ],
-  "fetchedAt": "2026-11-07T12:43:18.485Z",
+  "fetchedAt": "2026-11-08T13:00:14.593Z",
   "sources": [
     {
       "source": "RevOps FM",
