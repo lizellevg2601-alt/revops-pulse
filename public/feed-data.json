@@ -1,6 +1,199 @@
 {
   "items": [
     {
+      "id": "feed-topline-podcast-2gbb7f",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "OpenRouter's Head of Insights On Anthropic IPO & AI's Moat Problem | Peter Walker",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/openrouters-head-of-insights-on-anthropic-ipo-ais-moat-problem-peter-walker",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-11-15T05:01:00.000Z",
+      "duration": 63,
+      "summary": "Peter Walker, Head of Insights at OpenRouter, joins Sam Jacobs, AJ Bruno, and Asad Zaman with a view few people have: 210 trillion tokens a week flowing across 600 AI models, from Anthropic and OpenAI to dozens of open weight inference providers. Topics include Peter's move from Carta to OpenRouter just 10 days before Stripe agreed to acquire it, what a token actually is and why cached tokens now shape AI pricing, and why CFOs struggle to tie fast-rising AI spend to ROI. Plus, whether AI labs can hold on to enterprise customers when switching costs are close to zero, what investors are really betting on with the Anthropic IPO, and whether Peter would buy it on day one.\n Key Takeaways:\n - AI labs have almost nothing locking customers in. \"I've never seen a part of tech where two things are true. One, there's very, very, very, very, very small switching costs. Almost none,\" said Peter. The second is the clock: \"75% of the tokens on OpenRouter go to models released in the last 60 days. It's planned obsolescence.\" Even a lab on top knows that no matter how good a model is, \"it will be out of date\" within months, so it has to keep winning the next release.\n - Most companies are paying for more intelligence than they need. Peter hears it from CFOs all the time: \"my whole company is using Opus and Fable and I know they don't need it.\" For a task like reading a PDF, \"if I find a model that reads the PDF 98% as well as Opus, but costs me literally 10% as much, I'm gonna use that model.\" Public benchmarks only go so far. OpenRouter's stance: \"usage is the benchmark. You have to be doing this on your own company usage to understand what models work for you.\"\n - AI spend is heading for a showdown with payroll. Token prices have fallen, but usage has grown much faster, and Peter expects 2027 budgets to feel it: \"if your AI usage bill grew 500% this year, thinking that it's gonna grow another 500% is really scary.\" His view: \"at some point, you cannot continually increase AI spend and not compare it to your payroll spend.\" Asad's recruiting firm already spends six figures a year on Anthropic, and AJ is seeing QuotaPath customers set AI costs against commission costs.\n - Buying the Anthropic IPO is a bet that the frontier stays won. Investors are betting that \"the best model has within it pricing power that is close to permanent,\" said Peter, and that the lab keeps its people and doesn't stumble. \"To date, it's worked really well. But will it work in the future? I think is a speculative bet for sure.\" Asked by Sam to buy or sell, his answer was simple: \"sure, I'll buy day one. Why not?\"\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Peter Walker, Head of Insights at OpenRouter - https://www.linkedin.com/in/peterjameswalker\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Peter Walker\n 02:07 From Carta to OpenRouter and Stripe\n 04:12 How OpenRouter Works\n 09:30 Anthropic's IPO and Token Economics\n 14:43 Agents and the Rise of Cached Tokens\n 19:30 The CFO's AI ROI Problem\n 25:41 Why Coding Is AI's Best Use Case\n 27:36 Peter on AI Alignment Risk\n 30:28 Are We Overbuilding AI Compute?\n 33:15 Why Peter Wants a Little Crash\n 39:39 Can AI Labs Keep Their Customers?\n 44:56 Model Quality Versus Price\n 50:49 What the Anthropic IPO Bets On\n 56:01 Will IPO Wealth Slow the Labs?\n 59:05 Buy or Sell the Anthropic IPO",
+      "tags": [],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/openrouters-head-of-insights-on-anthropic-ipo-ais-moat-problem-peter-walker"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-nf7w58",
+      "type": "article",
+      "category": "ai",
+      "title": "Where was Nvidia’s security team?",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "readTime": 1,
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "tags": [
+        "AI",
+        "TC",
+        "nvidia"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-ue1xat",
+      "type": "article",
+      "category": "ai",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "readTime": 1,
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "tags": [
+        "AI",
+        "Amjad Masad",
+        "Elon Musk",
+        "Jensen Huang",
+        "nvidia",
+        "tim sweeney"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-54royb",
+      "type": "article",
+      "category": "ai",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "readTime": 1,
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "OpenAI",
+        "evergreens",
+        "siri ai"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-3xmz84",
+      "type": "article",
+      "category": "ai",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "author": "Kate Park",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "readTime": 1,
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "TC",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-20vc-podcast-svthpj",
       "type": "podcast",
       "category": "gtm",
@@ -49,9 +242,9 @@
         "AI",
         "Startups",
         "Venture",
-        "Jensen Huang",
-        "neocloud",
-        "nvidia"
+        "open source",
+        "nvidia",
+        "Jensen Huang"
       ],
       "relevanceScore": 66,
       "whyItMatters": [
@@ -1191,47 +1384,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-g5pruw",
-      "type": "article",
-      "category": "ai",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "author": "Zack Whittaker",
-      "publishedAt": "2026-11-12T17:17:58.000Z",
-      "readTime": 1,
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "tags": [
-        "AI",
-        "Security",
-        "Transportation",
-        "AI assistants",
-        "Airlines",
-        "cybersecurity"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-salesforce-blog-y69y13",
       "type": "article",
       "category": "crm",
@@ -1262,126 +1414,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.salesforce.com/blog/service-sales-unified-customer/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-wrfhcg",
-      "type": "article",
-      "category": "ai",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-11-12T17:00:52.000Z",
-      "readTime": 1,
-      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "tags": [
-        "AI",
-        "Climate",
-        "Analysis",
-        "natural gas",
-        "Softbank"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-c2qizt",
-      "type": "article",
-      "category": "ai",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-11-12T17:00:00.000Z",
-      "readTime": 1,
-      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "tags": [
-        "AI",
-        "Apps",
-        "Startups",
-        "ai apps",
-        "Photography"
-      ],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-ip55fq",
-      "type": "article",
-      "category": "ai",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-11-12T16:36:37.000Z",
-      "readTime": 1,
-      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "tags": [
-        "AI",
-        "Government & Policy",
-        "In Brief",
-        "Jensen Huang",
-        "nvidia"
-      ],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
       },
       "saved": false
     },
@@ -1467,7 +1499,7 @@
       "tags": [
         "Startup"
       ],
-      "relevanceScore": 72,
+      "relevanceScore": 68,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1501,7 +1533,7 @@
       "readTime": 1,
       "summary": "Seafoam's website won Gold at the 2026 MUSE Creative Awards for website design. Here's the decision behind it and a quick test for your own site.",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1535,7 +1567,7 @@
       "readTime": 1,
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1569,7 +1601,7 @@
       "duration": 67,
       "summary": "AGENDA:\n 03:47 Sequoia exits London and ends its scout program\n 14:46 Nvidia board opens inquiry into Jensen Huang\n 21:51 Nasdaq 100 sheds $2.5T in one day\n 24:13 Anthropic targets $1T IPO valuation at $70–$78 a share\n 34:16 Revolut hits $115B, Zipline triples to $21.5B, fal doubles to $16B\n 40:47 Fireworks AI suffers two breaches in 30 days\n 45:41 Dialpad buys Ada for $400M in stock\n 50:35 Cloudflare revenue jumps 39% after a 20% staff cut\n 1:00:05 California voters reject billionaire wealth tax",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1606,7 +1638,7 @@
         "RevOps Metrics",
         "Articles"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1640,7 +1672,7 @@
       "readTime": 1,
       "summary": "B2B and B2C marketing pull in different directions — here's how a lean team can run both without splitting in two.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
         "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
@@ -1976,6 +2008,40 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-mistral-ceo-on-why-energy-is-not-the-bottleneck-to-ai-why-openai-and-anthropic-will-come-for-your-business-the-future-of-the-inference-market-are-chinese-open-source-models-truly-safe"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-sam-jacobs-substack-rl148l",
+      "type": "article",
+      "category": "gtm",
+      "title": "SWS044: Buy the Dip",
+      "source": "Sam Jacobs",
+      "sourceUrl": "https://samfjacobs.substack.com/p/sws044-buy-the-dip",
+      "author": "Sam Jacobs",
+      "publishedAt": "2026-11-08T14:58:32.000Z",
+      "readTime": 1,
+      "summary": "What this week's market crash tells us about the next 20 years.",
+      "tags": [],
+      "relevanceScore": 50,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://samfjacobs.substack.com/p/sws044-buy-the-dip"
       },
       "saved": false
     },
@@ -2910,6 +2976,40 @@
       "saved": false
     },
     {
+      "id": "feed-sam-jacobs-substack-ay2ax9",
+      "type": "article",
+      "category": "gtm",
+      "title": "SWS043: Flesh and Blood",
+      "source": "Sam Jacobs",
+      "sourceUrl": "https://samfjacobs.substack.com/p/sws043-flesh-and-blood",
+      "author": "Sam Jacobs",
+      "publishedAt": "2026-11-01T14:58:38.000Z",
+      "readTime": 1,
+      "summary": "As AI makes everything the same, being weird is becoming good for business.",
+      "tags": [],
+      "relevanceScore": 56,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://samfjacobs.substack.com/p/sws043-flesh-and-blood"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-seafoam-media-grdnpa",
       "type": "article",
       "category": "revops",
@@ -3327,6 +3427,40 @@
       "saved": false
     },
     {
+      "id": "feed-sam-jacobs-substack-mgy3ue",
+      "type": "article",
+      "category": "gtm",
+      "title": "SWS042: Tabula Rasa",
+      "source": "Sam Jacobs",
+      "sourceUrl": "https://samfjacobs.substack.com/p/sws042-tabula-rasa",
+      "author": "Sam Jacobs",
+      "publishedAt": "2026-10-25T13:58:34.000Z",
+      "readTime": 1,
+      "summary": "We're building the wrong kind of software. People don't want to make every decision.",
+      "tags": [],
+      "relevanceScore": 50,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://samfjacobs.substack.com/p/sws042-tabula-rasa"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-sstezj",
       "type": "podcast",
       "category": "gtm",
@@ -3638,6 +3772,40 @@
       "saved": false
     },
     {
+      "id": "feed-sam-jacobs-substack-qaet4h",
+      "type": "article",
+      "category": "gtm",
+      "title": "SWS041: Total Addressable Markets",
+      "source": "Sam Jacobs",
+      "sourceUrl": "https://samfjacobs.substack.com/p/sws041-total-addressable-markets",
+      "author": "Sam Jacobs",
+      "publishedAt": "2026-10-18T13:57:33.000Z",
+      "readTime": 1,
+      "summary": "What happens when the entire economy is the addressable market?",
+      "tags": [],
+      "relevanceScore": 50,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://samfjacobs.substack.com/p/sws041-total-addressable-markets"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-topline-podcast-av4203",
       "type": "podcast",
       "category": "gtm",
@@ -3846,70 +4014,36 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-47ezv1",
-      "type": "podcast",
+      "id": "feed-sam-jacobs-substack-ystj8s",
+      "type": "article",
       "category": "gtm",
-      "title": "AI Revenue Is Real. But Will It Last? | Amy Konary, Founder & Chair, Subscribed Institute @ Zuora",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/ai-revenue-is-real-but-will-it-last-amy-konary-founder-chair-subscribed-institute-zuora",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-10-11T04:01:00.000Z",
-      "duration": 53,
-      "summary": "Amy Konary, Founder & Chair of The Subscribed Institute at Zuora, coined the term SaaS as an IDC analyst around 2000, when her first forecast sized the whole market at $40 million. She joins Sam Jacobs, AJ Bruno, and Asad Zaman for the first in-person Topline to ask whether AI company economics are a house of cards, and whether circular financing and double counting are real problems. Plus, why POCs have stopped being a pipeline signal, experimental revenue versus true ARR, a new leverage index for sticky revenue, tokens versus credits, and how close outcome pricing can really get.\n Key Takeaways:\n - Treat POCs as a weak pipeline signal. As Amy put it, \"it used to be that hands-on product was a really good signal from a pipeline perspective, but everyone's doing POCs just to kick the tires, but actually has no mandate to buy.\" Many are free, production-ready builds, and very few convert.\n - Usage alone won't tell you which revenue will last. Amy scores customers on scope and workflows, trust in the system's outputs, and how much of their own context they upload, because \"you can have 2 customers with the exact same usage, but very different leverage.\" Low leverage means \"That revenue is less durable.\"\n - Pure usage pricing can leave you as exposed as seats did. \"If you're just tracking usage, and usage is highly experimental, and usage decreases over time as people optimize the tools, you're in the same vulnerable position you were in with seats,\" said Amy, who expects hybrid models with a smaller, trackable outcome piece.\n - Build for durability without rigidity. \"So I think there's a difference between durability and rigidity,\" Amy said, and her metaphor is bamboo: one of the strongest construction materials, yet flexible, anchored by a clear focus on the customer's progress.\n Connect with the Hosts & Guests:\n Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n Guest: Amy Konary, Founder & Chair, The Subscribed Institute at Zuora - https://www.linkedin.com/in/amykonary/\n Topline is more than a podcast:\n Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n Chapters:\n 00:00 Introducing Amy Konary\n 01:43 From ERP Sales to Industry Analyst\n 03:33 How Amy Konary Named SaaS\n 08:03 How Salesforce Taught the Street SaaS\n 10:31 Building Durable Companies for AI\n 11:52 Does Gross Margin Still Matter?\n 15:10 Who Is Checking AI Company Math?\n 17:03 Circular Financing and Double Counting\n 18:30 Is AI a House of Cards?\n 21:49 Durability Versus Rigidity\n 29:19 Be Careful About Your POCs\n 33:40 The Leverage Index for Sticky Revenue\n 39:12 SaaS Companies Moving Into Services\n 41:59 Tokens, Credits and Outcome Pricing\n 48:32 P(doom) and Raising Kids With AI",
+      "title": "SWS040: Securing the Bag",
+      "source": "Sam Jacobs",
+      "sourceUrl": "https://samfjacobs.substack.com/p/sws040-securing-the-bag",
+      "author": "Sam Jacobs",
+      "publishedAt": "2026-10-11T13:57:50.000Z",
+      "readTime": 1,
+      "summary": "Money can buy power. It can’t buy character. We should expect more from the powerful.",
       "tags": [],
-      "relevanceScore": 74,
+      "relevanceScore": 50,
       "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
       ],
       "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
       },
       "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
         "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
         "confidence": "low",
         "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/ai-revenue-is-real-but-will-it-last-amy-konary-founder-chair-subscribed-institute-zuora"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-v6r1no",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "20Sales: Inside Ramp's Sales Playbook: How to Build a Sales Machine with Max Freeman, SVP Sales @ Ramp",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-10-10T13:33:00.000Z",
-      "duration": 68,
-      "summary": "Max Freeman is SVP of Sales at Ramp. He joined the company as its first sales hire. By 2025, he was leading more than 300 salespeople, helping build Ramp's sales organisation from the ground up. Ramp's latest reported revenue exceeds $1.7BN, with a valuation of over $40BN. \n AGENDA:\n 00:00 Inside Ramp's Sales Playbook\n 05:00 How Do You Find Exceptional Sellers—and Why Bankers Make the Best?\n 18:00 How Do You Build an Outbound Machine That Scales Beyond Your SDR Team?\n 24:00 How Do You Shorten Sales Cycles Without Slashing Your Price?\n 27:00 How Should You Pay Your First Reps—and Incentivise New Products?\n 34:00 How Do You Onboard Reps Who Can Actually Sell?\n 40:00 How High Should Quotas Be—and How Long Should Reps Get to Ramp?\n 44:00 How Do You Drive Customer Expansion and Forecast Revenue Accurately?\n 54:00 How Do You Grow as a Sales Leader Without Taking Over Every Important Deal?",
-      "tags": [],
-      "relevanceScore": 86,
-      "whyItMatters": [
-        "Forecasting and pipeline practices influence how confidently revenue teams plan and prioritise resources.",
-        "Compare the underlying assumptions with your own pipeline definitions and reporting quality."
-      ],
-      "intelligence": {
-        "signal": "This story touches on revenue predictability.",
-        "impact": "Forecasting and pipeline practices influence how confidently revenue teams plan and prioritise resources.",
-        "action": "Compare the underlying assumptions with your own pipeline definitions and reporting quality."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning Revenue Forecasting. Open the original source to confirm the full details.",
-        "whyItMatters": "Forecasting and pipeline practices influence how confidently revenue teams plan and prioritise resources.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Compare the underlying assumptions with your own pipeline definitions and reporting quality.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://thetwentyminutevc.libsyn.com/20sales-inside-ramps-sales-playbook-how-to-build-a-17bn-arr-sales-machine-with-max-freeman-svp-sales-ramp"
+        "sourceUrl": "https://samfjacobs.substack.com/p/sws040-securing-the-bag"
       },
       "saved": false
     },
@@ -3948,74 +4082,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-wjpfna",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-ceo-sam-jacobs-is-redefining-pavilions-identity-sam-jacobs-founder-ceo-pavilion",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-10-08T16:30:00.000Z",
-      "duration": 21,
-      "summary": "When Sam Jacobs founded Pavilion, formerly Revenue Collective, he set out to build a private community for operators in a startup world that traditionally celebrated founders and overlooked the people running the business. But as Pavilion grew to 10,000+ members, the very thing that made the community valuable began to get diluted.\n  In this special Topline Spotlight episode, Sam joins co-hosts AJ Bruno and Asad Zaman to talk about what happened, why removing the qualification barrier was a mistake, and what it took to bring Pavilion back to its original vision.\n Sam talks about:\n  - Why rapid growth can dilute what makes a community valuable\n - How LinkedIn and Slack helped Pavilion scale faster than expected\n - What happened when exclusivity gave way to openness\n - Why reversing course became harder once the community had grown\n - The importance of having a long-term vision instead of chasing immediate growth\n - Why building something great requires patience and restraint\n  Chapters:\n  00:00 Introduction\n 00:42 Business Challenge of the Last 24 Months\n 01:29 What Is Pavilion?\n 02:43 Launching Pavilion Gold\n 04:01 Why the Community Scaled So Quickly\n 06:51 LinkedIn and Slack as Growth Drivers\n 07:02 Shifting Culture of Openness Among GTM Leaders\n 08:04 The Consequences of Losing Focus\n 10:54 The Biggest Mistake: Removing the Qualification Barrier\n 11:32 The Challenge of Reversing Course\n 13:46 Continued Opportunity for Operator Advocacy\n 15:00 Solving the Challenge: Long-Term Vision\n 15:54 Building a 3-Year Vision for Pavilion\n 16:08 Importance of Patience in Building Exclusive Communities\n Try Pavilion: joinpavilion.com",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      ],
-      "intelligence": {
-        "signal": "This story touches on gtm execution.",
-        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-ceo-sam-jacobs-is-redefining-pavilions-identity-sam-jacobs-founder-ceo-pavilion"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-vpk02q",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-10-08T07:07:00.000Z",
-      "duration": 73,
-      "summary": "Joinin the trio today we have Dev Ittycheria, CEO @ MongoDB. \n AGENDA: \n 04:00 OpenAI Nears $70B Run Rate—Anthropic's Lead Under Threat\n 12:00 Factory vs Cognition: Silicon Valley's Talent War Turns Ugly\n 23:00 Vinod Khosla Blasts His Own Portfolio Company\n 25:00 Reflection Launches Beam: America Strikes Back in Open-Source AI\n 34:00 ElevenLabs Doubles Its Valuation to $22B\n 37:00 Salesforce Buys Listen Labs for $2B—Sequoia Cashes In\n 46:00 Vercel Hits $600M ARR as Agents Drive Half Its New Business\n 55:00 Former Groq Engineers Sue Over Nvidia's $17B Deal\n 01:01:00 Meta's Muse Steals the Show as OpenAI's Dots Underwhelms\n 01:05:00 Oura Pulls Its IPO Despite 74% Growth—A Warning for VC",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      ],
-      "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-4a2hx3",
       "type": "article",
       "category": "revops",
@@ -4046,74 +4112,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.seafoammedia.com/thinking/lens/how-do-you-track-roi-on-marketing/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-20vc-podcast-ndfr0a",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
-      "source": "20VC",
-      "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures",
-      "author": "Harry Stebbings",
-      "publishedAt": "2026-10-05T07:07:00.000Z",
-      "duration": 67,
-      "summary": "Venky Ganesan is a Partner at Menlo Ventures, whose portfolio includes Anthropic, Lovable, Legora and Higgsfield, alongside earlier hits Uber and Roku. Venky's own investment track record includes Palo Alto Networks, Upwork, Poshmark and Rover. He is a three-time Forbes Midas List investor and former Chair of the National Venture Capital Association.\n AGENDA:\n 07:00 Can You Still Do Seed Without a $1 Billion Fund?\n 11:00 How Much of AI's Revenue Growth Is Actually Real?\n 19:00 When Is \"Overpaying\" the Smartest Investment You Can Make?\n 25:00 Does Ownership Still Matter in a World of Trillion-Dollar Outcomes?\n 31:00 Is \"Big Tech Will Buy Us\" a Dangerous Investment Thesis?\n 36:00 Why Invest in Venture When You Can Just Buy the Magnificent Seven?\n 45:00 When Should You Sell a 40x Winner—and When Should You Double Down?\n 54:00 Can a $50 Million Fund Still Compete With the Venture Giants?\n 58:00 Quickfire: Is Benchmark Harder to Beat Than Sequoia?",
-      "tags": [],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-topline-podcast-qtxtub",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "Turning AI Tokens Into ROI (That You Can Measure) | CEO @ Paid, Manny Medina",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/turning-ai-tokens-into-roi-that-you-can-measure-ceo-paid-manny-medina",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-10-04T04:01:00.000Z",
-      "duration": 66,
-      "summary": "Manny Medina, Co-Founder and CEO of Paid, the monetization platform for AI agents, and the founder who took Outreach from nothing, joins Sam Jacobs, AJ Bruno, and Asad Zaman in person on how to price AI agents once seats stop making sense. Topics include why every SaaS company needs its own agents before someone else's run on its MCP layer, why a token is the wrong unit of value, and the itemized phone bill every agent builder owes its buyers. Plus, why fixed-price deals win logos but stall expansion, the case for 40% to 60% gross margins in the agent era, and what Satya Nadella told Manny in a green room.\n  Key Takeaways:\n  - Price the work your agent does, not the seats it fills. In SaaS you sell 100 seats, procurement sees 20 in heavy use, and the renewal shrinks to 50. With agents, \"if you've sold 100 seats and only 2 were hyper-users, you don't care because you're charging for all the uses and all the value those 2 seats were getting.\" For now that pricing lives between effort and output, because true outcome pricing needs attribution, and as Manny put it, \"Attribution is really hard.\"\n  - Make the bill readable before you argue about ROI. Manny compares it to the old itemized phone bill, where you went straight to the biggest line and asked, \"Did I really call Pakistan from New York?\" Tokens can't play that role: \"A token should not be a unit of value for charging because a token is really kind of like the inside secret.\" Show the buyer the research, deck, or analysis the agent produced, because \"explainability is like the first rung in the ladder.\"\n  - Fixed pricing is easy money that boxes you in at renewal. Enterprises are buying one of each right now, so \"new logo is not hard. Expansion is hard.\" Teams that land logos on fixed price hit the first renewal with nowhere to go, which is why Paid opens with a monetization consultant and takes a percentage of revenue: \"You grow, I grow.\" - Plan for thinner margins and narrower markets. Manny learned Amazon's margins cold (books 20%, electronics 7%, jewelry 3%) and calls SaaS's 70 to 80% an anomaly of cheap money: \"I feel like a normal, you know, software business will be running on 40% margins, 60% tops.\"\n \n  Connect with the Hosts & Guests:\n   \n  Host: Sam Jacobs, CEO at Pavilion - https://www.linkedin.com/in/samfjacobs/\n  Host: AJ Bruno, CEO at QuotaPath - https://www.linkedin.com/in/ajbruno3/\n  Host: Asad Zaman, CEO at STA - https://www.linkedin.com/in/azaman1/\n  Guest: Manny Medina, Co-Founder & CEO at Paid - https://www.linkedin.com/in/medinism/\n   \n  Topline is more than a podcast:\n   \n  Subscribe to Topline Newsletter: https://toplinemedia.substack.com/\n  Check us out on YouTube for the #1 video podcast for founders, operators, and investors in B2B tech: https://www.youtube.com/@TOPLINE-Media\n  Join the free Topline Slack channel to connect with 600+ revenue leaders to keep the conversation going beyond the podcast: https://www.joinpavilion.com/topline-slack\n   \n  Chapters:\n  00:00 Introducing Manny Medina\n  01:37 What Paid Is Building\n  04:38 Will All Software Go Agentic?\n  06:35 The 100-Seat Renewal Problem\n  10:02 An Itemized Phone Bill for Agents\n  13:33 Why Outcome Pricing Takes Time\n  19:04 Open Source vs. Frontier Models\n  26:41 Pricing Agents Is an NRR Problem\n  33:11 Why Manny Won't Build Workflows\n  35:39 Fundraising Lessons From Outreach\n  41:10 Life Is Path Dependent\n  45:46 Culture Is the Exhaust of Winning\n  47:50 Is AI Spend Still Experimental?\n  58:22 The End of 80% Software Margins",
-      "tags": [],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/turning-ai-tokens-into-roi-that-you-can-measure-ceo-paid-manny-medina"
       },
       "saved": false
     },
@@ -4292,45 +4290,45 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 93,
-      "recent3": 36,
-      "change": 16,
+      "count": 90,
+      "recent3": 34,
+      "change": 19,
       "direction": "up",
-      "articles": 64,
-      "podcasts": 29,
-      "topItem": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
-      "secondItem": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say"
+      "articles": 65,
+      "podcasts": 25,
+      "topItem": "OpenRouter's Head of Insights On Anthropic IPO & AI's Moat Problem | Peter Walker",
+      "secondItem": "Where was Nvidia’s security team?"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 55,
-      "recent3": 13,
-      "change": -43,
+      "count": 54,
+      "recent3": 14,
+      "change": -27,
       "direction": "down",
-      "articles": 34,
-      "podcasts": 21,
-      "topItem": "The Guide to Salesforce Agent, Application, and Headless Development",
-      "secondItem": "The unfolding Jensen Huang scandal: a timeline"
+      "articles": 36,
+      "podcasts": 18,
+      "topItem": "OpenRouter's Head of Insights On Anthropic IPO & AI's Moat Problem | Peter Walker",
+      "secondItem": "Where was Nvidia’s security team?"
     },
     {
       "rank": 3,
       "topic": "Founders & Fundraising",
-      "count": 33,
-      "recent3": 8,
-      "change": -49,
+      "count": 28,
+      "recent3": 7,
+      "change": -37,
       "direction": "down",
       "articles": 6,
-      "podcasts": 27,
-      "topItem": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
-      "secondItem": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say"
+      "podcasts": 22,
+      "topItem": "OpenRouter's Head of Insights On Anthropic IPO & AI's Moat Problem | Peter Walker",
+      "secondItem": "The AI graveyard: a running list of projects and startups that didn’t make it"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
       "count": 25,
-      "recent3": 4,
-      "change": -63,
+      "recent3": 3,
+      "change": -64,
       "direction": "down",
       "articles": 18,
       "podcasts": 7,
@@ -4340,63 +4338,63 @@
     {
       "rank": 5,
       "topic": "Tech Stack & CPQ",
-      "count": 25,
+      "count": 22,
       "recent3": 3,
-      "change": -63,
+      "change": -57,
       "direction": "down",
       "articles": 16,
-      "podcasts": 9,
+      "podcasts": 6,
       "topItem": "AI agent startup LangChain hits $3B valuation",
       "secondItem": "The Guide to Salesforce Agent, Application, and Headless Development"
     },
     {
       "rank": 6,
       "topic": "Data & Attribution",
-      "count": 22,
+      "count": 21,
       "recent3": 3,
-      "change": -32,
+      "change": -43,
       "direction": "down",
-      "articles": 14,
+      "articles": 13,
       "podcasts": 8,
-      "topItem": "AI influencers: What consumer sentiment data tells brands",
-      "secondItem": "Nebius tests the neocloud playbook with $40 billion in planned spending"
+      "topItem": "OpenRouter's Head of Insights On Anthropic IPO & AI's Moat Problem | Peter Walker",
+      "secondItem": "AI influencers: What consumer sentiment data tells brands"
     },
     {
       "rank": 7,
+      "topic": "GTM Strategy",
+      "count": 7,
+      "recent3": 2,
+      "change": -54,
+      "direction": "down",
+      "articles": 2,
+      "podcasts": 5,
+      "topItem": "Muse can now place calls to US businesses — if you pay",
+      "secondItem": "SPOTLIGHT: Why Good Marketing Teams Still Fail with John Short | John Short, CEO @ Compound Growth Marketing"
+    },
+    {
+      "rank": 8,
       "topic": "Revenue Forecasting",
-      "count": 12,
+      "count": 7,
       "recent3": 0,
       "change": -100,
       "direction": "down",
       "articles": 0,
-      "podcasts": 12,
+      "podcasts": 7,
       "topItem": "20VC: Who Wins the Inference Market | Has Open-Source LLM Inference Peaked? | What Happens to the Cost of Compute | The Real Limits of Post-Training and RL with Erik Bernhardsson, Modal CEO",
       "secondItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT"
-    },
-    {
-      "rank": 8,
-      "topic": "GTM Strategy",
-      "count": 9,
-      "recent3": 2,
-      "change": -41,
-      "direction": "down",
-      "articles": 2,
-      "podcasts": 7,
-      "topItem": "Muse can now place calls to US businesses — if you pay",
-      "secondItem": "SPOTLIGHT: Why Good Marketing Teams Still Fail with John Short | John Short, CEO @ Compound Growth Marketing"
     }
   ],
-  "fetchedAt": "2026-11-14T13:15:09.901Z",
+  "fetchedAt": "2026-11-15T13:42:57.500Z",
   "sources": [
     {
       "source": "RevOps FM",
-      "status": "failed",
-      "count": 0
+      "status": "ok",
+      "count": 20
     },
     {
       "source": "Sam Jacobs",
-      "status": "failed",
-      "count": 0
+      "status": "ok",
+      "count": 20
     },
     {
       "source": "Revenue Operations Alliance",
