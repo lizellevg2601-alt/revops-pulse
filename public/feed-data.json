@@ -1,6 +1,942 @@
 {
   "items": [
     {
+      "id": "feed-techcrunch-ai-sqwz9",
+      "type": "article",
+      "category": "ai",
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Tim De Chant",
+      "publishedAt": "2026-11-20T14:55:44.000Z",
+      "readTime": 1,
+      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+      "tags": [
+        "AI",
+        "Startups",
+        "anthropic ipo",
+        "Equity podcast",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-gk5iz7",
+      "type": "article",
+      "category": "crm",
+      "title": "Replace Salesforce to Salesforce Before Its Spring ’27 Retirement",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/salesforce-to-salesforce-replacement-architecture/",
+      "author": "Shraddha Nakra, Marlene Guerra-Reeve",
+      "publishedAt": "2026-11-20T14:00:18.000Z",
+      "readTime": 1,
+      "summary": "Select a cross-org sharing architecture that fits your use case ahead of the Spring ’27 Salesforce to Salesforce retirement.",
+      "tags": [],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning Org Design & Leadership. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/salesforce-to-salesforce-replacement-architecture/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-238vsp",
+      "type": "article",
+      "category": "crm",
+      "title": "AI Orchestrators: What the New Generation Needs to Know for Business-led AI Agents",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-orchestrator-basics/",
+      "author": "Christian Sabogal",
+      "publishedAt": "2026-11-20T14:00:00.000Z",
+      "readTime": 1,
+      "summary": "Your next hire might be the person who knows how to conduct a team of AI agents.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-orchestrator-basics/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-170uxb",
+      "type": "article",
+      "category": "ai",
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-11-20T14:00:00.000Z",
+      "readTime": 1,
+      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "tags": [
+        "Hardware",
+        "AI",
+        "Gadgets"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-hubspot-v8z6a8",
+      "type": "article",
+      "category": "crm",
+      "title": "AI search volatility: What it means for your traffic",
+      "source": "HubSpot",
+      "sourceUrl": "https://blog.hubspot.com/marketing/ai-search-volatility",
+      "author": "HubSpot Staff",
+      "publishedAt": "2026-11-20T13:30:06.000Z",
+      "readTime": 1,
+      "summary": "For SEO managers, volatility is nothing new (Google has been hitting us with algorithm update surprises for years). But AI search volatility adds a new layer of complexity. Plenty of teams have a stake in those swings: In HubSpot’s State of AEO report, 58% of marketers said their organizations were optimizing content specifically for answer engines in Q1 2026.",
+      "tags": [
+        "AEO"
+      ],
+      "relevanceScore": 84,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://blog.hubspot.com/marketing/ai-search-volatility"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-6ii11u",
+      "type": "article",
+      "category": "ai",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "readTime": 1,
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "tags": [
+        "AI",
+        "AI agents",
+        "Apple",
+        "Meta",
+        "muse"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-p6advq",
+      "type": "article",
+      "category": "ai",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "author": "Julie Bort",
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "readTime": 1,
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "tags": [
+        "AI",
+        "TC",
+        "Anthropic",
+        "anthropic ipo",
+        "IPO"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-huggingface-l004dj",
+      "type": "article",
+      "category": "ai",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "source": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "author": "",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://huggingface.co/blog/harness-adapters-at-scale"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-tgfa6q",
+      "type": "article",
+      "category": "crm",
+      "title": "The Console That Bends to Every Job, and Every Dispatcher’s Needs",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/new-scheduling-console/",
+      "author": "Yulia Libster",
+      "publishedAt": "2026-11-19T22:12:37.000Z",
+      "readTime": 1,
+      "summary": "The new Scheduling Console bends to the job and delivers 30% faster performance.",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/new-scheduling-console/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-hb8b7j",
+      "type": "article",
+      "category": "ai",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-11-19T21:58:06.000Z",
+      "readTime": 1,
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "tags": [
+        "AI",
+        "AI wearables",
+        "hardware",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "Review current data completeness and ownership before changing dashboards or attribution models."
+      ],
+      "intelligence": {
+        "signal": "This story touches on data and measurement.",
+        "impact": "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "action": "Review current data completeness and ownership before changing dashboards or attribution models."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "The value of new measurement approaches depends on reliable definitions and consistent underlying data.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Review current data completeness and ownership before changing dashboards or attribution models.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-76k66f",
+      "type": "article",
+      "category": "ai",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-11-19T21:42:31.000Z",
+      "readTime": 1,
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "tags": [
+        "AI",
+        "Security",
+        "outages"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-ixutvt",
+      "type": "article",
+      "category": "ai",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-11-19T20:18:49.000Z",
+      "readTime": 1,
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "tags": [
+        "AI",
+        "China",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-c6suim",
+      "type": "article",
+      "category": "ai",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-11-19T19:10:45.000Z",
+      "readTime": 1,
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "anthropic ipo",
+        "IPO",
+        "philanthropy"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-9kkoih",
+      "type": "article",
+      "category": "ai",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-19T18:09:11.000Z",
+      "readTime": 1,
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "tags": [
+        "AI",
+        "Apps",
+        "ai agent",
+        "gemini",
+        "Google"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-dynamics365-cidtk7",
+      "type": "article",
+      "category": "crm",
+      "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/",
+      "author": "Swamy Narayana",
+      "publishedAt": "2026-11-19T18:08:52.000Z",
+      "readTime": 1,
+      "summary": "Learn how Dynamics 365 Activate helps customers and partners move beyond legacy ERP and CRM systems with an agentic approach to discovery, requirements, configuration, and migration.\nThe post Move beyond legacy ERP and CRM with Dynamics 365 Activate appeared first on Microsoft Dynamics 365 Blog.",
+      "tags": [
+        "AI"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-p3fli2",
+      "type": "article",
+      "category": "crm",
+      "title": "The Hidden Cost of Implementing Data 360 Without a Data Strategy",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/the-hidden-cost-of-implementing-data-360-without-a-data-strategy/",
+      "author": "Sara Hernández",
+      "publishedAt": "2026-11-19T18:03:08.000Z",
+      "readTime": 1,
+      "summary": "A successful Salesforce Data 360 implementation starts with strategy, not technology. Discover the five critical decisions that help avoid costly rework and unlock real business value.",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning Data & Attribution. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/the-hidden-cost-of-implementing-data-360-without-a-data-strategy/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-google-ai-wfw1ek",
+      "type": "article",
+      "category": "ai",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "source": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "author": "Lucia Loher",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "readTime": 1,
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "tags": [
+        "Developer tools",
+        "AI"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-1oov30",
+      "type": "article",
+      "category": "ai",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-11-19T17:38:40.000Z",
+      "readTime": 1,
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "tags": [
+        "AI",
+        "Apps",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-topline-podcast-721d08",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "SPOTLIGHT: Resilience and Growth with LucidLink CEO Pete Thompson | Pete Thompson, Co-Founder and CEO @ LucidLink",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-resilience-and-growth-with-lucidlink-ceo-pete-thompson-pete-thompson-co-founder-and-ceo-lucidlink",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-11-19T17:30:00.000Z",
+      "duration": 26,
+      "summary": "What do you do when your startup is running out of cash and the investors suddenly stop taking meetings?\n For LucidLink CEO and Co-Founder Pete Thompson, that was the reality during the pandemic. But what looked like a potential breaking point became the turning point that helped the company find product-market fit and unlock extraordinary growth.\n In this episode of Topline Spotlight, Sam Jacobs and Asad Zaman sit down with Pete to unpack LucidLink's journey from its founding in 2016 to becoming a high-growth company transforming how teams access and collaborate on files in the cloud.\n Pete shares the difficult decisions, customer breakthroughs, fundraising challenges, and leadership lessons behind the company's remarkable turnaround and why building a strong company culture was critical to its survival.\n What We Get Into:\n - How LucidLink transforms cloud storage into a high-performance drive for distributed teams.\n - Why finding product-market fit took years and how the pandemic changed everything.\n - The challenges of surviving a cash crisis when fundraising suddenly stalled.\n - How major customer breakthroughs helped accelerate LucidLink's growth.\n - The story behind its $70 million funding round.\n - Why strong company culture and values can make or break a business during difficult times.\n Chapters:\n 00:48 Meet Pete Thompson, CEO and Co-Founder of LucidLink\n 01:42 How LucidLink Is Reinventing Cloud Storage\n 03:09 Finding the Right Customers and Product-Market Fit\n 08:08 The Pandemic Becomes a Turning Point\n 10:30 Surviving a Startup Cash Crisis\n 14:10 How Adobe Helped Unlock a Breakthrough\n 16:40 From $100K to $40M: LucidLink's Growth Story\n 18:21 The $70 Million Fundraise and Lessons in Resilience\n 20:42 Building a Strong Company Culture\n 23:05 Pete's Recommendations and Final Thoughts\n Try LucidLink: lucidlink.com",
+      "tags": [],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-resilience-and-growth-with-lucidlink-ceo-pete-thompson-pete-thompson-co-founder-and-ceo-lucidlink"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-google-ai-b4hyao",
+      "type": "article",
+      "category": "ai",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "source": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "author": "",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "readTime": 1,
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "tags": [
+        "AI"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-3ywd86",
+      "type": "article",
+      "category": "ai",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "author": "Kate Park",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "readTime": 1,
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "tags": [
+        "AI",
+        "Startups",
+        "alibaba",
+        "Asia",
+        "China",
+        "retailers"
+      ],
+      "relevanceScore": 72,
+      "whyItMatters": [
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      ],
+      "intelligence": {
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-o3ih1r",
+      "type": "article",
+      "category": "ai",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-11-19T16:59:23.000Z",
+      "readTime": 1,
+      "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-suco8i",
+      "type": "article",
+      "category": "ai",
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-19T16:19:41.000Z",
+      "readTime": 1,
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "dario amodei",
+        "IPO"
+      ],
+      "relevanceScore": 66,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-salesforce-blog-kx010d",
+      "type": "article",
+      "category": "crm",
+      "title": "BLIP-Live: AI Guidance That Knows When to Step In",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/blip-live/",
+      "author": "Kanchana Ranasinghe, Honglu Zhou, Dr. Shelby Heinecke",
+      "publishedAt": "2026-11-19T16:11:36.000Z",
+      "readTime": 1,
+      "summary": "Imagine a field service technician repairing a dishwasher. Their hands are full, the next appointment is approaching, and a missed step could mean another visit. An AI assistant watching the repair could flag…",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/blip-live/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-dynamics365-j6a949",
+      "type": "article",
+      "category": "crm",
+      "title": "Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/unlock-new-possibilities-for-dynamics-365-erp-with-work-iq-and-business-skills/",
+      "author": "Jared Hall",
+      "publishedAt": "2026-11-19T16:00:00.000Z",
+      "readTime": 1,
+      "summary": "See how Dynamics 365 ERP in Work IQ helps organizations connect Copilot and agents to governed ERP data, actions, and reusable business skills.\nThe post Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills appeared first on Microsoft Dynamics 365 Blog.",
+      "tags": [
+        "AI"
+      ],
+      "relevanceScore": 78,
+      "whyItMatters": [
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      ],
+      "intelligence": {
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/unlock-new-possibilities-for-dynamics-365-erp-with-work-iq-and-business-skills/"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-techcrunch-ai-qxtdzc",
       "type": "article",
       "category": "ai",
@@ -14,7 +950,8 @@
       "tags": [
         "AI",
         "Anthropic",
-        "anthropic ipo"
+        "anthropic ipo",
+        "IPO"
       ],
       "relevanceScore": 72,
       "whyItMatters": [
@@ -82,7 +1019,7 @@
       "author": "Ivan Mehta",
       "publishedAt": "2026-11-19T14:00:00.000Z",
       "readTime": 1,
-      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail",
+      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
       "tags": [
         "AI",
         "Apps",
@@ -144,6 +1081,42 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://blog.hubspot.com/marketing/claude-cowork-skills"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-openai-x1q0bp",
+      "type": "article",
+      "category": "ai",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "author": "",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "readTime": 1,
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "tags": [
+        "Engineering"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
       },
       "saved": false
     },
@@ -218,6 +1191,150 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-openai-3co77s",
+      "type": "article",
+      "category": "ai",
+      "title": "Deploying Daybreak Red",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/business/learn/deploying-daybreak-red",
+      "author": "",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "tags": [
+        "Guides"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://openai.com/business/learn/deploying-daybreak-red"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-openai-ct5qcm",
+      "type": "article",
+      "category": "ai",
+      "title": "See PR scans in action",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/business/learn/pr-scans-demo",
+      "author": "",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "tags": [
+        "Demos"
+      ],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://openai.com/business/learn/pr-scans-demo"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-openai-xrknbj",
+      "type": "article",
+      "category": "ai",
+      "title": "Explore the Codex Security Plugin",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "author": "",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "tags": [
+        "Demos"
+      ],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://openai.com/business/learn/codex-security-plugin-demo"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-openai-qu6mrx",
+      "type": "article",
+      "category": "ai",
+      "title": "Get started with Daybreak Blue",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "author": "",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "tags": [
+        "Demos"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
       },
       "saved": false
     },
@@ -414,164 +1531,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-i1341t",
-      "type": "article",
-      "category": "ai",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-11-18T22:11:15.000Z",
-      "readTime": 1,
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "tags": [
-        "AI",
-        "IPO",
-        "Anthropic",
-        "anthropic ipo"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-ldjg3r",
-      "type": "article",
-      "category": "ai",
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "author": "Julie Bort",
-      "publishedAt": "2026-11-18T21:57:40.000Z",
-      "readTime": 1,
-      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
-      "tags": [
-        "AI",
-        "TC",
-        "nvidia",
-        "SEC"
-      ],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-nc4x8h",
-      "type": "article",
-      "category": "ai",
-      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-18T21:34:13.000Z",
-      "readTime": 1,
-      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
-      "tags": [
-        "AI",
-        "Security",
-        "cyberattacks",
-        "Palmer Luckey",
-        "security"
-      ],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-b322q8",
-      "type": "article",
-      "category": "ai",
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-11-18T21:31:21.000Z",
-      "readTime": 1,
-      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
-      "tags": [
-        "AI",
-        "anduril",
-        "Jensen Huang",
-        "nvidia",
-        "Palmer Luckey"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-salesforce-blog-i7eitd",
       "type": "article",
       "category": "crm",
@@ -636,84 +1595,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.salesforce.com/blog/future-of-work-golden-hoodie-recipients-dreamforce/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-x9vuc0",
-      "type": "article",
-      "category": "ai",
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-11-18T20:07:01.000Z",
-      "readTime": 1,
-      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
-      "tags": [
-        "AI",
-        "Media & Entertainment",
-        "OpenAI",
-        "sam altman"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-kuhjm0",
-      "type": "article",
-      "category": "ai",
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-11-18T19:56:39.000Z",
-      "readTime": 1,
-      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
-      "tags": [
-        "AI",
-        "Apps",
-        "Social",
-        "Snapchat"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
       },
       "saved": false
     },
@@ -786,159 +1667,38 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-38r0ih",
+      "id": "feed-dynamics365-qr2i50",
       "type": "article",
-      "category": "ai",
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-18T18:04:05.000Z",
+      "category": "crm",
+      "title": "Business Applications in Work IQ is now generally available",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/",
+      "author": "Julie Koesmarno",
+      "publishedAt": "2026-11-18T18:00:20.000Z",
       "readTime": 1,
-      "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+      "summary": "Business Applications in Work IQ is now generally available, grounding Microsoft Copilot and agents in Dynamics 365 and Power Platform business data, processes, and permissions.\nThe post Business Applications in Work IQ is now generally available appeared first on Microsoft Dynamics 365 Blog.",
       "tags": [
-        "AI",
-        "Privacy",
-        "ai mode",
-        "Google",
-        "Search"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-r8h8z5",
-      "type": "article",
-      "category": "ai",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-11-18T17:32:10.000Z",
-      "readTime": 1,
-      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-      "tags": [
-        "AI",
-        "Security",
-        "AI agents",
-        "Banking",
-        "cybersecurity"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-google-ai-lhl9c9",
-      "type": "article",
-      "category": "ai",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "source": "Google AI",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "author": "Angus Logan",
-      "publishedAt": "2026-11-18T17:00:00.000Z",
-      "readTime": 1,
-      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "tags": [
-        "Gemini App",
-        "Android",
         "AI"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 84,
       "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
+        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "Identify one use case and assess data quality, approval steps and measurable outcomes."
       ],
       "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+        "signal": "This story touches on ai adoption.",
+        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
+        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
       },
       "analysis": {
         "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
         "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
         "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
         "confidence": "low",
         "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-m1wu3s",
-      "type": "article",
-      "category": "ai",
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-18T16:59:00.000Z",
-      "readTime": 1,
-      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-      "tags": [
-        "AI",
-        "greg brockman",
-        "OpenAI",
-        "sam altman"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/"
       },
       "saved": false
     },
@@ -977,150 +1737,38 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-8fhgh3",
+      "id": "feed-dynamics365-wdd60z",
       "type": "article",
-      "category": "ai",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-11-18T16:14:09.000Z",
+      "category": "crm",
+      "title": "Microsoft Contact Center Intelligence now generally available: Transform customer interactions",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/",
+      "author": "Omar Aftab",
+      "publishedAt": "2026-11-18T16:30:00.000Z",
       "readTime": 1,
-      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+      "summary": "Microsoft Contact Center Intelligence is now generally available, helping organizations bring AI-powered agents, omnichannel experiences, enterprise knowledge, and intelligent automation to the contact centers they already use.\nThe post Microsoft Contact Center Intelligence now generally available: Transform customer interactions appeared first on Microsoft Dynamics 365 Blog.",
       "tags": [
-        "AI",
-        "greg brockman",
-        "Jensen Huang",
-        "nvidia",
-        "OpenAI",
-        "sam altman"
+        "AI"
       ],
       "relevanceScore": 66,
       "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
+        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
       ],
       "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+        "signal": "This story touches on crm architecture.",
+        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
+        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
       },
       "analysis": {
         "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
         "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
         "confidence": "low",
         "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-huggingface-o8ftuj",
-      "type": "article",
-      "category": "ai",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "source": "Hugging Face",
-      "sourceUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "author": "",
-      "publishedAt": "2026-11-18T15:00:23.000Z",
-      "readTime": 1,
-      "summary": "",
-      "tags": [],
-      "relevanceScore": 54,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-k26cdj",
-      "type": "article",
-      "category": "crm",
-      "title": "AI Governance On Your List of Things to Learn? SMBs — Read This First",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-governance-best-practices/",
-      "author": "Christian Sabogal",
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "readTime": 1,
-      "summary": "Let’s talk about governing our AI, shall we?",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/small-business/ai-governance-best-practices/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-d1olvd",
-      "type": "article",
-      "category": "ai",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "author": "Julie Bort",
-      "publishedAt": "2026-11-18T13:00:00.000Z",
-      "readTime": 1,
-      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-      "tags": [
-        "AI",
-        "TC",
-        "neocloud",
-        "nvidia"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/"
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/"
       },
       "saved": false
     },
@@ -1164,379 +1812,19 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-1dsfs7",
-      "type": "article",
-      "category": "ai",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-11-18T12:00:00.000Z",
-      "readTime": 1,
-      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-      "tags": [
-        "AI",
-        "Startups",
-        "AI agents",
-        "Exclusive",
-        "Felicis Ventures",
-        "Y Combinator"
-      ],
-      "relevanceScore": 72,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-techcrunch-ai-z9vgst",
-      "type": "article",
-      "category": "ai",
-      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-11-18T11:30:00.000Z",
-      "readTime": 1,
-      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Startups",
-        "Accel"
-      ],
-      "relevanceScore": 78,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-h5lh2l",
-      "type": "article",
-      "category": "ai",
-      "title": "The Silent Consensus",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/the-silent-consensus",
-      "author": "",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "readTime": 1,
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "tags": [
-        "Intelligence Age"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/index/the-silent-consensus"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-z7npcf",
-      "type": "article",
-      "category": "ai",
-      "title": "Research acceleration: The jagged frontier",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "author": "",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "readTime": 1,
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "tags": [
-        "Research"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-2p0dfb",
-      "type": "article",
-      "category": "ai",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/business/customer-stories/sumitomo-life",
-      "author": "",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "readTime": 1,
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "tags": [],
-      "relevanceScore": 66,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/business/customer-stories/sumitomo-life"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-e7yh5c",
-      "type": "article",
-      "category": "ai",
-      "title": "Inside the Codex sandbox",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/inside-the-codex-sandbox",
-      "author": "",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "readTime": 1,
-      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "tags": [
-        "Engineering"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning Org Design & Leadership. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/index/inside-the-codex-sandbox"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-geswnt",
-      "type": "article",
-      "category": "ai",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk",
-      "author": "",
-      "publishedAt": "2026-11-18T06:00:00.000Z",
-      "readTime": 1,
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "tags": [
-        "Safety"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-openai-rthe83",
-      "type": "article",
-      "category": "ai",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "author": "",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "readTime": 1,
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "tags": [
-        "Company"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-ppokwc",
+      "id": "feed-dynamics365-vacjdx",
       "type": "article",
       "category": "crm",
-      "title": "Salesforce Services Achieves First Certifications for New Hyperforce on Google Cloud Environment",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/salesforce-services-achieves-first-certifications-for-new-hyperforce-on-google-cloud-environment/",
-      "author": "Alex Kreilein, Jan Edquilang",
-      "publishedAt": "2026-11-17T22:49:32.000Z",
+      "title": "Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot",
+      "source": "Microsoft Dynamics 365",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/",
+      "author": "Jeff Teper",
+      "publishedAt": "2026-11-17T18:10:46.000Z",
       "readTime": 1,
-      "summary": "Independent security assessments validate key controls supporting Salesforce Services on Hyperforce on Google Cloud.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
+      "summary": "Discover what's new for Dynamics 365 at Microsoft Ignite 2026, with innovations across Copilot and agents that help businesses work smarter.\nThe post Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot appeared first on Microsoft Dynamics 365 Blog.",
+      "tags": [
+        "Microsoft Copilot"
       ],
-      "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning Tech Stack & CPQ. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/salesforce-services-achieves-first-certifications-for-new-hyperforce-on-google-cloud-environment/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-z7o2bh",
-      "type": "article",
-      "category": "crm",
-      "title": "Forecasts That Fix Themselves: Self-Evolving Data Science Agents at Salesforce",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/self-evolving-data-science-agents/",
-      "author": "Yuriy Loukachev, Hong-Quang Pham, Kyle Gilson, Doyen Sahoo, Junnan Li",
-      "publishedAt": "2026-11-17T22:02:11.000Z",
-      "readTime": 1,
-      "summary": "Every night, our internal forecasting platform generates nearly four million forecasts that power our global infrastructure. They decide how much cloud capacity we reserve, which workloads to migrate, and whether an infrastructure budget…",
-      "tags": [],
-      "relevanceScore": 84,
-      "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      ],
-      "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/self-evolving-data-science-agents/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-4m6ft",
-      "type": "article",
-      "category": "crm",
-      "title": "Forming, Storming, Norming, Performing: Four Stages Every AI Agent Goes Through",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/improve-ai-agents/",
-      "author": "Ishmehar Chawla",
-      "publishedAt": "2026-11-17T21:53:03.000Z",
-      "readTime": 1,
-      "summary": "AI agents go through the same four stages as new teams. Agent Optimizer helps you see the storm, find what's causing it, and prove the fix worked.",
-      "tags": [],
       "relevanceScore": 66,
       "whyItMatters": [
         "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
@@ -1555,41 +1843,7 @@
         "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
         "confidence": "low",
         "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/improve-ai-agents/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-n9xeuc",
-      "type": "article",
-      "category": "crm",
-      "title": "Meet Bridget: The AI Agent that Bridges Your Systems and Gets Work Done",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/bridget-systems-integration-agent/",
-      "author": "Jason Briggs",
-      "publishedAt": "2026-11-17T20:21:13.000Z",
-      "readTime": 1,
-      "summary": "Bridget connects your systems without code, then does the manual work inside them. Generally available in Regrello Nov. 18 and expected in MuleSoft in December.",
-      "tags": [],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/bridget-systems-integration-agent/"
+        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/"
       },
       "saved": false
     },
@@ -1607,7 +1861,7 @@
       "tags": [
         "AEO"
       ],
-      "relevanceScore": 84,
+      "relevanceScore": 80,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1641,7 +1895,7 @@
       "readTime": 1,
       "summary": "Gain a comprehensive understanding of your role with RevOps Core, your go-to revenue operations course. Start learning today.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1675,7 +1929,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
         "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
@@ -1709,7 +1963,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1743,7 +1997,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1777,7 +2031,7 @@
       "readTime": 1,
       "summary": "",
       "tags": [],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -2790,116 +3044,6 @@
       "saved": false
     },
     {
-      "id": "feed-hubspot-7t4v52",
-      "type": "article",
-      "category": "crm",
-      "title": "How do I benchmark my AI search performance against my industry?",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/ai-search-industry-benchmarks",
-      "author": "Zoe Ashbridge",
-      "publishedAt": "2026-11-04T14:40:07.000Z",
-      "readTime": 1,
-      "summary": "Measuring success is a leading challenge for answer engine optimization (AEO) that marketers report today. In HubSpot’s State of AEO 2026 report, it was the top challenge among B2B marketers at 23%; among B2C marketers, 26% cited it, behind only understanding how AEO works at 29%.",
-      "tags": [
-        "AEO"
-      ],
-      "relevanceScore": 68,
-      "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      ],
-      "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/ai-search-industry-benchmarks"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-dynamics365-israzv",
-      "type": "article",
-      "category": "crm",
-      "title": "Sales Development Agent: Setup Best Practices for Enterprise-Grade Autonomous Prospecting",
-      "source": "Microsoft Dynamics 365",
-      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/",
-      "author": "Scott Magee",
-      "publishedAt": "2026-11-03T16:30:00.000Z",
-      "readTime": 1,
-      "summary": "Learn best practices for setting up Sales Development Agent for enterprise prospecting, including governance, CRM integration, security, testing, and scalable deployment.\nThe post Sales Development Agent: Setup Best Practices for Enterprise-Grade Autonomous Prospecting appeared first on Microsoft Dynamics 365 Blog.",
-      "tags": [
-        "AI"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-dynamics365-6fsg3m",
-      "type": "article",
-      "category": "crm",
-      "title": "Bringing sustainability into the Dynamics 365 ERP portfolio",
-      "source": "Microsoft Dynamics 365",
-      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/03/bringing-sustainability-into-the-dynamics-365-erp-portfolio/",
-      "author": "April Olson",
-      "publishedAt": "2026-11-03T16:00:00.000Z",
-      "readTime": 1,
-      "summary": "Introducing Microsoft Dynamics 365 Sustainability, which brings Microsoft Sustainability Manager into the Dynamics 365 ERP portfolio. Explore how connected sustainability and business data can help organizations record environmental impact, report progress, and inform operational decisions.\nThe post Bringing sustainability into the Dynamics 365 ERP portfolio appeared first on Microsoft Dynamics 365 Blog.",
-      "tags": [
-        "ERP",
-        "Microsoft Copilot",
-        "Power Platform"
-      ],
-      "relevanceScore": 80,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/03/bringing-sustainability-into-the-dynamics-365-erp-portfolio/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-revops-alliance-8irddy",
       "type": "article",
       "category": "revops",
@@ -2933,42 +3077,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.revenueoperationsalliance.com/sales-territory-planning-balance-territories-on-value-not-account-counts/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-hubspot-jgjnjx",
-      "type": "article",
-      "category": "crm",
-      "title": "Claude integrations worth adding to your GTM stack",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/claude-integrations",
-      "author": "Lipsa Das",
-      "publishedAt": "2026-11-03T14:40:06.000Z",
-      "readTime": 1,
-      "summary": "Most marketers use an AI assistant at work, but constantly switching between Claude, a CRM, and other apps breaks focus. That is where Claude integrations come in.",
-      "tags": [
-        "Artificial Intelligence"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/claude-integrations"
       },
       "saved": false
     },
@@ -3113,78 +3221,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://www.revenueoperationsalliance.com/nrr-protection-template/"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-hubspot-y809jp",
-      "type": "article",
-      "category": "crm",
-      "title": "AI maturity in marketing: What the research reveals",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/ai-maturity",
-      "author": "HubSpot Staff",
-      "publishedAt": "2026-11-02T17:50:05.000Z",
-      "readTime": 1,
-      "summary": "AI maturity explains why 98% of marketing teams now use AI in some way, yet only 10% report transformational results, according to our 2026 State of AI in Marketing research. AI maturity measures how consistently a customer-facing team turns AI into measurable business outcomes, and it matters more than the number of tools or pilots you’ve launched.",
-      "tags": [
-        "Artificial Intelligence"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      ],
-      "intelligence": {
-        "signal": "This story touches on ai adoption.",
-        "impact": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "action": "Identify one use case and assess data quality, approval steps and measurable outcomes."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Consider where human oversight, data access and process ownership would be necessary before adopting a similar capability.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Identify one use case and assess data quality, approval steps and measurable outcomes.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/ai-maturity"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-hubspot-etc3jv",
-      "type": "article",
-      "category": "crm",
-      "title": "Scrunch vs. Semrush: Which tracks AI visibility better?",
-      "source": "HubSpot",
-      "sourceUrl": "https://blog.hubspot.com/marketing/scrunch-vs-semrush",
-      "author": "HubSpot Staff",
-      "publishedAt": "2026-11-02T17:45:05.000Z",
-      "readTime": 1,
-      "summary": "Over the past few months, the HubSpot Blog team has been testing and comparing various AEO tools, including Scrunch vs. Semrush, and here’s the high-level takeaway if you’re trying to choose: Scrunch is a dedicated answer engine optimization (AEO) tool built to monitor how your brand shows up in AI answers, while Semrush folds AI visibility tracking into the SEO suite many teams already run.",
-      "tags": [
-        "AEO"
-      ],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      ],
-      "intelligence": {
-        "signal": "This story touches on crm architecture.",
-        "impact": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "action": "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Check whether the development changes any systems, vendor commitments or integration dependencies you use.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://blog.hubspot.com/marketing/scrunch-vs-semrush"
       },
       "saved": false
     },
@@ -4039,40 +4075,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-wjpfna",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "SPOTLIGHT: How CEO Sam Jacobs Is Redefining Pavilion's Identity | Sam Jacobs, Founder & CEO @ Pavilion",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-ceo-sam-jacobs-is-redefining-pavilions-identity-sam-jacobs-founder-ceo-pavilion",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-10-08T16:30:00.000Z",
-      "duration": 21,
-      "summary": "When Sam Jacobs founded Pavilion, formerly Revenue Collective, he set out to build a private community for operators in a startup world that traditionally celebrated founders and overlooked the people running the business. But as Pavilion grew to 10,000+ members, the very thing that made the community valuable began to get diluted.\n  In this special Topline Spotlight episode, Sam joins co-hosts AJ Bruno and Asad Zaman to talk about what happened, why removing the qualification barrier was a mistake, and what it took to bring Pavilion back to its original vision.\n Sam talks about:\n  - Why rapid growth can dilute what makes a community valuable\n - How LinkedIn and Slack helped Pavilion scale faster than expected\n - What happened when exclusivity gave way to openness\n - Why reversing course became harder once the community had grown\n - The importance of having a long-term vision instead of chasing immediate growth\n - Why building something great requires patience and restraint\n  Chapters:\n  00:00 Introduction\n 00:42 Business Challenge of the Last 24 Months\n 01:29 What Is Pavilion?\n 02:43 Launching Pavilion Gold\n 04:01 Why the Community Scaled So Quickly\n 06:51 LinkedIn and Slack as Growth Drivers\n 07:02 Shifting Culture of Openness Among GTM Leaders\n 08:04 The Consequences of Losing Focus\n 10:54 The Biggest Mistake: Removing the Qualification Barrier\n 11:32 The Challenge of Reversing Course\n 13:46 Continued Opportunity for Operator Advocacy\n 15:00 Solving the Challenge: Long-Term Vision\n 15:54 Building a 3-Year Vision for Pavilion\n 16:08 Importance of Patience in Building Exclusive Communities\n Try Pavilion: joinpavilion.com",
-      "tags": [],
-      "relevanceScore": 74,
-      "whyItMatters": [
-        "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      ],
-      "intelligence": {
-        "signal": "This story touches on gtm execution.",
-        "impact": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "action": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Shifts in buyer behaviour or go-to-market practices may create opportunities to revisit channel and team coordination.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Discuss whether the development warrants a small, measurable experiment within your current GTM motion.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-ceo-sam-jacobs-is-redefining-pavilions-identity-sam-jacobs-founder-ceo-pavilion"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-4a2hx3",
       "type": "article",
       "category": "revops",
@@ -4281,101 +4283,101 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 95,
+      "count": 90,
       "recent3": 37,
-      "change": -5,
-      "direction": "flat",
-      "articles": 66,
+      "change": -9,
+      "direction": "down",
+      "articles": 61,
       "podcasts": 29,
-      "topItem": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "secondItem": "Superhuman pushes its Go assistant everywhere"
+      "topItem": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "secondItem": "AI Orchestrators: What the New Generation Needs to Know for Business-led AI Agents"
     },
     {
       "rank": 2,
       "topic": "Org Design & Leadership",
-      "count": 55,
-      "recent3": 15,
-      "change": -35,
+      "count": 57,
+      "recent3": 21,
+      "change": -27,
       "direction": "down",
-      "articles": 34,
+      "articles": 36,
       "podcasts": 21,
-      "topItem": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "secondItem": "Contact Center Basics: For Small Teams Who Want to Serve Big"
+      "topItem": "Replace Salesforce to Salesforce Before Its Spring ’27 Retirement",
+      "secondItem": "AI Orchestrators: What the New Generation Needs to Know for Business-led AI Agents"
     },
     {
       "rank": 3,
       "topic": "Founders & Fundraising",
-      "count": 33,
-      "recent3": 7,
-      "change": -50,
+      "count": 34,
+      "recent3": 9,
+      "change": -45,
       "direction": "down",
-      "articles": 6,
+      "articles": 7,
       "podcasts": 27,
-      "topItem": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "secondItem": "20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fractile: Mega-Rounds Continue"
+      "topItem": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "secondItem": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO"
     },
     {
       "rank": 4,
       "topic": "Marketing & Brand",
-      "count": 27,
+      "count": 26,
       "recent3": 2,
-      "change": -67,
+      "change": -76,
       "direction": "down",
-      "articles": 19,
+      "articles": 18,
       "podcasts": 8,
-      "topItem": "Chief Revenue Officer Summit Sydney 2026 | OnDemand",
-      "secondItem": "How to track your brand's visibility in AI search [2026]"
+      "topItem": "AI search volatility: What it means for your traffic",
+      "secondItem": "Chief Revenue Officer Summit Sydney 2026 | OnDemand"
     },
     {
       "rank": 5,
       "topic": "Tech Stack & CPQ",
-      "count": 26,
-      "recent3": 6,
-      "change": -58,
+      "count": 25,
+      "recent3": 9,
+      "change": -21,
       "direction": "down",
-      "articles": 18,
+      "articles": 17,
       "podcasts": 8,
-      "topItem": "20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fractile: Mega-Rounds Continue",
-      "secondItem": "Our response to the Optimizely “OPTIMJACK” supply chain compromise"
+      "topItem": "Replace Salesforce to Salesforce Before Its Spring ’27 Retirement",
+      "secondItem": "AI search volatility: What it means for your traffic"
     },
     {
       "rank": 6,
       "topic": "Data & Attribution",
-      "count": 20,
-      "recent3": 3,
-      "change": -51,
+      "count": 19,
+      "recent3": 5,
+      "change": -42,
       "direction": "down",
-      "articles": 11,
+      "articles": 10,
       "podcasts": 9,
-      "topItem": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "secondItem": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need"
+      "topItem": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
+      "secondItem": "The Hidden Cost of Implementing Data 360 Without a Data Strategy"
     },
     {
       "rank": 7,
       "topic": "Revenue Forecasting",
-      "count": 11,
-      "recent3": 1,
-      "change": -89,
+      "count": 9,
+      "recent3": 0,
+      "change": -100,
       "direction": "down",
-      "articles": 1,
-      "podcasts": 10,
-      "topItem": "Forecasts That Fix Themselves: Self-Evolving Data Science Agents at Salesforce",
-      "secondItem": "20VC: Who Wins the Inference Market | Has Open-Source LLM Inference Peaked? | What Happens to the Cost of Compute | The Real Limits of Post-Training and RL with Erik Bernhardsson, Modal CEO"
+      "articles": 0,
+      "podcasts": 9,
+      "topItem": "20VC: Who Wins the Inference Market | Has Open-Source LLM Inference Peaked? | What Happens to the Cost of Compute | The Real Limits of Post-Training and RL with Erik Bernhardsson, Modal CEO",
+      "secondItem": "The Man Who Led 100+ CROs (Even OpenAI's) | John McMahon - 5x Post-IPO CRO / The GOAT"
     },
     {
       "rank": 8,
       "topic": "GTM Strategy",
-      "count": 8,
+      "count": 6,
       "recent3": 0,
-      "change": -84,
+      "change": -100,
       "direction": "down",
-      "articles": 1,
-      "podcasts": 7,
+      "articles": 0,
+      "podcasts": 6,
       "topItem": "SPOTLIGHT: Why Good Marketing Teams Still Fail with John Short | John Short, CEO @ Compound Growth Marketing",
       "secondItem": "The Great Tech Selloff (Silicon Valley Investor Explains) | Rajeev Dham, MD @ Sapphire Ventures"
     }
   ],
-  "fetchedAt": "2026-11-19T15:30:02.055Z",
+  "fetchedAt": "2026-11-20T15:07:22.536Z",
   "sources": [
     {
       "source": "RevOps FM",
