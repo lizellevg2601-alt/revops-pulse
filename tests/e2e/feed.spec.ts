@@ -45,7 +45,7 @@ test("search, keyboard shortcut, categories, types, sorting and pagination work"
   await expect(page.locator("#story-results article").first()).toContainText("Podcast");
   await expect(page.locator("#story-results article").first().getByRole("link", { name: "Listen at publisher" })).toHaveAttribute("target", "_blank");
   await page.getByRole("combobox", { name: "Sort stories" }).selectOption("score");
-  await expect(page.getByText("It is not personalised or a quality rating.", { exact: false })).toBeVisible();
+  await expect(page.getByText("Stories are ordered by how closely they match this topic.", { exact: false })).toBeVisible();
   expect(errors).toEqual([]);
 });
 
@@ -91,12 +91,12 @@ test("corrupted or blocked local storage does not break the feed or in-tab savin
   }
 });
 
-test("insight is always visible, clearly labelled, expandable, and not presented as reviewed", async ({ page }) => {
+test("quick take is visible, sourced, and expandable", async ({ page }) => {
   await page.goto("/");
   const first = page.locator("#story-results article").first();
-  await expect(first.getByText("Automated insight", { exact: false })).toBeVisible();
+  await expect(first.getByText("Quick take", { exact: false })).toBeVisible();
   await expect(first.getByText("Why it matters:", { exact: false })).toBeVisible();
-  await expect(first.getByText("Low confidence; not editor-reviewed.", { exact: false })).toBeVisible();
+  await expect(first.getByText("Open the original story for the full picture.", { exact: false })).toBeVisible();
   await expect(first.getByText("Strategic implication:", { exact: false })).not.toBeVisible();
   await first.locator("summary").click();
   await expect(first.getByText("Strategic implication:", { exact: false })).toBeVisible();
@@ -104,7 +104,7 @@ test("insight is always visible, clearly labelled, expandable, and not presented
   await expect(first.getByText("Strategic implication:", { exact: false })).not.toBeVisible();
   await expect(page.getByRole("heading", { name: "Editor-reviewed briefings", exact: true })).toHaveCount(0);
   await page.getByRole("link", { name: "How this feed works" }).click();
-  await expect(page.getByRole("heading", { name: "Clear sources. Clear boundaries." })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "What you're reading, and why." })).toBeVisible();
 });
 
 test("mobile layout has no horizontal overflow and supports filters", async ({ page }, testInfo) => {

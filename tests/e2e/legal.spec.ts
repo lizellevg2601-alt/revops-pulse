@@ -8,7 +8,7 @@ test("legal and contact links are reachable from the footer", async ({ page }) =
   await expect(footer.getByRole("link", { name: "Sources & editorial approach" })).toHaveAttribute("href", "/about/");
   await expect(footer.getByRole("link", { name: "Terms" })).toHaveAttribute("href", "/terms/");
   await expect(footer.getByRole("link", { name: "Privacy" })).toHaveAttribute("href", "/privacy/");
-  const contact = footer.getByRole("link", { name: "Report a copyright issue" });
+  const contact = footer.getByRole("link", { name: "For publishers" });
   await expect(contact).toHaveAttribute("href", /^mailto:admin@gtmautomationacademy\.com\?subject=/);
   await expect(contact).toHaveAttribute("href", /takedown%20request/);
 });
@@ -29,7 +29,7 @@ test("terms and privacy pages render with the real contact address", async ({ pa
 
 test("the methodology page links to the legal pages and contact address", async ({ page }) => {
   await page.goto("/about/");
-  await expect(page.getByRole("heading", { name: "Contact and corrections" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Contact", exact: true })).toBeVisible();
   await expect(page.getByRole("link", { name: email })).toHaveAttribute("href", /^mailto:/);
   await expect(page.getByRole("link", { name: "Terms of Use" })).toHaveAttribute("href", "/terms/");
   await expect(page.getByRole("link", { name: "Privacy Policy" })).toHaveAttribute("href", "/privacy/");
