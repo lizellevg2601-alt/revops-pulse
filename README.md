@@ -5,7 +5,7 @@ RevOps Pulse is a static Next.js App Router site for CRM, AI, revenue operations
 ## Editorial boundaries
 
 - **Source updates** are publisher RSS headlines, attribution, dates, and short excerpts capped at 180 characters, linked to the original publisher. Podcast entries are link-only: title, publisher, date, duration, and URL, with no republished episode description. RevOps Pulse has not independently verified them.
-- **Automated context** is low-confidence, keyword-based guidance derived from RSS metadata. It is not editor-reviewed and does not establish facts about a publisher's story.
+- **Automated insight** is low-confidence, keyword-based guidance derived from RSS metadata. Every story shows an always-visible "Why it matters" and next step with an explicit label, plus an expandable breakdown. It is not editor-reviewed and does not establish facts about a publisher's story.
 - **Editor-reviewed briefings** are rendered only from complete records in `public/approved-intelligence.json`, with a named reviewer, approval date, and supporting sources. Automated stories never inherit that status.
 - Saved stories are kept in browser local storage only; there is no account or cross-device sync.
 

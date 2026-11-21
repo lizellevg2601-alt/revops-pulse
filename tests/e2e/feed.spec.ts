@@ -91,13 +91,17 @@ test("corrupted or blocked local storage does not break the feed or in-tab savin
   }
 });
 
-test("context is clearly labelled, expandable, and not presented as reviewed", async ({ page }) => {
+test("insight is always visible, clearly labelled, expandable, and not presented as reviewed", async ({ page }) => {
   await page.goto("/");
   const first = page.locator("#story-results article").first();
-  await first.locator("summary").click();
+  await expect(first.getByText("Automated insight", { exact: false })).toBeVisible();
+  await expect(first.getByText("Why it matters:", { exact: false })).toBeVisible();
   await expect(first.getByText("Low confidence; not editor-reviewed.", { exact: false })).toBeVisible();
+  await expect(first.getByText("Strategic implication:", { exact: false })).not.toBeVisible();
   await first.locator("summary").click();
-  await expect(first.getByText("Low confidence; not editor-reviewed.", { exact: false })).not.toBeVisible();
+  await expect(first.getByText("Strategic implication:", { exact: false })).toBeVisible();
+  await first.locator("summary").click();
+  await expect(first.getByText("Strategic implication:", { exact: false })).not.toBeVisible();
   await expect(page.getByRole("heading", { name: "Editor-reviewed briefings", exact: true })).toHaveCount(0);
   await page.getByRole("link", { name: "How this feed works" }).click();
   await expect(page.getByRole("heading", { name: "Clear sources. Clear boundaries." })).toBeVisible();
