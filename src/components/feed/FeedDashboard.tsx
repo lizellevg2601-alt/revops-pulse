@@ -6,6 +6,7 @@ import { TopSearchBar } from "@/components/app-shell/TopSearchBar";
 import { ApprovedIntelligence } from "@/components/intelligence/ApprovedIntelligence";
 import { TrendingThemes } from "@/components/intelligence/TrendingThemes";
 import { categories, filterFeed, formatDate, type Category } from "@/lib/feed";
+import { siteConfig, takedownMailto } from "@/lib/site-config";
 import { useSavedStories } from "@/lib/use-saved-stories";
 import type { ApprovedArticle, FeedFiltersState, FeedPayload } from "@/lib/types";
 import { FeedFilters } from "./FeedFilters";
@@ -111,8 +112,14 @@ export function FeedDashboard({ initialFeed, approvedArticles }: { initialFeed: 
         </aside>
       </div>
     </main>
-    <footer className="mx-auto mt-8 flex max-w-[1440px] flex-wrap justify-between gap-3 border-t px-4 py-6 text-xs text-[var(--slate-500)] lg:px-8">
-      <p>RevOps Pulse · A GTM Automation Academy publication</p><a href="/about/" className="underline underline-offset-4">Sources & editorial approach</a>
+    <footer className="mx-auto mt-8 flex max-w-[1440px] flex-wrap justify-between gap-x-6 gap-y-3 border-t px-4 py-6 text-xs text-[var(--slate-500)] lg:px-8">
+      <p>{siteConfig.siteName} · A {siteConfig.publisher} publication</p>
+      <nav aria-label="Site information" className="flex flex-wrap items-center gap-x-5 gap-y-2">
+        <a href="/about/" className="underline underline-offset-4">Sources &amp; editorial approach</a>
+        <a href="/terms/" className="underline underline-offset-4">Terms</a>
+        <a href="/privacy/" className="underline underline-offset-4">Privacy</a>
+        <a href={takedownMailto} className="underline underline-offset-4">Report a copyright issue</a>
+      </nav>
     </footer>
   </div>;
 }

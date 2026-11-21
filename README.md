@@ -9,7 +9,7 @@ RevOps Pulse is a static Next.js App Router site for CRM, AI, revenue operations
 - **Editor-reviewed briefings** are rendered only from complete records in `public/approved-intelligence.json`, with a named reviewer, approval date, and supporting sources. Automated stories never inherit that status.
 - Saved stories are kept in browser local storage only; there is no account or cross-device sync.
 
-The public methodology page is at `/about/`.
+Public pages: `/about/` (methodology), `/terms/` (Terms of Use), and `/privacy/` (Privacy Policy). The footer and methodology page link to all three and to the copyright/takedown contact address. Public contact and legal details live in `src/lib/site-config.ts`; update them there, not in individual pages. These pages are a starting point, not a substitute for legal review.
 
 ## Local development
 
@@ -39,5 +39,6 @@ Open http://localhost:3000.
 - `public/feed-data.json` — generated source updates, topic counts, refresh time, and publisher health.
 - `public/approved-intelligence.json` — editor-reviewed briefings. An empty array is valid; no placeholder briefings are generated.
 - `src/app/about/page.tsx` — reader-facing explanation of sources, ranking, freshness, outages, and saved stories.
+- `src/lib/site-config.ts` — single source of truth for the publisher name, contact email, effective date, and takedown mailto link.
 
 The local editorial review tool lives in `tools/editorial-studio/` and is intentionally outside the published routes. See `tools/editorial-studio/README.md`.
