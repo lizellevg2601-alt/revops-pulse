@@ -22,7 +22,9 @@ export function StoryCard({ item, onSave, featured = false }: { item: FeedItem; 
         <span className="font-medium">{item.source}</span><span aria-hidden="true">·</span><time dateTime={item.publishedAt}>{formatDate(item.publishedAt)}</time>
         {item.type === "podcast" && !!item.duration && <span>· {item.duration} min</span>}
       </div>
-      <p className={`mt-3 line-clamp-3 text-sm leading-relaxed ${featured ? "text-white/85" : "text-[var(--slate-700)]"}`}>{item.summary || "Open the original source for the full story."}</p>
+      <p className={`mt-3 line-clamp-3 text-sm leading-relaxed ${featured ? "text-white/85" : "text-[var(--slate-700)]"}`}>
+        {item.summary || (item.type === "podcast" ? "Open the episode at the publisher for the full description." : "Open the original source for the full story.")}
+      </p>
       {url && <a href={url} target="_blank" rel="noopener noreferrer" className={`mt-3 inline-flex min-h-11 items-center gap-2 text-xs font-semibold ${featured ? "text-[#ffcfbf] hover:text-white" : "text-[var(--coral-600)] hover:underline"}`}>
         {item.type === "podcast" ? "Listen at publisher" : "Read original source"}<ExternalLink aria-hidden="true" className="h-3 w-3" />
       </a>}

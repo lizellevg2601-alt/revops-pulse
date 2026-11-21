@@ -1,5 +1,34 @@
 const day = 24 * 60 * 60 * 1000;
 
+// Keep RSS-derived text to a short teaser; the full item stays at the publisher.
+export const MAX_SUMMARY_CHARS = 180;
+
+export function safeSummary(value) {
+  if (typeof value !== "string") return "";
+  const text = value
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;|&#39;/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!text) return "";
+  if (text.length <= MAX_SUMMARY_CHARS) return text;
+
+  const limit = MAX_SUMMARY_CHARS - 1;
+  const cut = text.slice(0, limit);
+  const boundary = Math.max(cut.lastIndexOf(" "), cut.lastIndexOf("—"), cut.lastIndexOf("–"));
+  const shortened = boundary >= limit * 0.6 ? cut.slice(0, boundary) : cut;
+  return `${shortened.trimEnd()}…`;
+}
+
+export function sanitizeItem(item) {
+  if (!item || typeof item !== "object") return item;
+  // Podcast RSS descriptions are often full transcripts; link to the episode instead.
+  return { ...item, summary: item.type === "podcast" ? "" : safeSummary(item.summary) };
+}
+
 export const trendTopics = [
   { topic: "AI & Agents", keywords: ["ai", "a.i", "agent", "agents", "agentic", "copilot", "llm", "llms", "gpt", "machine learning", "automation", "artificial intelligence"] },
   { topic: "Revenue Forecasting", keywords: ["forecast", "forecasts", "forecasting", "pipeline", "arr", "revenue predictability"] },
@@ -57,7 +86,7 @@ function validItem(item, now) {
 export function selectItems(items, now = Date.now()) {
   const seenUrls = new Set();
   const seenTitles = new Set();
-  const unique = items.filter(item => validItem(item, now))
+  const unique = items.filter(item => validItem(item, now)).map(sanitizeItem)
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).filter(item => {
       const url = new URL(item.sourceUrl);
       url.hash = "";

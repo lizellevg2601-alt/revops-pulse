@@ -1,10 +1,24 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildFeedPayload, computeTrends, matchedTopics, matchesKeyword, selectItems } from "../scripts/feed-pipeline.mjs";
+import { buildFeedPayload, computeTrends, matchedTopics, matchesKeyword, MAX_SUMMARY_CHARS, safeSummary, sanitizeItem, selectItems } from "../scripts/feed-pipeline.mjs";
 
 const now = Date.parse("2026-11-20T16:00:00Z");
 const day = 86400000;
 const story = (id, changes = {}) => ({ id: `feed-one-${id}`, type: "article", category: "crm", title: `Story ${id}`, source: "One", sourceUrl: `https://example.com/${id}`, summary: "", tags: [], relevanceScore: 60, publishedAt: new Date(now - day).toISOString(), ...changes });
+
+test("RSS excerpts are stripped, shortened at a word boundary, and podcasts stay link-only", () => {
+  const long = "<p>Short intro &amp; detail</p> " + "review ".repeat(60);
+  assert.equal(safeSummary("  Short   intro  "), "Short intro");
+  const shortened = safeSummary(long);
+  assert.ok(shortened.length <= MAX_SUMMARY_CHARS);
+  assert.ok(shortened.endsWith("…"));
+  assert.ok(!shortened.includes("<"));
+  assert.ok(shortened.includes("Short intro & detail"));
+
+  assert.equal(sanitizeItem(story("pod", { type: "podcast", summary: long })).summary, "");
+  assert.ok(sanitizeItem(story("article", { summary: long })).summary.length <= MAX_SUMMARY_CHARS);
+  assert.equal(selectItems([story("selected", { summary: long })], now)[0].summary.length <= MAX_SUMMARY_CHARS, true);
+});
 
 test("keywords use word boundaries rather than accidental substrings", () => {
   assert.equal(matchesKeyword("email campaign", "ai"), false);

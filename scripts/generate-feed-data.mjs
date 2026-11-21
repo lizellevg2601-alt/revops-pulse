@@ -2,7 +2,7 @@ import Parser from "rss-parser";
 import { readFileSync, writeFileSync, mkdirSync, renameSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { buildFeedPayload, matchedTopics } from "./feed-pipeline.mjs";
+import { buildFeedPayload, matchedTopics, safeSummary } from "./feed-pipeline.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -129,10 +129,12 @@ async function main() {
         const link = item.link || source.siteUrl;
         const content = item.content || item.contentSnippet || "";
         const isArticle = source.type === "article";
-        const summary =
+        // RSS descriptions can contain full posts or transcripts. Keep only a short teaser.
+        const summary = source.type === "podcast" ? "" : safeSummary(
           item.contentSnippet?.trim() ||
-          item.content?.replace(/<[^>]*>/g, "").trim().slice(0, 400) ||
-          "";
+          item.content?.replace(/<[^>]*>/g, "").trim() ||
+          ""
+        );
         const tags = (item.categories || []).map(displayText).filter(Boolean).slice(0, 6);
         // Unknown publication dates must not be presented as newly published.
         const publishedAt = item.isoDate || item.pubDate || "";

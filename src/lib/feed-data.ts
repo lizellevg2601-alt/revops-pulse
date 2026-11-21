@@ -1,5 +1,6 @@
 import type { ApprovedArticle, FeedItem, FeedPayload, TrendingTheme } from "./types";
 import { sourceUrl } from "./feed";
+import { sanitizeItem } from "../../scripts/feed-pipeline.mjs";
 
 function record(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -7,13 +8,13 @@ function record(value: unknown): value is Record<string, unknown> {
 
 export function parseFeedPayload(value: unknown): FeedPayload {
   if (!record(value)) return { items: [], trends: [], fetchedAt: "" };
-  const items = Array.isArray(value.items) ? value.items.filter((item): item is FeedItem =>
+  const items: FeedItem[] = (Array.isArray(value.items) ? value.items.filter((item): item is FeedItem =>
     record(item) && typeof item.id === "string" && typeof item.title === "string" &&
     typeof item.source === "string" && typeof item.summary === "string" &&
     typeof item.publishedAt === "string" && Number.isFinite(Date.parse(item.publishedAt)) &&
     (item.type === "article" || item.type === "podcast") &&
     typeof item.relevanceScore === "number" && Array.isArray(item.tags) && item.tags.every(tag => typeof tag === "string")
-  ) : [];
+  ) : []).map(item => sanitizeItem(item));
   return {
     items,
     fetchedAt: typeof value.fetchedAt === "string" ? value.fetchedAt : "",

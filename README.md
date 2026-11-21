@@ -4,7 +4,7 @@ RevOps Pulse is a static Next.js App Router site for CRM, AI, revenue operations
 
 ## Editorial boundaries
 
-- **Source updates** are publisher RSS headlines and excerpts linked to the original publisher. RevOps Pulse has not independently verified them.
+- **Source updates** are publisher RSS headlines, attribution, dates, and short excerpts capped at 180 characters, linked to the original publisher. Podcast entries are link-only: title, publisher, date, duration, and URL, with no republished episode description. RevOps Pulse has not independently verified them.
 - **Automated context** is low-confidence, keyword-based guidance derived from RSS metadata. It is not editor-reviewed and does not establish facts about a publisher's story.
 - **Editor-reviewed briefings** are rendered only from complete records in `public/approved-intelligence.json`, with a named reviewer, approval date, and supporting sources. Automated stories never inherit that status.
 - Saved stories are kept in browser local storage only; there is no account or cross-device sync.
@@ -24,7 +24,8 @@ Open http://localhost:3000.
 
 | Command | Purpose |
 | --- | --- |
-| `npm run generate:feed` | Fetch monitored RSS feeds, deduplicate and rank stories, refresh trends, and write `public/feed-data.json`. Failed publishers retain previously collected stories; a total outage preserves the last useful feed. |
+| `npm run generate:feed` | Fetch monitored RSS feeds, cap excerpts, deduplicate and rank stories, refresh trends, and write `public/feed-data.json`. Failed publishers retain previously collected stories; a total outage preserves the last useful feed. |
+| `npm run sanitize:feed` | Re-apply the excerpt cap and podcast link-only rule to the committed `public/feed-data.json` without contacting publishers. |
 | `npm run build` | Generate the feed and build the static export into `out/`. Use this when publishing fresh RSS data. |
 | `npm run build:static` | Build from the committed feed data without contacting publishers. Used by quality checks and preview deployments. |
 | `npm run preview` | Serve the built `out/` directory at http://127.0.0.1:4173. |

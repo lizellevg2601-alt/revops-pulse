@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "generate:feed": "node scripts/generate-feed-data.mjs",
+    "sanitize:feed": "node scripts/sanitize-feed-data.mjs",
     "build": "npm run generate:feed && next build",
     "build:static": "next build",
     "test": "node --import tsx --test tests/*.test.mjs",

@@ -42,6 +42,21 @@ test("dates are deterministic and outbound URLs allow only HTTP(S)", () => {
   assert.equal(sourceUrl("https://example.com"), "https://example.com/");
 });
 
+test("feed parsing caps stored excerpts and keeps podcasts link-only", () => {
+  const raw = {
+    items: [
+      { ...items[0], summary: "<p>Long intro</p> " + "detail ".repeat(80) },
+      { ...items[1], summary: "Episode transcript ".repeat(40) },
+    ],
+    trends: [],
+    fetchedAt: "",
+  };
+  const parsed = parseFeedPayload(raw);
+  assert.ok(parsed.items[0].summary.length <= 180);
+  assert.ok(parsed.items[0].summary.endsWith("…"));
+  assert.equal(parsed.items[1].summary, "");
+});
+
 test("missing or malformed feed data has a safe empty state; legacy stories are supported", () => {
   assert.deepEqual(parseFeedPayload(null).items, []);
   assert.equal(parseFeedPayload({ items: [items[0], null, { id: "broken" }], trends: [], fetchedAt: "" }).items.length, 1);

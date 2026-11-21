@@ -1,4 +1,15 @@
 import { test, expect } from "@playwright/test";
+import assert from "node:assert/strict";
+
+test("committed feed data contains no long RSS excerpts or podcast descriptions", async ({ request }) => {
+  const response = await request.get("/feed-data.json");
+  expect(response.ok()).toBeTruthy();
+  const data = await response.json();
+  for (const item of data.items) {
+    assert.ok(item.summary.length <= 180, `${item.id} has a ${item.summary.length}-character excerpt`);
+    if (item.type === "podcast") assert.equal(item.summary, "", `${item.id} republishes an episode description`);
+  }
+});
 
 test("first stories are delivered in HTML even with JavaScript disabled", async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false });

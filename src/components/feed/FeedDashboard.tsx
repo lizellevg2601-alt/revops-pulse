@@ -95,7 +95,8 @@ export function FeedDashboard({ initialFeed, approvedArticles }: { initialFeed: 
           <section className="rounded-2xl border bg-white p-5">
             <h2 className="text-sm font-semibold">Know what you&apos;re reading</h2>
             <dl className="mt-4 space-y-4 text-xs leading-relaxed">
-              <div><dt className="font-semibold">Source update</dt><dd className="mt-1 text-[var(--slate-500)]">A publisher&apos;s headline and RSS excerpt, linked to the original. Not independently verified by RevOps Pulse.</dd></div>
+              <div><dt className="font-semibold">Source update</dt><dd className="mt-1 text-[var(--slate-500)]">A publisher&apos;s headline, attribution, date, and link, plus a short RSS excerpt of up to 180 characters. Not independently verified by RevOps Pulse.</dd></div>
+              <div><dt className="font-semibold">Podcast entries</dt><dd className="mt-1 text-[var(--slate-500)]">Title, publisher, date, duration, and a link only. We do not republish episode descriptions.</dd></div>
               <div><dt className="font-semibold">Automated context</dt><dd className="mt-1 text-[var(--slate-500)]">Optional keyword-based prompts, not a reviewed assessment of the article.</dd></div>
               <div><dt className="font-semibold">Editor-reviewed briefing</dt><dd className="mt-1 text-[var(--slate-500)]">A separate perspective with a named reviewer, review date, and linked sources.{approvedArticles.length === 0 ? " No reviewed briefings have been published yet." : ""}</dd></div>
             </dl>
