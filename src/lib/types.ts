@@ -44,7 +44,7 @@ export interface RelevanceProfile {
 
 export interface FeedFiltersState {
   contentType: ContentType | "all";
-  sort: "relevant" | "recent" | "discussed" | "score";
+  sort: "recent" | "score";
 }
 
 export interface TrendingTheme {
@@ -52,7 +52,7 @@ export interface TrendingTheme {
   topic: string;
   count: number;
   recent3: number;
-  change: number;
+  change: number | null;
   direction: "up" | "down" | "flat";
   articles: number;
   podcasts: number;
@@ -64,4 +64,20 @@ export interface FeedPayload {
   items: FeedItem[];
   trends: TrendingTheme[];
   fetchedAt: string;
+  attemptedAt?: string;
+  sources?: { id?: string; source: string; status: "ok" | "failed"; count: number; retainedCount?: number }[];
+}
+
+export interface ApprovedArticle {
+  id: string;
+  title: string;
+  category: NonNullable<FeedItem["category"]>;
+  whatChanged: string;
+  why: string;
+  implications: string;
+  watch: string;
+  action: string;
+  editor: string;
+  approvedAt: string;
+  sources: string[];
 }

@@ -1,7 +1,8 @@
 import Parser from "rss-parser";
-import { writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, renameSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { buildFeedPayload, matchedTopics } from "./feed-pipeline.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -90,102 +91,6 @@ function relevanceScoreFor(item, matched) {
   return Math.min(96, Math.max(38, score));
 }
 
-const trendTopics = [
-  {
-    topic: "AI & Agents",
-    keywords: ["ai", "a.i", "agent", "copilot", "llm", "gpt", "machine learning", "automation", "artificial intelligence"],
-  },
-  {
-    topic: "Revenue Forecasting",
-    keywords: ["forecast", "forecasting", "pipeline", "arr", "revenue predict"],
-  },
-  {
-    topic: "GTM Strategy",
-    keywords: ["gtm", "go-to-market", "go to market", "commercial", "sales motion", "demand gen", "outbound", "inbound"],
-  },
-  {
-    topic: "Org Design & Leadership",
-    keywords: ["org", "cro", "leadership", "hiring", "structure", "talent", "team", "culture", "career"],
-  },
-  {
-    topic: "Data & Attribution",
-    keywords: ["data", "attribution", "enrichment", "hygiene", "quality", "crm"],
-  },
-  {
-    topic: "Tech Stack & CPQ",
-    keywords: ["cpq", "salesforce", "hubspot", "tech stack", "platform", "tooling", "integrat"],
-  },
-  {
-    topic: "Composable & Headless",
-    keywords: ["headless", "composable", "api-first", "api first", "decoupled", "microarchitecture", "building block", "mcp", "model context protocol", "modular", "agent-ready", "agent native", "agentic crm", "headless 360", "gtm.ai", "ui-less", "uiless", "event-driven", "exposed via api", "api layer", "middleware", "ipaaS"],
-  },
-  {
-    topic: "Marketing & Brand",
-    keywords: ["marketing", "brand", "content", "thought leadership", "seo", "demand"],
-  },
-  {
-    topic: "Founders & Fundraising",
-    keywords: ["startup", "founder", "funding", "vc", "valuation", "ipo", "equity"],
-  },
-];
-
-function computeTrends(items) {
-  const recentCutoff = new Date().getTime() - 7 * 24 * 3600 * 1000;
-  const halfCutoff = new Date().getTime() - 3 * 24 * 3600 * 1000;
-
-  const recentTotal = items.filter((m) => new Date(m.publishedAt).getTime() >= recentCutoff).length;
-  const olderTotal = Math.max(items.length - recentTotal, 1);
-
-  const buckets = trendTopics.map((topic) => {
-    const matches = items.filter((item) => {
-      const haystack = `${item.title} ${item.tags?.join(" ") || ""} ${item.summary || ""}`.toLowerCase();
-      return topic.keywords.some((k) => haystack.includes(k));
-    });
-    const recent = matches.filter((m) => new Date(m.publishedAt).getTime() >= recentCutoff).length;
-    const older = matches.length - recent;
-    const recent3 = matches.filter((m) => new Date(m.publishedAt).getTime() >= halfCutoff).length;
-
-    const recentShare = recentTotal > 0 ? recent / recentTotal : 0;
-    const olderShare = older / olderTotal;
-
-    let change = 0;
-    let direction = "flat";
-    if (olderShare > 0) {
-      change = Math.round(((recentShare - olderShare) / olderShare) * 100);
-    } else if (recentShare > 0) {
-      change = 100;
-    }
-    if (change > 8) direction = "up";
-    else if (change < -8) direction = "down";
-
-    const articles = matches.filter((m) => m.type === "article").length;
-    const podcasts = matches.filter((m) => m.type === "podcast").length;
-
-    return {
-      topic: topic.topic,
-      count: matches.length,
-      recent3,
-      change,
-      direction,
-      articles,
-      podcasts,
-      topItems: matches.slice(0, 3).map((m) => m.title),
-    };
-  });
-
-  return buckets
-    .filter((b) => b.count > 0)
-    .sort((a, b) => b.count - a.count || b.recent3 - a.recent3)
-    .slice(0, 8)
-    .map((b, i) => ({
-      rank: i + 1,
-      ...b,
-      topItems: undefined,
-      topItem: b.topItems[0] || "",
-      secondItem: b.topItems[1] || "",
-    }));
-}
-
 function hashId(str) {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
@@ -213,6 +118,9 @@ async function fetchFeed(url) {
 
 async function main() {
   console.log("Fetching RSS feeds...");
+  const outPath = resolve(__dirname, "..", "public", "feed-data.json");
+  let previous;
+  try { previous = JSON.parse(readFileSync(outPath, "utf8")); } catch { /* First generation has no fallback. */ }
 
   const results = await Promise.allSettled(
     feedSources.map(async (source) => {
@@ -226,7 +134,8 @@ async function main() {
           item.content?.replace(/<[^>]*>/g, "").trim().slice(0, 400) ||
           "";
         const tags = (item.categories || []).map(displayText).filter(Boolean).slice(0, 6);
-        const publishedAt = item.isoDate || item.pubDate || new Date().toISOString();
+        // Unknown publication dates must not be presented as newly published.
+        const publishedAt = item.isoDate || item.pubDate || "";
         const baseItem = {
           title: displayText(item.title) || "Untitled",
           summary,
@@ -234,9 +143,7 @@ async function main() {
           type: source.type,
           publishedAt,
         };
-        const matched = trendTopics
-          .filter((tp) => tp.keywords.some((k) => textOf(baseItem).includes(k)))
-          .map((tp) => tp.topic);
+        const matched = matchedTopics(baseItem);
 
         return {
           id: `feed-${source.id}-${hashId(link)}`,
@@ -271,55 +178,18 @@ async function main() {
     })
   );
 
-  const items = [];
-  const health = [];
   for (let i = 0; i < results.length; i++) {
     const result = results[i];
     const source = feedSources[i];
-    if (result.status === "fulfilled") {
-      items.push(...result.value);
-      health.push({ source: source.name, status: "ok", count: result.value.length });
-    } else {
+    if (result.status === "rejected") {
       console.warn("Feed fetch failed for " + source.name + ":", result.reason?.message || result.reason);
-      health.push({ source: source.name, status: "failed", count: 0 });
     }
   }
-
-  // Remove repeated URLs and syndicated titles; prefer the most recently published story.
-  const seenUrls = new Set();
-  const seenTitles = new Set();
-  const unique = items
-    .filter(item => item.title && item.sourceUrl && Number.isFinite(Date.parse(item.publishedAt)))
-    .sort((a,b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
-    .filter(item => {
-      const url = item.sourceUrl.replace(/[?#].*$/, "").replace(/\/$/, "").toLowerCase();
-      const title = item.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-      if (seenUrls.has(url) || seenTitles.has(title)) return false;
-      seenUrls.add(url); seenTitles.add(title); return true;
-    });
-
-  // Round-robin across categories so a high-volume general publication cannot
-  // crowd out smaller CRM and RevOps publishers.
-  const categories = ["crm", "ai", "revops", "gtm"];
-  const buckets = Object.fromEntries(categories.map(c=>[c,unique.filter(item=>item.category===c)]));
-  const selected = [];
-  while (selected.length < 120 && categories.some(c=>buckets[c].length)) {
-    for (const category of categories) {
-      if (selected.length >= 120) break;
-      if (buckets[category].length) selected.push(buckets[category].shift());
-    }
-  }
-  selected.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt));
-  const output = {
-    items: selected,
-    trends: computeTrends(selected),
-    fetchedAt: new Date().toISOString(),
-    sources: health,
-  };
-  const outPath = resolve(__dirname, "..", "public", "feed-data.json");
+  const output = buildFeedPayload(previous, results, feedSources);
   mkdirSync(dirname(outPath), { recursive: true });
-  writeFileSync(outPath, JSON.stringify(output, null, 2));
-  console.log(`Generated ${selected.length} unique feed items from ${health.filter(x=>x.status==="ok").length}/${health.length} sources`);
+  writeFileSync(outPath + ".tmp", JSON.stringify(output, null, 2) + "\n");
+  renameSync(outPath + ".tmp", outPath);
+  console.log(`Generated ${output.items.length} unique feed items from ${output.sources.filter(source => source.status === "ok").length}/${output.sources.length} available sources`);
 
 }
 

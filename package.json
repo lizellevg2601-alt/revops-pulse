@@ -6,6 +6,11 @@
     "dev": "next dev",
     "generate:feed": "node scripts/generate-feed-data.mjs",
     "build": "npm run generate:feed && next build",
+    "build:static": "next build",
+    "test": "node --import tsx --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test:empty": "node scripts/test-empty.mjs",
+    "preview": "python3 -m http.server 4173 --directory out --bind 127.0.0.1",
     "start": "next start",
     "lint": "eslint"
   },
@@ -19,6 +24,7 @@
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -26,6 +32,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "wrangler": "^4.131.0"
   }

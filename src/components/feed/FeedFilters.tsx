@@ -14,10 +14,8 @@ const types: { label: string; value: ContentType | "all" }[] = [
 ];
 
 const sortOptions: { label: string; value: FeedFiltersState["sort"] }[] = [
-  { label: "Most relevant", value: "relevant" },
   { label: "Most recent", value: "recent" },
-  { label: "Most discussed", value: "discussed" },
-  { label: "Highest score", value: "score" },
+  { label: "Topic match", value: "score" },
 ];
 
 export function FeedFilters({ filters, onChange }: Props) {
@@ -27,8 +25,10 @@ export function FeedFilters({ filters, onChange }: Props) {
         {types.map((t) => (
           <button
             key={t.value}
+            type="button"
+            aria-pressed={filters.contentType === t.value}
             onClick={() => onChange({ ...filters, contentType: t.value })}
-            className={`text-sm px-3 py-1.5 rounded-full transition-colors whitespace-nowrap ${
+            className={`min-h-11 text-sm px-3 py-1.5 rounded-full transition-colors whitespace-nowrap ${
               filters.contentType === t.value
                 ? "bg-[var(--navy-900)] text-white"
                 : "text-[var(--slate-500)] hover:text-[var(--navy-900)] hover:bg-[var(--coral-50)]"
@@ -40,6 +40,7 @@ export function FeedFilters({ filters, onChange }: Props) {
       </div>
 
       <select
+        aria-label="Sort stories"
         value={filters.sort}
         onChange={(e) =>
           onChange({
@@ -47,7 +48,7 @@ export function FeedFilters({ filters, onChange }: Props) {
             sort: e.target.value as FeedFiltersState["sort"],
           })
         }
-        className="text-xs text-[var(--slate-500)] bg-transparent border border-[var(--border)] rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-[var(--coral-300)] cursor-pointer"
+        className="min-h-11 text-xs text-[var(--slate-500)] bg-transparent border border-[var(--border)] rounded-lg px-2.5 py-1.5 cursor-pointer"
       >
         {sortOptions.map((o) => (
           <option key={o.value} value={o.value}>
