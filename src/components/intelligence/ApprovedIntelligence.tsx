@@ -1,28 +1,25 @@
-"use client";
+import { ShieldCheck } from "lucide-react";
+import { categoryLabel, formatDate } from "@/lib/feed";
+import type { ApprovedArticle } from "@/lib/types";
 
-import { useEffect, useState } from "react";
-import { BookOpen, ExternalLink, ShieldCheck } from "lucide-react";
+export function ApprovedIntelligence({ category, articles }: { category: string; articles: ApprovedArticle[] }) {
+  const filtered = articles.filter(article => category === "all" || article.category === category);
+  if (!filtered.length) return null;
 
-type Article = {
-  id: string; title: string; category: "crm"|"ai"|"revops"|"gtm";
-  whatChanged: string; why: string; implications: string; watch: string; action: string;
-  editor: string; approvedAt: string; sources: string[];
-};
-const labels: Record<Article["category"],string> = {crm:"CRM & Tech",ai:"Frontier AI",revops:"Revenue Operations",gtm:"GTM Trends"};
-export function ApprovedIntelligence({ category }: {category:string}) {
-  const [articles,setArticles]=useState<Article[]>([]);
-  const [loaded,setLoaded]=useState(false);
-  useEffect(()=>{fetch("/approved-intelligence.json").then(r=>r.ok?r.json():[]).then(data=>setArticles(Array.isArray(data)?data:[])).catch(()=>setArticles([])).finally(()=>setLoaded(true))},[]);
-  const filtered=articles.filter(a=>category==="all" || a.category===category);
-  if (!loaded) return null;
-  return <section className="my-8">
-    <div className="mb-4 flex items-center gap-3"><BookOpen className="h-6 w-6 text-[var(--coral-500)]"/><div><h2 className="font-editorial text-2xl font-semibold text-[var(--navy-950)]">RevOps Pulse intelligence</h2><p className="text-xs text-[var(--slate-500)]">Independent perspectives approved by an editor · Sources linked for further reading</p></div></div>
-    {filtered.length===0 ? <div className="rounded-2xl border border-[var(--border)] bg-white p-5 text-sm text-[var(--slate-700)]">Our first editor-reviewed intelligence briefings are in preparation. Browse monitored source updates below while we complete editorial review.</div> :
-    <div className="grid gap-4 md:grid-cols-2">{filtered.map(a=><article key={a.id} className="overflow-hidden rounded-2xl border border-[var(--border)] bg-white shadow-sm">
-      <div className="h-36 bg-gradient-to-br from-[#12232e] via-[#43546b] to-[#ec947c] p-5 text-white"><span className="text-xs font-semibold uppercase tracking-widest">RevOps Pulse | {labels[a.category]}</span><div className="mt-8 text-xs opacity-80">Original editorial intelligence</div></div>
-      <div className="space-y-3 p-5"><h3 className="font-editorial text-xl font-semibold">{a.title}</h3><p className="text-xs text-[var(--slate-500)]">Reviewed {new Date(a.approvedAt).toLocaleDateString()} · {a.editor}</p>
-      <p className="text-sm"><strong>What changed:</strong> {a.whatChanged}</p><p className="text-sm"><strong>Why it matters:</strong> {a.why}</p><p className="text-sm"><strong>Our perspective:</strong> {a.implications}</p><p className="text-sm"><strong>What to watch:</strong> {a.watch}</p><p className="rounded-xl bg-[var(--coral-50)] p-3 text-sm"><strong>What we'd recommend:</strong> {a.action}</p>
-      <div className="border-t pt-3"><div className="mb-2 flex items-center gap-2 text-xs font-semibold"><ShieldCheck className="h-4 w-4 text-[var(--coral-500)]"/>Sources and further reading</div><div className="space-y-1">{a.sources.map((src,i)=><a className="flex items-center gap-1 break-all text-xs text-[var(--coral-500)] underline" key={src} href={src} rel="noopener noreferrer" target="_blank">Source {i+1}: {new URL(src).hostname}<ExternalLink className="h-3 w-3"/></a>)}</div></div>
-      </div></article>)}</div>}
+  return <section aria-labelledby="reviewed-title" className="mb-8">
+    <h2 id="reviewed-title" className="mb-4 flex items-center gap-2 font-editorial text-xl font-semibold"><ShieldCheck aria-hidden="true" className="h-5 w-5 text-[var(--coral-600)]" />Editor-reviewed briefings</h2>
+    <div className="grid gap-4 md:grid-cols-2">{filtered.map(article => <article key={article.id} className="space-y-3 rounded-2xl border bg-white p-6">
+      <p className="text-xs font-semibold text-[var(--coral-600)]">{categoryLabel(article.category)} · Editor-reviewed</p>
+      <h3 className="font-editorial text-xl font-semibold">{article.title}</h3>
+      <p className="text-xs text-[var(--slate-500)]">Reviewed by {article.editor} · <time dateTime={article.approvedAt}>{formatDate(article.approvedAt)}</time></p>
+      <p className="text-sm leading-relaxed"><strong>What changed:</strong> {article.whatChanged}</p>
+      <p className="text-sm leading-relaxed"><strong>Why it matters:</strong> {article.why}</p>
+      <p className="rounded-xl bg-[var(--coral-50)] p-3 text-sm leading-relaxed"><strong>Next step:</strong> {article.action}</p>
+      <details className="border-t pt-2 text-sm"><summary className="flex min-h-11 cursor-pointer items-center font-semibold">Read the full perspective +</summary>
+        <div className="space-y-3 py-3 leading-relaxed"><p><strong>Our perspective:</strong> {article.implications}</p><p><strong>What to watch:</strong> {article.watch}</p>
+          <h4 className="font-semibold">Supporting sources</h4><ul>{article.sources.map((url, index) => <li key={`${url}-${index}`}><a className="inline-flex min-h-11 items-center break-all text-xs text-[var(--coral-600)] underline" href={url} target="_blank" rel="noopener noreferrer">{new URL(url).hostname} (opens in a new tab)</a></li>)}</ul>
+        </div>
+      </details>
+    </article>)}</div>
   </section>;
 }

@@ -8,6 +8,7 @@
   --navy-800: #2e2c2a;
   --navy-700: #2e2c2a;
   --coral-500: #f26d5c;
+  --coral-600: #ac3e30;
   --coral-300: #e9a69a;
   --coral-200: #f8ded5;
   --coral-100: #f8ded5;
@@ -18,14 +19,35 @@
   --slate-700: #2e2c2a;
   --slate-500: #6b6660;
   --border: #e8dfd7;
-  --font-editorial: "Poppins", system-ui, sans-serif;
-  --font-ui: "Inter", system-ui, sans-serif;
+  --font-editorial: var(--font-poppins), system-ui, sans-serif;
+  --font-ui: var(--font-inter), system-ui, sans-serif;
 }
 
 body {
   font-family: var(--font-ui);
   background: var(--page);
   color: var(--navy-950);
+}
+
+html {
+  scroll-padding-top: 1rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--coral-600);
+  outline-offset: 4px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 @layer utilities {
