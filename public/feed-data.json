@@ -1,10 +1,148 @@
 {
   "items": [
     {
+      "id": "feed-salesforce-blog-q3ui8n",
+      "type": "article",
+      "category": "crm",
+      "title": "We’re Talking Token Management and it’s Not Arcade Flashbacks",
+      "source": "Salesforce Blog",
+      "sourceUrl": "https://www.salesforce.com/blog/small-business/token-management-for-business-owners/",
+      "author": "Christian Sabogal",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "readTime": 1,
+      "summary": "How many tokens do we need to do business with AI? Let’s talk about it.",
+      "tags": [],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://www.salesforce.com/blog/small-business/token-management-for-business-owners/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-huggingface-6ili4t",
+      "type": "article",
+      "category": "ai",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "source": "Hugging Face",
+      "sourceUrl": "https://huggingface.co/blog/video-trainium3",
+      "author": "",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "readTime": 1,
+      "summary": "",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://huggingface.co/blog/video-trainium3"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-techcrunch-ai-ki89oo",
+      "type": "article",
+      "category": "ai",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "readTime": 1,
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "tags": [
+        "AI"
+      ],
+      "relevanceScore": 60,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+      },
+      "saved": false
+    },
+    {
+      "id": "feed-topline-podcast-2dscmt",
+      "type": "podcast",
+      "category": "gtm",
+      "title": "SPOTLIGHT: Optimizing Growth in B2B Tech with Mike Dzik | Michael Dzik, Operating Partner @ Radian Capital",
+      "source": "Topline",
+      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-optimizing-growth-in-b2b-tech-with-mike-dzik-michael-dzik-operating-partner-radian-capital",
+      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
+      "publishedAt": "2026-11-26T17:00:00.000Z",
+      "duration": 24,
+      "summary": "",
+      "tags": [],
+      "relevanceScore": 54,
+      "whyItMatters": [
+        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "Read the original source, then decide whether this development affects your near-term priorities."
+      ],
+      "intelligence": {
+        "signal": "An industry development worth monitoring",
+        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "action": "Read the original source, then decide whether this development affects your near-term priorities."
+      },
+      "analysis": {
+        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
+        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
+        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
+        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
+        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
+        "confidence": "low",
+        "evidenceType": "rss_metadata",
+        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-optimizing-growth-in-b2b-tech-with-mike-dzik-michael-dzik-operating-partner-radian-capital"
+      },
+      "saved": false
+    },
+    {
       "id": "feed-techcrunch-ai-51pzja",
       "type": "article",
       "category": "ai",
-      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
       "source": "TechCrunch AI",
       "sourceUrl": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "author": "Amanda Silberling",
@@ -14,8 +152,8 @@
       "tags": [
         "AI",
         "Gaming",
-        "grand theft auto",
-        "Anthropic"
+        "Anthropic",
+        "grand theft auto"
       ],
       "relevanceScore": 60,
       "whyItMatters": [
@@ -1309,47 +1447,6 @@
       "saved": false
     },
     {
-      "id": "feed-techcrunch-ai-ma2u8r",
-      "type": "article",
-      "category": "ai",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "source": "TechCrunch AI",
-      "sourceUrl": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-11-24T16:46:00.000Z",
-      "readTime": 1,
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "tags": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "ai music",
-        "ai slop",
-        "music streaming"
-      ],
-      "relevanceScore": 60,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning AI & Agents. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-google-ai-ajt1ke",
       "type": "article",
       "category": "ai",
@@ -1365,7 +1462,7 @@
         "Gemini",
         "AI"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1404,7 +1501,7 @@
         "Events",
         "2026"
       ],
-      "relevanceScore": 54,
+      "relevanceScore": 50,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1438,7 +1535,7 @@
       "readTime": 1,
       "summary": "Your first email sets the tone for the whole relationship — here's how to make it count, with a little help from AI.",
       "tags": [],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1474,7 +1571,7 @@
       "tags": [
         "Science"
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1510,7 +1607,7 @@
       "tags": [
         "Science"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 62,
       "whyItMatters": [
         "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
         "Read the original source, then decide whether this development affects your near-term priorities."
@@ -1533,40 +1630,6 @@
       "saved": false
     },
     {
-      "id": "feed-openai-lx6lf7",
-      "type": "article",
-      "category": "ai",
-      "title": "How Intentful uses dots to make more time for growth",
-      "source": "OpenAI",
-      "sourceUrl": "https://openai.com/business/customer-stories/intentful-dots",
-      "author": "",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "readTime": 1,
-      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-      "tags": [],
-      "relevanceScore": 54,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://openai.com/business/customer-stories/intentful-dots"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-salesforce-blog-dy98x1",
       "type": "article",
       "category": "crm",
@@ -1578,7 +1641,7 @@
       "readTime": 1,
       "summary": "Many connected apps and external client apps are developed, maintained, and distributed by third parties on the AgentExchange and other marketplaces. Salesforce customers can…",
       "tags": [],
-      "relevanceScore": 60,
+      "relevanceScore": 56,
       "whyItMatters": [
         "Changes in CRM ecosystems can affect integration complexity, system ownership and the cost of maintaining your revenue stack.",
         "Check whether the development changes any systems, vendor commitments or integration dependencies you use."
@@ -1733,40 +1796,6 @@
         "confidence": "low",
         "evidenceType": "rss_metadata",
         "sourceUrl": "https://thetwentyminutevc.libsyn.com/20vc-the-state-of-compute-what-everyone-needs-to-know-why-neo-clouds-are-great-businesses-what-everyone-is-missing-about-gpu-prices-how-ai-infrastructure-investors-will-win-with-kush-bavaria-co-founder-ornn"
-      },
-      "saved": false
-    },
-    {
-      "id": "feed-salesforce-blog-6et1f3",
-      "type": "article",
-      "category": "crm",
-      "title": "25 Practical Jobs Organizations are Giving Agentforce Coworker to Complete Right Now",
-      "source": "Salesforce Blog",
-      "sourceUrl": "https://www.salesforce.com/blog/agentforce-coworker-practical-jobs/",
-      "author": "Shankha Dey",
-      "publishedAt": "2026-11-20T23:10:49.000Z",
-      "readTime": 1,
-      "summary": "You know those tasks that somehow eat up half your day? Digging through 14 tabs before a customer call. Writing the same weekly update for the 47th time. Hunting down one record…",
-      "tags": [],
-      "relevanceScore": 50,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning a GTM or technology development. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://www.salesforce.com/blog/agentforce-coworker-practical-jobs/"
       },
       "saved": false
     },
@@ -3978,40 +4007,6 @@
       "saved": false
     },
     {
-      "id": "feed-topline-podcast-kpu3pl",
-      "type": "podcast",
-      "category": "gtm",
-      "title": "SPOTLIGHT: How Rick Smolen Built Confidence Leading Outside of Sales | Rick Smolen, CRO @ ShipHero",
-      "source": "Topline",
-      "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-rick-smolen-built-confidence-leading-outside-of-sales-rick-smolen-cro-shiphero",
-      "author": "Sam Jacobs, AJ Bruno & Asad Zaman",
-      "publishedAt": "2026-10-15T16:30:00.000Z",
-      "duration": 26,
-      "summary": "",
-      "tags": [],
-      "relevanceScore": 56,
-      "whyItMatters": [
-        "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "Read the original source, then decide whether this development affects your near-term priorities."
-      ],
-      "intelligence": {
-        "signal": "An industry development worth monitoring",
-        "impact": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "action": "Read the original source, then decide whether this development affects your near-term priorities."
-      },
-      "analysis": {
-        "whatChanged": "The source published a story concerning Org Design & Leadership. Open the original source to confirm the full details.",
-        "whyItMatters": "Its impact on revenue teams depends on the details, your operating model and the evidence behind the announcement.",
-        "strategicImplication": "The possible business impact depends on whether this development affects your systems, revenue motion or operating priorities.",
-        "whatToWatch": "Look for verified adoption examples, implementation constraints and measurable outcomes in subsequent reporting.",
-        "recommendedAction": "Read the original source, then decide whether this development affects your near-term priorities.",
-        "confidence": "low",
-        "evidenceType": "rss_metadata",
-        "sourceUrl": "https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-how-rick-smolen-built-confidence-leading-outside-of-sales-rick-smolen-cro-shiphero"
-      },
-      "saved": false
-    },
-    {
       "id": "feed-seafoam-media-9g3mcj",
       "type": "article",
       "category": "revops",
@@ -4288,23 +4283,23 @@
     {
       "rank": 1,
       "topic": "AI & Agents",
-      "count": 33,
-      "recent3": 28,
-      "change": 41,
+      "count": 32,
+      "recent3": 26,
+      "change": 28,
       "direction": "up",
-      "articles": 30,
+      "articles": 29,
       "podcasts": 3,
-      "topItem": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "secondItem": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems"
+      "topItem": "We’re Talking Token Management and it’s Not Arcade Flashbacks",
+      "secondItem": "Nvidia hits pause on chip shipments to Southeast Asia"
     },
     {
       "rank": 2,
       "topic": "Data & Attribution",
-      "count": 12,
-      "recent3": 10,
-      "change": 15,
+      "count": 11,
+      "recent3": 9,
+      "change": 10,
       "direction": "up",
-      "articles": 12,
+      "articles": 11,
       "podcasts": 0,
       "topItem": "How to predict the dollar value of every account in your market",
       "secondItem": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference"
@@ -4312,12 +4307,12 @@
     {
       "rank": 3,
       "topic": "Founders & Fundraising",
-      "count": 9,
+      "count": 8,
       "recent3": 7,
-      "change": 73,
-      "direction": "up",
+      "change": 7,
+      "direction": "flat",
       "articles": 6,
-      "podcasts": 3,
+      "podcasts": 2,
       "topItem": "20VC: Jensen Huang's $1TRN Return: What Happens Now | Anthropic Goes Public: Largest IPO Of All Time & How It Changes Venture | Applied Compute, Bill.com and Mailchimp Acquisitions Broken Down",
       "secondItem": "Character.AI’s plan to auction off users’ private chats challenged by state AGs"
     },
@@ -4326,7 +4321,7 @@
       "topic": "Org Design & Leadership",
       "count": 6,
       "recent3": 6,
-      "change": -54,
+      "change": -20,
       "direction": "down",
       "articles": 6,
       "podcasts": 0,
@@ -4337,8 +4332,8 @@
       "rank": 5,
       "topic": "Tech Stack & CPQ",
       "count": 6,
-      "recent3": 5,
-      "change": 15,
+      "recent3": 4,
+      "change": 20,
       "direction": "up",
       "articles": 6,
       "podcasts": 0,
@@ -4348,11 +4343,11 @@
     {
       "rank": 6,
       "topic": "Marketing & Brand",
-      "count": 3,
+      "count": 2,
       "recent3": 1,
-      "change": -62,
+      "change": -73,
       "direction": "down",
-      "articles": 3,
+      "articles": 2,
       "podcasts": 0,
       "topItem": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "secondItem": "Your sales forecast is wrong,  every time. And that’s fine"
@@ -4382,8 +4377,8 @@
       "secondItem": ""
     }
   ],
-  "fetchedAt": "2026-11-26T16:38:57.340Z",
-  "attemptedAt": "2026-11-26T16:38:57.340Z",
+  "fetchedAt": "2026-11-27T16:24:25.981Z",
+  "attemptedAt": "2026-11-27T16:24:25.981Z",
   "sources": [
     {
       "id": "revops-fm-substack",
